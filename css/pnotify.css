@@ -1,0 +1,189 @@
+/*
+Author  : Hunter Perrin
+Version : 2.1.0
+Link    : http://sciactive.com/pnotify/
+*/
+/* -- Notice */
+
+.ui-pnotify {
+top: 25px;
+right: 25px;
+position: absolute;
+height: auto;
+/* Ensures notices are above everything */
+z-index: 9999;
+}
+/* Hides position: fixed from IE6 */
+html > body > .ui-pnotify {
+position: fixed;
+}
+.ui-pnotify .ui-pnotify-shadow {
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.35);
+}
+.ui-pnotify-container {
+background-position: 0 0;
+padding: .8em;
+height: 100%;
+margin: 0;
+}
+.ui-pnotify-container.ui-pnotify-sharp {
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+.ui-pnotify-title {
+display: block;
+margin-bottom: .4em;
+margin-top: 0;
+color:#ffffff;
+}
+.ui-pnotify-text {
+display: block;
+text-align: left;
+padding-left: 50px !important;
+padding-top: 8px !important;
+line-height: 1 !important;
+font-weight: 300;
+}
+.ui-pnotify-icon, .ui-pnotify-icon span {
+float: left;
+margin: 3px;
+width: 32px;
+height: 32px;
+font-size: 32px;
+}
+/* Alternate stack initial positioning. */
+.ui-pnotify.stack-topleft, .ui-pnotify.stack-bottomleft {
+left: 25px;
+right: auto;
+}
+.ui-pnotify.stack-bottomright, .ui-pnotify.stack-bottomleft {
+bottom: 25px;
+top: auto;
+}
+/*
+Color Scheme: http://paletton.com/palette.php?uid=c1T3n2J040kClXm03%2B%2Bj6RnZguVWm5a
+*/
+.ui-pnotify-closer, .ui-pnotify-sticker {
+float: right;
+margin-left: .2em;
+}
+
+
+/*Discrete warning*/
+.ui-pnotify.discrete-warning .ui-pnotify-container {
+background-color: #ffffff !important;
+background-image: none !important;
+border: none !important;
+border: 1px solid #9f9f9f !important;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+}
+.ui-pnotify.discrete-warning .ui-pnotify-title, .ui-pnotify.discrete-warning .ui-pnotify-text {
+color: #272727 !important;
+padding-left: 50px !important;
+padding-top: 8px !important;
+line-height: 1 !important;
+text-rendering: geometricPrecision !important;
+}
+.ui-pnotify.discrete-warning .ui-pnotify-title {
+font-weight: bold;
+}
+.ui-pnotify.discrete-warning .ui-pnotify-icon {
+float: left;
+margin: 3px;
+width: 32px;
+height: 32px;
+font-size: 32px;
+color: #f67a4c;
+}
+
+/*Discrete danger*/
+.ui-pnotify.discrete-danger .ui-pnotify-container {
+background-color: #ffffff !important;
+background-image: none !important;
+border: none !important;
+border: 1px solid #9f9f9f !important;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+}
+.ui-pnotify.discrete-danger .ui-pnotify-title, .ui-pnotify.discrete-danger .ui-pnotify-text {
+color: #272727 !important;
+padding-left: 50px !important;
+padding-top: 8px !important;
+line-height: 1 !important;
+text-rendering: geometricPrecision !important;
+}
+.ui-pnotify.discrete-danger .ui-pnotify-title {
+font-weight: bold;
+}
+.ui-pnotify.discrete-danger .ui-pnotify-icon {
+float: left;
+margin: 3px;
+width: 32px;
+height: 32px;
+font-size: 32px;
+color: #ef2f3f;
+}
+
+/*Discrete info*/
+.ui-pnotify.discrete-info .ui-pnotify-container {
+background-color: #ffffff !important;
+background-image: none !important;
+border: none !important;
+border: 1px solid #9f9f9f !important;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+}
+.ui-pnotify.discrete-info .ui-pnotify-title, .ui-pnotify.discrete-info .ui-pnotify-text {
+color: #272727 !important;
+padding-left: 50px !important;
+padding-top: 8px !important;
+line-height: 1 !important;
+text-rendering: geometricPrecision !important;
+}
+.ui-pnotify.discrete-info .ui-pnotify-title {
+font-weight: bold;
+}
+.ui-pnotify.discrete-info .ui-pnotify-icon {
+float: left;
+margin: 3px;
+width: 32px;
+height: 32px;
+font-size: 32px;
+color: #3799e9;
+}
+
+/*Discrete success*/
+.ui-pnotify.discrete-success .ui-pnotify-container {
+background-color: #ffffff !important;
+background-image: none !important;
+border: none !important;
+border: 1px solid #9f9f9f !important;
+-moz-border-radius: 0px;
+-webkit-border-radius: 0px;
+border-radius: 0px;
+}
+.ui-pnotify.discrete-success .ui-pnotify-title, .ui-pnotify.discrete-success .ui-pnotify-text {
+color: #272727 !important;
+padding-left: 50px !important;
+padding-top: 8px !important;
+line-height: 1 !important;
+text-rendering: geometricPrecision !important;
+}
+.ui-pnotify.discrete-success .ui-pnotify-title {
+font-weight: bold;
+}
+.ui-pnotify.discrete-success .ui-pnotify-icon {
+float: left;
+margin: 3px;
+width: 32px;
+height: 32px;
+font-size: 32px;
+color: #29d295;
+}

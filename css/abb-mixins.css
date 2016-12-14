@@ -1,0 +1,195 @@
+@charset "UTF-8";
+/* ABB font Neue Helvetica */
+@font-face {
+  font-family: 'Helvetica Neue eText Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/abb-font/HelveticaNeueETPro-45Lt.eot");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.woff2") format("woff2"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.woff") format("woff"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.ttf") format("truetype"), url("../fonts/abb-font/HelveticaNeueETPro-45Lt.svg#HelveticaNeueeTextPro") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'Helvetica Neue eText Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/abb-font/HelveticaNeueETPro-65Md.eot");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.eot?#iefix") format("embedded-opentype"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.woff2") format("woff2"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.woff") format("woff"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.ttf") format("truetype"), url("../fonts/abb-font/HelveticaNeueETPro-65Md.svg#HelveticaNeueeTextPro") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'Helvetica Neue eText Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/abb-font/HelveticaNeueETPro-75Bd.eot");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.woff2") format("woff2"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.woff") format("woff"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.ttf") format("truetype"), url("../fonts/abb-font/HelveticaNeueETPro-75Bd.svg#HelveticaNeueeTextPro") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'abb-ux';
+  src: url("../fonts/abb-icons/abb-ux-icons.eot?gs5tf4");
+  /* IE9 Compat Modes */
+  src: url("../fonts/abb-icons/abb-ux-icons.eot?gs5tf4#iefix") format("embedded-opentype"), url("../fonts/abb-icons/abb-ux-icons.ttf?gs5tf4") format("truetype"), url("../fonts/abb-icons/abb-ux-icons.woff?gs5tf4") format("woff"), url("../fonts/abb-icons/abb-ux-icons.svg?gs5tf4#abb-ux") format("svg");
+  /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal; }
+[class^="abb-ux-"], [class*=" abb-ux-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'abb-ux' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* ABB UX Web icons */
+/* aux class for 12 pt size in icons */
+.size-12 {
+  font-size: 12pt; }
+
+.size-16 {
+  font-size: 16pt; }
+
+/* aux class for 18 pt size in icons */
+.size-18 {
+  font-size: 18pt; }
+
+/* aux class for 24 pt size in icons */
+.size-24 {
+  font-size: 24pt; }
+
+/* aux class for 36 pt size in icons */
+.size-36 {
+  font-size: 36pt; }
+
+/* aux class for 48 pt size in icons */
+.size-48 {
+  font-size: 48pt; }
+
+.abb-ux-alarm:before {
+  content: "\e904"; }
+
+.abb-ux-check:before {
+  content: "\e905"; }
+
+.abb-ux-audit:before {
+  content: "\e906"; }
+
+.abb-ux-background:before {
+  content: "\e907"; }
+
+.abb-ux-barchart:before {
+  content: "\e908"; }
+
+.abb-ux-calendar:before {
+  content: "\e909"; }
+
+.abb-ux-numerical:before {
+  content: "\e90a"; }
+
+.abb-ux-dashboard:before {
+  content: "\e90b"; }
+
+.abb-ux-edit:before {
+  content: "\e90c"; }
+
+.abb-ux-event:before {
+  content: "\e90d"; }
+
+.abb-ux-export:before {
+  content: "\e90e"; }
+
+.abb-ux-filter:before {
+  content: "\e90f"; }
+
+.abb-ux-hide:before {
+  content: "\e910"; }
+
+.abb-ux-import:before {
+  content: "\e911"; }
+
+.abb-ux-link:before {
+  content: "\e912"; }
+
+.abb-ux-list:before {
+  content: "\e913"; }
+
+.abb-ux-lock:before {
+  content: "\e914"; }
+
+.abb-ux-menu:before {
+  content: "\e915"; }
+
+.abb-ux-work:before {
+  content: "\e916"; }
+
+.abb-ux-piechart:before {
+  content: "\e917"; }
+
+.abb-ux-reports:before {
+  content: "\e918"; }
+
+.abb-ux-search:before {
+  content: "\e919"; }
+
+.abb-ux-settings:before {
+  content: "\e91a"; }
+
+.abb-ux-share:before {
+  content: "\e91b"; }
+
+.abb-ux-singleline:before {
+  content: "\e91c"; }
+
+.abb-ux-table:before {
+  content: "\e91d"; }
+
+.abb-ux-time:before {
+  content: "\e91e"; }
+
+.abb-ux-trend:before {
+  content: "\e91f"; }
+
+.abb-ux-user:before {
+  content: "\e920"; }
+
+.abb-ux-variable:before {
+  content: "\e921"; }
+
+.abb-ux-view:before {
+  content: "\e922"; }
+
+.abb-ux-database:before {
+  content: "\e923"; }
+
+.abb-ux-back:before {
+  content: "\e924"; }
+
+.abb-ux-download:before {
+  content: "\e925"; }
+
+.abb-ux-warning:before {
+  content: "\e926"; }
+
+.abb-ux-controls:before {
+  content: "\e927"; }
+
+.abb-ux-add:before {
+  content: "\e928"; }
+
+.abb-ux-location:before {
+  content: "\e929"; }
+
+.abb-ux-copy:before {
+  content: "\e92a"; }
+
+.abb-ux-favourite:before {
+  content: "\e92b"; }
+
+.abb-ux-locationpin:before {
+  content: "\e92c"; }
+
+/*# sourceMappingURL=abb-mixins.css.map */
