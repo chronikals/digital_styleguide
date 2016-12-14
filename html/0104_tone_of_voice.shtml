@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+		</header>
+		<nav class="sub" data-chapter="ch01" id="4"></nav>
+		<main>
+			<div class="inner">				
+				<h1>Tone of voice</h1>
+				<section>
+					<div class="intro unspaced">
+						<p>Tone of voice isn’t what we say but how we say it. It’s the language we use, the way we construct sentences, the sound of our words and the personality we communicate.</p>
+					</div>
+					<div class="module">
+						<p>ABB stands for sophisticated, precise technology and innovative engineering. We can reflect this image in written communications with language that is clear, precise and free of jargon. The quality of our communications is also an indication of our competence and credibility.</p>
+						<p>Technical communication does not need to be formal, dull or complicated. Users understand what you want to say more easily, when you use a normal, conversational tone.</p>
+						<ul>
+						 	<li>Replace jargon and pretentious phrasing with everyday language.</li>
+						 	<li>Short sentences are easier to read.</li>
+						 	<li>Do not pack the opening with too much information. Make a clear statement, and introduce supporting details in subsequent paragraphs.</li>
+						</ul>
+					</div>
+					<div class="colGroup">
+						<div>
+							<img src="../content/2016-01-21_Text_Illustrations_part1.png" alt="">
+							<span class="dont"></span>
+						</div>
+						<div>
+							<img src="../content/2016-01-21_Text_Illustrations_part2.png" alt="">
+							<span class="do"></span>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

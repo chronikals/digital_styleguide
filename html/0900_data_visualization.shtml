@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+		</header>
+		<nav class="sub" data-chapter="ch09" id="0"></nav>
+		<main>
+			<div class="inner">				
+				<h1>Data visualization</h1>
+				<section>
+					<div class="intro">
+						<p>Visualizations are used to make data interpretable and easier to use as information. There are numerous types of visualizations available, and the best suitable option will depend on context, type of data and what the user is trying to achieve:
+						</p>
+						<ul>
+							<li>Does the user need to quickly detect outliers in the dataset?</li>
+							<li>Does the user need to compare data in time or between categories?</li>
+							<li>Is the user trying to understand the composition or distribution of the data?</li>
+						</ul>
+						<p>This chapter starts by providing some general recommendations for data visualization design, and then provides a collection of typically used charts intended for inspiration.</p>
+					</div>
+					<article class="note">
+						<h3>Data visualization resources</h3>
+						<ul class="links">
+							<li><a href="http://datavizcatalogue.com/index.html">http://datavizcatalogue.com/index.html</a></li>
+							<li><a href="https://www.perceptualedge.com/articles/ie/the_right_graph.pdf">https://www.perceptualedge.com/articles/ie/the_right_graph.pdf</a></li>
+							<li><a href="http://www.perceptualedge.com/examples.php">http://www.perceptualedge.com/examples.php</a></li>
+							<li><a href="http://www.highcharts.com/">http://www.highcharts.com/</a></li>
+							<li><a href="https://github.com/d3/d3/wiki/Gallery">https://github.com/d3/d3/wiki/Gallery</a></li>
+						</ul>
+					</article>
+					<nav class="introMenu ch09"></nav>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+		</header>		
+		<nav class="sub" data-chapter="ch02" id="4"></nav>
+		<main>
+			<div class="inner">
+				<h1>Responsive design</h1>
+				<section>
+					<div class="intro">
+						<p>Responsive design adapts user interfaces to multiple screen sizes. Content is scaled based on user needs, for example in applications that are rendered on different devices, or device-specific versions of the same application.</p>
+						<p>The intention is to make sure your layout is both situationally relevant and functionally appropriate for the device and task at hand. In order to make your interface responsive and decide how it will scale, these core issues must be considered:</p>
+					</div>
+					<article>
+						<h3>1. Understand the content</h3>
+						<p>What is the intention of the product and what is the main content? How do the content sections relate to each other and how well does each section scale? Not all content types scale equally well. Understanding the content and how it scales is the starting point for deciding how to adapt your design.</p>
+						<h3>2. Know your formats</h3>
+						<p>Which hardware formats will your product be used on? Is it just one or will there be multiple? Is there a typical set of formats/dimensions? Some software products are sold with specific hardware panels, while other products will be displayed on whatever the customers use.</p>
+						<h3>3. Decide on breakpoints</h3>
+						<p>Once you know your content and your formats you can decide which breakpoints your interface needs to scale well on all formats. At the breakpoint a different grid is applied, while in-between breakpoints the grid itself scales.</p>
+						<h3>4. Adapt your content</h3>
+						<p>You know your content, the formats, and the breakpoints; now you need to decide how your product will adapt to these constraints. Decide on which grid to use for which breakpoints, and how to lay out the content in each grid.</p>
+					</article>
+				</section>
+				<section>
+					<h2>Know your formats</h2>
+					<div class="intro">
+						<p>In order to determine the best way for your interface to scale, you need to understand screen and platform considerations, and prioritize which formats it will be presented on.</p>
+					</div>
+					<div class="colGroup custom2 x5 full">
+						<div>
+							<figure>
+								<img src="../content/2016-01-13_Layout_illustrations/Artboard_7.png" alt="" width="50">
+							</figure>
+							<h3>Mobile</h3>
+							<p><strong>Resolution:</strong> 320px - 680px<br>
+							<strong>Main inputs:</strong> Accelerometer / Touch / Audio / Camera / Location </p>
+						</div>
+						<div>
+							<figure>
+								<img src="../content/2016-01-13_Layout_illustrations/Artboard_6.png" alt="" width="80">
+							</figure>							
+							<h3>Tablet</h3>
+							<p><strong>Resolution:</strong> 600px - 1280px<br>
+							<strong>Main inputs:</strong> Accelerometer / Touch / Audio / Camera / Location</p>
+						</div>
+						<div>
+							<figure>
+								<img src="../content/2016-01-13_Layout_illustrations/Artboard_5.png" alt="">
+							</figure>
+							<h3>Panel</h3>
+							<p><strong>Resolution:</strong> 480px - 1280px<br>
+							<strong>Main inputs:</strong>  Capacitive or resistive touch / Panel buttons</p>
+						</div>
+						<div>
+							<figure>
+								<img src="../content/2016-01-13_Layout_illustrations/Artboard_1_copy.png" alt="">						
+							</figure>
+							<h3>Desktop</h3>
+							<p><strong>Resolution:</strong> 1280px - 1920px<br>
+							<strong>Main inputs:</strong>  Mouse / Keyboard</p>
+						</div>
+						<div>
+							<figure>
+								<img src="../content/2016-01-13_Layout_illustrations/Artboard_8.png" alt="">
+							</figure>
+							<h3>Collaboration Surfaces</h3>
+							<p><strong>Resolution:</strong> 1920px - 3840px <br>
+							<strong>Main inputs:</strong>  Touch / Mouse / Keyboard</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2>Decide on breakpoints</h2>
+					<div class="intro">
+						<p>Grids establish an organizational layout system for content. A breakpoint is a specific resolution when a specific grid layout should be applied, while in-between breakpoints the grid itself scales. Breakpoints determine a flexible structure for layouts to adapt to screen sizes without designing one layout for each screen resolution.</p>
+					</div>
+					<div class="colGroup triple wide">
+						<div>
+							<h3>600- px</h3>
+							<p>Divided into 4 columns</p>							
+							<img src="../content/2016-01-13_Layout_illustrations/Artboard_10.png" alt="" width="50">
+						</div>
+						<div>
+							<h3>600px - 1280px</h3>
+							<p>Divided into 8 columns</p>							
+							<img src="../content/2016-01-13_Layout_illustrations/Artboard_11.png" alt="" width="100">
+						</div>
+						<div>
+							<h3>1280+ px</h3>
+							<p>Divided into 12 columns</p>						
+							<img src="../content/2016-01-13_Layout_illustrations/Artboard_12.png" alt="">
+						</div>
+					</div>
+				</section>				
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

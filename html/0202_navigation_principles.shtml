@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+		</header>
+		<nav class="sub" data-chapter="ch02" id="2"></nav>
+		<main>
+			<div class="inner">				
+				<h1>Navigation principles</h1>
+				<section>
+					<div class="intro">
+						<p>A clear, tidy and consistent navigation is vital to achieve an organized and user-friendly system.</p>
+						<p>There are many different navigation patterns, such as menus, tabs, tree navigation, breadcrumbs, etc. Choosing the best navigation pattern depends on amount of navigation choices, context of use and user workflow.</p>
+					</div>
+					<article>						
+						<h3>Consistency</h3>
+						<p>The black ABB bar ties digital products together. It is flexible and can adapt to different product needs and work flows. </p>
+						<div class="colGroup">
+							<div>
+								<img src="../content/0layout/1.png" alt="" />
+							</div>
+							<div>
+								<img src="../content/0layout/5.png" alt="" />
+							</div>
+						</div>
+					</article>
+					<article>						
+						<h3>Distinction</h3>
+						<p>Main application controls and content controls should be clearly defined from one another. Distinguish between the main application bar and the rest of the content. Create a clear hierarchy to help guide the user. </p>
+						<div class="colGroup">
+							<div>
+								<img src="../content/0layout/2.png" alt="" />
+							</div>
+						</div>
+					</article>
+					<article>						
+						<h3>Simplicity</h3>
+						<p>ABB applications typically struggle with complexity as the underlying information is complex. It is therefore even more important to strive for simplicity in the navigation structures. There should not be too many nested navigation schemes.</p>
+						<div class="colGroup">
+							<div>
+								<img src="../content/0layout/3.png" alt="" />
+								<span class="do"></span>
+							</div>
+							<div>
+								<img src="../content/0layout/4.png" alt="" />
+								<span class="dont"></span>
+							</div>
+						</div>
+					</article>					
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

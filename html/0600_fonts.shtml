@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+		</header>
+		<nav class="sub" data-chapter="ch06" id="0"></nav>
+		<main>
+			<div class="inner">				
+				<h1>Fonts</h1>
+				<section>
+					<div class="intro unspaced">
+						<p><strong>Neue Helvetica eText</strong> is the selected typeface for both branding and SW user interfaces, and has been designed especially for clear display and legibility on the full range of devices such as smartphones, tablets, eReaders and the Web.</p>
+					</div>
+					<div class="module">
+						<p>It provides improved performance and readability on small screens and in low resolution environments.</p>
+						<p>Use the Neue Helvetica eText font primarily in its light and medium styles. Bold should only be used in exceptional cases when extra emphasis is required. Other versions of this typeface, such as condensed, expanded or outline, shall not be used.</p>
+						<p>The typeface has been licensed by GF-CC (Corporate Communications) for ABB software and web applications.</p>
+						<p>Use Arial as fallback font when something prevents use of Neue Helvetica eText.</p>
+					</div>
+					<figure class="wide">
+						<img src="../content/0custom/fonts.png" alt="" width="850">
+					</figure>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

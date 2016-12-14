@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+		</header>
+		<nav class="sub" data-chapter="ch01" id="2"></nav>
+		<main>
+			<div class="inner">				
+				<h1>The visual concept at a glance</h1>
+				<section>
+					<div class="colGroup split23 full">
+						<div>
+							<div class="module">
+								<img src="../content/0custom/at_a_glance1.png" alt="">
+							</div>
+							<div class="colGroup split23">
+								<div>
+									<img src="../content/0custom/at_a_glance2.png" alt="">
+								</div>
+								<div>
+									<img src="../content/0custom/at_a_glance3.png" alt="">
+								</div>
+							</div>
+						</div>
+						<div class="support">
+							<h3>The ABB bar – a visual landmark</h3>
+							<p>Provides consistency and familiarity across ABB’s software interfaces, and typically contains main navigation and critical information.</p>
+							
+							<h3>Flexible and space efficient layout sections</h3>
+							<p>Colored backgrounds are used to define different sections of the interface. These can be combined in many ways.</p>
+	
+							<h3>Minimalistic and intuitive controls</h3>
+							<p>Subtle effects support user flow and interaction.</p>
+	
+							<h3>Emphasized dynamic information</h3>
+							<p>The use of color makes dynamic information stand out.</p>
+	
+							<h3>Fresh and clean colors</h3>
+							<p>Colors are used sparingly to communicate meaning, convey visual differentiation and provide consistency.</p>
+	
+							<h3>Rational typography: Helvetica Neue eText</h3>
+							<p>A systematic and precise typeface with good legibility and a clear link to our brand identity.</p>
+	
+							<h3>Consistent tone of voice</h3>
+							<p>Text is written in a language that is clear, precise and free of jargon.</p>
+	
+							<h3>Simple and clear icons</h3>
+							<p>Icons follow the ABB icon philosophy, optimized for software interfaces.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

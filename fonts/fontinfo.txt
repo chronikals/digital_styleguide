@@ -1,0 +1,20 @@
+45Lt = Helvetica Light
+65Md = Helvetica Medium
+75Bd = Helvetica Bold
+
+
+
+min fonts.com
+
+<link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/c05c9cb3-e137-4e10-9385-06b252b6dc50.css"/>
+
+/*
+font-family:'HelveticaNeueETW01-45Lt', sans-serif;
+font-family:'HelveticaNeueETW01-46Lt', sans-serif;
+font-family:'HelveticaNeueETW01-55Rg', sans-serif;
+font-family:'HelveticaNeueETW01-56It', sans-serif;
+font-family:'HelveticaNeueETW01-65Md', sans-serif;
+font-family:'HelveticaNeueETW01-66Md', sans-serif;
+font-family:'HelveticaNeueETW01-75Bd', sans-serif;
+font-family:'HelveticaNeueETW01-76Bd', sans-serif;
+*/

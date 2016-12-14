@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body class="frontPage">
+		<header>
+<!--#include file="0_includes/header.html" -->
+		</header>
+		<main>
+			<div class="inner">
+				<h1>UI Style Guide <sup>v1.2</sup></h1>
+				<nav class="mainMenu"></nav>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

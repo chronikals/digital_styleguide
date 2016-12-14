@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+		</header>
+		<nav class="sub" data-chapter="ch02" id="1"></nav>
+		<main>
+			<div class="inner">				
+				<h1>The ABB bar</h1>
+				<section>
+					<figure class="full module">
+						<img src="../content/2016-04-28-The-ABB-bar/Default.svg" alt="">	
+					</figure>
+					<div class="intro">
+						<p>The dark grey ABB bar provides consistency and familiarity across ABB’s software interfaces, and typically contains logo, product name, main navigation, global functions and critical information. In addition to being an important brand element, it helps the user’s perception of system structure.</p>
+					</div>
+					<article>						
+						<h3>Main characteristics</h3>
+						<ol>
+							<li>Overview of system structure and/or system status.</li>
+							<li>A simple, slim, dark grey bar with limited use of color.</li>
+							<li>Fixed position. A top bar by default, but it can also be presented as a vertical side bar or bottom bar in order to support specific product needs.</li>						
+						</ol>
+					</article>
+				</section>
+				<section>
+					<h2>Content</h2>
+					<article>
+						<h3>Identity</h3>
+						<p>The default version contains a white ABB logo and a discrete white product name.</p>
+						<p>There are a few exceptions:</p>
+						<ul>
+							<li>Small screens (e.g. Mobile)</li>
+							<li>ABB logo on the display hardware</li>
+							<li>Specific customer deliveries might require the ABB logo to be hidden or replaced by a customer logo. In cases like this the dark grey bar still provides an important ABB feel.</li>
+						</ul>
+						<h3>Main navigation</h3>
+						<p>If the product contains different sections or views, the ABB bar will give you an overview and easy access to these through navigation controls such as:</p>
+						<ul>
+							<li>Tabs or tab groups</li>
+							<li>Dropdown menus</li>
+							<li>Mega menus</li>
+						</ul>
+						<p>Note that in order to keep the navigation across all applications consistent, the bar should only be used for global top level navigation and main functions. Page-specific tools and sub-navigation should be placed within the main view.</p>
+						<h3>Status and notifications</h3>
+						<p>Selected top level system status information and alerts can be presented on the bar. Examples are badges for user tasks and notifocations and alarm/fault information.</p>
+						<h3>Global tools</h3>
+						<p>The bar may also contain support tools, including:</p>
+						<ul>
+							<li>User information</li>
+							<li>User account menu</li>
+							<li>System menu</li>
+							<li>Help</li>
+							<li>Search</li>
+							<li>Language support</li>
+						</ul>
+					</article>
+				</section>
+				<section>
+					<h2>Dos and don’ts</h2>
+					<div class="colGroup wide">
+						<article>
+							<h3>Logo and product name</h3>
+							<div class="rowGroup narrow	">
+								<div>
+									<img src="../content/2016-04-28-The-ABB-bar/Logo_claim.svg" alt="">	
+									<p class="dont">Do not use ABB logo + Claim.</p>
+								</div>
+								<div>
+									<img src="../content/2016-04-28-The-ABB-bar/Logo_red.svg" alt="">	
+									<p class="dont">Do not use the red ABB logo.</p>						
+								</div>
+								<div>
+									<img src="../content/2016-04-28-The-ABB-bar/Illegal_font.svg" alt="">	
+									<p class="dont"> Do not combine the ABB logo with a product logo / wordmark. The product name should be written in the font used elsewhere in the application.</p>						
+								</div>
+								<div>
+									<img src="../content/2016-04-28-The-ABB-bar/Artboard_28.svg" alt="">	
+									<p class="do">Logo and product name may be hidden, either because of limited space (mobile), or due to product / customer requirements or usage context.</p>			
+								</div>
+							</div>
+						</article>
+						<article>
+							<h3>Logo placement</h3>
+							<div class="rowGroup narrow">
+								<div>
+									<img src="../content/2016-04-28-The-ABB-bar/Logo_centered.svg" alt="">	
+									<p class="dont">Do not place the logo in the middle part of the bar. <b>It shall always be positioned in a corner</b>, either to the left or right side of the interface.</p>
+								</div>
+								<div>
+									<img src="../content/2016-04-28-The-ABB-bar/Menu_left_side.svg" alt="">	
+									<p class="do">It is allowed to place the logo + product name to the right of a menu button if separated clearly.</p>
+								</div>
+								<div>
+									<img src="../content/2016-04-28-The-ABB-bar/Top_bar_grid.svg" alt="">	
+									<p class="do">Use equal margins between grouped elements to the extent feasible to create order, rythm and structure.</p>
+								</div>								
+							</div>							
+						</article>
+					</div>
+					<div class="colGroup wide">
+						<article>
+							<h3>Protective field</h3>
+							<div class="rowGroup narrow">
+								<div>
+									<img src="../content/2016-04-28-The-ABB-bar/Protected_area.svg" alt="">	
+									<p class="do">The logo must always be surrounded by a defined minimum space of 0.5 vh (vh = vertical height), separating it from other design elements.</p>
+								</div>
+							</div>
+						</article>					
+					</div> <!-- end colGroup -->
+					<article class="wide">
+						<h3>Colors</h3>
+						<div class="rowGroup">
+							<div>
+								<img src="../content/2016-04-28-The-ABB-bar/Use_of_color.svg" alt="" width="820">	
+								<p class="dont">Do not use bright colors on large areas. Colors should be limited to highlighted items, status indications and notifications.</p>
+							</div>
+						</div>
+					</article>
+				</section>
+				<section>
+					<h2>Placement</h2>
+					<div class="module">
+						<p>The bar can be either placed on top (primary), on the sides or in the bottom (secondary) of the interface. The choice of where to place the bar for your application should be based on platform/technology conventions along with usability considerations.</p>
+						<p>If the ABB logo is used, it shall always placed in one of the four corners and always on the ABB bar.</p>
+					</div>
+					<div class="rowGroup">
+						<div>
+							<div>
+								<img src="../content/2016-04-28-The-ABB-bar/Logo_placement_1.svg" alt="">
+							</div>
+							<div>
+								<img src="../content/2016-04-28-The-ABB-bar/Logo_placement_2.svg" alt="">
+							</div>
+						</div>
+						<div>
+							<div>
+								<img src="../content/2016-04-28-The-ABB-bar/Logo_placement_5.svg" alt="">
+							</div>
+							<div>
+								<img src="../content/2016-04-28-The-ABB-bar/Logo_placement_6.svg" alt="">
+							</div>
+						</div>
+						<div>
+							<div>
+								<img src="../content/2016-04-28-The-ABB-bar/Logo_placement_3.svg" alt="">
+							</div>
+							<div>
+								<img src="../content/2016-04-28-The-ABB-bar/Logo_placement_4.svg" alt="">
+							</div>
+						</div>						
+					</div>
+				</section>
+				<section>
+					<h2>Platform examples</h2>
+					<article class="full spaced1">
+						<h3 class="spaced">Web / HTML bars</h3>
+						<img src="../content/2016-04-28-The-ABB-bar/web_bars.svg" alt="">
+					</article>
+					<article class="wide spaced1">
+						<h3>Windows 10 applications</h3>
+						<p>The product name is shown in the windows frame. The ABB bar color is used on the windows frame. Logo is placed to the right in order to avoid conflict with the central control panel and file menu placed to the left.</p>
+						<img src="../content/2016-04-28-The-ABB-bar/Artboard_27.svg" alt="">						
+					</article>
+					<div class="colGroup wide">
+						<div>
+							<h3>Embedded touch panel</h3>
+							<p>The bar is placed to the right to avoid that the user’s hand covers the main interface when interacting.</p>
+							<img src="../content/2016-04-28-The-ABB-bar/Artboard_33.svg" alt="">
+						</div>
+						<div>
+							<h3>Mobile applications</h3>							
+							<p>The ABB bar = The application bar. The logo is not permanently displayed.</p>
+							<img src="../content/2016-04-28-The-ABB-bar/Artboard_28.svg" alt="">
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>
