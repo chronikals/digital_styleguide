@@ -93,6 +93,7 @@
     <None Include="html\0900_data_visualization.shtml" />
     <None Include="html\0901_creating_visualizations.shtml" />
     <None Include="html\0902_visualization_variants.shtml" />
+    <Content Include="html\0_includes\left-menu.html" />
     <None Include="html\1000_example_screens.shtml" />
     <None Include="html\frontpage.shtml" />
   </ItemGroup>
