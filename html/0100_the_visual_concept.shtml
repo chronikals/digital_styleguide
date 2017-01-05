@@ -10,7 +10,7 @@
 		<nav class="sub" data-chapter="ch01" id="0"></nav>
 		<main>
 			<div class="inner">				
-				<h1>The visual concept</h1>
+				<h1 class="title">The visual concept</h1>
 				<nav class="introMenu"></nav>
 			</div>
 		</main>

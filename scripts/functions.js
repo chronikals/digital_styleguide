@@ -58,8 +58,12 @@ $(document).ready(function() {
 			$(this).children().clone().appendTo('nav.sub, .introMenu');
 		}
 	});
-
-
+	$("header .nav .navbar-nav > ul > li").removeClass("active");
+	$("header .nav .navbar-nav > ul > li > a").each(function () {
+	    if ($(this).text() == $("h1.title").text()) {
+	        $(this).parent.addClass("active");
+	    }
+	});
 
 
 
