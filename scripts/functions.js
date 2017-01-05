@@ -53,14 +53,14 @@ $(document).ready(function() {
 
 // clone main menu chapters into sub- and introMenu
 
-	$('header .mainMenu > ul > li').each(function() {
-		if ($(this).attr('class') === $('nav.sub').attr('data-chapter')) {
-			$(this).children().clone().appendTo('nav.sub, .introMenu');
-		}
-	});
+	//$('header .mainMenu > ul > li').each(function() {
+	//	if ($(this).attr('class') === $('nav.sub').attr('data-chapter')) {
+	//		$(this).children().clone().appendTo('nav.sub, .introMenu');
+	//	}
+	//});
 	$("ul.navbar-nav > li").removeClass("active");
 	$("ul.navbar-nav > li").each(function () {
-	    if ($(this).find("a").text() == $("h1.title").text()) {
+	    if ($(this).find("a").text() == $("h1").text()) {
 	        $(this).addClass("active");
 	    }
 	});
@@ -76,21 +76,7 @@ $(document).ready(function() {
 	$('nav.sub a').eq(subNavLocation).addClass('selected');
 
 
-
-
-
-// header nav expansion
-
-	$('header button').on('click', function () {
-		$('header').toggleClass('open');
-	});
-
-
-
-
-
 //	set title same as h1
-
 	document.title =  $('h1').text() + ' - ABB Style Guide';
 
 
