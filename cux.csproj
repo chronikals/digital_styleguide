@@ -507,6 +507,7 @@
     <Content Include="index_old.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="nav-bar.html" />
     <Content Include="scripts\functions.js" />
     <Content Include="styles\global.css" />
     <Content Include="styles\zStyle.css" />
