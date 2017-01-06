@@ -5,11 +5,11 @@
 	</head>
 	<body class="frontPage">
 		<header>
-<!--#include file="0_includes/header.html" -->
+<!--#include file="0_includes/top-menu.html" -->
 		</header>
 		<main>
 			<div class="inner">
-				<h1>UI Style Guide <sup>v1.2</sup></h1>
+				<h1>Home<sup>v1.2</sup></h1>
 				<!--#include file="front-content.html" -->
 			</div>
 		</main>
