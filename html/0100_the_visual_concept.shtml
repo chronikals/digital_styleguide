@@ -7,7 +7,7 @@
     <!--#include file="0_includes/top-menu.html" -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-3 col-md-2 sidebar">
+            <div class="col-sm-3 sidebar">
                 <ul class="nav nav-sidebar">
                     <li><a href="0101_design_principles.shtml">Design principles</a></li>
                     <li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
@@ -16,7 +16,7 @@
                     <li><a href="0105_transitions_and_animations.shtml">Transitions and animations</a></li>
                 </ul>
             </div>
-            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <div class="col-sm-9 main">
                 <div class="inner">
                     <h1 class="page-header">The visual concept</h1>
                 </div>
