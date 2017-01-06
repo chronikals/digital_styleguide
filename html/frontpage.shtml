@@ -4,9 +4,9 @@
 <!--#include file="0_includes/head.html" -->
 	</head>
 	<body class="frontPage">
-		<header>
-<!--#include file="0_includes/top-menu.html" -->
-		</header>
+		
+<!--#include file="0_includes/header.html" -->
+		
 		<main>
 			<div class="inner">
 				<h1>UI Style Guide <sup>v1.2</sup></h1>
