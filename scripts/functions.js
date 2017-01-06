@@ -65,24 +65,6 @@ $(document).ready(function() {
 	    }
 	});
 
-
-
-// set sub nav location based on nav id	
-	
-	// get number from nav id		
-	var subNavLocation = parseInt($('nav.sub').attr('id'));
-	
-	// use number to mark selected link		
-	$('nav.sub a').eq(subNavLocation).addClass('selected');
-
-
-//	set title same as h1
-	document.title =  $('h1').text() + ' - ABB Style Guide';
-
-
-
-
-
 // id headings and show their path on click
 
 	// add sequential ids to headings
