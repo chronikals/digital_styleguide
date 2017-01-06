@@ -3,36 +3,34 @@
 	<head>
 <!--#include file="0_includes/head.html" -->
 	</head>
-	<body class="introPage">
-		<header>
-            <!--#include file="0_includes/top-menu.html" -->
-		</header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-3 com-md-2 sidebar">
-                    <ul>
-                        <li><a href="0101_design_principles.shtml">Design principles</a></li>
-                        <li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
-                        <li><a href="">ABB's user experience</a></li>
-                        <li><a href="0104_tone_of_voice.shtml">Tone of voice</a></li>
-                        <li><a href="0105_transitions_and_animations.shtml">Transitions and animations</a></li>
-                    </ul>
-
-                    
-                </div>
-                <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
+<body class="introPage">
+    <header>
+        <!--#include file="0_includes/top-menu.html" -->
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li><a href="0101_design_principles.shtml">Design principles</a></li>
+                    <li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
+                    <li><a href="">ABB's user experience</a></li>
+                    <li><a href="0104_tone_of_voice.shtml">Tone of voice</a></li>
+                    <li><a href="0105_transitions_and_animations.shtml">Transitions and animations</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
                 <main>
                     <div class="inner">
                         <h1 class="title">The visual concept</h1>
                         <nav class="introMenu"></nav>
                     </div>
                 </main>
-                    </div>
             </div>
         </div>
-		<footer>
-<!--#include file="0_includes/footer.html" -->
-		</footer>
-<!--#include file="0_includes/bodyendlinks.html" -->
-	</body>
+    </div>
+    <footer>
+        <!--#include file="0_includes/footer.html" -->
+    </footer>
+    <!--#include file="0_includes/bodyendlinks.html" -->
+</body>
 </html>
