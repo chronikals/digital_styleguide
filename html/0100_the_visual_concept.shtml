@@ -10,8 +10,15 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-3 com-md-2 sidebar">
-                    <!--#include file="0_includes/header.html" -->
-                    <nav class="sub" data-chapter="ch01" id="0"></nav>
+                    <ul>
+                        <li><a href="0101_design_principles.shtml">Design principles</a></li>
+                        <li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
+                        <li><a href="">ABB's user experience</a></li>
+                        <li><a href="0104_tone_of_voice.shtml">Tone of voice</a></li>
+                        <li><a href="0105_transitions_and_animations.shtml">Transitions and animations</a></li>
+                    </ul>
+
+                    
                 </div>
                 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
                 <main>
