@@ -95,31 +95,4 @@ $(document).ready(function() {
 			$(this).after('<span class="urlBox">' + this.href + headingID + '</span>');			
 		}
 	});	
-
-
-
-
-
-// window width indicator
-	
-	var indicateWidth = $('<span class="widthIndicator"></span>');
-		
-	$('body').prepend(indicateWidth);
-
-	$(window).on('load resize', function () {
-		 indicateWidth.text($(window).width());
-	});
-
-
-
-
-
-
-
-	
-
-
-
-
-
 });// end jquery
