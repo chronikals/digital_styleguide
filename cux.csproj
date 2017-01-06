@@ -503,7 +503,7 @@
     <Content Include="img\ProductBU.png" />
     <Content Include="img\productSpec.png" />
     <Content Include="img\StyleGuide2.jpg" />
-    <Content Include="index.html" />
+    <None Include="index.shtml" />
     <Content Include="index_old.html" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
