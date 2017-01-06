@@ -9,7 +9,7 @@
 		</header>
 		<main>
 			<div class="inner">
-				<h1>Home<sup>v1.2</sup></h1>
+				<h1></h1>
 				<!--#include file="front-content.html" -->
 			</div>
 		</main>
