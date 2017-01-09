@@ -1,0 +1,32 @@
+/* ABB font Helvetica Neue eText Pro */
+
+//Light
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/ABBvoice_W_Lt.ttf'); /* IE9 Compat Modes */
+  src: local('☺'),
+       url('../fonts/ABBvoice_W_Lt.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+//Medium
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/ABBvoice_W_Md.ttf'); /* IE9 Compat Modes */
+  src: local('☺'),
+       url('../fonts/ABBvoice_W_Md.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+
+//Bold
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/ABBvoice_W_Bd.ttf'); /* IE9 Compat Modes */
+  src: local('☺'),
+       url('../fonts/ABBvoice_W_Bd.ttf') format('truetype'), /* Safari, Android, iOS */
+}

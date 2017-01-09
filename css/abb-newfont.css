@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* ABB font Helvetica Neue eText Pro */
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/ABBvoice_W_Lt.ttf");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/ABBvoice_W_Lt.ttf") format("truetype"); }
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/ABBvoice_W_Md.ttf");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/ABBvoice_W_Md.ttf") format("truetype"); }
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ABBvoice_W_Bd.ttf");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/ABBvoice_W_Bd.ttf") format("truetype"); }
+
+/*# sourceMappingURL=abb-newfont.css.map */
