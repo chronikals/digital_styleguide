@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch10" id="2"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Decathlon Dashboards <sub>Web and Windows application</sub></h1>
+				<section>
+					<div class="module">
+						<p>The Decathlon Dashboards application allows users to organize and analyze business critical KPIs and production data on interactive dashboards. The intelligent search engine ensures fast access to all data across Decathlon Applications. It is part of the Decathlon Services platform from PACT.</p>
+						<p>More info: <a class="strong" href="http://new.abb.com/cpm/decathlon-software">http://new.abb.com/cpm/decathlon-software</a></p>
+					</div>
+					<div class="colGroup beforeAfter full">
+						<figure><img src="../content_v2/2/dashboard.jpg" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Decathlon/Artboard_2.png" alt=""></figure>
+					</div>
+					<div class="imageList full">
+						<figure><img src="../content_v2/2/Examples_Decathlon/Artboard_2.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Decathlon/Artboard_3_copy.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Decathlon/Artboard_1.png" alt=""></figure>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

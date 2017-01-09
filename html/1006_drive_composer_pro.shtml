@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch10" id="6"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Drive Composer PRO <sub>Windows 10 application</sub></h1>
+				<section>
+					<div class="module">
+						<p>The Composer Pro is a start-up and maintenance tool for ABB’s common architecture drives. The tool is used to view and set drive parameters, and to monitor and tune process performance.</p>
+						<p>More info: <a class="strong" href="http://new.abb.com/drives/software-tools/drive-composer">http://new.abb.com/drives/software-tools/drive-composer</a></p> 
+					</div>
+					<div class="colGroup beforeAfter full">
+						<figure><img src="../content_v2/2/Drives_composer_old.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_ComposerPRO/Overview.png" alt=""></figure>
+					</div>
+					<div class="imageList full">
+						<figure><img src="../content_v2/2/Examples_ComposerPRO/Artboard_51.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_ComposerPRO/Overview.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_ComposerPRO/Card.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_ComposerPRO/Styling_1.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_ComposerPRO/Margins_1.png" alt=""></figure>						
+						<figure><img src="../content_v2/2/Examples_ComposerPRO/Styling_2.png" alt=""></figure>						
+						<figure><img src="../content_v2/2/Examples_ComposerPRO/Artboard_49.png" alt=""></figure>						
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

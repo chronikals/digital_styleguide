@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch10" id="1"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>AlarmInsight <sub>Web application</sub></h1>
+				<section>
+					<div class="module">
+						<p>AlarmInsight provides a toolset for managing and optimizing the alarm configuration. It utilizes ABB’s control system expertize to transform raw alarm and event data to meaningful information supporting reporting and analysis needs and improving decision making processes.</p>
+						<p>More info: <a class="strong" href="http://www.abb.com/industries/seitp406/1e32f84110dd889f8525768d005cc1af.aspx">http://www.abb.com/industries/seitp406/1e32f84110dd889f8525768d005cc1af.aspx</a></p>
+					</div>
+					<div class="colGroup beforeAfter full">
+						<figure><img src="../content_v2/2/PAOG_-_AlarmInsight.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Alarm_Insight/Alarm_Insight_1_copy_2.png" alt=""></figure>
+					</div>
+					<div class="imageList full">
+						<figure><img src="../content_v2/2/Examples_Alarm_Insight/Alarm_Insight_1_copy_2.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Alarm_Insight/Alarm_Insight_2_copy_4.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Alarm_Insight/Alarm_Insight_4_copy_3.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Alarm_Insight/Alarm_Insight_4_copy.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Alarm_Insight/Alarm_Insight_5.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Alarm_Insight/Artboard_17.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_Alarm_Insight/Artboard_18.png" alt=""></figure>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch04" id="2"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Selectors</h1>
+				<section>
+					<div class="intro">
+						<p>Selectors are used when you want users to be able to select one or multiple items from a given list.</p>
+					</div>
+					<div class="colGroup split23 wide support spaced">
+						<article>
+							<h3>Drop-down lists</h3>
+							<p>Drop-down lists are used to make a single selection from a limited number of items. Since the choices are hidden, this control should only be used when the drop-down content is predictable for the user.</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_34.svg" alt="" width="525">	
+						</article>
+						<article>
+							<h3>Multi-select drop-down list</h3>
+							<p>Checkboxes in the drop-down allow the user to select multiple items at a time. 
+							Keep this list short.</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_35.svg" alt="" width="198">						
+						</article>
+					</div>
+					<div class="colGroup split23 wide support spaced">
+						<article>
+							<h3>Toggle button</h3>
+							<p>Toggle buttons allow the user to change a setting between two or more states. Only one is selected at a time. Default toggle buttons are styled as regular buttons. In cases where you would like to draw special attention to the selected state, the enhanced toggle button may be used.</p>
+							<figure class="spaced1">
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_37.svg" alt="" width="260">
+								<figcaption class="strong">Default toggle buttons</figcaption>
+							</figure>
+							<figure class="spaced1">
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_37_copy.svg" alt="" width="260">
+								<figcaption class="strong">Enhanced toggle buttons</figcaption>
+							</figure>
+							<figure>
+								<img src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_5.svg" alt="" width="260">
+								<figcaption class="strong">Alternative toggle buttons</figcaption>
+							</figure>
+						</article>
+						<article>
+							<h3>Multi-select toggle button</h3>
+							<p>Multi-select toggle buttons allow the user to turn settings/properties on
+							or off. Multiple buttons may be selected at the same time.</p>
+							<figure class="spaced1">
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_37_copy_2.svg" alt="" width="185">
+								<figcaption class="strong">Default multi-select toggle buttons</figcaption>
+							</figure>
+							<figure>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_37_copy_3.svg" alt="" width="185">
+								<figcaption class="strong">Enhanced multi-select toggle buttons</figcaption>
+							</figure>
+						</article>
+					</div>
+					<div class="colGroup wide triple support spaced">
+						<article>
+							<h3>Checkboxes</h3>
+							<p>Use when you want the user to select 0 or more options from a predefined list.</p>
+							<figure>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_41.svg" alt="" width="235">
+							</figure>							
+						</article>
+						<article>
+							<h3>Radio buttons</h3>
+							<p>Use when you want the user to select just 1 option from a list.</p>
+							<figure>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_42.svg" alt="" width="235">
+							</figure>							
+						</article>	
+						<article>
+							<h3>Switches</h3>
+							<p>Use when you want the user to toggle between 2 unambiguous choices, like On/Off or Yes/No.</p>
+							<figure>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_43.svg" alt="" width="235">
+							</figure>							
+						</article>
+					</div>
+					<article class="wide support">
+						<h3>Sliders</h3>
+						<p>Basic sliders work best when the specific value does not matter to the user, but an approximate value is good enough.</p>
+						<div class="colGroup wide split23reverse">
+							<figure>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_44.svg" alt="" width="235">
+							</figure>
+							<figure>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_45.svg" alt="" width="750">
+								<img class="spaced1" src="../content_v2/2/5_Controls_illustrations/Artboard_45_copy.svg" alt="" width="300">
+								<figcaption class="strong">Slider content and interaction may have to be adapted to use context.</figcaption>
+							</figure>							
+						</figure>
+					</article>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

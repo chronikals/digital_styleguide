@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch07" id="0"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Tables</h1>
+				<section>
+					<div class="intro">
+						<p>Lists and tables are used to organize and arrange data, and are important elements in many ABB applications. Complex tables can be challenging to design well, and require particular design attention in each individual case.</p> 
+						<p>For now, only tables on light backgrounds are shown. The general recommendations do however apply to all color palettes.</p>
+						<p>Full screen table examples can be found in the "Examples &amp; inspiration" section of the style guide.</p>
+					</div>
+					<nav class="introMenu"></nav>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch04" id="4"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Tabs</h1>
+				<section>
+					<div class="intro">
+						<p>Tabs are useful for allowing users to easily switch between different views and to clearly see what the browsing choices are. They can be used as top-level navigation, or to browse categorized data sets within a panel. Care should be taken to not provide too many nested levels of tabs, or to use tabs when there are too many alternatives.</p>
+					</div>
+					<div class="rowGroup split23 wide strong" style="max-width: 900px;">
+						<div>
+							<div>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_60.svg" alt="" width="565">	
+							</div>
+							<div>
+								<p class="spaced1">The ABB bar tabs</p>
+								<p>Primary tabs for main view and dialog content</p>
+							</div>
+						</div>
+						<div>
+							<div>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_61.svg" alt="" width="565">	
+							</div>
+							<div>
+								<p>Secondary tabs for main view and dialog content</p>
+							</div>
+						</div>
+					</div>						
+				</section>
+				<section>
+					<h2>Mobile adaptations</h2>
+					<article>
+						<h3>Secondary tabs for main view content</h3>
+						<p>When main content is grouped into tabs on mobile, consider using icons only, as space is restricted.</p>
+						<img class="bordered" src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_7.svg" alt="" width="400">
+					</article>
+					<article>
+						<h3>IOS &amp; Android tab bar</h3>
+						<p>Although bottom tab bar for main navigation was originally an IOS pattern, it has recently emerged also to Android and can be used  cross platform. Follow platform guidance on font/icon sizing relative to screen size, and consider whether icons + text is required.</p>
+						<img src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_8.svg" alt="" width="400">
+					</article>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

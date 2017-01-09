@@ -200,21 +200,21 @@
 
 /* ABB font Helvetica Neue eText Pro */
 @font-face {
-  font-family: 'ABBvoice';
+  font-family: 'ABBvoice-Lt';
   font-style: normal;
   font-weight: 300;
   src: url("../fonts/ABBvoice_W_Lt.ttf");
   /* IE9 Compat Modes */
   src: local("Γÿ║"), url("../fonts/ABBvoice_W_Lt.ttf") format("truetype"); }
 @font-face {
-  font-family: 'ABBvoice';
+  font-family: 'ABBvoice-Md';
   font-style: normal;
   font-weight: 500;
   src: url("../fonts/ABBvoice_W_Md.ttf");
   /* IE9 Compat Modes */
   src: local("Γÿ║"), url("../fonts/ABBvoice_W_Md.ttf") format("truetype"); }
 @font-face {
-  font-family: 'ABBvoice';
+  font-family: 'ABBvoice-Bd';
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/ABBvoice_W_Bd.ttf");
@@ -616,48 +616,18 @@
 */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 body {
-  font-family: "ABBvoice", "Sans-Serif", Arial;
-  font-size: 12px; }
+  font-family: "Abbvoice-Lt", "Sans-Serif", Arial;
+  font-size: 16px; }
 
 a {
-  color: #0AAEFF;
-  text-decoration: none; }
+  color: #0096E0;
+  text-decoration: none;
+  font-weight: 500; }
 
 a:hover,
 a:focus {
   color: #47C2FF;
   text-decoration: none; }
-
-h1,
-.h1 {
-  font-size: 23px;
-  color: #464646;
-  font-weight: 500; }
-
-h2,
-.h2 {
-  font-size: 19px;
-  color: #464646;
-  font-weight: 500; }
-
-h3,
-.h3 {
-  font-size: 17px;
-  color: #464646;
-  font-weight: 300; }
-
-h4,
-.h4 {
-  font-size: 15px;
-  font-weight: 500; }
-
-h5,
-.h5 {
-  font-size: 12px; }
-
-h6,
-.h6 {
-  font-size: 10px; }
 
 .text-muted {
   color: #EBEBEB; }
@@ -2441,11 +2411,9 @@ fieldset[disabled] .btn-danger.active {
   list-style: none;
   background: transparent; }
 
-.nav a {
-  color: #505050; }
-
 .nav .active {
-  font-weight: 500; }
+  font-weight: 500;
+  color: #0096E0; }
 
 .nav > li {
   position: relative;
@@ -2763,7 +2731,7 @@ fieldset[disabled] .btn-danger.active {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   color: #FFFFFF; }
 
 @media (min-width: 768px) {
@@ -5347,7 +5315,7 @@ input[type="checkbox"][data-indeterminate] + label:after {
   position: relative; }
 
 .affix {
-  top: 200px; }
+  top: 80px; }
 
 .affix,
 .affix-bottom {

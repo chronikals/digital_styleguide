@@ -6,8 +6,8 @@
 	<body>
 		<header>
 <!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch04" id="0"></nav>
 		</header>
-		<nav class="sub" data-chapter="ch04" id="0"></nav>
 		<main>
 			<div class="inner">				
 				<h1>Controls</h1>

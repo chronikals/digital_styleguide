@@ -13,49 +13,18 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 body {
-	font-family: "ABBvoice", "Sans-Serif", Arial;
-	font-size: 12px;
+	font-family: "Abbvoice-Lt", "Sans-Serif", Arial;
+	font-size: 16px;
 }
 a {
-	color: $abb-blue-13;
+	color: $abb-blue-12;
 	text-decoration: none;
+	font-weight: 500;
 }
 a:hover,
 a:focus {
 	color: $abb-blue-14;
 	text-decoration: none;
-}
-
-h1,
-.h1 {
-	font-size: 23px;
-	color:$abb-grey-70;
-    font-weight: 500;
-}
-h2,
-.h2 {
-	font-size: 19px;
-	color:$abb-grey-70;
-    font-weight: 500;
-}
-h3,
-.h3 {
-	font-size: 17px;
-	color: $abb-grey-70;
-    font-weight: 300;
-}
-h4,
-.h4 {
-	font-size: 15px;
-    font-weight: 500;
-}
-h5,
-.h5 {
-	font-size: 12px;
-}
-h6,
-.h6 {
-	font-size: 10px;
 }
 
 .text-muted {
@@ -1855,10 +1824,10 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .nav a {
-	color: #505050;
 }
 .nav .active {
 	font-weight: 500;
+	color: $abb-blue-12;
 }
 .nav > li {
 	position: relative;
@@ -2197,7 +2166,7 @@ fieldset[disabled] .btn-danger.active {
 .navbar {
 	position: relative;
 	min-height: 50px;
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 	color: $abb-grey-255;
 }
 @media (min-width: 768px) {
@@ -4903,7 +4872,7 @@ input[type="checkbox"][data-indeterminate] + label:after
 }
 
 .affix {
-	top: 200px;
+	top: 80px;
 }
 
 .affix, 

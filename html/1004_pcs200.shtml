@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch10" id="4"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>PCS200 <sub>Embedded panel display</sub></h1>
+				<section>
+					<div class="module">
+						<p>PCS200 is the next generation portfolio of efficient power conversion solutions that are specifically designed to solve power quality problems and stabilize networks. PCS200 covers applications from data centers through to complete industrial plant protection, microgrid systems and shore-to-ship supply.</p>
+						<p>More info: <a class="strong" href="http://new.abb.com/ups/PCS100">http://new.abb.com/ups/PCS100</a></p>
+					</div>
+					<div class="colGroup beforeAfter full">
+						<figure><img src="../content_v2/2/DMPC_-_PCS100.png" alt=""></figure>
+						<figure><img src="../content_v2/2/pcs200-mockups/page_7.png" alt=""></figure>
+					</div>
+					<div class="imageList full">
+						<figure><img src="../content_v2/2/pcs200-mockups/page_7.png" alt=""></figure>
+						<div class="colGroup split34reverse fillRight">
+							<figure><img class="noBorder" src="../content_v2/2/PCS100_RPC_NEW_edit.jpg" alt=""></figure>
+							<figure><img src="../content_v2/2/pcs200-mockups/page_14.png" alt=""></figure>
+						</div>
+						<figure><img src="../content_v2/2/pcs200-mockups/page_19.png" alt=""></figure>						
+						<figure><img src="../content_v2/2/pcs200-mockups/page_9.png" alt=""></figure>						
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

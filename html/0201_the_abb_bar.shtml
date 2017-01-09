@@ -1,15 +1,21 @@
 <!doctype html>
 <html lang="en">
-	<head>
-<!--#include file="0_includes/head.html" -->
-	</head>
-	<body>
-		<header>
-<!--#include file="0_includes/header.html" -->
-		</header>
-		<nav class="sub" data-chapter="ch02" id="1"></nav>
-		<main>
-			<div class="inner">				
+<head>
+	<!--#include file="0_includes/head.html" -->
+</head>
+<body class="introPage">
+<!--#include file="0_includes/top-menu.html" -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-2 sidebar" id="Framework">
+			<ul class="nav nav-sidebar affix">
+				<li><a class="active" href="0201_the_abb_bar.shtml">The ABB bar</a></li>
+				<li><a href="0202_navigation_principles.shtml">Navigation principles</a></li>
+				<li><a href="0203_layout_and_grid.shtml">Layout and grid</a></li>
+				<li><a href="0204_responsive_design.shtml">Responsive design</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-10" main>
 				<h1>The ABB bar</h1>
 				<section>
 					<figure class="full module">
@@ -180,11 +186,12 @@
 						</div>
 					</div>
 				</section>
-			</div>
-		</main>
-		<footer>
-<!--#include file="0_includes/footer.html" -->
-		</footer>
+		</div>
+	</div>
+</div>
+<footer>
+	<!--#include file="0_includes/footer.html" -->
+</footer>
 <!--#include file="0_includes/bodyendlinks.html" -->
-	</body>
+</body>
 </html>

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch10" id="3"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>MicroSCADA Pro <sub>Web application</sub></h1>
+				<section>
+					<div class="module">
+						<p>MicroSCADA Pro is a system to monitor and operate a power distribution system, typically used by distribution control operators. The UI design work was completed together with product team and their external design team.</p>
+						<p>More info: <a class="strong" href="http://new.abb.com/substation-automation/products/software/microscada-pro">http://new.abb.com/substation-automation/products/software/microscada-pro</a></p>
+					</div>
+					<div class="colGroup beforeAfter full">
+						<figure><img src="../content_v2/2/11._microscada_area_large_station_alarm_02.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_MicroSCADA/Artboard_9.png" alt=""></figure>
+					</div>
+					<div class="imageList full">
+						<figure><img src="../content_v2/2/Examples_MicroSCADA/Artboard_9.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_MicroSCADA/Artboard_4.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_MicroSCADA/Artboard_3.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_MicroSCADA/Artboard_8.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_MicroSCADA/Artboard_1.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_MicroSCADA/Artboard_2.png" alt=""></figure>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

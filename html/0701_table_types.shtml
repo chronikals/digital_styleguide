@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch07" id="1"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Table types</h1>
+				<section>
+					<h2>Lists</h2>
+					<p>Lists are mainly used to display, compare and/or monitor data organized in rows.</p>			
+					<p>The recommended default row height is 2,5 x font size. When space is limited, a compact row height of minimum 2 x font size can be used for read-only lists.</p>
+					<div class="rowGroup spaced1 support strong">
+						<div>
+							<img src="../content_v2/1/7_Tables_illustrations/Artboard_4.svg" alt="" width="674">
+							<p>List with default row height 2,5 x font size (ex. 30 px)</p>
+						</div>
+						<div>
+							<img src="../content_v2/1/7_Tables_illustrations/Artboard_2.svg" alt="" width="674">
+							<p>List with compact row height 2 x font size (ex. 24 px)</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2>Lists with interaction</h2>
+					<p>Many lists contain inline controls, actions or drilldown to sub-levels. Typically used when it should be possible to edit or change settings or values, or to select and perform actions on one or more elements in the list.</p>
+					<p>The recommended minimum row height for lists with interaction is 2,5 x font size (ex. 30 px), to allow sufficient space for controls.</p>
+					<div class="rowGroup spaced1 support strong">
+						<div>
+							<img src="../content_v2/1/7_Tables_illustrations/Artboard_7.svg" alt="" width="674">
+							<p>List with inline controls</p>
+						</div>
+						<div>
+							<img src="../content_v2/1/7_Tables_illustrations/Artboard_6.svg" alt="" width="674">
+							<p>List with drilldown to sub-level</p>
+						</div>
+					</div>					
+				</section>
+				<section>
+					<h2>Matrix table</h2>
+					<p>Matrix tables consist of cells organized in rows and columns, and typically contains numerical data. The cells can be read-only or editable.</p>
+					<p>The recommended minimum row height for matrix tables is 2,5 x font size (ex. 30 px), to ensure good legibility and allow sufficient space for controls.</p>
+					<img src="../content_v2/1/7_Tables_illustrations/Artboard_8.svg" alt="">			
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

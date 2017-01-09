@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch10" id="8"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Smart sensor mobile <sub>Mobile application</sub></h1>
+				<section>
+					<div class="module">
+						<p>The ABB Smart sensor is a pocket-sized sensor that can be retrofitted to existing low-voltage motors without the need for any infrastructure or wiring. The Smart sensor mobile applications communicates directly with the sensor via Bluetooth, and is used to configure new sensors and read/synchronize sensor data.</p>
+						 <p>More info: <a class="strong" href="http://new.abb.com/abb-ability/smart-sensors">http://new.abb.com/abb-ability/smart-sensors</a></p>
+					</div>
+					<div class="colGroup beforeAfter narrow">
+						<figure><img src="../content_v2/2/Examples_SmartSensor_IMG_5101_edit.png" alt=""></figure>
+						<figure><img src="../content_v2/2/Examples_SmartSensor_iPhone6/Motor_details_-_iPhone_6.png" alt=""></figure>
+					</div>
+					<div class="imageList full limited">
+						<div class="colGroup triple">
+							<figure>
+								<figcaption class="strong spaced">iPhone 6 dark</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone6/8.png" alt="" width="375">
+							</figure>
+							<figure>
+								<figcaption class="strong spaced">iPhone 6 light</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone6/Motors_listing_-_iPhone_6.png" alt="" width="375">
+							</figure>
+							<figure>
+								<figcaption class="strong spaced">iPhone 5 light</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone5/Motors_listing_-_iPhone_5.png" alt="" width="320">
+							</figure>
+						</div>
+						<div class="colGroup triple">
+							<figure>
+								<figcaption class="strong spaced">iPhone 6 dark</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone6/1.png" alt="" width="375">
+							</figure>
+							<figure>
+								<figcaption class="strong spaced">iPhone 6 light</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone6/Motor_details_-_iPhone_6.png" alt="" width="375">
+							</figure>
+							<figure>
+								<figcaption class="strong spaced">iPhone 5 light</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone5/Motor_details_-_iPhone_5.png" alt="" width="320">
+							</figure>
+						</div>
+						<div class="colGroup triple">
+							<figure>
+								<figcaption class="strong spaced">iPhone 6</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone6/Motor_listing_(measurement)_-_iPhone_6_copy.png" alt="" width="375">
+							</figure>
+							<figure>
+								<figcaption class="strong spaced">iPhone 5</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone5/Motor_listing_(measurement)_-_iPhone_5_copy.png" alt="" width="320">
+							</figure>
+						</div>
+						<div class="colGroup triple">
+							<figure>
+								<figcaption class="strong spaced">iPhone 6</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone6/Smart_sensors_in_range_-_iPhone_6.png" alt="" width="375">
+							</figure>
+							<figure>
+								<figcaption class="strong spaced">iPhone 5</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone5/Smart_sensors_in_range_-_iPhone_5.png" alt="" width="320">
+							</figure>
+						</div>
+						<div class="colGroup triple">
+							<figure>
+								<figcaption class="strong spaced">iPhone 6</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone6/Motor_details_form_(typing)_-_iPhone_6_copy.png" alt="" width="375">
+							</figure>
+							<figure>
+								<figcaption class="strong spaced">iPhone 5</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone5/Motor_details_form_(typing)_-_iPhone_5_copy.png" alt="" width="320">
+							</figure>
+						</div>
+						<div class="colGroup triple">
+							<figure>
+								<figcaption class="strong spaced">iPhone 6</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone6/Artboard_54.png" alt="" width="375">
+							</figure>
+							<figure>
+								<figcaption class="strong spaced">iPhone 5</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone5/Artboard_54.png" alt="" width="320">
+							</figure>
+						</div>
+						<div class="colGroup triple">
+							<figure>
+								<figcaption class="strong spaced">iPhone 6</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone6/Finalizing_-_iPhone_6.png" alt="" width="375">
+							</figure>
+							<figure>
+								<figcaption class="strong spaced">iPhone 5</figcaption>
+								<img src="../content_v2/2/Examples_SmartSensor_iPhone5/Finalizing_-_iPhone_5.png" alt="" width="320">
+							</figure>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch04" id="6"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Links</h1>
+				<section>
+					<div class="intro">
+						<p>Links to other pages or external references should be clearly visible and unambiguous given the context. When using inline text links in body text, the text color and weight should clearly distinguish from body text. Consider using underlining, depending on platform. In separate link sections or in bread crumbs the context provides more guidance, so less link styling is required.</p>
+					</div>
+					<figure class="spaced3">
+						<img src="../content_v2/2/5_Controls_illustrations/Artboard_75.svg" alt="">	
+						<figcaption class="strong">Inline text links</figcaption>
+					</figure>
+					<figure class="spaced2">
+						<img class="spaced" src="../content_v2/2/0custom/breadcrumbs.png" alt="" width="500">	
+						<figcaption class="strong">Links in page navigation bread crumb</figcaption>
+					</figure>
+					<figure class="spaced2">
+						<img src="../content_v2/2/5_Controls_illustrations/Artboard_76.svg" alt="" width="300">	
+						<figcaption class="strong">Page section area with links</figcaption>
+					</figure>
+				</section>				
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

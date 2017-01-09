@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch07" id="4"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Table specifications</h1>
+				<section>
+					<h2>Row height</h2>
+					<p class="spaced1">There are 3 defined row heights for tables:</p>
+					<div class="colGroup triple wide">
+						<figure>
+							<img class="spaced" src="../content_v2/1/0custom/table_rowheight1.png" alt="" width="170" />
+							<figcaption><strong>Compact:</strong> 2 x font size (ex. 24 px)</figcaption>
+						</figure>
+						<figure>
+							<img class="spaced" src="../content_v2/1/0custom/table_rowheight2.png" alt="" width="170">
+							<figcaption><strong>Default:</strong> 2.5 x font size (ex. 30 px)</figcaption>
+						</figure>
+						<figure>
+							<img class="spaced" src="../content_v2/1/0custom/table_rowheight3.png" alt="" width="170">
+							<figcaption><strong>Large:</strong> 3 x font size (ex. 36 px)
+							</figcaption>
+						</figure>		
+					</div>
+				</section>
+				<section>
+					<h2>Padding</h2>
+					<p class="spaced1">To ensure good readability, always provide sufficient space between your columns and cells. For list columns, the padding is 1x font size (ex. 12 px). For matrix cells, the padding is 0.5 x font size (ex. 6 px).</p>
+					<div class="colGroup split23">
+						<figure>
+							<img src="../content_v2/1/7_Tables_illustrations/Artboard_11.svg" alt="" width="350">
+							<figcaption class="strong">List column padding</figcaption>
+						</figure>
+						<figure>
+							<img src="../content_v2/1/7_Tables_illustrations/Artboard_10.svg" alt="" width="120">
+							<figcaption class="strong">Matrix cell padding</figcaption>
+						</figure>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

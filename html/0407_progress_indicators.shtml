@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch04" id="7"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Progress indicators</h1>
+				<section>
+					<div class="intro spaced1">
+						<p>Progress indicators provide immediate feedback to users that their actions have started and reduces frustration in long operations.</p>
+						<p>Progress indicators should be used for determinate processes while spinners should be used when there is no reasonably accurate indication of how much time or effort  is left.</p>
+						<p>Consider following platform conventions whenever applicable.</p>
+					</div>
+					<figure class="spaced4">
+						<img src="../content_v2/2/5_Controls_illustrations/Artboard_77_edit.svg" alt="">	
+					</figure>
+					<figure class="spaced4">
+						<img src="../content_v2/2/5_Controls_illustrations/Artboard_79_edit.svg" alt="" width="300">	
+					</figure>
+					<figure>
+						<img src="../content_v2/2/5_Controls_illustrations/Artboard_78_edit.svg" alt="" width="300">	
+					</figure>
+				</section>				
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

@@ -6,58 +6,81 @@
 	<body>
 		<header>
 <!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch04" id="1"></nav>
 		</header>
-		<nav class="sub" data-chapter="ch04" id="1"></nav>
 		<main>
 			<div class="inner">				
 				<h1>Buttons</h1>
 				<section>
-					<h2>Styles</h2>
-					<article>
-						<h3>Normal button</h3>
-						<p>This is the default button that is typically used for actions and initiating dialogs that do not require any particular emphasis.</p>
-						<img src="../content/2016-01-15-UI-components/Artboard_16.svg" width="160" alt="">	
-					</article>
-					<article>
-						<h3>Discrete button</h3>
-						<p>Discrete buttons don’t have an outline and are especially useful for icons.</p>
-						<img src="../content/2016-01-15-UI-components/Artboard_16_copy.svg" width="210" alt="">
-					</article>
-					<article>
-						<h3>Primary action button</h3>
-						<p>A primary action button can be used for any call-to-action or step that requires specific emphasis. Typically to commit an action or to proceed to next step.</p>
-						<img src="../content/2016-01-15-UI-components/Artboard_18.svg" width="188" alt="">			
-					</article>
+					<div class="colGroup triple wide support">
+						<article>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_19.svg" alt="" width="136">	
+							<h3>Normal button</h3>
+							<p>This is the default button that is typically used for actions and initiating dialogs that do not require any particular emphasis.</p>
+						</article>
+						<article>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_23.svg" alt="" width="187">
+							<h3>Discrete button</h3>
+							<p>Discrete buttons don’t have an outline and are especially useful for icons.</p>
+						</article>
+						<article>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_25.svg" alt="" width="136">
+							<h3>Primary action button</h3>
+							<p>A primary action button can be used for any call-to-action or step that requires specific emphasis. Typically to commit an action or to proceed to next step.</p>							
+						</article>
+					</div>
 				</section>
 				<section>
-					<h2>Sizes</h2>
-					<div class="module note">
-						<p>In this version of the style guide, only interface components for desktop applications (web and native applications) are specified in pixels. Guidelines for touch interfaces and other hardware formats will follow in later versions of the style guide.</p>
+					<h2>Web and desktop sizes</h2>
+					<div class="colGroup triple wide support">
+						<article>
+							<h3>Button height</h3>
+							<p>The height of a button is defined by the font size. For a normal desktop application the default font size is 12 px and the default button height is 30 px (2,5 x font size).</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_27.svg" alt="" width="203">
+							<p>Just make sure that they align to the baseline and that your buttons are at least twice the font size.</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_28.svg" alt="" width="172">
+						</article>
+						<article>
+							<h3>Width and padding</h3>
+							<p>The length of your button label and the horizontal padding deﬁnes the width of your button.</p>
+							<p>The padding is equal to the font size, but for the minimum button the padding can be decreased to half the font size (ex. font size 12 px, padding 6 px).</p>
+							<img class="spaced" src="../content_v2/2/5_Controls_illustrations/Artboard_29.svg" alt="" width="213">
+							<h4>Text only button</h4>
+							<p>Text is by default centered on buttons.</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_30.svg" alt="" width="143">	
+						</article>
+						<article>
+							<h3>Text and icon</h3>
+							<p>Icon and text is by default left aligned, but can be adapted based on context.</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_31.svg" alt="" width="163">	
+						</article>
+				</section>
+				<section>
+					<h2>Touch buttons</h2>
+					<div class="intro">
+						<p>Touch devices vary from 70'' TV screens to 4'' phones, with a wide variety of resolutions. There is no 'one size fits all' specification for touch button sizes, so be sure to follow guidance for each platform and test early on a representative set of touch devices.  
+						</p>
 					</div>
-					<article>
-						<h3>Height</h3>
-						<p>The height of a button is defined by the font size. For a normal desktop application the default font size is 12 px and the default button height is 36 px (3 x font size).</p>
-						<img src="../content/2016-01-15-UI-components/Artboard_20.svg" alt="" width="185">
-						<p>If the default button is too big for your interface, smaller buttons can be used. Just make sure that they align to the baseline and that your buttons are at least twice the font size.</p>
-						<img src="../content/2016-01-15-UI-components/Artboard_21.svg" alt="" width="134">			
-					</article>
-					<article>
-						<h3>Width and padding</h3>
-						<p>The length of your button label and the padding define the width of your button.</p>
-						<p>The padding is equal to the font size, but for the minimum button the padding can be decreased to half the font size (ex. font size 12 px, padding 6 px).</p>
-						<img src="../content/2016-01-15-UI-components/Artboard_25.svg" alt="" width="156">
-					</article>
-					<article>
-						<h3>Text only button</h3>
-						<p>Text is by default centered on buttons.</p>
-						<img src="../content/2016-01-15-UI-components/Artboard_22.svg" alt="" width="148">
-					</article>
-					<article>
-						<h3>Text and icon</h3>
-						<p>Icon and text is by default left aligned, but can be adapted based on context.</p>
-						<img src="../content/2016-01-15-UI-components/Artboard_23.svg" alt="" width="98">
-						<img src="../content/2016-01-15-UI-components/Artboard_24.svg" alt="" width="133">
-					</article>
+					<div class="colGroup triple wide">
+						<figure class="centered">
+							<img src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_2.svg" alt="" width="150">
+							<figcaption class="strong">Normal button</figcaption>				
+						</figure>
+						<figure class="centered">
+							<img src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_2_copy.svg" alt="" width="220">
+							<figcaption class="strong">Discrete button</figcaption>				
+						</figure>
+						<figure class="centered">
+							<img src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_2_copy_2.svg" alt="" width="150">
+							<figcaption class="strong">Primary action button</figcaption>
+						</figure>
+					</div>
+					<figure>
+						<img class="spaced1 bordered" src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_19.svg" alt="" width="350">
+						<img class="bordered" src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_20.svg" alt="" width="350">
+						<figcaption class="strong">Mobile buttons filling screen width</figcaption>						
+					</figure>
+					</div>
 				</section>
 			</div>
 		</main>

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch07" id="2"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Table headers</h1>
+				<section>
+					<p>Default table headers have no background color, but this requires a certain amount of space above the header. In complex tables, or in cases where space is limited and other content is placed in close proximity to the table header, a background color can help enhance the header and increase legibility.</p>
+					<div class="rowGroup spaced1 support strong">
+						<div>
+							<img src="../content_v2/1/7_Tables_illustrations/Artboard_4.svg" alt="" width="674">
+							<p>Default table header</p>
+						</div>
+						<div>
+							<img src="../content_v2/1/7_Tables_illustrations/Artboard_22.svg" alt="" width="530">
+							<p>Alternative table header</p>
+						</div>
+						<div>
+							<img src="../content_v2/1/7_Tables_illustrations/Artboard_20.svg" alt="" width="674">
+							<p>Alternative table header and compact row height</p>
+						</div>					
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

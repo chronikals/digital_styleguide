@@ -6,11 +6,11 @@
 	<body>
 		<header>
 <!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch08" id="0"></nav>
 		</header>
-		<nav class="sub" data-chapter="ch08" id="0"></nav>
 		<main>
 			<div class="inner">				
-				<h1>Alarms and notifications</h1>
+				<h1>Alarms &amp; notifications</h1>
 				<section>
 					<h2>Terminology</h2>
 					<article class="spaced1">
@@ -63,7 +63,7 @@
 				<section>
 					<h2>Stating a clear message</h2>
 					<div class="intro">
-						<p>A notification should keep users informed and help them fix problems as soon as they are detected.</p>						
+						<p>A notification should keep users informed and help them fix problems as soon as they are detected.</p>
 						<p>A good notification should:</p>
 						<ul>
 							<li>Provide users with sufficient background information and context to understand what the notification is about.</li>
@@ -148,9 +148,10 @@
 							</div>
 						</div>
 						<div class="rowGroup">
-						<img src="../content/Notifications-04.png" alt="" width="450" >
-						<p>Notifications can also have a discrete appearance:</p>	
-						<img src="../content/Notifications-09.png" alt="" width="450" >			
+							<img src="../content/Notifications-04.png" alt="" width="450" >
+							<p>Notifications can also have a discrete appearance:</p>	
+							<img src="../content/Notifications-09.png" alt="" width="450" >
+						</div>
 					</article>
 				</section>
 				<section>

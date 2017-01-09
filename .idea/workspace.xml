@@ -2,27 +2,423 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de1132d-679a-43a2-afea-a6f941fa0fe1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ABBvoice_Lt.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ABBvoice_W_Bd.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ABBvoice_W_Lt.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ABBvoice_W_Md.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ABBvoice_W_Rg.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Abbvoice-Bd.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/Abbvoice-Md.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/abb-newfont.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/abb-newfont.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/abb-newfont.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vs/cux/v14/.suo" afterPath="$PROJECT_DIR$/.vs/cux/v14/.suo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterPath="$PROJECT_DIR$/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/0custom/icons_density.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/0custom/icons_size.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/0custom/on_off_pixel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/0custom/ux1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_complex-43_part1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_complex-43_part2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_complex-43_part3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_complex-43_part4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_grid1b-21_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_large-12_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_medium-11_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_metaphor_Artboard_54_copy_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_metaphor_Artboard_54_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_scaling-13_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/Icons_small-10_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/0custom/table_rowheight1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/0custom/table_rowheight2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/0custom/table_rowheight3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/11._microscada_area_large_station_alarm_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/11203_FSE-31_front_L2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/11618_FENA-21_front_L2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/1__MG_5966_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/ABB1ClaimL_rgb300_10mm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/ABB_bar_without_logo-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/About__StyleGuide_frontpage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Colors_Accent_Ex1-23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Colors_Accent_Ex2-10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Colors_Accent_Ex3-15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Colors_Accent_Ex4-16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Colors_Contrast-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Colors_Contrast-03-04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Colors_Contrast-04-16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Colors_Contrast-04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/DMPC_-_PCS100.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Drives_composer_old.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Encoder-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Examples_SmartSensor_IMG_5094.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Examples_SmartSensor_IMG_5101.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Icons_metaphor_Artboard_54.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Icons_metaphor_Artboard_54_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/InterfaceComponents_testKH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/PAOG_-_AlarmInsight.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/PCS100_RPC_NEW.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/PLC-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Relion_Before_-_parameter_setting.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/cpmPlus_for_PulpnPaper_-_Before.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/dashboard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/pcs200-mockups_22_march_2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/screen_white/ABB_Logo_Screen_RGB_15px_white_144dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/screen_white/ABB_Logo_Screen_RGB_15px_white_72dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/screen_white/ABB_Logo_Screen_RGB_25px_white_144dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/screen_white/ABB_Logo_Screen_RGB_25px_white_72dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/screen_white/ABB_Logo_Screen_RGB_29px_white_144dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/screen_white/ABB_Logo_Screen_RGB_29px_white_72dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/screen_white/ABB_Logo_Screen_RGB_33px_white_144dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/screen_white/ABB_Logo_Screen_RGB_33px_white_72dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/screen_white/ABB_Logo_Screen_RGB_white.eps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/0custom/breadcrumbs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/0custom/color_choose_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/0custom/color_palette_examples_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/0custom/color_palette_examples_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/0custom/color_philosophy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/11._microscada_area_large_station_alarm_02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/11203_FSE-31_front_L2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/11618_FENA-21_front_L2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/1_Introduction_styleguide_frontpage.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/1__MG_5966_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_22_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_bar_without_logo-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/About__StyleGuide_frontpage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/DMPC_-_PCS100.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Drives_composer_old.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Encoder-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Alarm_Insight/Alarm_Insight_1_copy_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Alarm_Insight/Alarm_Insight_1_copy_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Alarm_Insight/Alarm_Insight_2_copy_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Alarm_Insight/Alarm_Insight_4_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Alarm_Insight/Alarm_Insight_4_copy_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Alarm_Insight/Alarm_Insight_4_copy_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Alarm_Insight/Alarm_Insight_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Alarm_Insight/Artboard_17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Alarm_Insight/Artboard_18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_ComposerPRO/Artboard_49.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_ComposerPRO/Artboard_51.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_ComposerPRO/Card.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_ComposerPRO/Margins_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_ComposerPRO/Overview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_ComposerPRO/Styling_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_ComposerPRO/Styling_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Decathlon/Artboard_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Decathlon/Artboard_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Decathlon/Artboard_3_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_MicroSCADA/Artboard_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_MicroSCADA/Artboard_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_MicroSCADA/Artboard_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_MicroSCADA/Artboard_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_MicroSCADA/Artboard_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_MicroSCADA/Artboard_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Artboard_1_copy_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Breadcrumb_links_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_Relion/Breadcrumb_links_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_IMG_5094.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_IMG_5101_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone5/Artboard_54.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone5/Finalizing_-_iPhone_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone5/Motor_details_-_iPhone_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone5/Motor_details_form_(typing)_-_iPhone_5_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone5/Motor_listing_(measurement)_-_iPhone_5_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone5/Motors_listing_-_iPhone_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone5/Smart_sensors_in_range_-_iPhone_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone5/iPhone5_size.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone5/iPhone6_size.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Artboard_54.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Artboard_59.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Artboard_63.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Artboard_64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Finalizing_-_iPhone_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Motor_details_-_iPhone_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Motor_details_form_(typing)_-_iPhone_6_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Motor_listing_(measurement)_-_iPhone_6_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Motors_listing_-_iPhone_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_SmartSensor_iPhone6/Smart_sensors_in_range_-_iPhone_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Examples_cpmPlus_for_Pulp_and_Paper/Artboard_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Icons_metaphor_Artboard_54.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Icons_metaphor_Artboard_54_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/InterfaceComponents_testKH.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/PAOG_-_AlarmInsight.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/PCS100_RPC_NEW.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/PCS100_RPC_NEW_edit.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/PLC-01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Relion_Before_-_parameter_setting.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/Style_guide_front_page.eps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/cpmPlus_for_PulpnPaper_-_Before.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/dashboard.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/pcs200-mockups/page_14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/pcs200-mockups/page_19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/pcs200-mockups/page_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/pcs200-mockups/page_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/pcs200-mockups_22_march_2016.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/screen_red/ABB_Logo_Screen_RGB.eps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/screen_red/ABB_Logo_Screen_RGB_15px_144dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/screen_red/ABB_Logo_Screen_RGB_15px_72dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/screen_red/ABB_Logo_Screen_RGB_25px_144dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/screen_red/ABB_Logo_Screen_RGB_25px_72dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/screen_red/ABB_Logo_Screen_RGB_29px_144dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/screen_red/ABB_Logo_Screen_RGB_29px_72dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/screen_red/ABB_Logo_Screen_RGB_33px_144dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/screen_red/ABB_Logo_Screen_RGB_33px_72dpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/0custom/Design_process.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/0custom/ux2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_10.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_11.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_12.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_13.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_14.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_15.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_15_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_16.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_17.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_18.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_19.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_20.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_21.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_22.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_23.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_24.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_25.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_26.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_27.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_28.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_29.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_29_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_29_copy_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_30.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_30_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_31.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_32.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_36.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_36_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_36_copy_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_36_copy_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_36_copy_4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_40.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_40_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_40_copy_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_42.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_43.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_43_edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_44.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_45.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_47.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_47_part1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_47_part2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_48.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_54.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_55.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_56.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_57.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_59.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_62.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_63.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_64.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_64_edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_65.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/7_Tables_illustrations/Artboard_9.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/1/Worldmix_L1_cmyk_V.eps" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/0custom/test1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_10.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_11.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_12.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_13.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_14.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_15.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_16.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_17.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_18.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_19.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_20.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_2_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_2_copy_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_5.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_6.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_7.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_Mobile_illustrations/Artboard_8.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_19.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_22.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_23.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_24.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_25.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_26.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_27.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_28.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_29.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_30.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_31.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_33.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_34.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_35.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_37.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_37_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_37_copy_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_37_copy_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_41.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_42.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_43.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_44.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_45.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_45_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_47.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_48.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_49.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_50.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_51.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_52.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_53.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_54.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_55.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_56.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_56_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_56_copy_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_56_copy_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_60.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_61.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_62.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_63.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_64.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_65.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_66.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_67.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_69.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_70.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_71.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_72.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_73.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_74.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_75.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_76.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_77.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_77_edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_78.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_78_edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_79.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/5_Controls_illustrations/Artboard_79_edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_15.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_16.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_16_part1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_16_part2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_17.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_19.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_21.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_22.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_23.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_24.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_25_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_25_copy_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_27.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_28.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_29.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_29_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_29_copy_2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_29_copy_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_35.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_35_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_37.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_39.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_40.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_41.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_42.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_43.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_44.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_45.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4_copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4_copy_3.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4_copy_3_edit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4_copy_4.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4_copy_4_part1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4_copy_4_part1_txt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4_copy_4_part2.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4_copy_4_part2_txt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/6_Colors_illustrations/Artboard_4_txt.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_15px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_15px_black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_15px_white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_25px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_25px_black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_25px_white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_29px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_29px_black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_29px_white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_33px.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_33px_black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content_v2/2/ABB_Logo_Screen/ABB_Logo_Screen_RGB_33px_white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0300_colors.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0301_color_philosophy.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0302_color_overview.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0303_color_themes.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0304_using_colors.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0402_selectors.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0403_text_input_fields.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0404_tabs.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0405_menus.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0406_links.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0407_progress_indicators.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0500_icons.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0501_creating_new_icons.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0700_tables.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0701_table_types.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0702_table_headers.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0703_table_feature_examples.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0704_table_specifications.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/0705_responsive_tables.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1000_examples_and_inspiration.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1001_alarm_insight.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1002_decathlon_dashboards.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1003_microscada_pro.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1004_pcs200.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1005_relion_webhmi.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1006_drive_composer_pro.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1007_cpmplus_for_pulp_and_paper.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1008_smart_sensor_mobile.shtml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/1100_about_this_style_guide.shtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index - Copy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index_old.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carousel.css" afterPath="$PROJECT_DIR$/carousel.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/2016-01-15-UI-components/Artboard_70_edit2.svg" afterPath="$PROJECT_DIR$/content/2016-01-15-UI-components/Artboard_70_edit2.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/2016-04-28-The-ABB-bar/Illegal_font.svg" afterPath="$PROJECT_DIR$/content/2016-04-28-The-ABB-bar/Illegal_font.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/2016-04-28-The-ABB-bar/web_bars_edit1.svg" afterPath="$PROJECT_DIR$/content/2016-04-28-The-ABB-bar/web_bars_edit1.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-bootstrap.css" afterPath="$PROJECT_DIR$/css/abb-bootstrap.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-bootstrap.css.map" afterPath="$PROJECT_DIR$/css/abb-bootstrap.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-bootstrap.scss" afterPath="$PROJECT_DIR$/css/abb-bootstrap.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-newfont.css" afterPath="$PROJECT_DIR$/css/abb-newfont.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-newfont.css.map" afterPath="$PROJECT_DIR$/css/abb-newfont.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-newfont.scss" afterPath="$PROJECT_DIR$/css/abb-newfont.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-style.css" afterPath="$PROJECT_DIR$/css/abb-style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-style.css.map" afterPath="$PROJECT_DIR$/css/abb-style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-style.scss" afterPath="$PROJECT_DIR$/css/abb-style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0100_the_visual_concept.shtml" afterPath="$PROJECT_DIR$/html/0100_the_visual_concept.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0101_design_principles.shtml" afterPath="$PROJECT_DIR$/html/0101_design_principles.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0102_the_visual_concept_at_a_glance.shtml" afterPath="$PROJECT_DIR$/html/0102_the_visual_concept_at_a_glance.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0104_tone_of_voice.shtml" afterPath="$PROJECT_DIR$/html/0104_tone_of_voice.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0105_transitions_and_animations.shtml" afterPath="$PROJECT_DIR$/html/0105_transitions_and_animations.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0200_framework.shtml" afterPath="$PROJECT_DIR$/html/0200_framework.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0201_the_abb_bar.shtml" afterPath="$PROJECT_DIR$/html/0201_the_abb_bar.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0202_navigation_principles.shtml" afterPath="$PROJECT_DIR$/html/0202_navigation_principles.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0203_layout_and_grid.shtml" afterPath="$PROJECT_DIR$/html/0203_layout_and_grid.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0204_responsive_design.shtml" afterPath="$PROJECT_DIR$/html/0204_responsive_design.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0400_controls.shtml" afterPath="$PROJECT_DIR$/html/0400_controls.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0401_buttons.shtml" afterPath="$PROJECT_DIR$/html/0401_buttons.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0600_fonts.shtml" afterPath="$PROJECT_DIR$/html/0600_fonts.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0800_alarms_and_notifications.shtml" afterPath="$PROJECT_DIR$/html/0800_alarms_and_notifications.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0900_data_visualization.shtml" afterPath="$PROJECT_DIR$/html/0900_data_visualization.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0901_creating_visualizations.shtml" afterPath="$PROJECT_DIR$/html/0901_creating_visualizations.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0902_visualization_variants.shtml" afterPath="$PROJECT_DIR$/html/0902_visualization_variants.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0_includes/footer.html" afterPath="$PROJECT_DIR$/html/0_includes/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0_includes/top-menu.html" afterPath="$PROJECT_DIR$/html/0_includes/top-menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index - Copy.html" afterPath="$PROJECT_DIR$/index - Copy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nav-bar.html" afterPath="$PROJECT_DIR$/nav-bar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/functions.js" afterPath="$PROJECT_DIR$/scripts/functions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/global.css" afterPath="$PROJECT_DIR$/styles/global.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,71 +439,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.shtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.shtml">
+      <file leaf-file-name="0200_framework.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0200_framework.shtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/0_includes/header.html">
+      <file leaf-file-name="0201_the_abb_bar.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0201_the_abb_bar.shtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/0_includes/head.html">
+      <file leaf-file-name="0202_navigation_principles.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0202_navigation_principles.shtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="top-menu.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/0_includes/top-menu.html">
+      <file leaf-file-name="0203_layout_and_grid.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0203_layout_and_grid.shtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="134">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="left-menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/0_includes/left-menu.html">
+      <file leaf-file-name="0204_responsive_design.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0204_responsive_design.shtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index - Copy.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index - Copy.html">
+      <file leaf-file-name="0300_colors.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0300_colors.shtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="abb-newfont.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/abb-newfont.scss">
+      <file leaf-file-name="0301_color_philosophy.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0301_color_philosophy.shtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0302_color_overview.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0302_color_overview.shtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0303_color_themes.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0303_color_themes.shtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0304_using_colors.shtml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/0304_using_colors.shtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -118,6 +544,24 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>brand</find>
+      <find>nav</find>
+      <find>nav a</find>
+      <find>active</find>
+      <find>font-size: 1.12</find>
+      <find>helve</find>
+      <find>abbvoice</find>
+      <find>strong</find>
+      <find>h1</find>
+      <find>font-size</find>
+      <find>note</find>
+      <find>header</find>
+      <find>navbat</find>
+      <find>23</find>
+      <find>full</find>
+      <find>module</find>
+      <find>a</find>
+      <find>margin-</find>
+      <find>affix</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,9 +571,32 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/abb-style.scss" />
-        <option value="$PROJECT_DIR$/css/abb-bootstrap.scss" />
         <option value="$PROJECT_DIR$/index - Copy.html" />
+        <option value="$PROJECT_DIR$/html/0800_alarms_and_notifications.shtml" />
+        <option value="$PROJECT_DIR$/carousel.css" />
+        <option value="$PROJECT_DIR$/css/abb-newfont.scss" />
+        <option value="$PROJECT_DIR$/nav-bar.html" />
+        <option value="$PROJECT_DIR$/scripts/functions.js" />
+        <option value="$PROJECT_DIR$/html/0_includes/footer.html" />
         <option value="$PROJECT_DIR$/html/0_includes/top-menu.html" />
+        <option value="$PROJECT_DIR$/styles/global.css" />
+        <option value="$PROJECT_DIR$/html/0101_design_principles.shtml" />
+        <option value="$PROJECT_DIR$/css/abb-bootstrap.scss" />
+        <option value="$PROJECT_DIR$/html/0100_the_visual_concept.shtml" />
+        <option value="$PROJECT_DIR$/html/0102_the_visual_concept_at_a_glance.shtml" />
+        <option value="$PROJECT_DIR$/html/0103_abb_user_experience.shtml" />
+        <option value="$PROJECT_DIR$/html/0104_tone_of_voice.shtml" />
+        <option value="$PROJECT_DIR$/html/0105_transitions_and_animations.shtml" />
+        <option value="$PROJECT_DIR$/html/0200_framework.shtml" />
+        <option value="$PROJECT_DIR$/html/0201_the_abb_bar.shtml" />
+        <option value="$PROJECT_DIR$/html/0202_navigation_principles.shtml" />
+        <option value="$PROJECT_DIR$/html/0203_layout_and_grid.shtml" />
+        <option value="$PROJECT_DIR$/html/0204_responsive_design.shtml" />
+        <option value="$PROJECT_DIR$/html/0300_colors.shtml" />
+        <option value="$PROJECT_DIR$/html/0301_color_philosophy.shtml" />
+        <option value="$PROJECT_DIR$/html/0302_color_overview.shtml" />
+        <option value="$PROJECT_DIR$/html/0303_color_themes.shtml" />
+        <option value="$PROJECT_DIR$/html/0304_using_colors.shtml" />
       </list>
     </option>
   </component>
@@ -140,10 +607,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="1672" />
+    <option name="y" value="-158" />
+    <option name="width" value="1936" />
+    <option name="height" value="1216" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -170,6 +637,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="testUxStyle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testUxStyle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testUxStyle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testUxStyle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testUxStyle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,6 +710,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0_includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="z" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testUxStyle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="testUxStyle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -230,23 +747,93 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Data\Git\CommonUX\testUxStyle" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Data\Git\CommonUX\testUxStyle\html" />
       <recent name="C:\Data\Git\CommonUX\testUxStyle\css" />
       <recent name="C:\Data\Git\CommonUX\testUxStyle\fonts" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.index.shtml">
+    <configuration default="false" name="index.shtml" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/testUxStyle/index.shtml">
+      <method />
+    </configuration>
     <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
       <method />
     </configuration>
     <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
       <method />
     </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
     <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.shtml" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.shtml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -258,18 +845,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483963003423</updated>
-      <workItem from="1483963004817" duration="2008000" />
+      <workItem from="1483963004817" duration="13846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2008000" />
+    <option name="totallyTimeSpent" value="13846000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="1672" y="-158" width="1936" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25030157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2186512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -278,7 +865,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39976957" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32797733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -286,6 +873,24 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2186512" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32797733" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -298,102 +903,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/abb-style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/abb-fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/allPages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/frontpage.shtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/abb-bootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-160">
-          <caret line="2308" column="13" lean-forward="false" selection-start-line="2308" selection-start-column="8" selection-end-line="2308" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/abb-newfont.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index - Copy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/0_includes/left-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.shtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/0_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/0_includes/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/Logo-red.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -414,10 +923,381 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/0600_fonts.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/front-content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/abb-style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0900_data_visualization.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0404_tabs.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0800_alarms_and_notifications.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="21" column="91" lean-forward="false" selection-start-line="21" selection-start-column="91" selection-end-line="21" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0400_controls.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/zStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/abb-newfont.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/abb-fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav-bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="46" lean-forward="true" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/z/mainMenu copy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/z/subNav_03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/z/subNav_05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/z/subNav_06.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/z/subNav_07.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/left-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/z/subNav_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/z/subNav_02.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/bodyendlinks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/z/mainMenu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="124" column="18" lean-forward="false" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/0_includes/top-menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/abb-bootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="4874" column="10" lean-forward="false" selection-start-line="4874" selection-start-column="10" selection-end-line="4874" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0100_the_visual_concept.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0101_design_principles.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0102_the_visual_concept_at_a_glance.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0103_abb_user_experience.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0104_tone_of_voice.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0105_transitions_and_animations.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0200_framework.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0201_the_abb_bar.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0202_navigation_principles.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0203_layout_and_grid.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0204_responsive_design.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0300_colors.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0301_color_philosophy.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0302_color_overview.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0303_color_themes.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0304_using_colors.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding />
         </state>
       </provider>

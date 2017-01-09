@@ -6,14 +6,14 @@
 	<body>
 		<header>
 <!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch09" id="2"></nav>
 		</header>
-		<nav class="sub" data-chapter="ch09" id="2"></nav>
 		<main>
 			<div class="inner">				
 				<h1>Visualization variants</h1>
 				<section>
 					<h2>Bar graphs, meters and gauges (Measurements)</h2>
-					<div class="rowGroup module">
+					<div class="rowGroup module support">
 						<div>
 							<img src="../content/DataVisualization_Bargraph_limits/DataVisualization_Bargraph_limits_part1.png" alt="" />
 						</div>
@@ -40,7 +40,7 @@
 					<article>
 						<h3>Bar graph markers and indicators</h3>
 						<p>To indicate target values, warning and alarm limits or other key values related to the bar graph, these markers and indicators can be used individually or combined:</p>
-						<div class="rowGroup custom1">
+						<div class="rowGroup custom1 support">
 							<div>
 								<div>
 									<img src="../content/DataVisualization_BarGraphs-24.png" alt="">
@@ -87,7 +87,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="rowGroup">
+						<div class="rowGroup support">
 							<div>					
 								<p>Make sure markers and indicators are used consistently within each product: </p>
 								<div>
@@ -104,7 +104,7 @@
 				</section>
 				<section>
 					<h2>Trends (Time series)</h2>
-					<div class="rowGroup wide">
+					<div class="rowGroup wide support">
 						<div>
 							<img src="../content/DataVisualization_Trends_Trends.png" alt="">
 						</div>
@@ -117,7 +117,7 @@
 				</section>
 				<section>
 					<h2>Sparklines and mini-trends (Time series)</h2>
-					<div class="rowGroup spaced2 strong">
+					<div class="rowGroup spaced2 strong support">
 						<div>
 							<img src="../content/DataVisualization_Sparklines_table.png" alt="">
 							<p>Sparklines in a table.</p>
@@ -163,7 +163,7 @@
 				</section>
 				<section>
 					<h2>Scatter plots and spider charts (Correlation)</h2>
-					<div class="rowGroup spaced2">
+					<div class="rowGroup spaced2 support">
 						<div>
 							<img src="../content/Data_visualization_Scatter_plot.png" alt="" width="500">
 						</div>
@@ -179,7 +179,7 @@
 				</section>
 				<section>
 					<h2>Bar charts (Comparison and deviations)</h2>
-					<div class="rowGroup wide spaced2">
+					<div class="rowGroup wide spaced2 support">
 						<div>
 							<div>
 								<img src="../content/DataVisualization_Bar_chart_horisontal.png" alt="">
@@ -198,7 +198,7 @@
 				</section>
 				<section>
 					<h2>Histograms and heat maps (Frequency distribution)</h2>
-					<div class="rowGroup wide spaced2">
+					<div class="rowGroup wide spaced2 support">
 						<div>
 							<div>
 								<img src="../content/DataVisualization_Histogram1.png" alt="">

@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch04" id="3"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Text input fields</h1>
+				<section>
+					<div class="colGroup wide support spaced">
+						<article>
+							<h3>Normal text input field</h3>
+							<p>Used when you want to allow the user to give text/number input to the application.</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_47.svg" alt="" width="445">	
+						</article>
+						<article>
+							<h3>Discrete input field</h3>
+							<p>A discrete version of the input field can be used when context and placement of the field provides sufficient cues to the purpose.</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_55.svg" alt="" width="212">		
+						</article>
+					</div>
+					<div class="colGroup wide support spaced">
+						<article>
+							<h3>Combo box</h3>
+							<p>This combination of a drop-down and a single-line text input field allows the user to either type a value directly or select a single value from the list.</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_49.svg" alt="" width="445">	
+						</article>
+						<article>
+							<h3>Tag input field</h3>							
+							<p>Input fields can also be used for tag input / tag selection.</p>							
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_50.svg" alt="" width="445">		
+						</article>
+					</div>
+					<div class="colGroup wide support spaced">
+						<article>
+							<h3>Text area</h3>
+							<p>Multi-line text input field, used when it should be possible to enter larger amounts of text into the application.</p>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_51.svg" alt="" width="445">	
+						</article>
+						<article>
+							<h3>Stepper</h3>
+							<p>Used to allow the user to incrementally change the value within its associated input field.</p>			
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_52.svg" alt="" width="395">		
+						</article>
+					</div>
+					<article class="wide support">
+						<h3>Floating inline labels</h3>
+						<p class="spaced1">Floating inline labels provides good use of screen real estate. When text is entered, the label moves to float up above the text field. This pattern can be used for both combo boxes and text input fields.</p>
+						<div class="colGroup triple">
+							<figure>
+								<img src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_10.svg" alt="">
+							</figure>
+							<figure>
+								<img src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_16.svg" alt="">
+							</figure>
+							<figure>
+								<img src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_17.svg" alt="">
+							</figure>							
+						</div>						
+					</article>
+				</section>
+				<section>
+					<h2>Feedback</h2>
+					<div class="intro">
+						<p>The user experience of text input fields benefit greatly from immediate feedback to the user. Typically, feedback can be instructions, confirmations or error messages displayed in relation to text input fields.</p>
+						<p>The intention is to help the user give correct input and to fix input errors as soon as they are detected.</p>
+					</div>
+					<article class="wide support">
+						<div class="colGroup split23reverse">
+							<div>
+								<h3>Instructions</h3>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_56.svg" alt="">
+							</div>
+							<div>
+								<h3>Confirmations</h3>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_56_copy.svg" alt="">
+							</div>
+						</div>
+					</article>
+					<article class="wide support">
+						<h3>Error messages</h3>					
+						<div class="colGroup split23reverse">
+							<div>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_56_copy_3.svg" alt="">
+							</div>
+							<div>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_56_copy_2.svg" alt="">
+							</div>
+						</div>
+					</article>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

@@ -1,24 +1,9 @@
 /* @override http://localhost/abb/guide/1/styles/global.css */
 
-
-@font-face {
-	font-family: HelveticaNeueLight;
-	src: url('../fonts/HelveticaNeueETPro-45Lt.woff') format('woff');
-}
-
-@font-face {
-	font-family: HelveticaNeueMedium;
-	src:  url('../fonts/HelveticaNeueETPro-65Md.woff') format('woff');
-}
-
-
-
-
-
 .widthIndicator {
 	position: fixed;
 	bottom: 0;
-	font-size: 12px;
+	font-size: 14px;
 	background: #ccc;
 	padding: 0 5px;
 	z-index: 1000;
@@ -33,13 +18,13 @@
 }
 
 html {
-	font-family:'HelveticaNeueLight', sans-serif;
+	font-family:'Abbvoice-Lt', sans-serif;
 	font-size: 1em;
 	line-height: 1.7;
 }
 
 body {
-	margin: 0;
+	margin-top: 60px;
 }
 
 figure {
@@ -70,7 +55,7 @@ h2 {
 }
 
 h3, h4, strong, .strong, b {
-	font-family:'HelveticaNeueMedium', sans-serif;	
+	font-family:'ABBvoice-Md', sans-serif;
 }
 
 h3 {
@@ -97,6 +82,11 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+.nav .active {
+	text-decoration: none;
+	font-weight: 700;
 }
 
 ul, ol, p {
@@ -130,7 +120,7 @@ nav a {
 }
 
 .selected {
-	font-family:'HelveticaNeueMedium', sans-serif;
+	font-family:'ABBvoice-Md', sans-serif;
 }
 
 
@@ -215,7 +205,7 @@ mainMenu
 /* top level */
 
 .mainMenu > ul > li > a {
-	font-family:'HelveticaNeueMedium', sans-serif;
+	font-family:'ABBvoice-Md', sans-serif;
 }
 
 
@@ -395,7 +385,7 @@ nav.sub li a.selected {
 /* top item */
 
 nav.sub > a {
-	font-family:'HelveticaNeueMedium', sans-serif;
+	font-family:'ABBvoice-Md', sans-serif;
 	color: #000;
 }
 
@@ -420,7 +410,7 @@ headingLink, urlBox
 
 .headingLink:after,
 .urlBox {
-	font-family:'HelveticaNeueLight', sans-serif;	
+	font-family:'ABBvoice-Lt', sans-serif;
 	font-size: .813rem;
 }
 
@@ -466,7 +456,7 @@ numberSteps (used in 0101)
 }
 
 .numberSteps span { 
-	font-family: HelveticaNeueMedium;
+	font-family: Abbvoice-Bd;
 	font-size: 3.5rem;
 	line-height: 0;
 	position: absolute;
@@ -577,11 +567,11 @@ section p {
 
 	.full,
 	section h2 {
-		margin-left: -150px;
+		margin-left: 0px;
 	}
 
 	.full {
-		max-width: 1400px;	
+		max-width: 1300px;
 	}
 	
 	.wide {
@@ -619,7 +609,7 @@ article img,
 .note {
 	background: #f0f0f0;
 	padding: 20px;
-	font-size: .813em;
+	font-size: .9em;
 }
 
 .note h3 {

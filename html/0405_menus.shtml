@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch04" id="5"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1 class="full">Menus</h1>
+				<section>
+					<h2>ABB bar menus</h2>
+					<div class="colGroup full">
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_64.svg" alt="">
+							<figcaption class="strong">ABB bar menus can be used to provide access to sub-level navigation or to provide access to secondary views/actions.</figcaption>
+						</figure>
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_65.svg" alt="">	
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Accordions</h2>
+					<div class="module">
+						<p>Accordion menus makes the top-level navigation options continuously available, while highlighting the current area its sub-navigation options. As there is only one sub-level open at any time, this pattern is most appropriate when there is not excessive navigation between sub-sections.</p>
+						<p>Icons can be used on each item, but be aware that it might also lead to visual clutter. This is best used when there is a limited set of page types, with clearly distinguishable icons. </p>
+					</div>
+					<div class="colGroup triple wide">
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_66.svg" alt="">	
+						</figure>
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_74.svg" alt="">	
+						</figure>
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_67.svg" alt="">	
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Tree views</h2>
+					<div class="module">
+						<p>Tree views can provide a lot of functionality, but can often lead to complex interaction and users getting lost. When using tree view navigation, strive to reduce number of levels and ensure the most used views are located in the highest levels. If your tree view menus become large and complex, consider splitting content into separate sections or use other interaction models for some content.</p>
+						<p>There are many graphical and interaction design choices to be made when using tree views, and there is no 'one size fits all'-solution that fits all cases. This chapter shows some alternative tree view menus designs within the ABB UI styling. Tree views require particular attention in each use case, and be sure to test the solution before it is too late to make changes.</p>
+					</div>
+					<div class="colGroup triple wide">
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_69.svg" alt="">	
+						</figure>
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_70.svg" alt="">	
+						</figure>
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_71.svg" alt="">	
+						</figure>
+					</div>
+					<div class="colGroup triple wide">
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_72.svg" alt="">	
+						</figure>
+						<figure>
+							<img src="../content_v2/2/5_Controls_illustrations/Artboard_73.svg" alt="">	
+						</figure>
+					</div>
+				</section>
+				
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>

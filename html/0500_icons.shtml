@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+	<head>
+<!--#include file="0_includes/head.html" -->
+	</head>
+	<body>
+		<header>
+<!--#include file="0_includes/header.html" -->
+			<nav class="sub" data-chapter="ch05" id="0"></nav>
+		</header>
+		<main>
+			<div class="inner">				
+				<h1>Icons</h1>
+				<section>
+					<div class="intro">
+						<p>Icons are symbols that represent an object, a concept, a service or an action. They provide information quickly and may enhance usability if used appropriately. Do not use icons as aesthetic decoration, but rather for communication.</p>
+						<p>All icons used in ABB interfaces should be based on the same design principles to ensure recognition, consistent brand appearance and optimized navigation/orientation.</p>
+					</div>
+					<h3 class="spaced1">A selection of icons from the ABB icon library</h3>
+					<div class="colGroup">
+						<figure>
+							<img src="../content/Icons_library-41.png" alt="" />
+						</figure>
+						<figure>
+							<img src="../content/Icons_library-42.png" alt="" />
+						</figure>
+					</div>
+				</section>
+				<section>
+					<h2>Sizes and formats</h2>
+					<p>The ABB icon library contains icons in 3 sizes, to accommodate
+					different displays and contexts of use:</p>
+					<article>
+						<h3>Small - 16x16 px</h3>
+						<p>For use on, and in relation to, standard buttons and controls.</p>
+						<img src="../content/Icons_small-10_edit.png" alt="" width="350">
+					</article>					
+					<article>
+						<h3>Medium - 20x20 px</h3>
+						<p>For use in the top bar.</p>
+						<img src="../content/Icons_medium-11_edit.png" alt="" width="280">
+					</article>
+					<article class="spaced1">
+						<h3>Large - 24x24 px</h3>
+						<p>Typically used on mobile and high-resolution displays.</p>
+						<img src="../content/Icons_large-12_edit.png" alt="" width="450">					
+					</article>
+					<article>
+						<h3>Scaling icons</h3>
+						<p>Sometimes larger icons are needed, for example for illustrative purposes. A common misconception is that vector icons, like SVG, can be freely scaled to any size and still maintain sharpness. However, to always ensure pixel perfection and legibility on any screen  resolution, icons must be scaled in multiples of the basic icon sizes (@2x, @3x, @4x etc.).</p>
+						<img class="spaced2" src="../content/Icons_scaling-13_edit.png" alt="" width="450">			
+						<p>Large icons are optimized for use on mobile and high-resolution displays, and can be upscaled @2x (ex. iPhone 4, 5 and 6) or @3x (ex. iPhone 6 Plus) to adapt to various platforms and screens. These displays have a higher pixel density and require images with more pixels.</p>
+					</article>
+					<article class="note">
+						<h3>Where can I get them?</h3>
+						<p>The ABB icon library is available in the following formats:</p>
+						<ul>
+							<li>Adobe Illustrator .AI</li>
+							<li>SVG</li>
+						</ul>
+						<p><a href="https://sites.abb.com/sites/GlobalSoftwareStrategyInitiatives/CommonUX/Site%20Pages/Icons.aspx">https://sites.abb.com/sites/GlobalSoftwareStrategyInitiatives/CommonUX/Site%20Pages/Icons.aspx</a></p>
+						<p>In future versions the icons will also be provided in other formats (Vector PDF, WebFont, PNG, etc).</p>
+					</article>
+				</section>
+			</div>
+		</main>
+		<footer>
+<!--#include file="0_includes/footer.html" -->
+		</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+	</body>
+</html>
