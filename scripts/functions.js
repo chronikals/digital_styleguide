@@ -34,10 +34,17 @@ $(document).ready(function() {
 
 
 // clone main menu chapters into sub- and introMenu
-
-    $('header .mainMenu > ul > li').each(function() {
+    /*
+    $("ul.navbar-nav ul > li").each(function() {
         if ($(this).attr('class') === $('nav.sub').attr('data-chapter')) {
             $(this).children().clone().appendTo('nav.sub, .introMenu');
+            $(this).addClass('active');
+        }
+    });
+    */
+
+    $("ul.navbar-nav ul > li").each(function () {
+        if ($(this).attr('class') === $('nav nav-sidebar affix').attr('data-chapter')) {
             $(this).addClass('active');
         }
     });
