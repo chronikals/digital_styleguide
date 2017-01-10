@@ -43,18 +43,18 @@ $(document).ready(function() {
     });
 
     $("ul.navbar-nav > li").removeClass("active");
-/*    $("ul.navbar-nav > li").each(function () {
+    $("ul.navbar-nav > li").each(function () {
         if ($(this).find("a").text() == $("h1").text()) {
             $(this).addClass("active");
         }
     });
-*/
-    $("ul.navbar-nav > li").each(function () {
+
+/*    $("ul.navbar-nav > li").each(function () {
         if ($(this).find("id").text() == $("h1").text()) {
             $(this).addClass("active");
         }
     });
-
+    */
 
 
 // set menu location based on sub nav id
