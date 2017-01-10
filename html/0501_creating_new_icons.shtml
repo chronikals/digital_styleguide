@@ -1,15 +1,19 @@
 <!doctype html>
 <html lang="en">
-	<head>
-<!--#include file="0_includes/head.html" -->
-	</head>
-	<body>
-		<header>
-<!--#include file="0_includes/header.html" -->
-			<nav class="sub" data-chapter="ch05" id="1"></nav>
-		</header>
-		<main>
-			<div class="inner">				
+<head>
+	<!--#include file="0_includes/head.html" -->
+</head>
+<body class="introPage">
+<!--#include file="0_includes/top-menu.html" -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-2 sidebar" id="Colors">
+			<ul class="nav nav-sidebar affix">
+				<li><a href="0500_icons.shtml">Icons</a></li>
+				<li><a class="active" href="0501_creating_new_icons.shtml">Creating new icons</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-10" main>
 				<h1>Creating new icons</h1>
 				<section>
 					<div class="module">
@@ -241,10 +245,11 @@
 					</article>
 				</section>
 			</div>
-		</main>
-		<footer>
-<!--#include file="0_includes/footer.html" -->
-		</footer>
-<!--#include file="0_includes/bodyendlinks.html" -->
+			</div>
+			</div>
+			<footer>
+				<!--#include file="0_includes/footer.html" -->
+			</footer>
+			<!--#include file="0_includes/bodyendlinks.html" -->
 	</body>
 </html>

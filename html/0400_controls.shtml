@@ -1,22 +1,33 @@
 <!doctype html>
 <html lang="en">
-	<head>
-<!--#include file="0_includes/head.html" -->
-	</head>
-	<body>
-		<header>
-<!--#include file="0_includes/header.html" -->
-			<nav class="sub" data-chapter="ch04" id="0"></nav>
-		</header>
-		<main>
-			<div class="inner">				
-				<h1>Controls</h1>
-				<nav class="introMenu ch04"></nav>
+<head>
+	<!--#include file="0_includes/head.html" -->
+</head>
+<body class="introPage">
+<!--#include file="0_includes/top-menu.html" -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-2 sidebar">
+			<ul class="nav nav-sidebar affix">
+				<li><a href="0401_buttons.shtml">Buttons</a></li>
+				<li><a href="0402_selectors.shtml">Selectors</a></li>
+				<li><a href="0403_text_input_fields.shtml">Text input fields</a></li>
+				<li><a href="0404_tabs.shtml">Tabs</a></li>
+				<li><a href="0405_menus.shtml">Menus</a></li>
+				<li><a href="0406_links.shtml">Links</a></li>
+				<li><a href="0407_progress_indicators.shtml">Progress indicators</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-10 main">
+			<div class="inner">
+				<h1 class="page-header">Controls</h1>
 			</div>
-		</main>
-		<footer>
-<!--#include file="0_includes/footer.html" -->
-		</footer>
+		</div>
+	</div>
+</div>
+<footer>
+	<!--#include file="0_includes/footer.html" -->
+</footer>
 <!--#include file="0_includes/bodyendlinks.html" -->
-	</body>
+</body>
 </html>
