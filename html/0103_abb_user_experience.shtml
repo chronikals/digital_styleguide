@@ -17,7 +17,7 @@
 			</ul>
 		</div>
 		<div class="col-lg-10" main>
-				<h1>ABB's user experience</h1>
+				<h1 id="The visual concept">ABB's user experience</h1>
 				<section>
 					<h2>What is user experience?</h2>
 					<p>User experience (UX) can be defined as the overall experience you have when using or interacting with something. That “something” could literally be almost anything, but in this context it refers to the experience the user has in contact with ABB software. This includes issues such as:</p>

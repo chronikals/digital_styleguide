@@ -17,7 +17,7 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1>Tone of voice</h1>
+				<h1 id="The visual concept">Tone of voice</h1>
 				<section>
 					<div class="intro unspaced">
 						<p>Tone of voice isn’t what we say but how we say it. It’s the language we use, the way we construct sentences, the sound of our words and the personality we communicate.</p>

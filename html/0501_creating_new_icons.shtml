@@ -7,14 +7,14 @@
 <!--#include file="0_includes/top-menu.html" -->
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-2 sidebar" id="Colors">
+		<div class="col-sm-2 sidebar">
 			<ul class="nav nav-sidebar affix">
 				<li><a href="0500_icons.shtml">Icons</a></li>
 				<li><a class="active" href="0501_creating_new_icons.shtml">Creating new icons</a></li>
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1>Creating new icons</h1>
+				<h1 id="Icons">Creating new icons</h1>
 				<section>
 					<div class="module">
 						<p>The ABB icon library is under constant development, and new icons will be continuously added. The idea is that the basic icon library should contain the most commonly used icons. In many cases, however, the icon needed for an application is very specific, and must be created from scratch. Keep these four steps in mind when creating new icons:</p>

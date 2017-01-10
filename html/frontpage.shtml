@@ -4,11 +4,13 @@
 <!--#include file="0_includes/head.html" -->
 	</head>
 	<body class="frontPage">
-        <!--#include file="0_includes/top-menu.html" -->
+		<header>
+<!--#include file="0_includes/header.html" -->
+		</header>
 		<main>
 			<div class="inner">
-				<h1></h1>
-				<!--#include file="front-content.html" -->
+				<h1>UI Style Guide <sup>v1.9</sup></h1>
+				<nav class="mainMenu"></nav>
 			</div>
 		</main>
 		<footer>

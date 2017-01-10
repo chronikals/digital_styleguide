@@ -7,7 +7,7 @@
 <!--#include file="0_includes/top-menu.html" -->
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-2 sidebar" id="Colors">
+		<div class="col-sm-2 sidebar">
 			<ul class="nav nav-sidebar affix">
 				<li><a href="0401_buttons.shtml">Buttons</a></li>
 				<li><a href="0402_selectors.shtml">Selectors</a></li>
@@ -19,7 +19,7 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1>Links</h1>
+				<h1 id="Controls">Links</h1>
 				<section>
 					<div class="intro">
 						<p>Links to other pages or external references should be clearly visible and unambiguous given the context. When using inline text links in body text, the text color and weight should clearly distinguish from body text. Consider using underlining, depending on platform. In separate link sections or in bread crumbs the context provides more guidance, so less link styling is required.</p>

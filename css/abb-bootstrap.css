@@ -692,7 +692,7 @@ table th[class*="col-"] {
   padding: 0;
   padding-left: 12px;
   padding-right: 12px;
-  padding-bottom: 1px;
+  padding-bottom: 0;
   font-size: 12px;
   font-weight: 400;
   color: #464646;
@@ -753,7 +753,7 @@ textarea.form-control {
   height: 30px;
   padding-left: 12px;
   padding-right: 12px;
-  padding-bottom: 3px;
+  padding-bottom: 0px;
   font-size: 12px;
   font-weight: 400;
   color: #F5F5F5;
@@ -813,7 +813,7 @@ textarea.form-control-blue {
   height: 30px;
   padding-left: 12px;
   padding-right: 12px;
-  padding-bottom: 3px;
+  padding-bottom: 0px;
   font-size: 12px;
   font-weight: 400;
   color: #D2D2D2;
@@ -1055,7 +1055,7 @@ select[multiple].input-lg {
   right: 0;
   z-index: 2;
   display: block;
-  padding-top: 2px;
+  padding-top: 6px;
   text-align: center;
   pointer-events: none; }
 
@@ -2158,8 +2158,11 @@ fieldset[disabled] .btn-danger.active {
   line-height: 1;
   color: #464646;
   text-align: center;
-  background-color: #FFFFFF !important;
-  border: 1px solid #DCDCDC !important;
+  background: #a5a5a5;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid;
+  border-color: #eeeeee;
+  border-color: rgba(200, 200, 200, 0.3);
   border-radius: 0; }
 
 .input-group-addon-blue {
@@ -2169,8 +2172,11 @@ fieldset[disabled] .btn-danger.active {
   line-height: 1;
   color: #f9f9f9;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.3) !important;
-  border: 1px solid rgba(200, 200, 200, 0.3) !important;
+  background: #a5a5a5;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid;
+  border-color: #eeeeee;
+  border-color: rgba(200, 200, 200, 0.3);
   border-radius: 0; }
 
 .input-group-addon-dark {
@@ -2180,8 +2186,11 @@ fieldset[disabled] .btn-danger.active {
   line-height: 1;
   text-align: center;
   color: #C8C8C8;
-  background-color: rgba(0, 0, 0, 0.5) !important;
-  border: 1px solid rgba(110, 110, 110, 0.5) !important;
+  background: #666666;
+  background: rgba(0, 0, 0, 0.6);
+  border: 1px solid;
+  border-color: #b6b6b6;
+  border-color: rgba(110, 110, 110, 0.5);
   border-radius: 0; }
 
 .nav {

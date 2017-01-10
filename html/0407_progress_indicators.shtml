@@ -7,7 +7,7 @@
 <!--#include file="0_includes/top-menu.html" -->
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-2 sidebar" id="Colors">
+		<div class="col-sm-2 sidebar">
 			<ul class="nav nav-sidebar affix">
 				<li><a href="0401_buttons.shtml">Buttons</a></li>
 				<li><a href="0402_selectors.shtml">Selectors</a></li>
@@ -19,7 +19,7 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1>Progress indicators</h1>
+				<h1 id="Controls">Progress indicators</h1>
 				<section>
 					<div class="intro spaced1">
 						<p>Progress indicators provide immediate feedback to users that their actions have started and reduces frustration in long operations.</p>

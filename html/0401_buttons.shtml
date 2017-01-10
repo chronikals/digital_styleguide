@@ -7,7 +7,7 @@
 <!--#include file="0_includes/top-menu.html" -->
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-2 sidebar" id="Colors">
+		<div class="col-sm-2 sidebar">
 			<ul class="nav nav-sidebar affix">
 				<li><a class="active" href="0401_buttons.shtml">Buttons</a></li>
 				<li><a href="0402_selectors.shtml">Selectors</a></li>
@@ -19,7 +19,7 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1>Buttons</h1>
+				<h1 id="Controls">Buttons</h1>
 				<section>
 					<div class="colGroup triple wide support">
 						<article>

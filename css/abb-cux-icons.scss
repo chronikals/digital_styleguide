@@ -1,0 +1,357 @@
+@font-face {
+  font-family: 'commonux-icons';
+  src:  url('../fonts/abb-icons-october/commonux-icons.eot?o0kewx');
+  src:  url('../fonts/abb-icons-october/commonux-icons.eot?o0kewx#iefix') format('embedded-opentype'),
+    url('../fonts/abb-icons-october/commonux-icons.ttf?o0kewx') format('truetype'),
+    url('../fonts/abb-icons-october/commonux-icons.woff?o0kewx') format('woff'),
+    url('../fonts/abb-icons-october/commonux-icons.svg?o0kewx#commonux-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.cux {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'commonux-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.abb-cux-add-user:before {
+  content: "\e900";
+}
+.abb-cux-alarm-bell:before {
+  content: "\e901";
+}
+.abb-cux-align-down:before {
+  content: "\e902";
+}
+.abb-cux-align-horizontal-center:before {
+  content: "\e903";
+}
+.abb-cux-align-horizontal-left:before {
+  content: "\e904";
+}
+.abb-cux-align-horizontal-right:before {
+  content: "\e905";
+}
+.abb-cux-align-top:before {
+  content: "\e906";
+}
+.abb-cux-analyze-document:before {
+  content: "\e907";
+}
+.abb-cux-audio-off:before {
+  content: "\e908";
+}
+.abb-cux-audio-on:before {
+  content: "\e909";
+}
+.abb-cux-bar-chart:before {
+  content: "\e90a";
+}
+.abb-cux-briefcase:before {
+  content: "\e90b";
+}
+.abb-cux-calendar:before {
+  content: "\e90c";
+}
+.abb-cux-call:before {
+  content: "\e90d";
+}
+.abb-cux-camera:before {
+  content: "\e90e";
+}
+.abb-cux-chat:before {
+  content: "\e90f";
+}
+.abb-cux-check:before {
+  content: "\e910";
+}
+.abb-cux-check-circle-full:before {
+  content: "\e911";
+}
+.abb-cux-check-circle:before {
+  content: "\e912";
+}
+.abb-cux-close:before {
+  content: "\e913";
+}
+.abb-cux-computer:before {
+  content: "\e914";
+}
+.abb-cux-controls:before {
+  content: "\e915";
+}
+.abb-cux-copy:before {
+  content: "\e916";
+}
+.abb-cux-cut:before {
+  content: "\e917";
+}
+.abb-cux-document:before {
+  content: "\e918";
+}
+.abb-cux-down:before {
+  content: "\e919";
+}
+.abb-cux-arrow-down:before {
+  content: "\e91a";
+}
+.abb-cux-download:before {
+  content: "\e91b";
+}
+.abb-cux-edit:before {
+  content: "\e91c";
+}
+.abb-cux-end-call:before {
+  content: "\e91d";
+}
+.abb-cux-envelope:before {
+  content: "\e91e";
+}
+.abb-cux-error-circle-full:before {
+  content: "\e91f";
+}
+.abb-cux-error-circle:before {
+  content: "\e920";
+}
+.abb-cux-event:before {
+  content: "\e921";
+}
+.abb-cux-export:before {
+  content: "\e922";
+}
+.abb-cux-filter:before {
+  content: "\e923";
+}
+.abb-cux-forward:before {
+  content: "\e924";
+}
+.abb-cux-full-screen:before {
+  content: "\e925";
+}
+.abb-cux-location:before {
+  content: "\e926";
+}
+.abb-cux-globe:before {
+  content: "\e927";
+}
+.abb-cux-group:before {
+  content: "\e928";
+}
+.abb-cux-help-circle-full:before {
+  content: "\e929";
+}
+.abb-cux-help-circle:before {
+  content: "\e92a";
+}
+.abb-cux-hide:before {
+  content: "\e92b";
+}
+.abb-cux-history:before {
+  content: "\e92c";
+}
+.abb-cux-import:before {
+  content: "\e92d";
+}
+.abb-cux-information-circle-full:before {
+  content: "\e92e";
+}
+.abb-cux-information-circle:before {
+  content: "\e92f";
+}
+.abb-cux-label:before {
+  content: "\e930";
+}
+.abb-cux-left:before {
+  content: "\e931";
+}
+.abb-cux-arrow-left:before {
+  content: "\e932";
+}
+.abb-cux-link:before {
+  content: "\e933";
+}
+.abb-cux-list:before {
+  content: "\e934";
+}
+.abb-cux-pin:before {
+  content: "\e935";
+}
+.abb-cux-lock-close:before {
+  content: "\e936";
+}
+.abb-cux-lock-open:before {
+  content: "\e937";
+}
+.abb-cux-menu:before {
+  content: "\e938";
+}
+.abb-cux-menu-vertical:before {
+  content: "\e939";
+}
+.abb-cux-minus:before {
+  content: "\e93a";
+}
+.abb-cux-minus-circle:before {
+  content: "\e93b";
+}
+.abb-cux-menu-horizontal:before {
+  content: "\e93c";
+}
+.abb-cux-motor:before {
+  content: "\e93d";
+}
+.abb-cux-new-document:before {
+  content: "\e93e";
+}
+.abb-cux-numbers:before {
+  content: "\e93f";
+}
+.abb-cux-open-window:before {
+  content: "\e940";
+}
+.abb-cux-panel:before {
+  content: "\e941";
+}
+.abb-cux-paste:before {
+  content: "\e942";
+}
+.abb-cux-pause:before {
+  content: "\e943";
+}
+.abb-cux-pie-chart:before {
+  content: "\e944";
+}
+.abb-cux-Pin:before {
+  content: "\e945";
+}
+.abb-cux-plant:before {
+  content: "\e946";
+}
+.abb-cux-play:before {
+  content: "\e947";
+}
+.abb-cux-plus:before {
+  content: "\e948";
+}
+.abb-cux-plus-circle-full:before {
+  content: "\e949";
+}
+.abb-cux-print:before {
+  content: "\e94a";
+}
+.abb-cux-redo:before {
+  content: "\e94b";
+}
+.abb-cux-refresh:before {
+  content: "\e94c";
+}
+.abb-cux-reports:before {
+  content: "\e94d";
+}
+.abb-cux-rewind:before {
+  content: "\e94e";
+}
+.abb-cux-right:before {
+  content: "\e94f";
+}
+.abb-cux-arrow-right:before {
+  content: "\e950";
+}
+.abb-cux-save:before {
+  content: "\e951";
+}
+.abb-cux-save-as:before {
+  content: "\e952";
+}
+.abb-cux-screen:before {
+  content: "\e953";
+}
+.abb-cux-search:before {
+  content: "\e954";
+}
+.abb-cux-settings:before {
+  content: "\e955";
+}
+.abb-cux-share:before {
+  content: "\e956";
+}
+.abb-cux-skip-to-end:before {
+  content: "\e957";
+}
+.abb-cux-skip-to-start:before {
+  content: "\e958";
+}
+.abb-cux-smartphone:before {
+  content: "\e959";
+}
+.abb-cux-star:before {
+  content: "\e95a";
+}
+.abb-cux-stop:before {
+  content: "\e95b";
+}
+.abb-cux-system:before {
+  content: "\e95c";
+}
+.abb-cux-table:before {
+  content: "\e95d";
+}
+.abb-cux-time:before {
+  content: "\e95e";
+}
+.abb-cux-trash:before {
+  content: "\e95f";
+}
+.abb-cux-trend:before {
+  content: "\e960";
+}
+.abb-cux-undo:before {
+  content: "\e961";
+}
+.abb-cux-unpin:before {
+  content: "\e962";
+}
+.abb-cux-up:before {
+  content: "\e963";
+}
+.abb-cux-arrow-up:before {
+  content: "\e964";
+}
+.abb-cux-upload:before {
+  content: "\e965";
+}
+.abb-cux-user:before {
+  content: "\e966";
+}
+.abb-cux-user-circle:before {
+  content: "\e967";
+}
+.abb-cux-align-center:before {
+  content: "\e968";
+}
+.abb-cux-view:before {
+  content: "\e969";
+}
+.abb-cux-warning-triangle:before {
+  content: "\e96a";
+}
+.abb-cux-wrench:before {
+  content: "\e96b";
+}
+.abb-cux-zoom-in:before {
+  content: "\e96c";
+}
+.abb-cux-zoom-out:before {
+  content: "\e96d";
+}
+

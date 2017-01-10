@@ -327,7 +327,7 @@ table th[class*="col-"] {
 	padding: 0;
 	padding-left: 12px;
 	padding-right: 12px;
-	padding-bottom: 1px;
+	padding-bottom: 0;
 	font-size: 12px;
     font-weight: 400;
 	color: $abb-grey-70;
@@ -378,7 +378,7 @@ textarea.form-control {
 	height: 30px;
 	padding-left: 12px;
 	padding-right: 12px;
-	padding-bottom: 3px;
+	padding-bottom: 0px;
 	font-size: 12px;
     font-weight: 400;
 	color: $abb-grey-245;
@@ -430,7 +430,7 @@ textarea.form-control-blue {
 	height: 30px;
 	padding-left: 12px;
 	padding-right: 12px;
-	padding-bottom: 3px;
+	padding-bottom: 0px;
 	font-size: 12px;
     font-weight: 400;
 	color: $abb-grey-210;
@@ -671,7 +671,7 @@ select[multiple].input-lg {
 	right: 0;
 	z-index: 2;
 	display: block;
-	padding-top: 2px;
+	padding-top: 6px;
 	text-align: center;
 	pointer-events: none;
 }
@@ -1787,8 +1787,9 @@ fieldset[disabled] .btn-danger.active {
   line-height: 1;
   color: $abb-grey-70;
   text-align: center;
-  background-color: $abb-grey-255 !important;
-  border: 1px solid $abb-grey-220 !important;
+	@include alpha-attribute('background', rgba($abb-grey-0, 0.35), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-200, 0.3), white);
   border-radius: 0;
 }
 .input-group-addon-blue {
@@ -1798,8 +1799,9 @@ fieldset[disabled] .btn-danger.active {
   line-height: 1;
   color: #f9f9f9;
   text-align: center;
-  background-color: rgba(0,0,0,0.3) !important;
-  border: 1px solid rgba(200,200,200,0.3) !important;
+	@include alpha-attribute('background', rgba($abb-grey-0, 0.35), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-200, 0.3), white);
   border-radius: 0;
 }
 .input-group-addon-dark {
@@ -1809,8 +1811,9 @@ fieldset[disabled] .btn-danger.active {
   line-height: 1;
   text-align: center;
   color: $abb-grey-200;
-  background-color: rgba(0,0,0,0.5) !important;
-  border: 1px solid rgba(110,110,110,0.5) !important;
+	@include alpha-attribute('background', rgba($abb-grey-0, 0.6), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color', rgba($abb-grey-110, 0.5), white);
   border-radius: 0;
 }
 

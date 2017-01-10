@@ -7,7 +7,7 @@
     <!--#include file="0_includes/top-menu.html" -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-2 sidebar" id="The visual concept">
+            <div class="col-sm-2 sidebar">
                 <ul class="nav nav-sidebar affix">
                     <li><a class="active" href="0101_design_principles.shtml">Design principles</a></li>
                     <li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
@@ -17,7 +17,7 @@
                 </ul>
             </div>
             <div class="col-sm-10" main>
-                    <h1>Design principles</h1>
+                    <h1 id="The visual concept">Design principles</h1>
                     <section>
                         <div class="numberSteps colGroup triple wide">
                             <p><span>1</span>Give clarity to complex information through a simple and rational framework</p>

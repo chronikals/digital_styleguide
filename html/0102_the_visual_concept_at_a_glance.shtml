@@ -17,7 +17,7 @@
                 </ul>
             </div>
             <div class="col-lg-10" main>
-                <h1>The visual concept at a glance</h1>
+                <h1 id="The visual concept">The visual concept at a glance</h1>
                 <section>
                     <div class="colGroup split23 full">
                         <div>

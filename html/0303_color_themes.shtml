@@ -7,7 +7,7 @@
 <!--#include file="0_includes/top-menu.html" -->
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-2 sidebar" id="Colors">
+		<div class="col-sm-2 sidebar">
 			<ul class="nav nav-sidebar affix">
 				<li><a href="0301_color_philosophy.shtml">Color philosophy</a></li>
 				<li><a href="0302_color_overview.shtml">Color overview</a></li>
@@ -16,7 +16,7 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1>Color themes</h1>
+				<h1 id="Colors">Color themes</h1>
 				<div class="intro spaced1">
 					<p>Color themes can be used to adjust an individual application to different circumstances - such as shifting daylight throughout the day - or to allow users to adapt the user interface according to personal preferences. In any case, it is important to ensure that the color philosophy is maintained regardless of theme chosen, so that the visual layering of information is preserved.</p>
 				</div>

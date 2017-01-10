@@ -56,10 +56,12 @@ $(document).ready(function() {
     });
 
     $("ul.navbar-nav > li").each(function () {
-        if ($(this).find("id").text() == $("h1").text()) {
+        if ($(this).find("a").text() == $("h1").attr('id')) {
             $(this).addClass("active");
         }
     });
+
+
 
 
 // set menu location based on sub nav id

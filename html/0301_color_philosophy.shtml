@@ -7,7 +7,7 @@
 <!--#include file="0_includes/top-menu.html" -->
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-2 sidebar" id="Colors">
+		<div class="col-sm-2 sidebar">
 			<ul class="nav nav-sidebar affix">
 				<li><a class="active" href="0301_color_philosophy.shtml">Color philosophy</a></li>
 				<li><a href="0302_color_overview.shtml">Color overview</a></li>
@@ -16,7 +16,7 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1 class="full">Color philosophy</h1>
+				<h1 id="Colors">Color philosophy</h1>
 				<section>
 					<div class="colGroup full">
 						<div>

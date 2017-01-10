@@ -7,7 +7,7 @@
 <!--#include file="0_includes/top-menu.html" -->
 <div class="container-fluid">
 	<div class="row">
-		<div class="col-sm-2 sidebar" id="Framework">
+		<div class="col-sm-2 sidebar">
 			<ul class="nav nav-sidebar affix">
 				<li><a href="0201_the_abb_bar.shtml">The ABB bar</a></li>
 				<li><a href="0202_navigation_principles.shtml">Navigation principles</a></li>
@@ -16,7 +16,7 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1>Responsive design</h1>
+				<h1 id="Framework">Responsive design</h1>
 				<section>
 					<div class="intro">
 						<p>Responsive design adapts user interfaces to multiple screen sizes. Content is scaled based on user needs, for example in applications that are rendered on different devices, or device-specific versions of the same application.</p>

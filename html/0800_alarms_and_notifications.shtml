@@ -1,16 +1,19 @@
 <!doctype html>
 <html lang="en">
-	<head>
-<!--#include file="0_includes/head.html" -->
-	</head>
-	<body>
-		<header>
-<!--#include file="0_includes/header.html" -->
-			<nav class="sub" data-chapter="ch08" id="0"></nav>
-		</header>
-		<main>
-			<div class="inner">				
-				<h1>Alarms &amp; notifications</h1>
+<head>
+	<!--#include file="0_includes/head.html" -->
+</head>
+<body class="introPage">
+<!--#include file="0_includes/top-menu.html" -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-sm-2 sidebar" id="Alarms and notifications">
+			<ul class="nav nav-sidebar affix">
+				<li><a class="active" href="0600_fonts.shtml">Alarms and notifications</a></li>
+			</ul>
+		</div>
+		<div class="col-sm-10" main>
+				<h1>Alarms and notifications</h1>
 				<section>
 					<h2>Terminology</h2>
 					<article class="spaced1">
@@ -198,11 +201,12 @@
 						</div>
 					</article>
 				</section>
-			</div>
-		</main>
-		<footer>
-<!--#include file="0_includes/footer.html" -->
-		</footer>
+		</div>
+	</div>
+</div>
+<footer>
+	<!--#include file="0_includes/footer.html" -->
+</footer>
 <!--#include file="0_includes/bodyendlinks.html" -->
-	</body>
+</body>
 </html>

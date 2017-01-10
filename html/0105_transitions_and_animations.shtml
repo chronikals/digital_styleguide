@@ -17,7 +17,7 @@
 			</ul>
 		</div>
 		<div class="col-lg-10" main>
-				<h1>Transitions and animations</h1>
+				<h1 id="The visual concept">Transitions and animations</h1>
 				<section>
 					<div class="intro">
 						<p>Purposeful, well-designed animations bring an interface to life and make the experience feel crafted and polished. Animated transitions can help users understand and later recall how the interface works and how the components fit together. Nothing feels more unnatural than a sudden change.</p>
