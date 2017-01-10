@@ -31,12 +31,6 @@ $(document).ready(function() {
      navigation
      ******************************************************/
 
-// clone main menu from header to frontPage main
-
-    $('header .mainMenu').children().clone().appendTo('.frontPage main .mainMenu');
-
-
-
 
 
 // clone main menu chapters into sub- and introMenu
@@ -49,17 +43,18 @@ $(document).ready(function() {
     });
 
     $("ul.navbar-nav > li").removeClass("active");
-    $("ul.navbar-nav > li").each(function () {
+/*    $("ul.navbar-nav > li").each(function () {
         if ($(this).find("a").text() == $("h1").text()) {
             $(this).addClass("active");
         }
     });
-
+*/
     $("ul.navbar-nav > li").each(function () {
         if ($(this).find("id").text() == $("h1").text()) {
             $(this).addClass("active");
         }
     });
+
 
 
 // set menu location based on sub nav id
