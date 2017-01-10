@@ -41,11 +41,6 @@ $(document).ready(function() {
     });
     */
 
-    $("ul.navbar-nav ul > li").each(function () {
-        if ($(this).attr('class') === $('nav nav-sidebar affix').attr('data-chapter')) {
-            $(this).addClass('active');
-        }
-    });
 
     $("ul.navbar-nav > li").removeClass("active");
     $("ul.navbar-nav > li").each(function () {
@@ -54,12 +49,12 @@ $(document).ready(function() {
         }
     });
 
-/*    $("ul.navbar-nav > li").each(function () {
+    $("ul.navbar-nav > li").each(function () {
         if ($(this).find("a").text() == $("h1").attr('id')) {
             $(this).addClass("active");
         }
     });
-    */
+
 
 
 

@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de1132d-679a-43a2-afea-a6f941fa0fe1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/typeahead search.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-bootstrap.css" afterPath="$PROJECT_DIR$/css/abb-bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-bootstrap.css.map" afterPath="$PROJECT_DIR$/css/abb-bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-bootstrap.scss" afterPath="$PROJECT_DIR$/css/abb-bootstrap.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-fonts.css" afterPath="$PROJECT_DIR$/css/abb-fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-fonts.scss" afterPath="$PROJECT_DIR$/css/abb-fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-mixins.css" afterPath="$PROJECT_DIR$/css/abb-mixins.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-selectors.css" afterPath="$PROJECT_DIR$/css/abb-selectors.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-style.css" afterPath="$PROJECT_DIR$/css/abb-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/abb-style.css.map" afterPath="$PROJECT_DIR$/css/abb-style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0401_buttons.shtml" afterPath="$PROJECT_DIR$/html/0401_buttons.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0900_data_visualization.shtml" afterPath="$PROJECT_DIR$/html/0900_data_visualization.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0_includes/bodyendlinks.html" afterPath="$PROJECT_DIR$/html/0_includes/bodyendlinks.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0_includes/head.html" afterPath="$PROJECT_DIR$/html/0_includes/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0_includes/top-menu.html" afterPath="$PROJECT_DIR$/html/0_includes/top-menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nav-bar.html" afterPath="$PROJECT_DIR$/nav-bar.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/0101_design_principles.shtml.orig" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/functions.js" afterPath="$PROJECT_DIR$/scripts/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/global.css" afterPath="$PROJECT_DIR$/styles/global.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,11 +34,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0401_buttons.shtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="0401_buttons.shtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/0401_buttons.shtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="511">
               <caret line="71" column="161" lean-forward="false" selection-start-line="71" selection-start-column="161" selection-end-line="71" selection-end-column="161" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/functions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="46" />
+              <folding>
+                <element signature="e#3196#3248#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0101_design_principles.shtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/0101_design_principles.shtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -190,7 +195,6 @@
         <option value="$PROJECT_DIR$/html/0_includes/top-menu.html" />
         <option value="$PROJECT_DIR$/html/0_includes/bodyendlinks.html" />
         <option value="$PROJECT_DIR$/scripts/typeahead search.js" />
-        <option value="$PROJECT_DIR$/scripts/functions.js" />
         <option value="$PROJECT_DIR$/html/0_includes/head.html" />
         <option value="$PROJECT_DIR$/styles/global.css" />
         <option value="$PROJECT_DIR$/nav-bar.html" />
@@ -198,6 +202,7 @@
         <option value="$PROJECT_DIR$/css/abb-cux-icons.scss" />
         <option value="$PROJECT_DIR$/css/abb-bootstrap.scss" />
         <option value="$PROJECT_DIR$/html/0401_buttons.shtml" />
+        <option value="$PROJECT_DIR$/scripts/functions.js" />
       </list>
     </option>
   </component>
@@ -279,38 +284,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testUxStyle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testUxStyle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="0_includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testUxStyle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="testUxStyle" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -431,12 +404,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483963003423</updated>
       <workItem from="1483963004817" duration="14297000" />
-      <workItem from="1484037330408" duration="16309000" />
+      <workItem from="1484037330408" duration="17092000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30606000" />
+    <option name="totallyTimeSpent" value="31389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,22 +471,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/0303_color_themes.shtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/0304_using_colors.shtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/0402_selectors.shtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -776,16 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="153" column="20" lean-forward="false" selection-start-line="153" selection-start-column="20" selection-end-line="153" selection-end-column="20" />
-          <folding>
-            <element signature="e#3323#3375#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/azuredeploy.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
@@ -874,14 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/0_includes/top-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/abb-cux-icons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -911,6 +850,40 @@
         <state relative-caret-position="511">
           <caret line="71" column="161" lean-forward="false" selection-start-line="71" selection-start-column="161" selection-end-line="71" selection-end-column="161" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/top-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0101_design_principles.shtml.orig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0101_design_principles.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="69" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="45" column="46" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="46" />
+          <folding>
+            <element signature="e#3196#3248#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
