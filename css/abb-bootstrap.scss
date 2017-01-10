@@ -776,7 +776,7 @@ select[multiple].input-lg {
 	background-image: none;
 	border: 1px solid transparent;
 	white-space: nowrap;
-	padding: 4px 12px;
+	padding: 6px 12px;
 	font-size: 12px;
 	border-radius: 0;
 	height: 30px;
@@ -5164,4 +5164,8 @@ span.caret { margin-left: 10px; }
 
 	src: url('/fonts/glyphicons/glyphicons-halflings-regular.eot');
 	src: url('/fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+.padding-sm {
+	padding: 6px 6px;
 }

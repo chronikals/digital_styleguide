@@ -46,28 +46,28 @@
   -moz-osx-font-smoothing: grayscale; }
 
 /* ABB UX Web icons */
-/* aux class for 12 pt size in icons */
+/* aux class for 12 px size in icons */
 .size-12 {
-  font-size: 12pt; }
+  font-size: 12px; }
 
 .size-16 {
-  font-size: 16pt; }
+  font-size: 16px; }
 
-/* aux class for 18 pt size in icons */
+/* aux class for 18 px size in icons */
 .size-18 {
-  font-size: 18pt; }
+  font-size: 18px; }
 
-/* aux class for 24 pt size in icons */
+/* aux class for 24 px size in icons */
 .size-24 {
-  font-size: 24pt; }
+  font-size: 24px; }
 
-/* aux class for 36 pt size in icons */
+/* aux class for 36 px size in icons */
 .size-36 {
-  font-size: 36pt; }
+  font-size: 36px; }
 
-/* aux class for 48 pt size in icons */
+/* aux class for 48 px size in icons */
 .size-48 {
-  font-size: 48pt; }
+  font-size: 48px; }
 
 .abb-ux-alarm:before {
   content: "\e904"; }
@@ -239,28 +239,28 @@
   -moz-osx-font-smoothing: grayscale; }
 
 /* ABB UX Web icons */
-/* aux class for 12 pt size in icons */
+/* aux class for 12 px size in icons */
 .size-12 {
-  font-size: 12pt; }
+  font-size: 12px; }
 
 .size-16 {
-  font-size: 16pt; }
+  font-size: 16px; }
 
-/* aux class for 18 pt size in icons */
+/* aux class for 18 px size in icons */
 .size-18 {
-  font-size: 18pt; }
+  font-size: 18px; }
 
-/* aux class for 24 pt size in icons */
+/* aux class for 24 px size in icons */
 .size-24 {
-  font-size: 24pt; }
+  font-size: 24px; }
 
-/* aux class for 36 pt size in icons */
+/* aux class for 36 px size in icons */
 .size-36 {
-  font-size: 36pt; }
+  font-size: 36px; }
 
-/* aux class for 48 pt size in icons */
+/* aux class for 48 px size in icons */
 .size-48 {
-  font-size: 48pt; }
+  font-size: 48px; }
 
 .abb-ux-alarm:before {
   content: "\e904"; }
@@ -1155,7 +1155,7 @@ select[multiple].input-lg {
   background-image: none;
   border: 1px solid transparent;
   white-space: nowrap;
-  padding: 4px 12px;
+  padding: 6px 12px;
   font-size: 12px;
   border-radius: 0;
   height: 30px; }
@@ -5347,5 +5347,7 @@ span.caret {
   font-family: 'Glyphicons Halflings';
   src: url("/fonts/glyphicons/glyphicons-halflings-regular.eot");
   src: url("/fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+.padding-sm {
+  padding: 6px 6px; }
 
 /*# sourceMappingURL=abb-bootstrap.css.map */

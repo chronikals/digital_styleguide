@@ -39,6 +39,47 @@
 						</article>
 					</div>
 				</section>
+			<section>
+				<h2>Interactive examples</h2>
+				<article>
+					<div class="module-note">
+
+						<h3>Normal-state</h3>
+						<div class="btn-group btn-margin">
+							<button type="button" class="btn btn-default btn-space"><i class="fa fa-cog"></i> Default</button>
+							<button type="button" class="btn btn-default btn-space padding-sm" style="margin-right:100px;"><span class="cux abb-cux-play size-16"></span></button>
+						</div>
+						<div class="btn-group btn-margin">
+							<button type="button" class="btn btn-primary btn-space">Primary</button>
+						</div>
+						<div class="btn-group btn-margin">
+							<button type="button" class="btn btn-link btn-space">Link default</button>
+						</div>
+						<h3 style="margin-top:20px;">Pressed-state</h3>
+						<div class="btn-group btn-margin">
+							<button type="button" class="btn btn-default btn-space active"><i class="fa fa-cog"></i> Default</button>
+							<button type="button" class="btn btn-default btn-space active padding-sm" style="margin-right:100px;"><span class="cux abb-cux-filter size-16"></span></button>
+						</div>
+						<div class="btn-group btn-margin">
+							<button type="button" class="btn btn-primary btn-space active">Primary</button>
+						</div>
+						<div class="btn-group btn-margin">
+							<button type="button" class="btn btn-link btn-space active">Link default</button>
+						</div>
+						<h3 style="margin-top:20px;">Disabled-state</h3>
+						<div class="btn-group btn-margin">
+							<button type="button" class="btn btn-default btn-space disabled"><i class="fa fa-cog"></i> Default</button>
+							<button type="button" class="btn btn-default btn-space disabled padding-sm" style="margin-right:100px;"><span class="cux abb-cux-user size-16"></span></button>
+						</div>
+						<div class="btn-group btn-margin">
+							<button type="button" class="btn btn-primary btn-space disabled">Primary</button>
+						</div>
+						<div class="btn-group btn-margin">
+							<button type="button" class="btn btn-link btn-space disabled">Link default</button>
+						</div>
+					</div>
+				</article>
+				</section>
 				<section>
 					<h2>Web and desktop sizes</h2>
 					<div class="colGroup triple wide support">

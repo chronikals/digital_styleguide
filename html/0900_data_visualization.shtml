@@ -15,7 +15,7 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1 id="Examples">Data visualization</h1>
+				<h1 id="Data visualization">Data visualization</h1>
 				<section>
 					<div class="intro">
 						<p>Visualizations are used to make data interpretable and easier to use as information. There are numerous types of visualizations available, and the best suitable option will depend on context, type of data and what the user is trying to achieve:
