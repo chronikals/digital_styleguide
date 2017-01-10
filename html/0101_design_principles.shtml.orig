@@ -7,8 +7,13 @@
     <!--#include file="0_includes/top-menu.html" -->
     <div class="container-fluid">
         <div class="row">
+<<<<<<< HEAD
             <div class="col-sm-2 sidebar">
+                <ul class="nav nav-sidebar affix">
+=======
+            <div class="col-sm-2 sidebar" id="The visual concept">
                 <ul class="nav nav-sidebar affix" data-chapter="ch01">
+>>>>>>> 47fc1d58da275cc45eff280b66c7348fc24473da
                     <li><a class="active" href="0101_design_principles.shtml">Design principles</a></li>
                     <li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
                     <li><a href="0103_abb_user_experience.shtml">ABB's user experience</a></li>

@@ -54,8 +54,13 @@ $(document).ready(function() {
         }
     });
 
-/*    $("ul.navbar-nav > li").each(function () {
+<<<<<<< HEAD
+    $("ul.navbar-nav > li").each(function () {
         if ($(this).find("a").text() == $("h1").attr('id')) {
+=======
+/*    $("ul.navbar-nav > li").each(function () {
+        if ($(this).find("id").text() == $("h1").text()) {
+>>>>>>> 47fc1d58da275cc45eff280b66c7348fc24473da
             $(this).addClass("active");
         }
     });
