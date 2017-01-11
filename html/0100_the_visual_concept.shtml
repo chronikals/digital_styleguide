@@ -9,11 +9,7 @@
         <div class="row">
             <div class="col-lg-2 sidebar">
                 <ul class="nav nav-sidebar">
-                    <li><a href="0101_design_principles.shtml">Design principles</a></li>
-                    <li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
-                    <li><a href="0103_abb_user_experience.shtml">ABB's user experience</a></li>
-                    <li><a href="0104_tone_of_voice.shtml">Tone of voice</a></li>
-                    <li><a href="0105_transitions_and_animations.shtml">Transitions and animations</a></li>
+
                 </ul>
             </div>
             <div class="col-sm-10 main">

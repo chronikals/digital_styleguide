@@ -60,8 +60,12 @@
   font-size: 16px; }
 
 /* aux class for 18 px size in icons */
-.size-18 {
-  font-size: 18px; }
+.size-20 {
+  font-size: 20px; }
+
+/* aux class for 18 px size in icons */
+.size-22 {
+  font-size: 22px; }
 
 /* aux class for 24 px size in icons */
 .size-24 {
@@ -253,8 +257,12 @@
   font-size: 16px; }
 
 /* aux class for 18 px size in icons */
-.size-18 {
-  font-size: 18px; }
+.size-20 {
+  font-size: 20px; }
+
+/* aux class for 18 px size in icons */
+.size-22 {
+  font-size: 22px; }
 
 /* aux class for 24 px size in icons */
 .size-24 {
@@ -391,28 +399,35 @@
 .abb-ux-locationpin:before {
   content: "\e92c"; }
 
-/* ABB font Helvetica Neue eText Pro */
+/* ABB font ABBvoice */
 @font-face {
   font-family: 'ABBvoice-Lt';
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/ABBvoice_W_Lt.ttf");
+  src: url("../fonts/ABBvoice_Lt.ttf");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/ABBvoice_W_Lt.ttf") format("truetype"); }
+  src: local("Γÿ║"), url("../fonts/ABBvoice_Lt.ttf") format("truetype"); }
 @font-face {
   font-family: 'ABBvoice-Md';
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/ABBvoice_W_Md.ttf");
+  src: url("../fonts/ABBvoice_Md.ttf");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/ABBvoice_W_Md.ttf") format("truetype"); }
+  src: local("Γÿ║"), url("../fonts/ABBvoice_Md.ttf") format("truetype"); }
+@font-face {
+  font-family: 'ABBvoice-Rg';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/ABBvoice_Rg.ttf");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/ABBvoice_Rg.ttf") format("truetype"); }
 @font-face {
   font-family: 'ABBvoice-Bd';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/ABBvoice_W_Bd.ttf");
+  src: url("../fonts/ABBvoice_Bd.ttf");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/ABBvoice_W_Bd.ttf") format("truetype"); }
+  src: local("Γÿ║"), url("../fonts/ABBvoice_Bd.ttf") format("truetype"); }
 @font-face {
   font-family: 'commonux-icons';
   src: url("../fonts/abb-icons-october/commonux-icons.eot?o0kewx");
@@ -428,6 +443,7 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+  vertical-align: middle;
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -817,8 +833,12 @@
   font-size: 16px; }
 
 /* aux class for 18 px size in icons */
-.size-18 {
-  font-size: 18px; }
+.size-20 {
+  font-size: 20px; }
+
+/* aux class for 18 px size in icons */
+.size-22 {
+  font-size: 22px; }
 
 /* aux class for 24 px size in icons */
 .size-24 {
@@ -1010,8 +1030,12 @@
   font-size: 16px; }
 
 /* aux class for 18 px size in icons */
-.size-18 {
-  font-size: 18px; }
+.size-20 {
+  font-size: 20px; }
+
+/* aux class for 18 px size in icons */
+.size-22 {
+  font-size: 22px; }
 
 /* aux class for 24 px size in icons */
 .size-24 {
@@ -1941,11 +1965,11 @@ fieldset[disabled] a.btn {
 .btn-default, .btn-default:focus,
 .btn-default.focus {
   background: rgba(220, 220, 220, 0.6);
-  border-bottom: 1px solid #A0A0A0;
   border: 1px solid;
   border-color: #d8d8d8;
   border-color: rgba(190, 190, 190, 0.6);
-  color: #464646; }
+  color: #464646;
+  border-bottom: 1px solid #A0A0A0; }
 
 .btn-default:hover, .btn-default:active:hover, .btn-link:hover:active,
 .btn-link.active:hover,
@@ -2829,6 +2853,11 @@ fieldset[disabled] .btn-danger.active {
   color: #141414;
   background-color: #eaeaea; }
 
+.dropdown-menu > li > a:active {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #0096E0; }
+
 /*Color for dropdown active*/
 .dropdown-menu > .active a,
 .dropdown-menu > .active :hover,
@@ -3009,7 +3038,8 @@ fieldset[disabled] .btn-danger.active {
 
 .nav-tabs {
   border-bottom: 1px solid #d2d2d2;
-  color: #646464; }
+  color: #646464;
+  font-size: 12px; }
 
 .nav-tabs > li {
   float: left;
@@ -3022,7 +3052,8 @@ fieldset[disabled] .btn-danger.active {
   line-height: 1.846;
   border-right: 1px solid #a0a0a0;
   border-radius: 0;
-  border-top: 2px solid #dcdcdc; }
+  border-top: 2px solid #dcdcdc;
+  font-family: ABBvoice-Md; }
 
 .nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee transparent; }
@@ -3110,7 +3141,8 @@ fieldset[disabled] .btn-danger.active {
   border-top: 1px solid;
   border-top-color: #e5e5e5;
   border-top-color: rgba(0, 0, 0, 0.1);
-  color: #646464; }
+  color: #646464;
+  font-size: 12px; }
 
 .nav-subtabs > li {
   float: left;
@@ -3132,7 +3164,8 @@ fieldset[disabled] .btn-danger.active {
   background-color: transparent;
   border-top: 4px solid #0AAEFF;
   cursor: default;
-  color: #464646; }
+  color: #464646;
+  font-family: ABBvoice-Md; }
 
 .nav-subtabs.nav-justified {
   width: 100%;
@@ -3295,11 +3328,15 @@ fieldset[disabled] .btn-danger.active {
   overflow-x: visible;
   padding-right: 15px;
   padding-left: 15px;
-  border-top: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   -webkit-overflow-scrolling: touch;
   color: #bdbdbd; }
+
+.navbar-center {
+  text-align: center;
+  float: none;
+  display: inline-block; }
 
 .navbar-collapse.in {
   overflow-y: auto; }
@@ -3381,7 +3418,8 @@ fieldset[disabled] .btn-danger.active {
   float: left;
   padding: 10px 100px;
   font-size: 16px;
-  line-height: 26px;
+  padding-top: 16px;
+  line-height: 1;
   height: 50px;
   font-weight: 300; }
 
@@ -3398,11 +3436,11 @@ fieldset[disabled] .btn-danger.active {
     margin-left: -15px; } }
 /* Alt red logo */
 .navbar-brand-red {
-  background: url("Logo-red.png") no-repeat left center;
+  background: url("abb-logo-red-new.png") no-repeat left center;
   float: left;
   padding: 10px 100px;
   font-size: 16px;
-  line-height: 26px;
+  padding-top: 16px;
   height: 50px;
   font-weight: 300; }
 
@@ -3423,16 +3461,22 @@ fieldset[disabled] .btn-danger.active {
   height: 50px; }
 
 .navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   font-weight: 500; }
+
+.navbar-default .navbar-nav > li {
+  text-transform: uppercase; }
 
 .navbar-right {
   margin-right: 0px; }
 
 .navbar-default {
-  color: #212121;
-  background-color: #E6E6E6; }
+  color: #242424;
+  background-color: #FFFFFF;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.15);
+  font-family: ABBvoice-Md;
+  font-size: 18px; }
 
 .navbar-default .navbar-brand {
   color: #666666; }
@@ -3455,24 +3499,23 @@ fieldset[disabled] .btn-danger.active {
 
 .navbar-default .navbar-nav > li > a {
   color: #6E6E6E;
-  border-top: 4px solid transparent; }
+  min-height: 50px; }
 
 .navbar-default .navbar-nav > .active > a {
-  color: #464646;
-  border-top: 4px solid #d9000f; }
+  border: 1px 1px 1px 0px solid #D2D2D2;
+  background-color: #F0F0F0; }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #464646;
-  border-top: 4px solid;
-  border-top-color: #f3b2b7;
-  border-top-color: rgba(217, 0, 15, 0.3); }
+  background-color: #fdf2f3;
+  background-color: rgba(217, 0, 15, 0.05); }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #212121;
-  background-color: transparent; }
+  color: #464646;
+  background-color: #F0F0F0; }
 
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -6168,8 +6211,12 @@ span.caret {
   font-size: 16px; }
 
 /* aux class for 18 px size in icons */
-.size-18 {
-  font-size: 18px; }
+.size-20 {
+  font-size: 20px; }
+
+/* aux class for 18 px size in icons */
+.size-22 {
+  font-size: 22px; }
 
 /* aux class for 24 px size in icons */
 .size-24 {
@@ -6313,7 +6360,8 @@ span.caret {
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  padding-left: 5px; }
+  padding-left: 5px;
+  font-size: 12px; }
 
 .checkbox label::before {
   content: "";
@@ -6336,8 +6384,8 @@ span.caret {
 .checkbox label::after {
   display: inline-block;
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   left: 0;
   top: 0;
   margin-left: -18px;
@@ -6357,8 +6405,8 @@ span.caret {
 
 .checkbox input[type="checkbox"]:checked + label::after,
 .checkbox input[type="radio"]:checked + label::after {
-  font-family: "FontAwesome";
-  content: "\f00c"; }
+  font-family: commonux-icons;
+  content: "\e910"; }
 
 .checkbox input[type="checkbox"]:indeterminate + label::after,
 .checkbox input[type="radio"]:indeterminate + label::after {
@@ -6450,7 +6498,8 @@ span.caret {
   display: inline-block;
   vertical-align: inherit;
   position: relative;
-  padding-left: 5px; }
+  padding-left: 5px;
+  font-size: 12px; }
 
 .radio label::before {
   content: "";

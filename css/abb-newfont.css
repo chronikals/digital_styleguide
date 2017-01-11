@@ -1,25 +1,32 @@
 @charset "UTF-8";
-/* ABB font Helvetica Neue eText Pro */
+/* ABB font ABBvoice */
 @font-face {
   font-family: 'ABBvoice-Lt';
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/ABBvoice_W_Lt.ttf");
+  src: url("../fonts/ABBvoice_Lt.ttf");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/ABBvoice_W_Lt.ttf") format("truetype"); }
+  src: local("Γÿ║"), url("../fonts/ABBvoice_Lt.ttf") format("truetype"); }
 @font-face {
   font-family: 'ABBvoice-Md';
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/ABBvoice_W_Md.ttf");
+  src: url("../fonts/ABBvoice_Md.ttf");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/ABBvoice_W_Md.ttf") format("truetype"); }
+  src: local("Γÿ║"), url("../fonts/ABBvoice_Md.ttf") format("truetype"); }
+@font-face {
+  font-family: 'ABBvoice-Rg';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/ABBvoice_Rg.ttf");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/ABBvoice_Rg.ttf") format("truetype"); }
 @font-face {
   font-family: 'ABBvoice-Bd';
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/ABBvoice_W_Bd.ttf");
+  src: url("../fonts/ABBvoice_Bd.ttf");
   /* IE9 Compat Modes */
-  src: local("Γÿ║"), url("../fonts/ABBvoice_W_Bd.ttf") format("truetype"); }
+  src: local("Γÿ║"), url("../fonts/ABBvoice_Bd.ttf") format("truetype"); }
 
 /*# sourceMappingURL=abb-newfont.css.map */

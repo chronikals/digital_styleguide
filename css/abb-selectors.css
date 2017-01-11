@@ -54,8 +54,12 @@
   font-size: 16px; }
 
 /* aux class for 18 px size in icons */
-.size-18 {
-  font-size: 18px; }
+.size-20 {
+  font-size: 20px; }
+
+/* aux class for 18 px size in icons */
+.size-22 {
+  font-size: 22px; }
 
 /* aux class for 24 px size in icons */
 .size-24 {
@@ -199,7 +203,8 @@
   display: inline-block;
   vertical-align: middle;
   position: relative;
-  padding-left: 5px; }
+  padding-left: 5px;
+  font-size: 12px; }
 
 .checkbox label::before {
   content: "";
@@ -222,8 +227,8 @@
 .checkbox label::after {
   display: inline-block;
   position: absolute;
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   left: 0;
   top: 0;
   margin-left: -18px;
@@ -243,8 +248,8 @@
 
 .checkbox input[type="checkbox"]:checked + label::after,
 .checkbox input[type="radio"]:checked + label::after {
-  font-family: "FontAwesome";
-  content: "\f00c"; }
+  font-family: commonux-icons;
+  content: "\e910"; }
 
 .checkbox input[type="checkbox"]:indeterminate + label::after,
 .checkbox input[type="radio"]:indeterminate + label::after {
@@ -336,7 +341,8 @@
   display: inline-block;
   vertical-align: inherit;
   position: relative;
-  padding-left: 5px; }
+  padding-left: 5px;
+  font-size: 12px; }
 
 .radio label::before {
   content: "";

@@ -9,11 +9,7 @@
 	<div class="row">
 		<div class="col-lg-2 sidebar">
 			<ul class="nav nav-sidebar affix">
-				<li><a href="0701_table_types.shtml">Table types</a></li>
-				<li><a href="0702_table_headers.shtml">Table headers</a></li>
-				<li><a href="0703_table_feature_examples.shtml">Table feature examples</a></li>
-				<li><a href="0704_table_specifications.shtml">Table specifications</a></li>
-				<li><a href="0705_responsive_tables.shtml">Responsive tables</a></li>
+
 			</ul>
 		</div>
 		<div class="col-sm-10 main">

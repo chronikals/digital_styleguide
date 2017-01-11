@@ -28,7 +28,7 @@ body {
 }
 
 figure {
-	margin: 0;
+	margin-bottom: 40px;
 }
 
 img {
@@ -43,8 +43,18 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
 	font-size: 2.5em;
 	line-height: 1.4;
-	color: #004b7a;
+	color: #262626;
 	margin-bottom: 60px;
+	font-family: ABBvoice-Md, sans-serif;
+}
+
+h1:before {
+	content: "";
+	position: relative;
+	display: block;
+	border-top: 6px solid #ff000f;
+	width: 48px;
+	margin-bottom: 12px;
 }
 
 h2 {
@@ -76,7 +86,7 @@ em, i {
 }
 
 a {
-	color: #0076b7;
+	color: #267bbd;
 	word-wrap: break-word;
 }
 
@@ -130,9 +140,9 @@ nav a:not([href*=shtml]) {
 	color: #ccc !important;
 }
 
-
-
-
+.nav-sidebar {
+	font-size: 14px;
+}
 
 /********************************************
 inputs
@@ -452,7 +462,7 @@ numberSteps (used in 0101)
 ********************************************/
 
 .numberSteps {
-	color: #0076b7;
+	color: #363636;
 }
 
 .numberSteps p {
@@ -487,7 +497,8 @@ body main *.topSpaced1 {
 
 .intro {
 	font-size: 1.125em;
-	color: #0076b7;
+	color: #828282;
+	font-family: 'ABBvoice-Md', sans-serif;
 }
 
 .support { /* use for small text */

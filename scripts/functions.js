@@ -56,9 +56,6 @@ $(document).ready(function() {
     });
 
 
-
-
-
 // set menu location based on sub nav id
 
     var subNavLocation = parseInt($('nav.sub').attr('id'));
@@ -75,10 +72,6 @@ $(document).ready(function() {
         $('.mainMenu .active a').eq(subNavLocation + 1).clone().appendTo('main .inner').addClass('nextPage');
     }
 
-
-
-
-
 // header nav expansion
 
     $('header button').on('click', function () {
@@ -86,10 +79,7 @@ $(document).ready(function() {
     });
 
 
-
-
-
-    /******************************************************
+     /******************************************************
      title, headings and structure
      ******************************************************/
 
@@ -136,10 +126,10 @@ $(document).ready(function() {
      * Created by NODAROM on 10.01.2017.
      */
 
-// multiple datasets
+        // multiple datasets
         // -----------------
 
-    var nbaTeams = new Bloodhound({
+    /*var nbaTeams = new Bloodhound({
             datumTokenizer: Bloodhound.tokenizers.obj.whitespace('team'),
             queryTokenizer: Bloodhound.tokenizers.whitespace,
             prefetch: '../js/nba.json'
@@ -169,7 +159,44 @@ $(document).ready(function() {
             templates: {
                 header: '<h3 class="league-name">NHL Teams</h3>'
             }
-        });
+        });*/
+
+
+    var jsonData = [
+        {
+            "id": 1,
+            "name": "Andrew Pougher"
+        },
+        {
+            "id": 2,
+            "name": "Michele Moore"
+        },
+        {
+            "id": 3,
+            "name": "Michele Boob"
+        },
+        {
+            "id": 4,
+            "name": "Michael Moore"
+        },
+        {
+            "id": 5,
+            "name": "George Michael"
+        }
+    ]
+
+    var productNames = new Array();
+    var productIds = new Object();
+//$.getJSON( '/getAjaxProducts', null,
+    // function ( jsonData )
+    //{
+    $.each( jsonData, function ( index, product )
+    {
+        productNames.push( product.name );
+        productIds[product.name] = product.id;
+    } );
+    $( '#product' ).typeahead( { source:productNames } );
+    // };
 
     /******************************************************
      NOT IN USE

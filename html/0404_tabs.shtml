@@ -9,17 +9,53 @@
 	<div class="row">
 		<div class="col-sm-2 sidebar">
 			<ul class="nav nav-sidebar affix">
-				<li><a href="0401_buttons.shtml">Buttons</a></li>
-				<li><a href="0402_selectors.shtml">Selectors</a></li>
-				<li><a href="0403_text_input_fields.shtml">Text input fields</a></li>
-				<li><a class="active" href="0404_tabs.shtml">Tabs</a></li>
-				<li><a href="0405_menus.shtml">Menus</a></li>
-				<li><a href="0406_links.shtml">Links</a></li>
-				<li><a href="0407_progress_indicators.shtml">Progress indicators</a></li>
+				<li><a>Colors</a></li>
+				<ul>
+					<li><a href="0301_color_philosophy.shtml">Color philosophy</a></li>
+					<li><a href="0302_color_overview.shtml">Color overview</a></li>
+					<li><a href="0303_color_themes.shtml">Color themes</a></li>
+					<li><a href="0304_using_colors.shtml">Using colors</a></li>
+				</ul>
+				<li><a>Icons</a></li>
+				<ul>
+					<li><a href="0500_icons.shtml">Sizes and formats</a></li>
+					<li><a href="0501_creating_new_icons.shtml">Creating new icons</a></li>
+				</ul>
+				<li><a>Text</a></li>
+				<ul>
+					<li><a href="0600_fonts.shtml">Fonts</a></li>
+					<li><a href="0104_tone_of_voice.shtml">Tone of voice</a></li>
+				</ul>
+				<li><a>Controls</a></li>
+				<ul>
+					<li><a href="0401_buttons.shtml">Buttons</a></li>
+					<li><a href="0402_selectors.shtml">Selectors</a></li>
+					<li><a href="0403_text_input_fields.shtml">Text input fields</a></li>
+					<li><a class="active" href="0404_tabs.shtml">Tabs</a></li>
+					<li><a href="0405_menus.shtml">Menus</a></li>
+					<li><a href="0406_links.shtml">Links</a></li>
+					<li><a href="0407_progress_indicators.shtml">Progress indicators</a></li>
+				</ul>
+				<li><a>Tables</a></li>
+				<ul>
+					<li><a href="0701_table_types.shtml">Table types</a></li>
+					<li><a href="0702_table_headers.shtml">Table headers</a></li>
+					<li><a href="0703_table_feature_examples.shtml">Table feature examples</a></li>
+					<li><a href="0704_table_specifications.shtml">Table specifications</a></li>
+					<li><a href="0705_responsive_tables.shtml">Responsive tables</a></li>
+				</ul>
+				<li><a href="0800_alarms_and_notifications.shtml">Alarms and notifications</a></li>
+				<li><a>Data visualization</a></li>
+				<ul>
+					<li><a href="0900_data_visualization.shtml">Data visualization</a></li>
+					<li><a href="0901_creating_visualizations.shtml">Creating visualizations</a></li>
+					<li><a href="0902_visualization_variants.shtml">Visualization variants</a></li>
+				</ul>
+				<li><a href="0105_transitions_and_animations.shtml">Transitions and animations</a></li>
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1 id="Controls">Tabs</h1>
+				<h1 id="Components">Tabs</h1>
 				<section>
 					<div class="intro">
 						<p>Tabs are useful for allowing users to easily switch between different views and to clearly see what the browsing choices are. They can be used as top-level navigation, or to browse categorized data sets within a panel. Care should be taken to not provide too many nested levels of tabs, or to use tabs when there are too many alternatives.</p>
@@ -43,6 +79,57 @@
 							</div>
 						</div>
 					</div>						
+				</section>
+				<section>
+				<h2>Interactive examples</h2>
+					<input id='product'></input>
+				<article>
+					<div class="module-note">
+						<h3 style="margin-top:20px;">Black bar</h3>
+						<div class="navbar navbar-inverse">
+							<div class="container">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse"
+											data-target=".navbar-collapse">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<a class="navbar-brand" style="margin-left:10px;" href="#">Product name</a>
+								</div>
+								<div class="navbar-collapse collapse">
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="#pie"><span class="cux abb-cux-user size-20"></span></a>
+										</li>
+										<li class=""><a href="#singleline"><span class="cux abb-cux-globe size-20"></span></a>
+										</li>
+										<li class=""><a href="#dashboard"><span class="cux abb-cux-pie-chart size-20"></span></a>
+										</li>
+										<li class=""><a href="#bar"><span class="cux abb-cux-reports size-20"></span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="module-note">
+						<h3 style="margin-top:20px;">Primary tab</h3>
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+								<li><a href="#profile" data-toggle="tab">Profile</a></li>
+								<li><a href="#messages" data-toggle="tab">Messages</a></li>
+							</ul>
+					</div>
+					<div class="module-note">
+						<h3 style="margin-top:20px;">Secondary tab</h3>
+						<ul class="nav nav-subtabs">
+							<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+							<li><a href="#profile" data-toggle="tab">Profile</a></li>
+							<li><a href="#messages" data-toggle="tab">Messages</a></li>
+						</ul>
+					</div>
+				</article>
 				</section>
 				<section>
 					<h2>Mobile adaptations</h2>

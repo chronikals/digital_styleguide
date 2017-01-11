@@ -675,6 +675,7 @@ select[multiple].input-lg {
 	text-align: center;
 	pointer-events: none;
 }
+
 .input-lg + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
@@ -799,10 +800,10 @@ fieldset[disabled] a.btn {
 /* Button default*/
 .btn-default {
 	background: rgba($abb-grey-220, 0.6);
-	border-bottom: 1px solid $abb-grey-160;
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-grey-190, 0.6), white);
 	color: $abb-grey-70;
+	border-bottom: 1px solid $abb-grey-160;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -1690,6 +1691,12 @@ fieldset[disabled] .btn-danger.active {
 	background-color: #eaeaea;
 }
 
+.dropdown-menu > li > a:active {
+	text-decoration: none;
+	color: $abb-grey-255;
+	background-color: $abb-blue-12;
+}
+
 /*Color for dropdown active*/
 .dropdown-menu > .active a,
 .dropdown-menu > .active :hover,
@@ -1876,6 +1883,7 @@ fieldset[disabled] .btn-danger.active {
 .nav-tabs {
 	border-bottom: 1px solid #d2d2d2;
 	color: $abb-grey-100;
+	font-size: 12px;
 }
 .nav-tabs > li {
 	float: left;
@@ -1889,6 +1897,7 @@ fieldset[disabled] .btn-danger.active {
 	border-right: 1px solid #a0a0a0;
 	border-radius: 0;
 	border-top: 2px solid #dcdcdc;
+	font-family: ABBvoice-Md;
 }
 .nav-tabs > li > a:hover {
 	border-color: #eeeeee #eeeeee transparent;
@@ -1924,7 +1933,7 @@ fieldset[disabled] .btn-danger.active {
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
-	border: 1px solid transparent;
+	border: 1px solid transparent
 }
 @media (min-width: 768px) {
 	.nav-tabs.nav-justified > li > a {
@@ -1983,6 +1992,7 @@ fieldset[disabled] .btn-danger.active {
 	border-top: 1px solid;
 	@include alpha-attribute('border-top-color',rgba($abb-grey-0, 0.1), white);
 	color: $abb-grey-100;
+	font-size: 12px;
 }
 .nav-subtabs > li {
 	float: left;
@@ -2004,6 +2014,7 @@ fieldset[disabled] .btn-danger.active {
 	border-top: 4px solid $abb-blue-13;
 	cursor: default;
     color: $abb-grey-70;
+	font-family: ABBvoice-Md;
 }
 .nav-subtabs.nav-justified {
 	width: 100%;
@@ -2186,12 +2197,18 @@ fieldset[disabled] .btn-danger.active {
 	overflow-x: visible;
 	padding-right: 15px;
 	padding-left: 15px;
-	border-top: 1px solid transparent;
 	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 	-webkit-overflow-scrolling: touch;
 	color: #bdbdbd;
 }
+
+.navbar-center {
+	text-align: center;
+	float: none;
+	display: inline-block;
+}
+
 .navbar-collapse.in {
 	overflow-y: auto;
 }
@@ -2283,7 +2300,8 @@ fieldset[disabled] .btn-danger.active {
 	float: left;
 	padding: 10px 100px;
 	font-size: 16px;
-	line-height: 26px;
+	padding-top: 16px;
+	line-height: 1;
 	height: 50px;
     font-weight: 300;
 }
@@ -2303,11 +2321,11 @@ fieldset[disabled] .btn-danger.active {
 
 /* Alt red logo */
 .navbar-brand-red {
-	background: url("Logo-red.png") no-repeat left center;
+	background: url("abb-logo-red-new.png") no-repeat left center;
 	float: left;
 	padding: 10px 100px;
 	font-size: 16px;
-	line-height: 26px;
+	padding-top: 16px;
 	height: 50px;
     font-weight: 300;
 }
@@ -2329,6 +2347,7 @@ fieldset[disabled] .btn-danger.active {
 /* Padding top nav texts */
 
 .navbar-nav {
+
 }
 .navbar-nav .hover {
 
@@ -2348,17 +2367,24 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .navbar-nav > li > a {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
     font-weight: 500;
+}
+
+.navbar-default .navbar-nav > li {
+	text-transform: uppercase;
 }
 
 .navbar-right {
 	margin-right:0px;}
 
 .navbar-default {
-	color: #212121;
-	background-color: $abb-grey-230;
+	color: $abb-grey-36;
+	background-color: $abb-grey-255;
+	box-shadow: 0px 2px 1px rgba($abb-grey-0, 0.15);
+	font-family: ABBvoice-Md;
+	font-size: 18px;
 }
 .navbar-default .navbar-brand {
 	color: #666666;
@@ -2381,23 +2407,22 @@ fieldset[disabled] .btn-danger.active {
 }
 .navbar-default .navbar-nav > li > a {
 	color: $abb-grey-110;
-	border-top: 4px solid transparent;
+	min-height: 50px;
 }
 .navbar-default .navbar-nav > .active > a {
-	color: $abb-grey-70;
-	border-top: 4px solid #d9000f;
+	border: 1px 1px 1px 0px solid $abb-grey-210;
+	background-color: $abb-grey-240;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: $abb-grey-70;
-	border-top: 4px solid;
-	@include alpha-attribute('border-top-color',rgba(#d9000f, 0.30), white);
+	@include alpha-attribute('background-color',rgba(#d9000f, 0.05), white);
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: #212121;
-	background-color: transparent;
+	color: $abb-grey-70;
+	background-color: $abb-grey-240;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,

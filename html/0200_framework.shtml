@@ -9,10 +9,7 @@
 	<div class="row">
 		<div class="col-lg-2 sidebar">
 			<ul class="nav nav-sidebar affix">
-				<li><a href="0201_the_abb_bar.shtml">The ABB bar</a></li>
-				<li><a href="0202_navigation_principles.shtml">Navigation principles</a></li>
-				<li><a href="0203_layout_and_grid.shtml">Layout and grid</a></li>
-				<li><a href="0204_responsive_design.shtml">Responsive design</a></li>
+
 			</ul>
 		</div>
 		<div class="col-sm-10 main">
