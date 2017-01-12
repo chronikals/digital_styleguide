@@ -196,7 +196,7 @@ mainMenu
 }
 
 .mainMenu > ul > li {
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .mainMenu a {
@@ -245,6 +245,17 @@ header {
 	min-height: 48px;
 	position: relative;
 	overflow: hidden;
+	top: -80px; /* only affects fixed */
+	z-index: 2;
+}
+
+header .inner {
+	padding: 0 5%;
+}
+
+header .upper {
+	border-bottom: 1px solid #ddd;
+	min-height: 48px;
 }
 
 header .logo {
@@ -261,7 +272,26 @@ header .logo img {
 	margin-right: 18px;
 }
 
+@media (min-width: 901px) {
 
+	.scrolledPastMenu:not(.frontPage) header {
+		position: fixed;
+		top: 0;
+		min-height: 63px;
+		border-bottom: 1px solid #0076b7;
+		box-shadow: 0 0 5px rgba(0,0,0, .2);
+		z-index: 2;
+	}
+
+	.scrolledPastMenu header .upper {
+		border: none;
+	}
+
+	.scrolledPastMenu header .logo {
+		display: none;
+	}
+
+}
 
 /* span (title) */
 
@@ -285,19 +315,40 @@ header span sup {
 
 header button {
 	background: none;
+	line-height: 1;
 	border: none;
-	padding: 0;
-	margin-top: 9px;
+	padding: 15px 0;
 	float: right;
+	position: relative;
 }
 
 header button:after {
 	content: "";
 	background: url('../images/arrow_down.svg') no-repeat center;
-	padding: 8px;
+	padding: 7px;
 	margin-left: 8px;
 	position: relative;
 	top: 2px;
+}
+
+.scrolledPastMenu header button {
+	top: 7px;
+}
+
+@media (max-width: 350px) {
+
+	header span,
+	header button {
+		font-size: .750em;
+	}
+
+	header span {
+		top: -6px;
+	}
+
+	header button {
+		top: 2px;
+	}
 }
 
 
@@ -306,20 +357,28 @@ header button:after {
 
 header .mainMenu {
 	clear: both;
-	max-height: 0;
+	overflow: hidden;
 	transition: all .3s;
-	position: relative;
-	top: 60px;
+}
+
+header.open {
+	margin-bottom: 60px;
+}
+
+header:not(.open) .mainMenu {
+	max-height: 0;
 }
 
 header.open .mainMenu {
-	max-height: 3000px;
-	padding-bottom: 120px;
+	padding-top: 0px;
+	padding-bottom: 40px;
 }
 
-
-
-
+@media (min-width: 901px) {
+	header.open .mainMenu {
+		max-height: 1000px;
+	}
+}
 
 /********************************************
 footer
@@ -373,8 +432,7 @@ nav sub
 ********************************************/
 
 nav.sub {
-	padding: 10px 5% 5px;
-	margin-bottom: 30px;
+
 }
 
 nav.sub ul {
