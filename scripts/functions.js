@@ -29,17 +29,53 @@ $(document).ready(function() {
      navigation
      ******************************************************/
 
+// clone main menu from header to frontPage main
+
+    $('header .mainMenu').children().clone().appendTo('.frontPage main .mainMenu');
+
+
+
 
 
 // clone main menu chapters into sub- and introMenu
-    /*
-    $("ul.navbar-nav ul > li").each(function() {
+
+    $('header .mainMenu > ul > li').each(function() {
         if ($(this).attr('class') === $('nav.sub').attr('data-chapter')) {
             $(this).children().clone().appendTo('nav.sub, .introMenu');
             $(this).addClass('active');
         }
     });
-    */
+
+
+
+
+
+// set menu location based on sub nav id
+
+    var subNavLocation = parseInt($('nav.sub').attr('id'));
+    $('nav.sub a').eq(subNavLocation).addClass('selected');
+    $('.mainMenu .active a').eq(subNavLocation).addClass('selected');
+
+
+
+
+
+// create nextPage link (if no introMenu)
+
+    if (!$('.introMenu').length) {
+        $('.mainMenu .active a').eq(subNavLocation + 1).clone().appendTo('main .inner').addClass('nextPage');
+    }
+
+
+
+
+
+// header nav expansion
+
+    $('header button').on('click', function () {
+        $('header').toggleClass('open');
+    });
+
 
 
     $("ul.navbar-nav > li").removeClass("active");
