@@ -7,8 +7,8 @@
     <!--#include file="0_includes/top-menu.html" -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-2 col-md-2 sidebar">
-                <ul class="nav nav-sidebar affix" data-chapter="ch01">
+            <div class="col-lg-2 sidebar">
+                <ul class="nav nav-sidebar hidden-xs hidden-sm affix" data-chapter="ch01">
                     <li><a class="active" href="0101_design_principles.shtml">Design principles</a></li>
                     <li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
                     <li><a href="0103_abb_user_experience.shtml">ABB's user experience</a></li>
@@ -18,7 +18,7 @@
                     <li><a href="0204_responsive_design.shtml">Responsive design</a></li>
                 </ul>
             </div>
-            <div class="col-lg-10 col-md-10 col-sm-12" main>
+            <div class="col-lg-10 col-sm-12" main>
                     <h1 id="Framework">Design principles</h1>
                     <section>
                         <div class="numberSteps colGroup triple wide">

@@ -8,7 +8,7 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-sm-2 sidebar">
-			<ul class="nav nav-sidebar affix">
+			<ul class="nav nav-sidebar hidden-xs hidden-sm affix">
 				<li><a href="1001_alarm_insight.shtml">Alarm Insight</a></li>
 				<li><a href="1002_decathlon_dashboards.shtml">Decathlon Dashboards</a></li>
 				<li><a href="1003_microscada_pro.shtml">MicroSCADA Pro</a></li>

@@ -2238,6 +2238,7 @@ fieldset[disabled] .btn-danger.active {
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
 	max-height: 340px;
+	background: $abb-grey-250;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
 	.navbar-fixed-top .navbar-collapse,
@@ -2442,7 +2443,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-	border-color: transparent;
+
 }
 
 /* Selected menu top bar light */

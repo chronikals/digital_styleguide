@@ -2585,7 +2585,8 @@ fieldset[disabled] .btn-danger.active {
     padding-right: 0; } }
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
-  max-height: 340px; }
+  max-height: 340px;
+  background: #FAFAFA; }
 
 @media (max-device-width: 480px) and (orientation: landscape) {
   .navbar-fixed-top .navbar-collapse,
@@ -2753,10 +2754,6 @@ fieldset[disabled] .btn-danger.active {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5); }
-
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: transparent; }
 
 /* Selected menu top bar light */
 .navbar-default .navbar-nav > .open > a,

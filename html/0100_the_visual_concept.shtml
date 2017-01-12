@@ -8,7 +8,7 @@
     <div class="container-fluid" style="height: 100%;">
         <div class="row">
             <div class="col-lg-2 sidebar">
-                <ul class="nav nav-sidebar">
+                <ul class="nav nav-sidebar hidden-xs hidden-sm affix">
 
                 </ul>
             </div>
