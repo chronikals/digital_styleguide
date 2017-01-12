@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9de1132d-679a-43a2-afea-a6f941fa0fe1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0101_design_principles.shtml" afterPath="$PROJECT_DIR$/html/0101_design_principles.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0102_the_visual_concept_at_a_glance.shtml" afterPath="$PROJECT_DIR$/html/0102_the_visual_concept_at_a_glance.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0103_abb_user_experience.shtml" afterPath="$PROJECT_DIR$/html/0103_abb_user_experience.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0104_tone_of_voice.shtml" afterPath="$PROJECT_DIR$/html/0104_tone_of_voice.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0105_transitions_and_animations.shtml" afterPath="$PROJECT_DIR$/html/0105_transitions_and_animations.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0201_the_abb_bar.shtml" afterPath="$PROJECT_DIR$/html/0201_the_abb_bar.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0202_navigation_principles.shtml" afterPath="$PROJECT_DIR$/html/0202_navigation_principles.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0203_layout_and_grid.shtml" afterPath="$PROJECT_DIR$/html/0203_layout_and_grid.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0204_responsive_design.shtml" afterPath="$PROJECT_DIR$/html/0204_responsive_design.shtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0_includes/header.html" afterPath="$PROJECT_DIR$/html/0_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/functions.js" afterPath="$PROJECT_DIR$/scripts/functions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/global.css" afterPath="$PROJECT_DIR$/styles/global.css" />
-    </list>
+    <list default="true" id="9de1132d-679a-43a2-afea-a6f941fa0fe1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -34,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1746">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="532">
+              <caret line="159" column="24" lean-forward="true" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
               <folding>
                 <element signature="e#3562#3614#0" expanded="false" />
               </folding>
@@ -56,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0202_navigation_principles.shtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="0202_navigation_principles.shtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/0202_navigation_principles.shtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -172,11 +159,11 @@
       <find>gly</find>
       <find>form-control-bl</find>
       <find>nextpa</find>
-      <find>header</find>
       <find>mainmenu</find>
       <find>hover</find>
       <find>ul</find>
       <find>ul ul</find>
+      <find>header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -506,12 +493,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483963003423</updated>
       <workItem from="1483963004817" duration="14297000" />
-      <workItem from="1484037330408" duration="60821000" />
+      <workItem from="1484037330408" duration="60915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75118000" />
+    <option name="totallyTimeSpent" value="75212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,14 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/0202_navigation_principles.shtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/0204_responsive_design.shtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -995,11 +974,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/functions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1746">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="532">
+          <caret line="159" column="24" lean-forward="true" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
           <folding>
             <element signature="e#3562#3614#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0202_navigation_principles.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
