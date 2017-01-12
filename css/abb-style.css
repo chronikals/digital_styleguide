@@ -1481,14 +1481,15 @@ table th[class*="col-"] {
   padding-right: 12px;
   padding-bottom: 0;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 500;
   color: #464646;
   background: white;
   background: rgba(255, 255, 255, 0.8);
   border: 1px solid;
   border-color: #d5d5d5;
   border-color: rgba(150, 150, 150, 0.4);
-  border-radius: 0; }
+  border-radius: 0;
+  font-family: 'ABBvoice-Md', sans-serif; }
 
 .form-control:focus {
   border: 2px solid #0AAEFF !important;
@@ -1512,8 +1513,8 @@ table th[class*="col-"] {
 .form-control :read-only,
 .form-control[readonly],
 fieldset[readonly] .form-control {
-  background: white;
-  background: rgba(255, 255, 255, 0);
+  background: #f4f4f4;
+  background: rgba(0, 0, 0, 0.04);
   border: 1px solid;
   border-color: #dfdfdf;
   border-color: rgba(150, 150, 150, 0.3);
@@ -1542,7 +1543,7 @@ textarea.form-control {
   padding-right: 12px;
   padding-bottom: 0px;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
   color: #F5F5F5;
   background: #a5a5a5;
   background: rgba(0, 0, 0, 0.35);
@@ -1875,10 +1876,14 @@ select[multiple].input-lg {
   color: #21BE89; }
 
 .has-success .input-group-addon {
-  color: #21BE89; }
+  background: transparent;
+  border: 1px solid #DCDCDC; }
 
 .has-success .form-control-feedback {
   color: #21BE89; }
+
+.has-success .form-control {
+  border: 1px solid #DCDCDC; }
 
 .has-warning .help-block,
 .has-warning .help-block-blue,
@@ -1918,7 +1923,8 @@ select[multiple].input-lg {
   color: #F03040; }
 
 .has-error .input-group-addon {
-  color: #F03040; }
+  background: transparent;
+  border: 1px solid #DCDCDC; }
 
 .has-error .form-control-feedback {
   color: #F03040; }
@@ -1927,10 +1933,13 @@ select[multiple].input-lg {
   border: 1px solid #DCDCDC; }
 
 .has-feedback label ~ .form-control-feedback {
-  top: 23px; }
+  top: 10px; }
 
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0; }
+
+.help-block {
+  font-size: 12px; }
 
 .btn {
   display: inline-block;
@@ -2950,11 +2959,11 @@ fieldset[disabled] .btn-danger.active {
   line-height: 1;
   color: #464646;
   text-align: center;
-  background: #a5a5a5;
-  background: rgba(0, 0, 0, 0.35);
+  background: white;
+  background: rgba(255, 255, 255, 0.8);
   border: 1px solid;
-  border-color: #eeeeee;
-  border-color: rgba(200, 200, 200, 0.3);
+  border-color: #d5d5d5;
+  border-color: rgba(150, 150, 150, 0.4);
   border-radius: 0; }
 
 .input-group-addon-blue {
@@ -6152,6 +6161,10 @@ span.caret {
   src: url("/fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .padding-sm {
   padding: 6px 6px; }
+
+.required:after {
+  content: "*";
+  color: #F03040; }
 
 /* ABB font Neue Helvetica */
 @font-face {

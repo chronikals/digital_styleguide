@@ -129,6 +129,13 @@ nav a {
 	text-decoration: none;
 }
 
+nav a:hover,
+nav a.selected {
+	background: #0076b7;
+	color: #fff;
+	transition-duration: .1s;
+}
+
 .selected {
 	font-family:'ABBvoice-Md', sans-serif;
 }
@@ -241,7 +248,7 @@ header
 header {
 	background: #f0f0f0;
 	border-bottom: 1px solid #ddd;
-	padding: 0 5%;
+	padding: 0 %;
 	min-height: 48px;
 	position: relative;
 	overflow: hidden;
@@ -920,10 +927,17 @@ frontPage
 	margin-left: 0;
 }
 
-.frontPage h1 {
-	margin: 40px 0 100px;
+@media (min-width: 901px) {
+
+	.frontPage h1 {
+		margin: 40px 0 100px;
+	}
 }
 
+.frontPage header button,
+.frontPage header .mainMenu {
+	display: none;
+}
 
 
 
@@ -940,13 +954,46 @@ introMenu (on level 0 / intro pages)
 	margin-bottom: 20px;
 }
 
-.introMenu a:hover {
-	text-decoration: underline;
+.introMenu a:before {
+	content: "\2192";
+	font-family: helvetica, arial, sans-serif;
+	margin-right: 10px;
+	position: relative;
+	top: -1px;
 }
 
 
 
 
+
+/********************************************
+nextPage link
+********************************************/
+
+.nextPage {
+	text-decoration: none;
+	transition: all .3s;
+	position: relative;
+}
+
+.nextPage:hover {
+	background: #0076b7;
+	color: #fff;
+}
+
+.nextPage:after {
+	content: "\2192";
+	font-family: ABBvoice-Lt, arial, sans-serif;
+	margin-left: 10px;
+	position: relative;
+	top: -1px;
+}
+
+.nextPage:before {
+	content: "Next:";
+	font-family: ABBvoice-Lt, sans-serif;
+	margin-right: 10px;
+}
 
 /********************************************
 popup and pageFade

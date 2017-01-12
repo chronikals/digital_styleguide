@@ -54,9 +54,10 @@ $(document).ready(function() {
 
 // create nextPage link (if no introMenu)
 
-    if (!$('.introMenu').length) {
-        $('.mainMenu .active a').eq(subNavLocation + 1).clone().appendTo('main .inner').addClass('nextPage');
-    }
+
+
+    $('.mainMenu .active a').eq(subNavLocation + 1).clone().appendTo('.container-fluid').addClass('nextPage');
+
 
 
 
@@ -167,43 +168,6 @@ $(document).ready(function() {
                 header: '<h3 class="league-name">NHL Teams</h3>'
             }
         });*/
-
-
-    var jsonData = [
-        {
-            "id": 1,
-            "name": "Andrew Pougher"
-        },
-        {
-            "id": 2,
-            "name": "Michele Moore"
-        },
-        {
-            "id": 3,
-            "name": "Michele Boob"
-        },
-        {
-            "id": 4,
-            "name": "Michael Moore"
-        },
-        {
-            "id": 5,
-            "name": "George Michael"
-        }
-    ]
-
-    var productNames = new Array();
-    var productIds = new Object();
-//$.getJSON( '/getAjaxProducts', null,
-    // function ( jsonData )
-    //{
-    $.each( jsonData, function ( index, product )
-    {
-        productNames.push( product.name );
-        productIds[product.name] = product.id;
-    } );
-    $( '#product' ).typeahead( { source:productNames } );
-    // };
 
     /******************************************************
      NOT IN USE

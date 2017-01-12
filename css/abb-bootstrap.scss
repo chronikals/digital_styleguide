@@ -329,12 +329,13 @@ table th[class*="col-"] {
 	padding-right: 12px;
 	padding-bottom: 0;
 	font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
 	color: $abb-grey-70;
 	@include alpha-attribute('background', rgba($abb-grey-255, 0.8), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color', rgba($abb-grey-150, 0.4), white);
 	border-radius: 0;
+	font-family: 'ABBvoice-Md', sans-serif;
 }
 .form-control:focus {
 	border: 2px solid $abb-blue-13 !important;
@@ -354,7 +355,7 @@ table th[class*="col-"] {
 .form-control :read-only,
 .form-control[readonly],
 fieldset[readonly] .form-control{
-	@include alpha-attribute('background', rgba($abb-grey-255, 0), white);
+	@include alpha-attribute('background', rgba($abb-grey-0, 0.04), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color', rgba($abb-grey-150, 0.3), white);
 	color: $abb-grey-70;
@@ -380,7 +381,7 @@ textarea.form-control {
 	padding-right: 12px;
 	padding-bottom: 0px;
 	font-size: 12px;
-    font-weight: 400;
+    font-weight: 300;
 	color: $abb-grey-245;
 	@include alpha-attribute('background', rgba($abb-grey-0, 0.35), white);
 	border: 1px solid;
@@ -706,10 +707,14 @@ select[multiple].input-lg {
 	color: $abb-data-green-3;
 }
 .has-success .input-group-addon {
-    color: $abb-data-green-3;
+	background: transparent;
+	border: 1px solid $abb-grey-220;
 }
 .has-success .form-control-feedback {
 	color: $abb-data-green-3;
+}
+.has-success .form-control {
+	border: 1px solid $abb-grey-220;
 }
 .has-warning .help-block,
 .has-warning .help-block-blue,
@@ -749,7 +754,8 @@ select[multiple].input-lg {
 	color: $abb-critical-red;
 }
 .has-error .input-group-addon {
-    color: $abb-critical-red;
+	background: transparent;
+	border: 1px solid $abb-grey-220;
 }
 .has-error .form-control-feedback {
 	color: $abb-critical-red;
@@ -758,12 +764,15 @@ select[multiple].input-lg {
 	border: 1px solid $abb-grey-220;
 }
 .has-feedback label ~ .form-control-feedback {
-	top: 23px;
+	top: 10px;
 }
 .has-feedback label.sr-only ~ .form-control-feedback {
 	top: 0;
 }
 
+.help-block {
+	font-size: 12px;
+}
 
 // BUTTONS CommonUX
 
@@ -1794,9 +1803,9 @@ fieldset[disabled] .btn-danger.active {
   line-height: 1;
   color: $abb-grey-70;
   text-align: center;
-	@include alpha-attribute('background', rgba($abb-grey-0, 0.35), white);
+	@include alpha-attribute('background', rgba($abb-grey-255, 0.80), white);
 	border: 1px solid;
-	@include alpha-attribute('border-color', rgba($abb-grey-200, 0.3), white);
+	@include alpha-attribute('border-color', rgba($abb-grey-150, 0.4), white);
   border-radius: 0;
 }
 .input-group-addon-blue {
@@ -5194,4 +5203,9 @@ span.caret { margin-left: 10px; }
 
 .padding-sm {
 	padding: 6px 6px;
+}
+
+.required:after {
+	content:"*";
+	color: $abb-critical-red;
 }

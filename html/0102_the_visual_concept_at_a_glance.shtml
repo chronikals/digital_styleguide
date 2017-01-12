@@ -5,7 +5,11 @@
 </head>
 <body class="introPage">
     <!--#include file="0_includes/top-menu.html" -->
-    <div class="container-fluid">
+    <header>
+        <!--#include file="0_includes/header.html" -->
+        <nav class="sub" data-chapter="ch01" id="3"></nav>
+    </header>
+    <div class="container-fluid" id="main">
         <div class="row">
             <div class="col-lg-2 sidebar">
                 <ul class="nav nav-sidebar hidden-xs hidden-sm affix affix">
