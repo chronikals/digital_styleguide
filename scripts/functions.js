@@ -30,35 +30,36 @@ $(document).ready(function() {
      ******************************************************/
 
 // clone main menu from header to frontPage main
-
+    /*
     $('header .mainMenu').children().clone().appendTo('.frontPage main .mainMenu');
-
+     */
 
 // clone main menu chapters into sub- and introMenu
-
+    /*
     $('header .mainMenu > ul > li').each(function() {
         if ($(this).attr('class') === $('nav.sub').attr('data-chapter')) {
             $(this).children().clone().appendTo('nav.sub, .introMenu');
             $(this).addClass('active');
         }
     });
+     */
 
 
 // set menu location based on sub nav id
-
+    /*
     var subNavLocation = parseInt($('nav.sub').attr('id'));
     $('nav.sub a').eq(subNavLocation).addClass('selected');
     $('.mainMenu .active a').eq(subNavLocation).addClass('selected');
-
+     /*
 
 
 // create nextPage link (if no introMenu)
-
-
-
-    $('.mainMenu .active a').eq(subNavLocation + 1).clone().appendTo('.container-fluid').addClass('nextPage');
-
-
+    /*
+    if (!$('.introMenu').length) {
+        $('.mainMenu .active a').eq(subNavLocation + -2).clone().appendTo('body').addClass('previousPage');
+        $('.mainMenu .active a').eq(subNavLocation + 1).clone().appendTo('body').addClass('nextPage');
+    }
+    */
 
 
 // header nav expansion

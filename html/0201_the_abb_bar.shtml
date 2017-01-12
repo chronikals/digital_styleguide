@@ -5,6 +5,10 @@
 </head>
 <body class="introPage">
 <!--#include file="0_includes/top-menu.html" -->
+<header>
+	<!--#include file="0_includes/header.html" -->
+	<nav class="sub" data-chapter="ch01" id="6"></nav>
+</header>
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-sm-2 sidebar">
