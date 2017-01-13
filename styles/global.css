@@ -216,9 +216,12 @@ mainMenu
 	text-decoration: underline;
 }
 
-
-
-
+@media (min-width: 980px) {
+	.navbar-fixed-top .navbar-collapse,
+	.navbar-fixed-bottom .navbar-collapse {
+		padding-left: 35%;
+	}
+}
 
 /* top level */
 
