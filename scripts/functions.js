@@ -66,7 +66,7 @@ $(document).ready(function() {
     });
 
     $('#menupress2').click(function () {
-        $('header').toggleClass('open');
+        $('header2').toggleClass('open');
     });
 
     $('#componentpress2').click(function () {
