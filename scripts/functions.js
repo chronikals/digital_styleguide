@@ -249,3 +249,14 @@ $(document).ready(function() {
 
 
 });// end jquery
+
+$(document).mouseup(function (e)
+{
+    var container = $('header');
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.hasClass('open'))
+    {
+        container.toggleClass('open');
+    }
+});
