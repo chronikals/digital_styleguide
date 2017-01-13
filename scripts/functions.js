@@ -65,6 +65,14 @@ $(document).ready(function() {
         $('menu-components').toggleClass('open');
     });
 
+    $('#menupress2').click(function () {
+        $('header').toggleClass('open');
+    });
+
+    $('#componentpress2').click(function () {
+        $('menu-components').toggleClass('open');
+    });
+
 
 
     $("ul.navbar-nav > li").removeClass("active");

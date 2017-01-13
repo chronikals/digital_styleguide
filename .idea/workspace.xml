@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de1132d-679a-43a2-afea-a6f941fa0fe1" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nav-bar.html.orig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/front-content.html" afterPath="$PROJECT_DIR$/html/front-content.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nav-bar.html" afterPath="$PROJECT_DIR$/nav-bar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/functions.js" afterPath="$PROJECT_DIR$/scripts/functions.js" />
     </list>
@@ -29,8 +27,8 @@
       <file leaf-file-name="functions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/functions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="107" column="7" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+            <state relative-caret-position="347">
+              <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -66,7 +64,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.shtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.shtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.shtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -86,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav-bar.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nav-bar.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nav-bar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="357">
+              <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -223,8 +221,8 @@
         <option value="$PROJECT_DIR$/html/0_includes/head.html" />
         <option value="$PROJECT_DIR$/html/0500_icons.shtml" />
         <option value="$PROJECT_DIR$/index.shtml" />
-        <option value="$PROJECT_DIR$/scripts/functions.js" />
         <option value="$PROJECT_DIR$/html/front-content.html" />
+        <option value="$PROJECT_DIR$/scripts/functions.js" />
         <option value="$PROJECT_DIR$/nav-bar.html" />
       </list>
     </option>
@@ -450,12 +448,12 @@
       <option name="presentableId" value="Default" />
       <updated>1483963003423</updated>
       <workItem from="1483963004817" duration="14297000" />
-      <workItem from="1484037330408" duration="77895000" />
+      <workItem from="1484037330408" duration="77986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92192000" />
+    <option name="totallyTimeSpent" value="92283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -890,14 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/functions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="107" column="7" lean-forward="false" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/frontpage.shtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -914,18 +904,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nav-bar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.shtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/functions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="71" column="23" lean-forward="false" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nav-bar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
           <folding />
         </state>
       </provider>
