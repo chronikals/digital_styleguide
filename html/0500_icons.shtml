@@ -111,6 +111,13 @@
 						<p>In future versions the icons will also be provided in other formats (Vector PDF, WebFont, PNG, etc).</p>
 					</article>
 				</section>
+				<section>
+					<h2>Icon library</h2>
+					<p>Interactive icon library WIP</p>
+					<button class="btn btn-default" data-iconset="glyphicon" data-icon="glyphicon-camera" role="iconpicker"></button>
+					<div data-search="true" data-search-text="Search..." role="iconpicker"></div>
+					<div data-align="left" role="iconpicker"></div>
+				</section>
 		</div>
 	</div>
 </div>

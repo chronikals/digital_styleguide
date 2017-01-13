@@ -86,7 +86,6 @@
 				</section>
 				<section>
 				<h2>Interactive examples</h2>
-					<input id='product'></input>
 				<article>
 					<div class="module-note">
 						<h3 style="margin-top:20px;">Black bar</h3>

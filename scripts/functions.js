@@ -7,9 +7,6 @@ $(document).ready(function() {
     $('#Artboard_4_txt').load('../content_v2/2/6_Colors_illustrations/Artboard_4_txt.svg');
 
 
-
-
-
 // scroll down detection
     /*
     $(window).on('scroll', function () {
@@ -20,9 +17,6 @@ $(document).ready(function() {
             $('body').removeClass('scrolledPastMenu');
         }
     }); */
-
-
-
 
 
     /******************************************************
@@ -95,10 +89,6 @@ $(document).ready(function() {
 
     document.title =  $('h1').text() + ' - ABB Style Guide';
 
-
-
-
-
 // id headings and show their path on click
 
     // add sequential ids to headings
@@ -130,125 +120,12 @@ $(document).ready(function() {
         }
     });
 
-    /**
-     * Created by NODAROM on 10.01.2017.
-     */
-
-        // multiple datasets
-        // -----------------
-
-    /*var nbaTeams = new Bloodhound({
-            datumTokenizer: Bloodhound.tokenizers.obj.whitespace('team'),
-            queryTokenizer: Bloodhound.tokenizers.whitespace,
-            prefetch: '../js/nba.json'
-        });
-
-    var nhlTeams = new Bloodhound({
-        datumTokenizer: Bloodhound.tokenizers.obj.whitespace('team'),
-        queryTokenizer: Bloodhound.tokenizers.whitespace,
-        prefetch: '../js/nhl.json'
-    });
-
-    $('#multiple-datasets .typeahead').typeahead({
-            highlight: true
-        },
-        {
-            name: 'nba-teams',
-            display: 'team',
-            source: nbaTeams,
-            templates: {
-                header: '<h3 class="league-name">NBA Teams</h3>'
-            }
-        },
-        {
-            name: 'nhl-teams',
-            display: 'team',
-            source: nhlTeams,
-            templates: {
-                header: '<h3 class="league-name">NHL Teams</h3>'
-            }
-        });*/
-
-    /******************************************************
-     NOT IN USE
-     ******************************************************/
-
-	/*
-
-	 // load all images from examples preview folder and link to large versions
-
-	 var examplesPreview = "../content/0autoload/examples/preview/";
-	 var examplesLarge = "../content/0autoload/examples/large/";
-
-	 $.ajax({
-	 url : examplesPreview,
-	 success: function (data) {
-	 $(data).find('a').attr('href', function (i, val) {
-	 if( val.match(/\.(svg|png|jpg|jpeg|gif)$/) ) {
-	 $('.examples').append('<a href="' + examplesLarge + val +'"><img src="'+ examplesPreview + val +'"></a>');
-	 }
-	 });
-	 }
-	 });
-
-
-
-
-
-	 // click open preview images in popups
-
-	 // ('click', '*') to target appended element.
-	 $('.previews').on('click', 'a' ,  function (g) {
-	 g.preventDefault();
-	 var largeImagePath = $(this).attr('href');
-	 $('body').append('<div class="popup"><img src="' + largeImagePath + '"></div><div class="pageFade"></div>');
-	 setTimeout(function () {
-	 $('.popup').css('top', $(window).scrollTop());
-	 }, 100);
-	 });
-
-	 // ('click', '*') to target appended element.
-	 $('body').on('click', '.pageFade' , function () {
-	 $('.popup, .pageFade').remove();
-	 });
-
-
-
-
-
-	 // click open preview images in popups, basic version
-
-	 $('.preview, .previews a').on('click', function (g) {
-	 g.preventDefault();
-	 var imagePath = $(this).children('img').attr('src');
-	 $('body').append('<div class="popup"><img src="' + imagePath + '"></div><div class="pageFade"></div>');
-	 setTimeout(function () {
-	 $('.popup').css('top', $(window).scrollTop());
-	 }, 100);
-	 });
-
-
-
-
-
-	 // window width indicator
-
-	 var indicateWidth = $('<span class="widthIndicator"></span>');
-
-	 $('body').prepend(indicateWidth);
-
-	 $(window).on('load resize', function () {
-	 indicateWidth.text($(window).width());
-	 });
-
-
-
-	 */
-
-
-
 
 });// end jquery
+
+
+
+//script for auto-closing hamburger-menu when user clicks outside the container which has the menu
 
 $(document).mouseup(function (e)
 {

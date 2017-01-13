@@ -504,7 +504,6 @@
     <Content Include="img\StyleGuide2.jpg" />
     <None Include="index.shtml" />
     <Content Include="js\bootstrap.js" />
-    <Content Include="js\bootstrap.min.js" />
     <Content Include="nav-bar.html" />
     <Content Include="scripts\functions.js" />
     <Content Include="styles\global.css" />
