@@ -123,8 +123,8 @@ nav general
 nav ul {
 	list-style: none;
 	padding: 0;
-	margin-top: 70px;
-	margin-bottom: 10px;
+	margin-top: 30px;
+	margin-bottom: -20px;
 }
 
 nav a {
@@ -145,7 +145,7 @@ nav a.selected {
 
 /* temp fadeout non-links */
 nav a:not([href*=shtml]) {
-	color: #ccc !important;
+	color: #646464 !important;
 }
 
 .nav-sidebar {
@@ -247,14 +247,18 @@ header
 ********************************************/
 
 header {
-	background: #f0f0f0;
+	background: #f5f5f5;
 	border-bottom: 1px solid #ddd;
-	padding: 0 %;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	right:0px;
 	min-height: 48px;
-	position: relative;
+	position: fixed;
 	overflow: hidden;
 	top: -80px; /* only affects fixed */
 	z-index: 2;
+	box-shadow: 0px 2px 1px rgba(0,0,0, 0.15);
+	padding-top: 120px;
 }
 
 header .inner {
@@ -280,27 +284,6 @@ header .logo img {
 	margin-right: 18px;
 }
 
-@media (min-width: 901px) {
-
-	.scrolledPastMenu:not(.frontPage) header {
-		position: fixed;
-		top: 0;
-		min-height: 63px;
-		border-bottom: 1px solid #0076b7;
-		box-shadow: 0 0 5px rgba(0,0,0, .2);
-		z-index: 2;
-	}
-
-	.scrolledPastMenu header .upper {
-		border: none;
-	}
-
-	.scrolledPastMenu header .logo {
-		display: none;
-	}
-
-}
-
 /* span (title) */
 
 header span {
@@ -316,8 +299,6 @@ header .logo:hover span {
 header span sup {
 	font-size: 11px;
 }
-
-
 
 /* (menu) button */
 
@@ -337,10 +318,6 @@ header button:after {
 	margin-left: 8px;
 	position: relative;
 	top: 2px;
-}
-
-.scrolledPastMenu header button {
-	top: 7px;
 }
 
 @media (max-width: 350px) {
@@ -1108,7 +1085,7 @@ previews
 }
 
 .container-fluid{
-	margin-top: -35px;
+	margin-top: 10px;
 }
 
 
