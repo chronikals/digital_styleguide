@@ -5,7 +5,12 @@
 </head>
 <body class="frontPage">
     <!--#include file="nav-bar.html" -->
+    <main>
+        <div class="inner">
 
+            <!--#include file="html/front-content.html" -->
+        </div>
+    </main>
     <footer>
         <!--#include file="html/0_includes/footer.html" -->
     </footer>
