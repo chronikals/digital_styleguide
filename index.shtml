@@ -3,7 +3,7 @@
 <head>
     <!--#include file="html/0_includes/head.html" -->
 </head>
-<body class="frontPage">
+<body>
     <!--#include file="nav-bar.html" -->
     <main>
         <div class="inner">

@@ -915,7 +915,10 @@ frontPage
 	}
 }
 
-
+.frontPage header button,
+.frontPage header .mainMenu {
+	display: none;
+}
 
 
 
