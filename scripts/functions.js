@@ -102,10 +102,10 @@ $(document).ready(function() {
     });
 
     // wrap headings text in links
-
+    /*
     $('h2').wrapInner('<a class="headingLink heading2" href="#"></a>');
     $('h3').wrapInner('<a class="headingLink heading3" href="#"></a>');
-
+     */
     // show path to heading on click
 
     /*
