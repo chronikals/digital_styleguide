@@ -5,9 +5,6 @@
 </head>
 <body class="frontPage">
     <!--#include file="nav-bar.html" -->
-    <header>
-        <!--#include file="html/0_includes/header.html" -->
-    </header>
 
     <footer>
         <!--#include file="html/0_includes/footer.html" -->
