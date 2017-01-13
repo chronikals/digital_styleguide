@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 
 // scroll down detection
-
+    /*
     $(window).on('scroll', function () {
         if($(window).scrollTop() > 300) {
             $('body').addClass('scrolledPastMenu');
@@ -19,7 +19,7 @@ $(document).ready(function() {
         else {
             $('body').removeClass('scrolledPastMenu');
         }
-    });
+    }); */
 
 
 
