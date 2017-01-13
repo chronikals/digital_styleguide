@@ -3,11 +3,11 @@
 <head>
 	<!--#include file="0_includes/head.html" -->
 </head>
-<body class="introPage">
+<body>
 <!--#include file="0_includes/top-menu.html" -->
 <header>
 	<!--#include file="0_includes/header.html" -->
-	<nav class="sub" data-chapter="ch01" id="9"></nav>
+	<nav class="sub" data-chapter="ch02" id="1"></nav>
 </header>
 <div class="container-fluid">
 	<div class="row">

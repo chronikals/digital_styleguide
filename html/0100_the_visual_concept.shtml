@@ -3,8 +3,12 @@
 	<head>
 <!--#include file="0_includes/head.html" -->
 	</head>
-<body class="introPage">
+    <body class="introPage">
     <!--#include file="0_includes/top-menu.html" -->
+    <header>
+        <!--#include file="0_includes/header.html" -->
+        <nav class="sub" data-chapter="ch01" id=""></nav>
+    </header>
     <div class="container-fluid" style="height: 100%;">
         <div class="row">
             <div class="col-lg-2 sidebar">
