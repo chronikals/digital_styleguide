@@ -7,7 +7,7 @@
     <!--#include file="nav-bar.html" -->
     <main>
         <div class="inner">
-            <h1></h1>
+            
             <!--#include file="html/front-content.html" -->
         </div>
     </main>
