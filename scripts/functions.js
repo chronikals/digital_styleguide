@@ -108,6 +108,7 @@ $(document).ready(function() {
 
     // show path to heading on click
 
+    /*
     $('.headingLink').on('click', function (j) {
         j.preventDefault();
         var headingID = $(this).parent().attr('id');
@@ -119,7 +120,7 @@ $(document).ready(function() {
             $(this).after('<span class="urlBox">' + this.href + headingID + '</span>');
         }
     });
-
+    */
 
 });// end jquery
 
