@@ -24,7 +24,8 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1 id="Examples">AlarmInsight <sub>Web application</sub></h1>
+				<h1 id="Examples">AlarmInsight </h1>
+				<h2>Web application</h2>
 				<section>
 					<div class="module">
 						<p>AlarmInsight provides a toolset for managing and optimizing the alarm configuration. It utilizes ABB’s control system expertize to transform raw alarm and event data to meaningful information supporting reporting and analysis needs and improving decision making processes.</p>

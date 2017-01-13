@@ -24,7 +24,8 @@
 			</ul>
 		</div>
 		<div class="col-sm-10" main>
-				<h1 id="Examples">Drive Composer PRO <sub>Windows 10 application</sub></h1>
+				<h1 id="Examples">Drive Composer PRO</h1>
+				<h2>Windows 10 application</h2>
 				<section>
 					<div class="module">
 						<p>The Composer Pro is a start-up and maintenance tool for ABB’s common architecture drives. The tool is used to view and set drive parameters, and to monitor and tune process performance.</p>
