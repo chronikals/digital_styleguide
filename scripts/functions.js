@@ -61,18 +61,9 @@ $(document).ready(function() {
         $('header').toggleClass('open');
     });
 
-    $('#componentpress').click(function () {
-        $('menu-components').toggleClass('open');
-    });
-
     $('#menupress2').click(function () {
         $('header').toggleClass('open');
     });
-
-    $('#componentpress2').click(function () {
-        $('menu-components').toggleClass('open');
-    });
-
 
 
     $("ul.navbar-nav > li").removeClass("active");
@@ -138,11 +129,18 @@ $(document).ready(function() {
 
 $(document).mouseup(function (e)
 {
-    var container = $('header');
+    var container = $('header .mainMenu');
+    var hamburger = $('header');
 
-    if (!container.is(e.target) // if the target of the click isn't the container...
-        && container.hasClass('open'))
+    if (!hamburger.is(e.target) // if the target of the click isn't the container...
+        && hamburger.hasClass('open'))
     {
-        container.toggleClass('open');
+        hamburger.toggleClass('open');
     }
+
+    $('#menupress').click(function(event){
+        var hamburger = $('header');
+        hamburger.toggleClass('open');;
+    });
 });
+
