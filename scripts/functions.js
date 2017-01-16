@@ -57,14 +57,14 @@ $(document).ready(function() {
 
 // header nav expansion
 
-    /*$('#menupress').click(function () {
+    $('#menupress').click(function () {
         $('header').toggleClass('open');
     });
 
     $('#menupress2').click(function () {
         $('header').toggleClass('open');
     });
-*/
+
 
     $("ul.navbar-nav > li").removeClass("active");
     $("ul.navbar-nav > li").each(function () {
@@ -137,7 +137,7 @@ $(document).mouseup(function (e)
     {
         hamburger.toggleClass('open');
     }
-
+    /*
     $('#menupress').click(function(event){
         var hamburger = $('header');
         hamburger.toggleClass('open');;
@@ -147,5 +147,6 @@ $(document).mouseup(function (e)
         var hamburger = $('header');
         hamburger.toggleClass('open');;
     });
+    */
 });
 
