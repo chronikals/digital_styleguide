@@ -142,5 +142,10 @@ $(document).mouseup(function (e)
         var hamburger = $('header');
         hamburger.toggleClass('open');;
     });
+
+    $('#menupress2').click(function(event){
+        var hamburger = $('header');
+        hamburger.toggleClass('open');;
+    });
 });
 
