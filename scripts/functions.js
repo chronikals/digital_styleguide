@@ -44,16 +44,6 @@ $(document).ready(function() {
     $('nav.sub a').eq(subNavLocation).addClass('selected');
     $('.mainMenu .active a').eq(subNavLocation).addClass('selected');
 
-// header nav expansion
-
-    $('#menupress').click(function () {
-        $('header').toggleClass('open');
-    });
-
-    $('#menupress2').click(function () {
-        $('header').toggleClass('open');
-    });
-
 
     $("ul.navbar-nav > li").removeClass("active");
     $("ul.navbar-nav > li").each(function () {
