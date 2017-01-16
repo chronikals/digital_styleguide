@@ -57,14 +57,14 @@ $(document).ready(function() {
 
 // header nav expansion
 
-    $('#menupress').click(function () {
+    /*$('#menupress').click(function () {
         $('header').toggleClass('open');
     });
 
     $('#menupress2').click(function () {
         $('header').toggleClass('open');
     });
-
+*/
 
     $("ul.navbar-nav > li").removeClass("active");
     $("ul.navbar-nav > li").each(function () {
