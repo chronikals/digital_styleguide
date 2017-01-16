@@ -6,7 +6,7 @@
 <body >
     <!--#include file="nav-bar.html" -->
     <main>
-        <div class="inner">
+        <div class="inner" stlye="margin-left:0px;">
 
             <!--#include file="html/front-content.html" -->
         </div>
