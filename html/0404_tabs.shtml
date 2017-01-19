@@ -103,13 +103,17 @@
 								</div>
 								<div class="navbar-collapse collapse">
 									<ul class="nav navbar-nav">
-										<li class="active"><a href="#pie"><span class="cux abb-cux-user size-20"></span></a>
+										<li data-toggle="tab" class="active"><a href="#pie"><span class="cux abb-cux-user-circle size-20"></span></a>
 										</li>
-										<li class=""><a href="#singleline"><span class="cux abb-cux-globe size-20"></span></a>
+										<li data-toggle="tab" class=""><a href="#singleline"><span class="cux abb-cux-globe size-20"></span></a>
 										</li>
-										<li class=""><a href="#dashboard"><span class="cux abb-cux-pie-chart size-20"></span></a>
+										<li data-toggle="tab" class=""><a href="#dashboard"><span class="cux abb-cux-pie-chart size-20"></span></a>
 										</li>
-										<li class=""><a href="#bar"><span class="cux abb-cux-reports size-20"></span></a>
+										<li data-toggle="tab" class=""><a href="#bar"><span class="cux abb-cux-reports size-20"></span></a>
+										</li>
+									</ul>
+									<ul class="nav navbar-nav navbar-right" style="margin-right: -30px;">
+										<li><a href="#hamburger"><span class="cux abb-cux-menu size-20"></span></a>
 										</li>
 									</ul>
 								</div>
