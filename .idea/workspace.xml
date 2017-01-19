@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de1132d-679a-43a2-afea-a6f941fa0fe1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0404_tabs.shtml" afterPath="$PROJECT_DIR$/html/0404_tabs.shtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/global.css" afterPath="$PROJECT_DIR$/styles/global.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,17 +23,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="global.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/global.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
-              <caret line="401" column="24" lean-forward="false" selection-start-line="401" selection-start-column="24" selection-end-line="401" selection-end-column="24" />
+              <caret line="401" column="20" lean-forward="false" selection-start-line="401" selection-start-column="20" selection-end-line="401" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1008_smart_sensor_mobile.shtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1008_smart_sensor_mobile.shtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/1008_smart_sensor_mobile.shtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -482,12 +481,12 @@
       <workItem from="1483963004817" duration="14297000" />
       <workItem from="1484037330408" duration="83797000" />
       <workItem from="1484658602203" duration="648000" />
-      <workItem from="1484828310453" duration="608000" />
+      <workItem from="1484828310453" duration="688000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99350000" />
+    <option name="totallyTimeSpent" value="99430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -886,14 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="401" column="24" lean-forward="false" selection-start-line="401" selection-start-column="24" selection-end-line="401" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/0_includes/top-menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
@@ -906,6 +897,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="401" column="20" lean-forward="false" selection-start-line="401" selection-start-column="20" selection-end-line="401" selection-end-column="20" />
           <folding />
         </state>
       </provider>
