@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9de1132d-679a-43a2-afea-a6f941fa0fe1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/0404_tabs.shtml" afterPath="$PROJECT_DIR$/html/0404_tabs.shtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/global.css" afterPath="$PROJECT_DIR$/styles/global.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,24 +27,14 @@
       <file leaf-file-name="global.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
-              <caret line="187" column="11" lean-forward="false" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="11" />
+            <state relative-caret-position="245">
+              <caret line="401" column="24" lean-forward="false" selection-start-line="401" selection-start-column="24" selection-end-line="401" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1007_cpmplus_for_pulp_and_paper.shtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/1007_cpmplus_for_pulp_and_paper.shtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1008_smart_sensor_mobile.shtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="1008_smart_sensor_mobile.shtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/1008_smart_sensor_mobile.shtml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -57,7 +47,7 @@
       <file leaf-file-name="top-menu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/0_includes/top-menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="373">
               <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
               <folding />
             </state>
@@ -84,14 +74,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0404_tabs.shtml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="0404_tabs.shtml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/0404_tabs.shtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="114" column="103" lean-forward="false" selection-start-line="114" selection-start-column="103" selection-end-line="114" selection-end-column="103" />
+            <state relative-caret-position="142">
+              <caret line="111" column="72" lean-forward="false" selection-start-line="111" selection-start-column="72" selection-end-line="111" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#section#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zStyle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/zStyle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>radio</find>
       <find>dropdown-menu &gt; li</find>
       <find>navbar-brand</find>
       <find>navbar-nav</find>
@@ -169,6 +168,7 @@
       <find>h1</find>
       <find>header</find>
       <find>mainme</find>
+      <find>main</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,7 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/html/0303_color_themes.shtml" />
         <option value="$PROJECT_DIR$/html/0304_using_colors.shtml" />
         <option value="$PROJECT_DIR$/html/0_includes/z/mainMenu.html" />
         <option value="$PROJECT_DIR$/html/0301_color_philosophy.shtml" />
@@ -228,6 +227,7 @@
         <option value="$PROJECT_DIR$/scripts/functions.js" />
         <option value="$PROJECT_DIR$/nav-bar.html" />
         <option value="$PROJECT_DIR$/html/0404_tabs.shtml" />
+        <option value="$PROJECT_DIR$/styles/global.css" />
       </list>
     </option>
   </component>
@@ -482,12 +482,12 @@
       <workItem from="1483963004817" duration="14297000" />
       <workItem from="1484037330408" duration="83797000" />
       <workItem from="1484658602203" duration="648000" />
-      <workItem from="1484828310453" duration="127000" />
+      <workItem from="1484828310453" duration="608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98869000" />
+    <option name="totallyTimeSpent" value="99350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -549,13 +549,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/0501_creating_new_icons.shtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/0600_fonts.shtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -833,22 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/0_includes/top-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3179">
-          <caret line="187" column="11" lean-forward="false" selection-start-line="187" selection-start-column="5" selection-end-line="187" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/frontpage.shtml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -875,14 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/1008_smart_sensor_mobile.shtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/functions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2193">
@@ -901,11 +870,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/0404_tabs.shtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="114" column="103" lean-forward="false" selection-start-line="114" selection-start-column="103" selection-end-line="114" selection-end-column="103" />
+        <state relative-caret-position="142">
+          <caret line="111" column="72" lean-forward="false" selection-start-line="111" selection-start-column="72" selection-end-line="111" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#ul#1;n#div#1;n#div#0;n#div#0;n#div#0;n#article#0;n#section#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/zStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="401" column="24" lean-forward="false" selection-start-line="401" selection-start-column="24" selection-end-line="401" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/0_includes/top-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="31" column="54" lean-forward="false" selection-start-line="31" selection-start-column="54" selection-end-line="31" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/1008_smart_sensor_mobile.shtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>

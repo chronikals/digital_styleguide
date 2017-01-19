@@ -399,6 +399,7 @@ main {
 	padding: 0 5%;
 	margin-bottom: 200px;
 	min-height: 500px;
+	margin-left: -100px;
 }
 
 @media (min-width: 901px) {
