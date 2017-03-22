@@ -1,6 +1,6 @@
-@import "abb-colors.scss";
-@import "abb-fonts.scss";
-@import "abb-mixins.scss";
+@import "abb-colors";
+@import "abb-font-voice";
+@import "abb-mixins";
 
 /*!
 	* CommonUX bootstrap template
@@ -13,18 +13,50 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 body {
-	font-family: "Abbvoice-Lt", "Sans-Serif", Arial;
-	font-size: 16px;
+	font-family: "ABBvoice", "Sans-Serif", Arial;
+	font-size: 13px;
 }
 a {
-	color: $abb-blue-12;
+	color: $abb-blue-13;
 	text-decoration: none;
-	font-weight: 500;
 }
 a:hover,
 a:focus {
 	color: $abb-blue-14;
 	text-decoration: none;
+}
+
+h1,
+.h1 {
+	font-size: 21px;
+	color:$abb-grey-70;
+    font-weight: 500;
+}
+
+h2,
+.h2 {
+	font-size: 19px;
+	color:$abb-grey-70;
+    font-weight: 400;
+}
+h3,
+.h3 {
+	font-size: 17px;
+	color: $abb-grey-70;
+    font-weight: 300;
+}
+h4,
+.h4 {
+	font-size: 13px;
+    font-weight: 400;
+}
+h5,
+.h5 {
+	font-size: 13px;
+}
+h6,
+.h6 {
+	font-size: 11px;
 }
 
 .text-muted {
@@ -327,15 +359,14 @@ table th[class*="col-"] {
 	padding: 0;
 	padding-left: 12px;
 	padding-right: 12px;
-	padding-bottom: 0;
-	font-size: 12px;
-    font-weight: 500;
+	padding-bottom: 1px;
+	font-size: 13px;
+    font-weight: 400;
 	color: $abb-grey-70;
 	@include alpha-attribute('background', rgba($abb-grey-255, 0.8), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color', rgba($abb-grey-150, 0.4), white);
 	border-radius: 0;
-	font-family: 'ABBvoice-Md', sans-serif;
 }
 .form-control:focus {
 	border: 2px solid $abb-blue-13 !important;
@@ -379,9 +410,9 @@ textarea.form-control {
 	height: 30px;
 	padding-left: 12px;
 	padding-right: 12px;
-	padding-bottom: 0px;
-	font-size: 12px;
-    font-weight: 300;
+	padding-bottom: 3px;
+	font-size: 13px;
+    font-weight: 400;
 	color: $abb-grey-245;
 	@include alpha-attribute('background', rgba($abb-grey-0, 0.35), white);
 	border: 1px solid;
@@ -431,8 +462,8 @@ textarea.form-control-blue {
 	height: 30px;
 	padding-left: 12px;
 	padding-right: 12px;
-	padding-bottom: 0px;
-	font-size: 12px;
+	padding-bottom: 3px;
+	font-size: 13px;
     font-weight: 400;
 	color: $abb-grey-210;
 	@include alpha-attribute('background', rgba($abb-grey-0, 0.6), white);
@@ -509,6 +540,21 @@ input[type="search"] {
 .form-group {
 	margin-bottom: 15px;
 }
+.form-group-dark {
+	margin-bottom: 15px;
+}
+.form-group-dark > label {
+	color:#cbcbcb;
+}
+.well-dark h1,
+.well-dark h2,
+.well-dark h3,
+.well-dark h4,
+.well-dark p,
+.well-dark .form-control-feedback,
+.well-dark .help-block-dark {
+	color:#dcdcdc !important;
+}
 .radio,
 .checkbox {
 	position: relative;
@@ -521,7 +567,7 @@ input[type="search"] {
 	min-height: 23px;
 	padding-left: 20px;
 	margin-bottom: 0;
-	font-weight: 300;
+	font-weight: normal;
 	cursor: pointer;
 }
 .radio input[type="radio"],
@@ -589,7 +635,7 @@ fieldset[disabled] .checkbox label {
 .input-sm {
 	height: 30px;
 	padding: 5px 10px;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 1.5;
 	border-radius: 0;
 }
@@ -604,7 +650,7 @@ select[multiple].input-sm {
 .form-group-sm .form-control {
 	height: 30px;
 	padding: 5px 10px;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 1.5;
 	border-radius: 0;
 }
@@ -620,7 +666,7 @@ select[multiple].input-sm {
 	height: 30px;
 	min-height: 35px;
 	padding: 6px 10px;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 1.5;
 }
 .input-lg {
@@ -672,11 +718,10 @@ select[multiple].input-lg {
 	right: 0;
 	z-index: 2;
 	display: block;
-	padding-top: 6px;
+	padding-top: 2px;
 	text-align: center;
 	pointer-events: none;
 }
-
 .input-lg + .form-control-feedback,
 .input-group-lg + .form-control-feedback,
 .form-group-lg .form-control + .form-control-feedback {
@@ -707,14 +752,10 @@ select[multiple].input-lg {
 	color: $abb-data-green-3;
 }
 .has-success .input-group-addon {
-	background: transparent;
-	border: 1px solid $abb-grey-220;
+    color: $abb-data-green-3;
 }
 .has-success .form-control-feedback {
 	color: $abb-data-green-3;
-}
-.has-success .form-control {
-	border: 1px solid $abb-grey-220;
 }
 .has-warning .help-block,
 .has-warning .help-block-blue,
@@ -754,8 +795,7 @@ select[multiple].input-lg {
 	color: $abb-critical-red;
 }
 .has-error .input-group-addon {
-	background: transparent;
-	border: 1px solid $abb-grey-220;
+    color: $abb-critical-red;
 }
 .has-error .form-control-feedback {
 	color: $abb-critical-red;
@@ -764,15 +804,12 @@ select[multiple].input-lg {
 	border: 1px solid $abb-grey-220;
 }
 .has-feedback label ~ .form-control-feedback {
-	top: 10px;
+	top: 25px;
 }
 .has-feedback label.sr-only ~ .form-control-feedback {
 	top: 0;
 }
 
-.help-block {
-	font-size: 12px;
-}
 
 // BUTTONS CommonUX
 
@@ -786,11 +823,16 @@ select[multiple].input-lg {
 	background-image: none;
 	border: 1px solid transparent;
 	white-space: nowrap;
-	padding: 6px 12px;
-	font-size: 12px;
+	padding: 4px 12px;
+	font-size: 13px;
 	border-radius: 0;
 	height: 30px;
 }
+
+.btn:hover, .btn:focus, .btn.focus {
+	color: inherit;
+}
+
 .btn.active,.btn[active] {
     box-shadow: none;
     -webkit-box-shadow: none;
@@ -806,22 +848,29 @@ fieldset[disabled] a.btn {
 	pointer-events: none;
 }
 
+.btn-group.open .dropdown-toggle {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 /* Button default*/
 .btn-default {
 	background: rgba($abb-grey-220, 0.6);
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-grey-190, 0.6), white);
-	color: $abb-grey-70;
 	border-bottom: 1px solid $abb-grey-160;
+	color: $abb-grey-70;
 }
 .btn-default:focus,
 .btn-default.focus {
 	@extend .btn-default;
 }
-.btn-default:hover {
+.btn-default:hover,
+.btn-default.hover{
 	@include alpha-attribute('background',rgba($abb-grey-250, 0.6), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-grey-140, 0.6), white);
+	color: $abb-grey-70;
 }
 .btn-default:active,
 .btn-default.active,
@@ -829,22 +878,28 @@ fieldset[disabled] a.btn {
 	@include alpha-attribute('background',rgba($abb-grey-0, 0.13), white);
 	border: 1px solid $abb-blue-13;
 }
+
 .btn-default:active:hover,
-.btn-default.active:hover,
-.open > .dropdown-toggle.btn-default:hover
-{
+.btn-default.active.hover,
+.open > .dropdown-toggle.btn-default:hover{
 	@extend .btn-default:hover;
+}
+
+.btn-default:active:focus,
+.btn-default.active.focus,
+.open > .dropdown-toggle.btn-default:focus,
+.btn-default:active.focus,
+.btn-default.active.focus, .open >
+.dropdown-toggle.btn-default.focus {
+	@extend .btn-default:active;
 }
 
 //Additional class for toggle
 .btn-default-toggle {
-	@include alpha-attribute('background',rgba($abb-grey-220, 0.6), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color',rgba($abb-grey-190, 0.6), white);
-	border-bottom: 1px solid $abb-grey-160;
-	color: $abb-grey-70;
+	@extend .btn-default;
 }
-.btn-default-toggle:hover {
+.btn-default-toggle:hover,
+.btn-default-toggle.hover{
 	@extend .btn-default:hover;
 }
 .btn-default-toggle:active,
@@ -856,12 +911,10 @@ fieldset[disabled] a.btn {
 
 //Additional class for toggle	
 .btn-default-toggle-enhanced {
-	background: $abb-grey-220;
-	border: 1px solid $abb-grey-190;
-	border-bottom: 1px solid $abb-grey-160;
-	color: $abb-grey-70;
+	@extend .btn-default;
 }
-.btn-default-toggle-enhanced:hover {
+.btn-default-toggle-enhanced:hover,
+.btn-default-toggle-enhanced.hover {
 	@extend .btn-default:hover;
 }
 .btn-default-toggle-enhanced:active,
@@ -895,7 +948,7 @@ fieldset[disabled] .btn-default.active {
 	@include alpha-attribute('color',rgba($abb-grey-70, 0.5), white);
 }
 .btn-default .badge {
-	background: #e5e5e5;
+	background: $abb-grey-230;
 	color: $abb-grey-70;
 }
 
@@ -911,7 +964,8 @@ fieldset[disabled] .btn-default.active {
 .btn-default-blue.focus {
 	@extend .btn-default-blue;
 }
-.btn-default-blue:hover {
+.btn-default-blue:hover,
+.btn-default-blue.hover {
 	@include alpha-attribute('background',rgba($abb-blue-14, 0.55), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-blue-16, 0.8), white);
@@ -925,18 +979,14 @@ fieldset[disabled] .btn-default.active {
 	color: $abb-grey-255;
 }
 .btn-default-blue:active:hover,
-.btn-default-blue.active:hover,
+.btn-default-blue.active.hover,
 .open > .dropdown-toggle.btn-default-blue:hover{
 	@extend .btn-default-blue:hover;
 }
 
 //Additional class for toggle
 .btn-default-blue-toggle {
-	@include alpha-attribute('background',rgba($abb-blue-12, 0.55), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color',rgba($abb-blue-13, 0.8), white);
-	border-bottom: 1px solid $abb-blue-1;
-	color: $abb-grey-255;
+	@extend .btn-default-blue;
 }
 .btn-default-blue-toggle:hover,
 .btn-default-blue-toggle.hover {
@@ -952,11 +1002,7 @@ fieldset[disabled] .btn-default.active {
 
 //Additional class for toggle	
 .btn-default-blue-toggle-enhanced {
-	@include alpha-attribute('background',rgba($abb-blue-12, 0.55), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color',rgba($abb-blue-13, 0.8), white);
-	border-bottom: 1px solid $abb-blue-1;
-	color: $abb-grey-255;
+	@extend .btn-default-blue;
 }
 .btn-default-blue-toggle-enhanced:hover,
 .btn-default-blue-toggle-enhanced.hover
@@ -1010,7 +1056,8 @@ fieldset[disabled] .btn-default-blue.active {
 .btn-default-dark.focus {
 	@extend .btn-default-dark;
 }
-.btn-default-dark:hover {
+.btn-default-dark:hover,
+.btn-default-dark.hover {
 	@include alpha-attribute('background',rgba($abb-grey-110, 0.55), white);
 	border: 1px solid;
 	@include alpha-attribute('border-color',rgba($abb-grey-195, 0.55), white);
@@ -1024,7 +1071,7 @@ fieldset[disabled] .btn-default-blue.active {
     color: $abb-grey-210;
 }
 .btn-default-dark:active:hover,
-.btn-default-dark.active:hover,
+.btn-default-dark.active.hover,
 .open > .dropdown-toggle.btn-default-dark:hover
 {
 	@extend .btn-default-dark:hover;
@@ -1032,13 +1079,10 @@ fieldset[disabled] .btn-default-blue.active {
 
 //Additional class for toggle
 .btn-default-dark-toggle {
-	@include alpha-attribute('background',rgba($abb-grey-80, 0.55), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color',rgba($abb-grey-120, 0.55), white);
-	border-bottom: 1px solid $abb-grey-20;
-	color: $abb-grey-210;
+	@extend .btn-default-dark;
 }
-.btn-default-dark-toggle:hover {
+.btn-default-dark-toggle:hover
+.btn-default-dark-toggle.hover {
 	@extend .btn-default-dark:hover;
 }
 .btn-default-dark-toggle:active,
@@ -1052,13 +1096,10 @@ fieldset[disabled] .btn-default-blue.active {
 
 //Additional class for toggle	
 .btn-default-dark-toggle-enhanced {
-	@include alpha-attribute('background',rgba($abb-grey-80, 0.55), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color',rgba($abb-grey-120, 0.55), white);
-	border-bottom: 1px solid $abb-grey-20;
-	color: $abb-grey-210;
+	@extend .btn-default-dark;
 }
-.btn-default-dark-toggle-enhanced:hover {
+.btn-default-dark-toggle-enhanced:hover,
+.btn-default-dark-toggle-enhanced.hover {
 	@extend .btn-default-dark:hover;
 }
 .btn-default-dark-toggle-enhanced:active,
@@ -1096,18 +1137,19 @@ fieldset[disabled] .btn-default-dark.active {
 	background: $abb-grey-80;
 }
 
-/* Button primary (white or gray background) */
+/* Button primary (white or grey background) */
 .btn-primary {
 	color: $abb-grey-255;
-	background-color: $abb-blue-12;
-	border: 1px solid $abb-blue-11;
-	border-bottom: 1px solid $abb-blue-10;
+	background-color: $abb-data-blue-6;
+	border: 1px solid $abb-data-blue-6;
+	border-bottom: 1px solid $abb-data-blue-6;
 }
 .btn-primary:focus,
 .btn-primary.focus {
 	@extend .btn-primary;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary.hover{
 	background: $abb-blue-14;
 	color: $abb-grey-255;
 	border: 1px solid $abb-blue-13;
@@ -1142,9 +1184,10 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-	background: rgba(0,169,255,0.15);
-	border: 1px solid rgba(0,155,237,0.15);
-	color: rgba(0,136,204,0.5);
+	@include alpha-attribute('background',rgba($abb-blue-12, 0.15), white);
+	border: 1px solid;
+	@include alpha-attribute('border-color',rgba($abb-blue-12, 0.15), white);
+	@include alpha-attribute('color',rgba($abb-blue-11, 0.5), white);
 }
 .btn-primary .badge { 
 	background-color: $abb-grey-255;
@@ -1162,7 +1205,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary-blue.focus {
 	@extend .btn-primary-blue;
 }
-.btn-primary-blue:hover {
+.btn-primary-blue:hover,
+.btn-primary-blue.hover {
 	color: $abb-grey-255;
 	background-color: $abb-blue-15;
 	border: 1px solid $abb-blue-16;
@@ -1176,7 +1220,7 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-primary-blue:active:hover,
-.btn-primary-blue.active:hover{
+.btn-primary-blue.active.hover{
 	@extend .btn-primary-blue:hover;
 }
 .btn-primary-blue.disabled,
@@ -1218,7 +1262,8 @@ fieldset[disabled] .btn-primary-blue.active {
 .btn-primary-dark.focus {
 	@extend .btn-primary-dark;
 }
-.btn-primary-dark:hover {
+.btn-primary-dark:hover,
+.btn-primary-dark.hover {
 	color: $abb-grey-255;
 	background-color: $abb-blue-14;
 	border: 1px solid $abb-blue-15;
@@ -1231,7 +1276,7 @@ fieldset[disabled] .btn-primary-blue.active {
 	border: 1px solid $abb-blue-11;
 }
 .btn-primary-dark:active:hover,
-.btn-primary-dark.active:hover{
+.btn-primary-dark.active.hover{
 	@extend .btn-primary-dark:hover;
 }
 .btn-primary-dark.disabled,
@@ -1278,7 +1323,7 @@ fieldset[disabled] .btn-primary-dark.active {
 	color: $abb-grey-70;
 }
 .btn-link:hover,
-.btn-link.hover {
+.btn-link.hover{
 	@extend .btn-default:hover;
 	text-decoration: none;
 }
@@ -1307,7 +1352,7 @@ fieldset[disabled] .btn-link:focus,
 .btn-link.disabled:active,
 .btn-link[disabled]:active,
 fieldset[disabled] .btn-link:active{
-	color: rgba(70,70,70,0.5);
+	@include alpha-attribute('color',rgba($abb-grey-70, 0.5), white);
 	background: transparent;
 	border: transparent;
 }
@@ -1346,7 +1391,7 @@ fieldset[disabled] .btn-link-blue:focus,
 .btn-link-blue.disabled:active,
 .btn-link-blue[disabled]:active,
 fieldset[disabled] .btn-link-blue:active{
-	color: rgba(189,221,245,0.35);
+	@include alpha-attribute('color',rgba($abb-grey-255, 0.4), white);
 	background: transparent;
 	border: transparent;
 }
@@ -1385,7 +1430,7 @@ fieldset[disabled] .btn-link-dark:focus,
 .btn-link-dark.disabled:active,
 .btn-link-dark[disabled]:active,
 fieldset[disabled] .btn-link-dark:active{
-	color: rgba(199,199,199,0.35);
+	@include alpha-attribute('color',rgba($abb-grey-210, 0.5), white);
 	background: transparent;
 	border: transparent;
 }
@@ -1598,26 +1643,230 @@ fieldset[disabled] .btn-danger.active {
 	background-color: $abb-grey-255;
 }
 
+// Classes for branding buttons
+
+/* Button red branding*/
+.btn-branding {
+	font-size: 11px;
+	border-radius: 34px !important;
+	text-transform: uppercase;
+	padding: 6px 20px;
+	font-weight: 600;
+}
+
+/* Button red branding*/
+.btn-red,
+.btn-red-dark {
+	color: $abb-grey-255;
+	@include alpha-attribute('background',rgba($abb-brand-red-1, 1), white);
+	border: none;
+}
+
+.btn-red.focus,
+.btn-red:focus,
+.btn-red-dark.focus,
+.btn-red-dark:focus{
+	@extend .btn-red;
+	outline: none;
+}
+
+.btn-red.hover,
+.btn-red:hover,
+.btn-red-dark.hover,
+.btn-red-dark:hover{
+	color: $abb-grey-255;
+	@include alpha-attribute('background',rgba($abb-brand-red-1, 1), white);
+	box-shadow: 2px 1px rgba($abb-grey-0, 0.15);
+	border: none;
+}
+
+.btn-red.active,
+.btn-red:active,
+.btn-red-dark.active,
+.btn-red-dark:active{
+	color: $abb-grey-255;
+	@include alpha-attribute('background',rgba($abb-brand-red-2, 1), white);
+	border: none;
+}
+
+.btn-red.disabled,
+.btn-red[disabled],
+fieldset[disabled] .btn-red,
+.btn-red-dark.disabled,
+.btn-red-dark[disabled],
+fieldset[disabled] .btn-red-dark,
+.btn-red.disabled:hover,
+.btn-red[disabled]:hover,
+fieldset[disabled] .btn-red:hover,
+.btn-red-dark.disabled:hover,
+.btn-red-dark[disabled]:hover,
+fieldset[disabled].btn-red-dark:hover {
+	@include alpha-attribute('color',rgba($abb-grey-0, 0.5), white);
+	@include alpha-attribute('background',rgba($abb-brand-red-2, 0.5), white);
+	border: none;
+	box-shadow: none;
+}
+
+/* Button white branding*/
+.btn-white {
+	color: $abb-grey-25;
+	background: $abb-grey-255;
+	border: none;
+}
+
+.btn-white.focus,
+.btn-white:focus {
+	@extend .btn-white;
+	outline: none;
+}
+
+.btn-white.hover,
+.btn-white:hover {
+	color: $abb-grey-25;
+	@include alpha-attribute('background',rgba($abb-grey-255, 1), white);
+	box-shadow: 2px 1px rgba($abb-grey-0, 0.15);
+	border: none;
+}
+
+.btn-white.active,
+.btn-white:active {
+	color: $abb-grey-25;
+	@include alpha-attribute('background',rgba($abb-brand-grey-4, 1), white);
+	border: none;
+}
+
+.btn-white.disabled,
+.btn-white[disabled],
+fieldset[disabled] .btn-white,
+.btn-white.disabled:focus,
+.btn-white[disabled]:focus,
+fieldset[disabled] .btn-white:focus {
+	@include alpha-attribute('color',rgba($abb-grey-0, 0.4), white);
+	@include alpha-attribute('background',rgba($abb-grey-255, 0.6), white);
+	border: none;
+	box-shadow: none;
+}
+
+/* Button secondary branding*/
+.btn-secondary {
+	color: $abb-brand-grey-2;
+	background: transparent;
+	border: none;
+}
+
+.btn-secondary.hover,
+.btn-secondary:hover {
+	color: $abb-grey-25;
+	background: transparent;
+	border: none;
+}
+
+.btn-secondary.active,
+.btn-secondary:active {
+	color: $abb-grey-25;
+	background: transparent;
+	border: none;
+}
+
+.btn-secondary.disabled,
+.btn-secondary[disabled],
+fieldset[disabled] .btn-secondary,
+.btn-secondary.disabled:hover,
+.btn-secondary[disabled]:hover,
+fieldset[disabled] .btn-secondary:hover{
+	@include alpha-attribute('color',rgba($abb-brand-grey-2, 0.4), white);
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+/* Button ghost dark branding*/
+.btn-ghost-dark {
+	color: $abb-grey-255;
+	background: transparent;
+	border: 2px solid $abb-grey-255;
+}
+
+.btn-ghost-dark.focus,
+.btn-ghost-dark:focus {
+	@extend .btn-ghost;
+	outline: none;
+}
+
+.btn-ghost-dark.hover,
+.btn-ghost-inverted:hover {
+	@extend .btn-white;
+}
+
+.btn-ghost-dark.active,
+.btn-ghost-dark:active {
+	@extend .btn-white;
+}
+
+.btn-ghost-dark.disabled,
+.btn-ghost-dark[disabled],
+fieldset[disabled] .btn-ghost-dark,
+.btn-ghost-dark.disabled:hover,
+.btn-ghost-dark[disabled]:hover,
+fieldset[disabled] .btn-ghost-dark:hover {
+	@include alpha-attribute('color',rgba($abb-grey-255, 0.5), white);
+	border: 2px solid;
+	@include alpha-attribute('border-color',rgba($abb-grey-255, 0.4), white);
+}
+
+/* Button ghost branding*/
+.btn-ghost {
+	color: $abb-brand-grey-3;
+	background: transparent;
+	border: 2px solid $abb-brand-grey-3;
+}
+
+.btn-ghost.hover,
+.btn-ghost:hover {
+	color: $abb-grey-255;
+	background: $abb-brand-grey-3;
+	box-shadow: 2px 1px rgba($abb-grey-0, 0.15);
+	border: 2px solid $abb-brand-grey-3;
+}
+
+.btn-ghost.active,
+.btn-ghost:active {
+	color: $abb-grey-255;
+	background: $abb-brand-grey-2;
+	border: 2px solid $abb-brand-grey-2;
+}
+
+.btn-ghost.disabled,
+.btn-ghost[disabled],
+.fieldset[disabled] .btn-ghost,
+.btn-ghost.disabled:hover,
+.btn-ghost[disabled]:hover,
+.fieldset[disabled] .btn-ghost:hover {
+	@include alpha-attribute('color',rgba($abb-brand-grey-3, 0.5), white);
+	@include alpha-attribute('border-color',rgba($abb-brand-grey-3, 0.5), white);
+	background: transparent;
+	box-shadow: none;
+}
+
 .btn-lg,
 .btn-group-lg > .btn {
-	padding: 10px 16px;
+	padding: 8px 20px;
 	font-size: 14px;
-	height: 38px;
+	height: 40px;
 	border-radius: 0;
 }
 .btn-xl,
 .btn-group-xl > .btn {
 	padding: 5px 30px;
 	font-size: 22px;
-	height: 50px;
-	border-radius: 0;
+	height: 48px;
 }
 .btn-xxl,
 .btn-group-xxl > .btn {
 	padding: 30px 30px;
 	font-size: 30px;
-	height: 160px;
-	width: 160px;
+	height: 144px;
+	width: 144px;
 }
 .btn-xxl:hover,
 .btn-xxl:focus,
@@ -1634,15 +1883,14 @@ fieldset[disabled] .btn-danger.active {
 }
 .btn-sm,
 .btn-group-sm > .btn {
-	padding: 2px 8px;
-	font-size: 12px;
+	padding: 2px 12px;
+	font-size: 13px;
 	height: 24px;
 	border-radius: 0;
 }
 .btn-xs,
 .btn-group-xs > .btn {
-	padding: 1px 8px;
-	font-size: 10px;
+	font-size: 13px;
 	line-height: 1;
 	height: 22px;
 	border-radius: 0;
@@ -1660,7 +1908,7 @@ fieldset[disabled] .btn-danger.active {
 	padding: 0;
 	margin: 0;
 	list-style: none;
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: 300;
 	text-align: left;
 	background-color: $abb-grey-255;
@@ -1698,12 +1946,6 @@ fieldset[disabled] .btn-danger.active {
 	text-decoration: none;
 	color: #141414;
 	background-color: #eaeaea;
-}
-
-.dropdown-menu > li > a:active {
-	text-decoration: none;
-	color: $abb-grey-255;
-	background-color: $abb-blue-12;
 }
 
 /*Color for dropdown active*/
@@ -1745,7 +1987,7 @@ fieldset[disabled] .btn-danger.active {
 .dropdown-header {
 	display: block;
 	padding: 8px 20px;
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: 500;
 	line-height: 1.846;
 	color: $abb-grey-235;
@@ -1798,38 +2040,35 @@ fieldset[disabled] .btn-danger.active {
 }
 .input-group-addon {
   padding: 4px 12px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 1;
   color: $abb-grey-70;
   text-align: center;
-	@include alpha-attribute('background', rgba($abb-grey-255, 0.80), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color', rgba($abb-grey-150, 0.4), white);
+  background-color: $abb-grey-255 !important;
+  border: 1px solid $abb-grey-220 !important;
   border-radius: 0;
 }
 .input-group-addon-blue {
   padding: 4px 12px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 1;
   color: #f9f9f9;
   text-align: center;
-	@include alpha-attribute('background', rgba($abb-grey-0, 0.35), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color', rgba($abb-grey-200, 0.3), white);
+  background-color: rgba(0,0,0,0.3) !important;
+  border: 1px solid rgba(200,200,200,0.3) !important;
   border-radius: 0;
 }
 .input-group-addon-dark {
   padding: 4px 12px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: normal;
   line-height: 1;
   text-align: center;
   color: $abb-grey-200;
-	@include alpha-attribute('background', rgba($abb-grey-0, 0.6), white);
-	border: 1px solid;
-	@include alpha-attribute('border-color', rgba($abb-grey-110, 0.5), white);
+  background-color: rgba(0,0,0,0.5) !important;
+  border: 1px solid rgba(110,110,110,0.5) !important;
   border-radius: 0;
 }
 
@@ -1843,10 +2082,10 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .nav a {
+	color: #505050;
 }
 .nav .active {
 	font-weight: 500;
-	color: $abb-blue-12;
 }
 .nav > li {
 	position: relative;
@@ -1892,7 +2131,6 @@ fieldset[disabled] .btn-danger.active {
 .nav-tabs {
 	border-bottom: 1px solid #d2d2d2;
 	color: $abb-grey-100;
-	font-size: 12px;
 }
 .nav-tabs > li {
 	float: left;
@@ -1906,7 +2144,6 @@ fieldset[disabled] .btn-danger.active {
 	border-right: 1px solid #a0a0a0;
 	border-radius: 0;
 	border-top: 2px solid #dcdcdc;
-	font-family: ABBvoice-Md;
 }
 .nav-tabs > li > a:hover {
 	border-color: #eeeeee #eeeeee transparent;
@@ -1942,7 +2179,7 @@ fieldset[disabled] .btn-danger.active {
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
-	border: 1px solid transparent
+	border: 1px solid transparent;
 }
 @media (min-width: 768px) {
 	.nav-tabs.nav-justified > li > a {
@@ -1996,12 +2233,157 @@ fieldset[disabled] .btn-danger.active {
 	margin-top: 0;
 }
 
+/*Tabs level 3 = paneltabs*/
+.nav-paneltabs {
+	@include alpha-attribute('border-top-color',rgba($abb-grey-0, 0.1), white);
+	color: $abb-grey-100;
+	margin: -11px -15px;
+	background: transparent;
+}
+.nav-paneltabs > li {
+	float: left;
+}
+.nav-paneltabs > li > a {
+    border-top: 2px solid transparent;
+	line-height: 1.846;
+	border-radius: 0;
+	color: #828282;
+}
+.nav-paneltabs > li > a:hover {
+	border-top: 2px solid;
+	@include alpha-attribute('border-top-color',rgba($abb-grey-110, 0.4), white);
+}
+.nav-paneltabs > li.active > a {
+	background-color: $abb-grey-255;
+	border-top: 2px solid $abb-grey-110;
+	cursor: default;
+	color: $abb-grey-70;
+    border-left: 1px solid $abb-grey-220;
+    border-right: 1px solid $abb-grey-220;
+}
+.nav-paneltabs.nav-justified {
+	width: 100%;
+	border-bottom: 0;
+}
+.nav-paneltabs.nav-justified > li {
+	float: none;
+}
+.nav-paneltabs.nav-justified > li > a {
+	text-align: center;
+	margin-bottom: 5px;
+}
+.nav-paneltabs.nav-justified > .dropdown .dropdown-menu {
+	top: auto;
+	left: auto;
+}
+@media (min-width: 768px) {
+	.nav-paneltabs.nav-justified > li {
+		display: table-cell;
+		width: 1%;
+	}
+	.nav-paneltabs.nav-justified > li > a {
+		margin-bottom: 0;
+	}
+}
+.nav-paneltabs.nav-justified > li > a {
+	margin-right: 0;
+	border-radius: 0;
+}
+.nav-paneltabs.nav-justified > .active > a,
+.nav-paneltabs.nav-justified > .active > a:hover,
+.nav-paneltabs.nav-justified > .active > a:focus {
+	border: 1px solid transparent;
+}
+@media (min-width: 768px) {
+	.nav-paneltabs.nav-justified > li > a {
+		border-bottom: 1px solid transparent;
+		border-radius: 0;
+	}
+	.nav-paneltabs.nav-justified > .active > a,
+	.nav-paneltabs.nav-justified > .active > a:hover,
+	.nav-paneltabs.nav-justified > .active > a:focus {
+		border-bottom-color: $abb-grey-255;
+	}
+}
+
+/*Tabs level 3 = paneltabs dark background*/
+.nav-paneltabs-dark {
+  @include alpha-attribute('border-top-color',rgba($abb-grey-0, 0.1), white);
+  color: $abb-grey-100;
+  margin: -12px -16px;
+  background: transparent;
+}
+.nav-paneltabs > li {
+  float: left;
+}
+.nav-paneltabs-dark > li > a {
+  border-top: 2px solid transparent;
+  line-height: 1.846;
+  border-radius: 0;
+  color: #828282;
+}
+.nav-paneltabs-dark > li > a:hover {
+  border-top: 2px solid;
+  @include alpha-attribute('border-top-color',rgba($abb-grey-110, 0.4), white);
+}
+.nav-paneltabs-dark > li.active > a {
+  background-color: $abb-grey-255;
+  border-top: 2px solid $abb-grey-110;
+  cursor: default;
+  color: $abb-grey-70;
+  border-left: 1px solid $abb-grey-220;
+  border-right: 1px solid $abb-grey-220;
+}
+.nav-paneltabs-dark.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+.nav-paneltabs-dark.nav-justified > li {
+  float: none;
+}
+.nav-paneltabs-dark.nav-justified > li > a {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.nav-paneltabs-dark.nav-justified > .dropdown .dropdown-menu {
+  top: auto;
+  left: auto;
+}
+@media (min-width: 768px) {
+  .nav-paneltabs-dark.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+  }
+  .nav-paneltabs-dark.nav-justified > li > a {
+    margin-bottom: 0;
+  }
+}
+.nav-paneltabs-dark.nav-justified > li > a {
+  margin-right: 0;
+  border-radius: 0;
+}
+.nav-paneltabs-dark.nav-justified > .active > a,
+.nav-paneltabs-dark.nav-justified > .active > a:hover,
+.nav-paneltabs-dark.nav-justified > .active > a:focus {
+  border: 1px solid transparent;
+}
+@media (min-width: 768px) {
+  .nav-paneltabs-dark.nav-justified > li > a {
+    border-bottom: 1px solid transparent;
+    border-radius: 0;
+  }
+  .nav-paneltabs-dark.nav-justified > .active > a,
+  .nav-paneltabs-dark.nav-justified > .active > a:hover,
+  .nav-paneltabs-dark.nav-justified > .active > a:focus {
+    border-bottom-color: $abb-grey-255;
+  }
+}
+
 /*Tabs level 3 = subtabs*/
 .nav-subtabs {
 	border-top: 1px solid;
 	@include alpha-attribute('border-top-color',rgba($abb-grey-0, 0.1), white);
 	color: $abb-grey-100;
-	font-size: 12px;
 }
 .nav-subtabs > li {
 	float: left;
@@ -2023,7 +2405,6 @@ fieldset[disabled] .btn-danger.active {
 	border-top: 4px solid $abb-blue-13;
 	cursor: default;
     color: $abb-grey-70;
-	font-family: ABBvoice-Md;
 }
 .nav-subtabs.nav-justified {
 	width: 100%;
@@ -2189,7 +2570,7 @@ fieldset[disabled] .btn-danger.active {
 .navbar {
 	position: relative;
 	min-height: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	color: $abb-grey-255;
 }
 @media (min-width: 768px) {
@@ -2206,18 +2587,11 @@ fieldset[disabled] .btn-danger.active {
 	overflow-x: visible;
 	padding-right: 15px;
 	padding-left: 15px;
+	border-top: 1px solid transparent;
 	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 	-webkit-overflow-scrolling: touch;
-	color: #bdbdbd;
 }
-
-.navbar-center {
-	text-align: center;
-	float: none;
-	display: inline-block;
-}
-
 .navbar-collapse.in {
 	overflow-y: auto;
 }
@@ -2247,7 +2621,6 @@ fieldset[disabled] .btn-danger.active {
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
 	max-height: 340px;
-	background: $abb-grey-250;
 }
 @media (max-device-width: 480px) and (orientation: landscape) {
 	.navbar-fixed-top .navbar-collapse,
@@ -2306,14 +2679,22 @@ fieldset[disabled] .btn-danger.active {
 
 /* Black logo */
 .navbar-brand {
-	background: url("Logo-white.png") no-repeat left center;
 	float: left;
-	padding: 10px 100px;
-	font-size: 16px;
-	padding-top: 16px;
-	line-height: 1;
+	margin-right: 80px;
+	font-size: 19px;
 	height: 50px;
-    font-weight: 300;
+    font-weight: 500;
+	position: relative;
+	padding: 12px 0px;
+	margin-left: 20px;
+}
+.navbar-brand:before {
+	content: " ";
+	display: block;
+	border-top: 2px solid #ff000f;
+	width: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -2325,19 +2706,28 @@ fieldset[disabled] .btn-danger.active {
 @media (min-width: 768px) {
 	.navbar > .container .navbar-brand,
 	.navbar > .container-fluid .navbar-brand {
-		margin-left: -15px;
+		margin-left: 0px;
 	}
 }
 
 /* Alt red logo */
 .navbar-brand-red {
-	background: url("abb-logo-red-new.png") no-repeat left center;
 	float: left;
-	padding: 10px 100px;
-	font-size: 16px;
-	padding-top: 16px;
+	margin-right: 80px;
+	font-size: 19px;
 	height: 50px;
-    font-weight: 300;
+	font-weight: 500;
+	position: relative;
+	padding: 12px 0px;
+	margin-left: 20px;
+}
+.navbar-brand-red:before {
+	content: " ";
+	display: block;
+	border-top: 2px solid #ff000f;
+	width: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 .navbar-brand-red:hover,
 .navbar-brand-red:focus {
@@ -2349,7 +2739,7 @@ fieldset[disabled] .btn-danger.active {
 @media (min-width: 768px) {
 	.navbar > .container .navbar-brand-red,
 	.navbar > .container-fluid .navbar-brand-red {
-		margin-left: -15px;
+		margin-left: 0px;
 	}
 }
 
@@ -2357,7 +2747,6 @@ fieldset[disabled] .btn-danger.active {
 /* Padding top nav texts */
 
 .navbar-nav {
-
 }
 .navbar-nav .hover {
 
@@ -2377,24 +2766,17 @@ fieldset[disabled] .btn-danger.active {
 }
 
 .navbar-nav > li > a {
-	padding-top: 12px;
-	padding-bottom: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
     font-weight: 500;
-}
-
-.navbar-default .navbar-nav > li {
-	text-transform: uppercase;
 }
 
 .navbar-right {
 	margin-right:0px;}
 
 .navbar-default {
-	color: $abb-grey-36;
-	background-color: $abb-grey-255;
-	box-shadow: 0px 2px 1px rgba($abb-grey-0, 0.15);
-	font-family: ABBvoice-Md;
-	font-size: 18px;
+	color: #212121;
+	background-color: $abb-grey-230;
 }
 .navbar-default .navbar-brand {
 	color: #666666;
@@ -2417,22 +2799,23 @@ fieldset[disabled] .btn-danger.active {
 }
 .navbar-default .navbar-nav > li > a {
 	color: $abb-grey-110;
-	min-height: 50px;
+	border-top: 3px solid transparent;
 }
 .navbar-default .navbar-nav > .active > a {
-	border: 1px 1px 1px 0px solid $abb-grey-210;
-	background-color: $abb-grey-240;
+	color: $abb-grey-70;
+	border-top: 3px solid #d9000f;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	color: $abb-grey-70;
-	@include alpha-attribute('background-color',rgba(#d9000f, 0.05), white);
+	border-top: 3px solid;
+	@include alpha-attribute('border-top-color',rgba(#d9000f, 0.30), white);
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	color: $abb-grey-70;
-	background-color: $abb-grey-240;
+	color: #212121;
+	background-color: transparent;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -2452,7 +2835,7 @@ fieldset[disabled] .btn-danger.active {
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-
+	border-color: transparent;
 }
 
 /* Selected menu top bar light */
@@ -2509,8 +2892,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 	border-color: transparent;
 }
 .navbar-inverse .navbar-brand {
-	color: #e5e5e5;
-	margin-left: 35px;
+	color: #fafafa;
 }
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
@@ -2519,7 +2901,6 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-brand-red {
 	color: #e5e5e5;
-	margin-left: 35px;
 }
 .navbar-inverse .navbar-brand-red:hover,
 .navbar-inverse .navbar-brand-red:focus {
@@ -2531,29 +2912,32 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a {
 	color: $abb-grey-180;
-	border-top: 4px solid transparent;
+	border-top: 3px solid transparent;
 }
 .navbar-inverse .navbar-nav > .active > a {
 	color: $abb-grey-180;
-	border-top: 4px solid $abb-blue-13;
+	border-top: 3px solid $abb-data-blue-4;
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
 	color: $abb-grey-255;
-	border-top: 4px solid;
-	@include alpha-attribute('border-top-color',rgba($abb-blue-12, 0.40), white);
+	border-top: 3px solid;
+	@include alpha-attribute('border-top-color',rgba($abb-data-blue-4, 0.40), white);
+	outline: none;
 }
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
 	color: $abb-grey-255;
 	background-color: transparent;
+	outline: none;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
 .navbar-inverse .navbar-nav > .disabled > a:hover,
 .navbar-inverse .navbar-nav > .disabled > a:focus {
 	color: #444444;
 	background-color: transparent;
+	outline: none;
 }
 .navbar-inverse .navbar-toggle {
 	border-color: transparent;
@@ -2590,6 +2974,11 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
 	color: #fafafa;
 	background-color: #0096e0;
+}
+.navbar-inverse .navbar-nav .open .dropdown-submenu:hover > a,
+.navbar-inverse .navbar-nav .open .dropdown-submenu:focus > a {
+	color: #fafafa;
+	background-color: #47c2ff;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
 .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -2728,7 +3117,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
 	padding: 5px 10px;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 1.5;
 }
 .pagination-sm > li:first-child > a,
@@ -2799,6 +3188,15 @@ a.label:focus {
 .label-info[href]:focus {
 	background-color: #771e86;
 }
+.label-tag {
+	background-color: $abb-blue-17;
+	border: 1px solid $abb-blue-16;
+	color: $abb-blue-10;
+}
+.label-tag[href]:hover,
+.label-tag[href]:focus {
+	background-color: #771e86;
+}
 .label-warning {
 	background-color: $abb-critical-orange;
 }
@@ -2817,7 +3215,7 @@ a.label:focus {
 	display: inline-block;
 	min-width: 10px;
 	padding: 3px 7px;
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: normal;
 	color: $abb-grey-255;
 	line-height: 1;
@@ -2850,7 +3248,7 @@ a.badge:focus {
 	display: inline-block;
 	min-width: 10px;
 	padding: 3px 10px;
-	font-size: 12px;
+	font-size: 13px;
 	font-weight: normal;
 	color: $abb-grey-255;
 	height: 50px;
@@ -2897,17 +3295,16 @@ a.badge-nav:focus {
 // Alerts CommonUX
 
 .alert {
-	padding: 10px 10px 10px 10px;
-	margin-bottom: 23px;
 	border: 1px solid transparent;
 	border-radius: 0;
 	color: $abb-grey-255;
 	text-align: center;
-	font-size: 12px;
+	font-size: 15px;
 	-webkit-box-shadow: 4px 4px 5px 0 rgba(0,0,0,0.35);
 	-moz-box-shadow: 4px 4px 5px 0 rgba(0,0,0,0.35);
 	box-shadow: 4px 4px 5px 0 rgba(0,0,0,0.35);
 }
+
 .alert h4 {
 	margin-top: 0;
 	color: inherit;
@@ -2958,7 +3355,7 @@ a.badge-nav:focus {
 .alert-success-discrete-alt {
 	background-color: $abb-grey-220;
 	border-color: $abb-grey-220;
-	color: $abb-data-green-1;
+	color: $abb-data-green-4;
 }
 .alert-success-discrete-alt hr {
 	border-top-color: #c9e2b3;
@@ -2980,6 +3377,26 @@ a.badge-nav:focus {
 	border-top-color: #c191d6;
 }
 .alert-info .alert-link {
+	color: #771e86;
+}
+.alert-info-alt {
+	background-color: $abb-grey-255;
+	border-color: $abb-grey-160;
+	color: $abb-grey-45;
+}
+.alert-info-alt after {
+	font-family: FontAwesome;
+	content: "\f05a";
+	font-size: 20px;
+}
+
+.alert-info-alt i {
+	color: $abb-blue-13;
+}
+.alert-info-alt hr {
+	border-top-color: #c191d6;
+}
+.alert-info-alt .alert-link {
 	color: #771e86;
 }
 .alert-info-discrete {
@@ -3094,10 +3511,10 @@ a.badge-nav:focus {
 .panel {
 	margin-bottom: 23px;
 	background-color: transparent;
-	border: 1px solid transparent;
 	border-radius: 0;
-	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 0 0px 0px;
+	box-shadow: 0 0px 0px;
+    border: 1px solid $abb-grey-220;
 }
 .panel-body {
 	padding: 15px;
@@ -3226,7 +3643,18 @@ a.badge-nav:focus {
 	padding: 19px;
 	margin-bottom: 20px;
 	background-color: #f9f9f9;
-	border: 1px solid transparent;
+	border: 1px solid #f0f0f0;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.well-dark {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: #282828;
+	border: 1px solid #282828;
 	border-radius: 3px;
 	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -3370,7 +3798,7 @@ a.badge-nav:focus {
 	word-break: normal;
 	word-spacing: normal;
 	word-wrap: normal;
-	font-size: 12px;
+	font-size: 13px;
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
@@ -3486,7 +3914,7 @@ a.badge-nav:focus {
 	word-break: normal;
 	word-spacing: normal;
 	word-wrap: normal;
-	font-size: 12px;
+	font-size: 13px;
 	background-color: $abb-grey-255;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
@@ -3670,7 +4098,7 @@ input[type=number].input-sm,
 [type=email].form-control.input-sm,
 [type=tel].form-control.input-sm,
 [contenteditable].form-control.input-sm {
-	font-size: 12px;
+	font-size: 13px;
 }
 textarea.input-lg,
 textarea.form-control.input-lg,
@@ -3701,7 +4129,7 @@ select.form-control::-ms-expand {
 }
 select.input-sm,
 select.form-control.input-sm {
-	font-size: 12px;
+	font-size: 13px;
 }
 select.input-lg,
 select.form-control.input-lg {
@@ -3719,7 +4147,7 @@ select.form-control[multiple] {
 	background: none;
 }
 
-/* Radios and checkboxes gray */
+/* Radios and checkboxes grey */
 .radio label,
 .radio-inline label,
 .checkbox label,
@@ -3871,8 +4299,8 @@ input[type="checkbox"]:after,
 .checkbox-inline input[type="checkbox"]:after {
 	content: "";
 	display: block;
-	width: 18px;
-	height: 18px;
+	width: 16px;
+	height: 16px;
 	margin-top: -2px;
 	margin-right: 5px;
 	border: 1px solid #bdbdbd;
@@ -3880,25 +4308,6 @@ input[type="checkbox"]:after,
 	-webkit-transition: 240ms;
 	-o-transition: 240ms;
 	transition: 240ms;
-	
-}
-input[type="checkbox"]:checked:before,
-.checkbox input[type="checkbox"]:checked:before,
-.checkbox-inline input[type="checkbox"]:checked:before {
-	content: "";	
-	position: absolute;
-	top: 0;
-	left: 6px;
-	display: table;
-	width: 6px;
-	height: 12px;
-	border: 3px solid $abb-blue-13;
-	border-top-width: 0;
-	border-left-width: 0;
-	-webkit-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
 	
 }
 input[type="checkbox"]:checked:after,
@@ -4022,7 +4431,7 @@ input[type=number].input-sm,
 [type=email].form-control.input-sm,
 [type=tel].form-control.input-sm,
 [contenteditable].form-control.input-sm {
-	font-size: 12px;
+	font-size: 13px;
 }
 textarea.input-lg,
 textarea.form-control.input-lg,
@@ -4054,7 +4463,7 @@ select.form-control::-ms-expand {
 }
 select.input-sm,
 select.form-control.input-sm {
-	font-size: 12px;
+	font-size: 13px;
 }
 select.input-lg,
 select.form-control.input-lg {
@@ -4072,7 +4481,7 @@ select.form-control[multiple] {
 	background: none;
 }
 
-/* Radios and checkboxes gray */
+/* Radios and checkboxes grey */
 .radio label,
 .radio-inline label,
 .checkbox label,
@@ -4227,8 +4636,8 @@ input[type="checkbox"]:after,
 .checkbox-inline input[type="checkbox"]:after {
 	content: "";
 	display: block;
-	width: 18px;
-	height: 18px;
+	width: 16px;
+	height: 16px;
 	margin-top: -2px;
 	margin-right: 5px;
 	border: 1px solid #bdbdbd;
@@ -4246,9 +4655,9 @@ input[type="checkbox"]:checked:before,
 	top: 0;
 	left: 6px;
 	display: table;
-	width: 6px;
-	height: 12px;
-	border: 3px solid $abb-blue-13;
+	width: 5px;
+	height: 10px;
+	border: 2px solid $abb-blue-13;
 	border-top-width: 0;
 	border-left-width: 0;
 	-webkit-transform: rotate(45deg);
@@ -4337,7 +4746,7 @@ input[type="checkbox"][data-indeterminate] + label:after
 .progress-bar {
 	-webkit-box-shadow: none;
 	box-shadow: none;
-	background: $abb-data-blue-4;
+	background: $abb-blue-13;
 }
 .progress-bar-success {
 	-webkit-box-shadow: none;
@@ -4356,27 +4765,17 @@ input[type="checkbox"][data-indeterminate] + label:after
 	left: 0;
 	right: 0;
 	z-index: -1;
-	background-color: $abb-data-blue-1;
+	background-color: rgba($abb-grey-0, 0.1);
 }
-.progress-bar-success:last-child.progress-bar:before {
-	background-color: $abb-data-green-1;
-}
-.progress-bar-info:last-child.progress-bar:before {
-	background-color: $abb-data-purple-1;
-}
-.progress-bar-warning:last-child.progress-bar:before {
-	background-color: $abb-data-peach-1;
-}
-.progress-bar-danger:last-child.progress-bar:before {
-	background-color: $abb-data-pink-1;
-}
+
 .close {
-	font-weight: 300;
+	font-weight: 500;
 	line-height: 24px;
 	opacity: 0.6;
 	-webkit-transition: all 0.2s;
 	-o-transition: all 0.2s;
 	transition: all 0.2s;
+	font-size: 32px;
 }
 .close:hover {
 	opacity: 1;
@@ -4398,12 +4797,7 @@ input[type="checkbox"][data-indeterminate] + label:after
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
-.panel-heading {
-	border-bottom: none;
-}
-.panel-footer {
-	border-top: none;
-}
+
 .popover {
 	border: none;
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
@@ -4416,6 +4810,35 @@ input[type="checkbox"][data-indeterminate] + label:after
 .carousel-caption h5,
 .carousel-caption h6 {
 	color: inherit;
+}
+
+.carousel-control.right {
+	background:transparent;
+}
+
+.carousel-control.left {
+	background:transparent;
+}
+
+.carousel-control {
+	text-shadow: none;
+	color: rgba($abb-grey-70, 0.4);
+	font-size: 30px;
+	bottom: 60%;
+	top: 40%;
+}
+
+.carousel-control:hover {
+	color: rgba($abb-grey-70, 0.8);
+}
+
+.carousel-indicators li {
+	background: rgba($abb-grey-70, 0.4);
+}
+
+.carousel-indicators .active {
+	background: $abb-blue-13;
+	border: 1px solid $abb-blue-13;
 }
 
 .panel {
@@ -4910,7 +5333,7 @@ input[type="checkbox"][data-indeterminate] + label:after
 }
 
 .affix {
-	top: 80px;
+	top: 200px;
 }
 
 .affix, 
@@ -5027,10 +5450,6 @@ label:nth-child(n+2) {
 	font-size: 10px;
 }
 
-.well {
-    background: #f9f9f9;
-}
-
 a:hover, a:focus {
     text-decoration: none;
 }
@@ -5120,10 +5539,6 @@ color: inherit;
 	margin-right: auto;
 	margin-left: auto;
 }
-.row {
-	margin-right: -15px;
-	margin-left: -15px;
-}
 
 /*Margin dropdown arrow*/
 span.caret { margin-left: 10px; }
@@ -5194,18 +5609,13 @@ span.caret { margin-left: 10px; }
 	margin: -3px 0 0 2px;
 }
 
-@font-face {
-	font-family: 'Glyphicons Halflings';
-
-	src: url('/fonts/glyphicons/glyphicons-halflings-regular.eot');
-	src: url('/fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+.well-dark .required-field-block .required-icon .text {
+	color: $abb-grey-55;
+	font-size: 14px;
+	margin: -3px 0 0 2px;
 }
 
 .padding-sm {
-	padding: 6px 6px;
-}
-
-.required:after {
-	content:"*";
-	color: $abb-critical-red;
+	padding-right: 6px;
+	padding-left: 6px;
 }

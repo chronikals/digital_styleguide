@@ -1,7 +1,7 @@
-// ABB CommonUX Colors
+// ABB CommonUX Colors-------------------------------------------------------------------------------------------
 // Comments or questions: David Romero (david.romero@no.abb.com) / Kristoffer Husoy (kristoffer.husoy@no.abb.com)
 
-// ABB Grey scale
+// ABB Grey scale *Both "grey" and "gray" are supported
 
 $abb-grey-0: #000000;
 $abb-grey-10: #0A0A0A;
@@ -42,6 +42,46 @@ $abb-grey-240: #F0F0F0;
 $abb-grey-245: #F5F5F5;
 $abb-grey-250: #FAFAFA;
 $abb-grey-255: #FFFFFF;
+
+$abb-gray-0: $abb-grey-0;
+$abb-gray-10: $abb-grey-10;
+$abb-gray-15: $abb-grey-15;
+$abb-gray-20: $abb-grey-20;
+$abb-gray-25: $abb-grey-25;
+$abb-gray-30: $abb-grey-30;
+$abb-gray-36: $abb-grey-36;
+$abb-gray-40: $abb-grey-40;
+$abb-gray-45: $abb-grey-45;
+$abb-gray-50: $abb-grey-50;
+$abb-gray-55: $abb-grey-55;
+$abb-gray-60: $abb-grey-60;
+$abb-gray-65: $abb-grey-65;
+$abb-gray-70: $abb-grey-70;
+$abb-gray-80: $abb-grey-80;
+$abb-gray-90: $abb-grey-90;
+$abb-gray-100: $abb-grey-100;
+$abb-gray-110: $abb-grey-110;
+$abb-gray-120: $abb-grey-120;
+$abb-gray-130: $abb-grey-130;
+$abb-gray-140: $abb-grey-140;
+$abb-gray-150: $abb-grey-150;
+$abb-gray-160: $abb-grey-160;
+$abb-gray-170: $abb-grey-170;
+$abb-gray-180: $abb-grey-180;
+$abb-gray-190: $abb-grey-190;
+$abb-gray-195: $abb-grey-195;
+$abb-gray-200: $abb-grey-200;
+$abb-gray-205: $abb-grey-205;
+$abb-gray-210: $abb-grey-210;
+$abb-gray-215: $abb-grey-215;
+$abb-gray-220: $abb-grey-220;
+$abb-gray-225: $abb-grey-225;
+$abb-gray-230: $abb-grey-230;
+$abb-gray-235: $abb-grey-235;
+$abb-gray-240: $abb-grey-240;
+$abb-gray-245: $abb-grey-245;
+$abb-gray-250: $abb-grey-250;
+$abb-gray-255: $abb-grey-255;
 
 // ABB Blue scale - Backgrounds
 
@@ -111,12 +151,12 @@ $abb-data-green-4: #049669;
 $abb-data-green-5: #00704B;
 $abb-data-green-6: #015637;
 
-$abb-data-blue-1: #99DDFF;
-$abb-data-blue-2: #70CFFF;
-$abb-data-blue-3: #0AAEFF;
-$abb-data-blue-4: #0088CC;
-$abb-data-blue-5: #236EA8;
-$abb-data-blue-6: #1C5785;
+$abb-data-blue-1: #DDEDFD;
+$abb-data-blue-2: #ABD4FD;
+$abb-data-blue-3: #76B8FC;
+$abb-data-blue-4: #2E92FA;
+$abb-data-blue-5: #0D74DA;
+$abb-data-blue-6: #004C97;
 
 // ABB Critical colors
 
@@ -126,3 +166,40 @@ $abb-critical-red: #F03040;
 $abb-critical-magenta: #CB2BD5;
 $abb-critical-cyan: #14F0F0;
 $abb-critical-blue: #0052FF;
+
+
+// ABB Branding Colors -----------------------------------------------------------------------------------------------
+// Comments or questions: Branding team (lena.sattler@ch.abb.com)
+
+// Branding Base colors
+
+$abb-brand-red-1: #ff000f;
+$abb-brand-red-2: #e6000d;
+$abb-brand-black: #000000;
+$abb-brand-grey-1: #262626;
+$abb-brand-grey-2: #6e6e6e;
+$abb-brand-grey-3: #a9a9a9;
+$abb-brand-grey-4: #d2d2d2;
+$abb-brand-grey-5: #f0f0f0;
+$abb-brand-grey-6: #fafafa;
+
+// Branding Functional colors
+
+$abb-brand-functional-blue: #004c97;
+$abb-brand-functional-green: #007a33;
+$abb-brand-functional-yellow: #ffd100;
+$abb-brand-functional-red-grey: #817275;
+$abb-brand-functional-green-grey: #6b7173;
+$abb-brand-functional-blue-grey: #5b6f80;
+$abb-brand-functional-violet-grey: #78838e;
+
+$abb-brand-gray-1: $abb-brand-grey-1;
+$abb-brand-gray-2: $abb-brand-grey-2;
+$abb-brand-gray-3: $abb-brand-grey-3;
+$abb-brand-gray-4: $abb-brand-grey-4;
+$abb-brand-gray-5: $abb-brand-grey-5;
+$abb-brand-gray-6: $abb-brand-grey-6;
+$abb-brand-functional-red-gray: $abb-brand-functional-red-grey;
+$abb-brand-functional-green-gray: $abb-brand-functional-green-grey;
+$abb-brand-functional-blue-gray: $abb-brand-functional-blue-grey;
+$abb-brand-functional-violet-gray: $abb-brand-functional-violet-grey;

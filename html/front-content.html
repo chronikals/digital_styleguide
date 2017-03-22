@@ -1,86 +1,80 @@
-﻿<!-- Carousel
-    ================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-
-            <div class="container">
-
-                <div class="carousel-caption">
-                    <h2>CommonUX Design principles</h2>
-                    <p>Clarity - Workflow - Focus</p>
-                    <ul class="list-unstyled">
-                        <li>Give clarity to complex information through a simple and rational framework</li>
-                        <li>Support user work flow by offering easy to understand components and navigation</li>
-                        <li>Focus on clear presentation of dynamic information.
-                        <li>
-                    </ul>
-                    <p>
-                        <a class="btn btn-lg btn-primary" href="html/0101_design_principles.shtml" role="button">Details</a>
-
-                    </p>
-                </div>
-            </div>
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!--#include file="0_includes/head.html" -->
+</head>
+<body class="pg2-body pg2-body--content  pg2-popup__back">
+<!--#include file="0_includes/top-menu.html" -->
+<header>
+    <!--#include file="0_includes/header.html" -->
+    <nav class="sub" data-chapter="ch01" id="1"></nav>
+</header>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-2">
+            <ul class="BrandGuidelinePageHeader-list" data-chapter="ch01">
+                <li><a class="active" href="0101_design_principles.shtml">Design principles</a></li>
+                <li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
+                <li><a href="0103_abb_user_experience.shtml">ABB's user experience</a></li>
+                <li><a href="0201_the_abb_bar.shtml">The ABB bar</a></li>
+                <li><a href="0202_navigation_principles.shtml">Navigation principles</a></li>
+                <li><a href="0203_layout_and_grid.shtml">Layout and grid</a></li>
+                <li><a href="0204_responsive_design.shtml">Responsive design</a></li>
+            </ul>
         </div>
-        <div class="item">
-
-            <div class="container">
-                <div class="carousel-caption">
-                    <h2>Want to see some example implementations</h2>
-                    <p></p>
-                    <p><a class="btn btn-lg btn-primary" href="/html/1000_examples_and_inspiration.shtml" role="button">Let's go!</a></p>
+        <div class="col-lg-10 col-sm-12" main>
+            <h1 id="Framework">Design principles</h1>
+            <section>
+                <div class="numberSteps colGroup triple wide">
+                    <p><span>1</span>Give clarity to complex information through a simple and rational framework</p>
+                    <p><span>2</span>Support user work flow by offering easy to understand components and navigation</p>
+                    <p><span>3</span>Focus on clear presentation of dynamic information.</p>
                 </div>
-            </div>
-        </div>
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption">
-                    <h2>Want to know more about working with colors?</h2>
-                    <p><a class="btn btn-lg btn-primary" href="/html/0301_color_philosophy.shtml" role="button">Get started</a></p>
+                <div class="colGroup wide note">
+                    <div>
+                        <p>The design principles are based on established usability practices:</p>
+                        <ul>
+                            <li>Simplicity</li>
+                            <li>Match between system and the real world</li>
+                            <li>Consistency</li>
+                            <li>Minimizing cognitive load</li>
+                            <li>Efficient interactions</li>
+                            <li>Forgiveness</li>
+                            <li>Good system feedback</li>
+                            <li>Effective use of language</li>
+                            <li>Effective information presentation</li>
+                            <li>Preservation of context</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>They also reflect ABB’s brand values:</p>
+                        <strong>Leading edge technology</strong>
+                        <ul>
+                            <li>Systematic</li>
+                            <li>Precise</li>
+                            <li>Strong</li>
+                        </ul>
+                        <strong>Inclusive</strong>
+                        <ul>
+                            <li>Open</li>
+                            <li>Respectful</li>
+                            <li>Multi cultural</li>
+                        </ul>
+                        <strong>Passionate</strong>
+                        <ul>
+                            <li>Commitment driven</li>
+                            <li>Inventive</li>
+                            <li>Forward looking</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
     </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div><!-- /.carousel -->
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
-
-<div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-        <div class="col-lg-4">
-            <img class="img-rectangle" src="img/StyleGuide2.jpg" alt="ABB UI Style Guide" height="140 margin-left:100px;">
-            <h2>ABB UI style guide</h2>
-            <p>The styleguide is intended to be an overarching, top-level guide valid for all SW products in all divisions in ABB. It is intended to provide the basic level of harmonization between ABB products.</p>
-            <p><a class="btn btn-default" href="/html/frontpage.shtml" role="button">Styleguide &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="img-rectangle" src="img/ProductBU.png" alt="Product or BU-level style guides (optional)" height="140">
-            <h2>Product or BU-level style guides (optional)</h2>
-            <p>Some BUs and products might choose to develop a more detailed style guide to create a closer alignment with less variability between products or screens, within the boundaries set by the ABB UI style guide. Typically this can specify further a limited set of layout options, narrow down the choice of colors used and specify interaction patterns.</p>
-            <p><a class="btn btn-default" href="#" role="button">More to follow &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-            <img class="img-rectangle" src="img/productSpec.png" alt="" height="140">
-            <h2>Product specifications</h2>
-            <p>Typically, the handover from interaction designers to the product developers will still be the detailed, screen by screen specifications necessary to develop the product. By applying the style guides above the specification process will be more efficient as much will already be defined above, and similar from product to product.</p>
-            <p><a class="btn btn-default" href="#" role="button">More to follow &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-
-    </div><!-- /.row -->
+</div>
+<footer>
+    <!--#include file="0_includes/footer.html" -->
+</footer>
+<!--#include file="0_includes/bodyendlinks.html" -->
+</body>
+</html>

@@ -4,14 +4,14 @@
     Main Sass file. Should only contain imports! 
 */
 
-@import "abb-mixins.scss";
-@import "abb-fonts.scss";
-@import "abb-newfont.scss";
-@import "abb-cux-icons.scss";
-@import "abb-colors.scss";
+@import "abb-mixins";
+@import "abb-font-helvetica";
+@import "abb-font-voice";
+@import "abb-colors";
 @import "bootstrap.css";
-@import "abb-bootstrap.scss";
-@import "abb-selectors.scss";
+@import "abb-bootstrap";
+@import "abb-selectors";
+
 
 
 

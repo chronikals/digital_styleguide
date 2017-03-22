@@ -1,0 +1,53 @@
+/* ABB font Helvetica Neue eText Pro */
+
+//Light
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/ABBvoice/ABBvoice_W_Lt.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+  url('../fonts/ABBvoice/ABBvoice_W_Lt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/ABBvoice/ABBvoice_W_Lt.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/ABBvoice/ABBvoice_W_Lt.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/ABBvoice/ABBvoice_W_Lt.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+//Regular
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/ABBvoice/ABBvoice_W_Rg.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+  url('../fonts/ABBvoice/ABBvoice_W_Rg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/ABBvoice/ABBvoice_W_Rg.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/ABBvoice/ABBvoice_W_Rg.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/ABBvoice/ABBvoice_W_Rg.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+//Medium
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/ABBvoice/ABBvoice_W_Md.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+  url('../fonts/ABBvoice/ABBvoice_W_Md.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/ABBvoice/ABBvoice_W_Md.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/ABBvoice/ABBvoice_W_Md.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/ABBvoice/ABBvoice_W_Md.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+//Medium
+@font-face {
+  font-family: 'ABBvoice';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/ABBvoice/ABBvoice_W_Bd.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+  url('../fonts/ABBvoice/ABBvoice_W_Bd.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/ABBvoice/ABBvoice_W_Bd.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/ABBvoice/ABBvoice_W_Bd.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/ABBvoice/ABBvoice_W_Bd.ttf') format('truetype'); /* Safari, Android, iOS */
+}

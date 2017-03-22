@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* ABB font Helvetica Neue eText Pro */
+@font-face {
+  font-family: 'Helvetica Neue eText Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-45Lt.eot");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-45Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-45Lt.woff2") format("woff2"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-45Lt.woff") format("woff"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-45Lt.ttf") format("truetype"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-45Lt.svg#HelveticaNeueeTextPro") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'Helvetica Neue eText Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-65Md.eot");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-65Md.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-65Md.woff2") format("woff2"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-65Md.woff") format("woff"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-65Md.ttf") format("truetype"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-65Md.svg#HelveticaNeueeTextPro") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'Helvetica Neue eText Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-75Bd.eot");
+  /* IE9 Compat Modes */
+  src: local("Γÿ║"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-75Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-75Bd.woff2") format("woff2"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-75Bd.woff") format("woff"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-75Bd.ttf") format("truetype"), url("../fonts/HelveticaNeueETPro/HelveticaNeueETPro-75Bd.svg#HelveticaNeueeTextPro") format("svg");
+  /* Legacy iOS */ }
+
+/*# sourceMappingURL=abb-font-helvetica.css.map */
