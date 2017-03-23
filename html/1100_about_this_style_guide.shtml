@@ -3,136 +3,138 @@
 <head>
     <!--#include file="0_includes/head.html" -->
 </head>
-<body class="introPage">
-<!--#include file="0_includes/top-menu.html" -->
-<header>
-    <!--#include file="0_includes/header.html" -->
-    <nav class="sub" data-chapter="" id=""></nav>
-</header>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-2 sidebar" id="About">
-            <ul class="nav nav-sidebar hidden-xs hidden-sm affix">
-                <li><a class="active" href="1100_about_this_style_guide.shtml">About this styleguide</a></li>
-            </ul>
-        </div>
-        <div class="col-sm-10" main>
-            <h1>About this style guide</h1>
-            <section>
-                <div class="module">
-                    <p>This document describes the ABB look &amp; feel for software products. Many of our customers and
-                        end-users see ABB primarily through the day-to-day interactions with the software products we
-                        deliver. Providing professional, modern and harmonized user interfaces is a basic requirement in
-                        today’s market.</p>
-                    <p>This style guide is valid for all types of software from all divisions and business units
-                        within ABB. The primary target applications are those that are either sold to customers
-                        or delivered to customers as part of service agreements. Other applications, such as
-                        engineering tools or internal tools are also free to follow this style guide.</p>
+<body class="pg2-body pg2-body--content  pg2-popup__back">
+    <!--#include file="0_includes/top-menu.html" -->
+    <header>
+        <!--#include file="0_includes/header.html" -->
+        <nav class="sub" data-chapter="" id=""></nav>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2 sidebar" id="About">
+                <aside class="BrandGuidelinePageHeader-list affix">
+                    <ul>
+                        <li><a class="active" href="1100_about_this_style_guide.shtml">About this styleguide</a></li>
+                    </ul>
+                </aside>
+            </div>
+            <div class="col-sm-10" main>
+                <h1>About this style guide</h1>
+                <section>
+                    <div class="module">
+                        <p>This document describes the ABB look &amp; feel for software products. Many of our customers and
+                            end-users see ABB primarily through the day-to-day interactions with the software products we
+                            deliver. Providing professional, modern and harmonized user interfaces is a basic requirement in
+                            today’s market.</p>
+                        <p>This style guide is valid for all types of software from all divisions and business units
+                            within ABB. The primary target applications are those that are either sold to customers
+                            or delivered to customers as part of service agreements. Other applications, such as
+                            engineering tools or internal tools are also free to follow this style guide.</p>
 
-                    <h3>Companion material</h3>
-                    <p>The elements in this style guide will also be provided through companion material:</p>
-                    <ul>
-                        <li>Adobe Illustrator components file for quick mock-up creation</li>
-                        <li>Icon library in several formats</li>
-                        <li>Font file</li>
-                        <li>Style sheets</li>
-                    </ul>
-                    <p>This style guide has been produced by the Common UX project, a part of ABB’s cross-division
-                        SW2020 initiative. For more information, please visit </p>
-                    <a class="support" href="https://sites.abb.com/sites/GlobalSoftwareStrategyInitiatives/CommonUX/">https://sites.abb.com/sites/GlobalSoftwareStrategyInitiatives/CommonUX/</a>
-                </div>
-                <article class="note support">
-                    <h3>Disclaimers</h3>
-                    <h4>The style guide does not yet cover:</h4>
-                    <ul>
-                        <li>A complete set of standard controls and components</li>
-                        <li>Touch optimized components</li>
-                        <li>Complete set of color palettes</li>
-                    </ul>
-                    <h4>Different screen sizes and hardware formats:</h4>
-                    <p>This release of the style guide does not specify at pixel level all elements necessary for all
-                        types of hardware formats, screen sizes and use contexts. It includes the main graphical concept
-                        and provides some basic components and examples of use. Where measurements are presented, they
-                        are based on typical desktop screen resolutions. In future versions of this style guide, the
-                        measurements will be adapted to all types of screens by using device independent units (such as
-                        em).</p>
-                </article>
-            </section>
-            <section>
-                <h2>Using this style guide</h2>
-                <figure class="module full">
-                    <img src="../content/0custom/Design_process.svg" alt="" width="1100">
-                </figure>
-                <p>This model illustrates how the style guide and Common UX team mainly act as a resource in the later
-                    steps of a design process, when visual design is applied. All conceptual design decisions must be
-                    made within the product team. This includes content, functionality and interaction models, layout
-                    and navigation.</p>
-                <p>It is highly recommended that product teams include professional designers, either internal or
-                    contracted, to ensure a user-centered design process.</p>
-            </section>
-            <section>
-                <h2>Criteria for using this style guide</h2>
-                <div class="intro">
-                    <p>There exists several style guides within ABB already, and it might not always be entirely clear
-                        when to follow which style guide. Use these criteria to decide whether this style guide is
-                        appropriate for your case. </p>
-                </div>
-                <article>
-                    <h3 class="spaced1">Use this style guide if one or more of the following applies:</h3>
-                    <p class="do">your product is sold to customers or your product is bundled together with products
-                        (HW or SW) that are sold to customers</p>
-                    <p class="do">your product is used to deliver services to a customer, including engineering of
-                        systems and products</p>
-                    <p class="do">your product is typically used by customers in their daily work</p>
-                    <p class="do">you product presents data from your customer’s plant or equipment </p>
-                </article>
-                <article>
-                    <h3 class="spaced1">Do not use this style guide if:</h3>
-                    <p class="dont">the primary function of your product is related to sales or marketing</p>
-                    <p class="dont">the product is primarily used to communicate with customers</p>
-                    <p class="dont">the product presents information about ABB product or service offerings</p>
-                    <p class="dont">you are designing a web site</p>
-                </article>
-            </section>
-            <section>
-                <h2>Hierarchy of style guides</h2>
-                <article class="colGroup split23 wide">
-                    <div>
-                        <h3>ABB UI style guide</h3>
-                        <p>This style guide is intended to be an overarching, top-level guide valid for all SW products
-                            in all divisions in ABB. It is intended to provide the basic level of harmonization and
-                            familiarity between ABB products.</p>
+                        <h3>Companion material</h3>
+                        <p>The elements in this style guide will also be provided through companion material:</p>
+                        <ul>
+                            <li>Adobe Illustrator components file for quick mock-up creation</li>
+                            <li>Icon library in several formats</li>
+                            <li>Font file</li>
+                            <li>Style sheets</li>
+                        </ul>
+                        <p>This style guide has been produced by the Common UX project, a part of ABB’s cross-division
+                            SW2020 initiative. For more information, please visit </p>
+                        <a class="support" href="https://sites.abb.com/sites/GlobalSoftwareStrategyInitiatives/CommonUX/">https://sites.abb.com/sites/GlobalSoftwareStrategyInitiatives/CommonUX/</a>
                     </div>
-                    <figure>
-                        <img src="../content/About__StyleGuide_frontpage.png" alt="">
+                    <article class="note support">
+                        <h3>Disclaimers</h3>
+                        <h4>The style guide does not yet cover:</h4>
+                        <ul>
+                            <li>A complete set of standard controls and components</li>
+                            <li>Touch optimized components</li>
+                            <li>Complete set of color palettes</li>
+                        </ul>
+                        <h4>Different screen sizes and hardware formats:</h4>
+                        <p>This release of the style guide does not specify at pixel level all elements necessary for all
+                            types of hardware formats, screen sizes and use contexts. It includes the main graphical concept
+                            and provides some basic components and examples of use. Where measurements are presented, they
+                            are based on typical desktop screen resolutions. In future versions of this style guide, the
+                            measurements will be adapted to all types of screens by using device independent units (such as
+                            em).</p>
+                    </article>
+                </section>
+                <section>
+                    <h2>Using this style guide</h2>
+                    <figure class="module full">
+                        <img src="../content/0custom/Design_process.svg" alt="" width="1100">
                     </figure>
-                </article>
-                <article>
-                    <h3>Product or BU-level style guides (optional)</h3>
-                    <p>Some BUs and products might choose to develop a more detailed style guide to create a closer
-                        alignment with less variability between products or screens, within the boundaries set by the
-                        ABB UI style guide. Typically this can specify further a limited set of layout options, narrow
-                        down the choice of colors used and specify interaction patterns.</p>
-                </article>
-                <article class="colGroup split23 wide">
-                    <div>
-                        <h3>Product specifications</h3>
-                        <p>Typically, the handover from interaction designers to the product developers will still be
-                            the detailed, screen by screen specifications necessary to develop the product. By applying
-                            the style guides above the specification process will be more efficient as much will already
-                            be defined above, and similar from product to product.</p>
+                    <p>This model illustrates how the style guide and Common UX team mainly act as a resource in the later
+                        steps of a design process, when visual design is applied. All conceptual design decisions must be
+                        made within the product team. This includes content, functionality and interaction models, layout
+                        and navigation.</p>
+                    <p>It is highly recommended that product teams include professional designers, either internal or
+                        contracted, to ensure a user-centered design process.</p>
+                </section>
+                <section>
+                    <h2>Criteria for using this style guide</h2>
+                    <div class="intro">
+                        <p>There exists several style guides within ABB already, and it might not always be entirely clear
+                            when to follow which style guide. Use these criteria to decide whether this style guide is
+                            appropriate for your case. </p>
                     </div>
-                    <figure>
-                        <img src="../content/About_ProductSpecification-09.png" alt="">
-                    </figure>
-                </article>
-            </section>
+                    <article>
+                        <h3 class="spaced1">Use this style guide if one or more of the following applies:</h3>
+                        <p class="do">your product is sold to customers or your product is bundled together with products
+                            (HW or SW) that are sold to customers</p>
+                        <p class="do">your product is used to deliver services to a customer, including engineering of
+                            systems and products</p>
+                        <p class="do">your product is typically used by customers in their daily work</p>
+                        <p class="do">you product presents data from your customer’s plant or equipment </p>
+                    </article>
+                    <article>
+                        <h3 class="spaced1">Do not use this style guide if:</h3>
+                        <p class="dont">the primary function of your product is related to sales or marketing</p>
+                        <p class="dont">the product is primarily used to communicate with customers</p>
+                        <p class="dont">the product presents information about ABB product or service offerings</p>
+                        <p class="dont">you are designing a web site</p>
+                    </article>
+                </section>
+                <section>
+                    <h2>Hierarchy of style guides</h2>
+                    <article class="colGroup split23 wide">
+                        <div>
+                            <h3>ABB UI style guide</h3>
+                            <p>This style guide is intended to be an overarching, top-level guide valid for all SW products
+                                in all divisions in ABB. It is intended to provide the basic level of harmonization and
+                                familiarity between ABB products.</p>
+                        </div>
+                        <figure>
+                            <img src="../content/About__StyleGuide_frontpage.png" alt="">
+                        </figure>
+                    </article>
+                    <article>
+                        <h3>Product or BU-level style guides (optional)</h3>
+                        <p>Some BUs and products might choose to develop a more detailed style guide to create a closer
+                            alignment with less variability between products or screens, within the boundaries set by the
+                            ABB UI style guide. Typically this can specify further a limited set of layout options, narrow
+                            down the choice of colors used and specify interaction patterns.</p>
+                    </article>
+                    <article class="colGroup split23 wide">
+                        <div>
+                            <h3>Product specifications</h3>
+                            <p>Typically, the handover from interaction designers to the product developers will still be
+                                the detailed, screen by screen specifications necessary to develop the product. By applying
+                                the style guides above the specification process will be more efficient as much will already
+                                be defined above, and similar from product to product.</p>
+                        </div>
+                        <figure>
+                            <img src="../content/About_ProductSpecification-09.png" alt="">
+                        </figure>
+                    </article>
+                </section>
+            </div>
         </div>
     </div>
-</div>
-<footer>
-    <!--#include file="0_includes/footer.html" -->
-</footer>
-<!--#include file="0_includes/bodyendlinks.html" -->
+    <footer>
+        <!--#include file="0_includes/footer.html" -->
+    </footer>
+    <!--#include file="0_includes/bodyendlinks.html" -->
 </body>
 </html>

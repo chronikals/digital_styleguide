@@ -3,34 +3,37 @@
 <head>
 	<!--#include file="0_includes/head.html" -->
 </head>
-<body class="introPage">
-<!--#include file="0_includes/top-menu.html" -->
-<header>
-	<!--#include file="0_includes/header.html" -->
-	<nav class="sub" data-chapter="ch03" id=""></nav>
-</header>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-lg-2 sidebar">
-			<ul class="nav nav-sidebar hidden-xs hidden-sm affix">
-				<li><a href="1001_alarm_insight.shtml">Alarm Insight</a></li>
-				<li><a href="1002_decathlon_dashboards.shtml">Decathlon Dashboards</a></li>
-				<li><a href="1003_microscada_pro.shtml">MicroSCADA Pro</a></li>
-				<li><a href="1004_pcs200.shtml">PCS 200</a></li>
-				<li><a href="1005_relion_webhmi.shtml">Relion WebHMI</a></li>
-				<li><a href="1006_drive_composer_pro.shtml">Drive Composer Pro</a></li>
-				<li><a href="1007_cpmplus_for_pulp_and_paper.shtml.shtml">cpmPlus for Pulp & Paper</a></li>
-				<li><a href="1008_smart_sensor_mobile.shtml">Smart sensor mobile</a></li>
-			</ul>
-		</div>
-		<div class="col-sm-10 main">
-			<div class="inner">
-				<h1>Examples</h1>
-				<div class="intro">
-					<p>This section contains a set of example screens from a variety of ABB software interfaces. These applications have been pilots to test, evaluate and refine the graphical principles in the style guide. The screens presented are snap-shots from this “proof of concept” process.</p>	
-					<p>The designs are not to be considered as perfect and refined examples to be followed in detail, but rather to be used as inspiration.</p>
+<body class="pg2-body pg2-body--content  pg2-popup__back">
+	<!--#include file="0_includes/top-menu.html" -->
+	<header>
+		<!--#include file="0_includes/header.html" -->
+		<nav class="sub" data-chapter="ch03" id=""></nav>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-2">
+				<aside class="BrandGuidelinePageHeader-list affix">
+					<ul>
+						<li><a href="1001_alarm_insight.shtml">Alarm Insight</a></li>
+						<li><a href="1002_decathlon_dashboards.shtml">Decathlon Dashboards</a></li>
+						<li><a href="1003_microscada_pro.shtml">MicroSCADA Pro</a></li>
+						<li><a href="1004_pcs200.shtml">PCS 200</a></li>
+						<li><a href="1005_relion_webhmi.shtml">Relion WebHMI</a></li>
+						<li><a href="1006_drive_composer_pro.shtml">Drive Composer Pro</a></li>
+						<li><a href="1007_cpmplus_for_pulp_and_paper.shtml.shtml">cpmPlus for Pulp & Paper</a></li>
+						<li><a href="1008_smart_sensor_mobile.shtml">Smart sensor mobile</a></li>
+					</ul>
+				</aside>
+			</div>
+			<div class="col-sm-10 main">
+				<div class="inner">
+					<h1>Examples</h1>
+					<div class="intro">
+						<p>This section contains a set of example screens from a variety of ABB software interfaces. These applications have been pilots to test, evaluate and refine the graphical principles in the style guide. The screens presented are snap-shots from this “proof of concept” process.</p>
+						<p>The designs are not to be considered as perfect and refined examples to be followed in detail, but rather to be used as inspiration.</p>
+					</div>
+					<nav class="introMenu"></nav>
 				</div>
-				<nav class="introMenu"></nav>
 			</div>
 		</div>
 	</div>

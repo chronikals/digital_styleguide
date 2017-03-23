@@ -74,7 +74,7 @@
 	* Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-body {
+.cux-body {
   font-family: "ABBvoice", "Sans-Serif", Arial;
   font-size: 13px; }
 
@@ -5444,9 +5444,6 @@ input[type="checkbox"][data-indeterminate] + label:after {
 
 .affix-top {
   position: relative; }
-
-.affix {
-  top: 200px; }
 
 .affix,
 .affix-bottom {

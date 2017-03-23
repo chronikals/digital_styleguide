@@ -3092,10 +3092,17 @@ img {
     padding-top: 44px
 }
 
+.BrandGuidelinePageHeader-list ul ul {
+    padding-left: 16px;
+    margin: 0 0 12px;
+    list-style: none;
+    padding-top: 0px;
+}
+
 .BrandGuidelinePageHeader-list ul li {
-    padding: 0 0 15px;
+    padding: 0 0 12px;
     font-size: 15px;
-    line-height: 20px
+    line-height: 15px
 }
 
 .BrandGuidelinePageHeader-list ul li a {
@@ -3109,6 +3116,15 @@ img {
     color: #a0a0a0;
     border-bottom: 2px solid #ff000f;
     text-decoration: none
+}
+
+.BrandGuidelinePageHeader-list ul li a.active {
+    color: #ff000f;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: ABBvoice;
+    border-bottom: none;
+    line-height: 15px;
 }
 
 .BrandGuidelineHeroImage img {
@@ -3412,8 +3428,8 @@ img {
 }
 
 .BrandGuidelineResourceFinder-select li.selected.remove:after {
-    content: "\e902";
     font-family: ABBicons;
+    content: "\e91a";
     font-size: 16px
 }
 
@@ -3440,7 +3456,9 @@ img {
 }
 
 .BrandGuidelineResourceFinder-select.close li.selected:after {
-    content: "â–¼";
+    font-family: ABBicons;
+    content: "\e91a";
+    font-size: 16px;
     position: absolute;
     right: 24px
 }
@@ -3642,11 +3660,9 @@ img {
     clear: both
 }
 
-/*
 @font-face {
     font-family: ABBicons;
-    src: url(assets/ABBIcons/ABBicons.eot?hl3rwe);
-    src: url(assets/ABBIcons/ABBicons.eot?hl3rwe#iefix) format("embedded-opentype"),url(assets/ABBIcons/ABBicons.ttf?hl3rwe) format("truetype"),url(assets/ABBIcons/ABBicons.woff?hl3rwe) format("woff"),url(assets/ABBIcons/ABBicons.svg?hl3rwe#ABBicons) format("svg");
+    src: url(../fonts/ABBIcons/ABBicons.ttf?hl3rwe) format("truetype");
     font-weight: 400;
     font-style: normal
 }
@@ -3661,7 +3677,6 @@ img {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
-*/
 
 .BrandIcons-download:before {
     content: "\e907";

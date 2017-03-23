@@ -42,8 +42,12 @@ $(document).ready(function() {
 
     var subNavLocation = parseInt($('nav.sub').attr('id'));
     $('nav.sub a').eq(subNavLocation).addClass('selected');
+    var subNavList = $('nav.sub a').eq(subNavLocation).childNodes;
     $('.mainMenu .active a').eq(subNavLocation).addClass('selected');
+    var subNavList2 = $('.mainMenu .active a').eq(subNavLocation).childNodes;
 
+
+    /*
 
     $("ul.navbar-nav > li").removeClass("active");
     $("ul.navbar-nav > li").each(function () {
@@ -58,6 +62,10 @@ $(document).ready(function() {
         }
     });
 
+    */
+
+
+
 
      /******************************************************
      title, headings and structure
@@ -65,7 +73,7 @@ $(document).ready(function() {
 
 //	set title same as h1
 
-    document.title =  $('h1').text() + ' - ABB Style Guide';
+    document.title =  $('h1').text() + ' - UI Styleguide';
 
 // id headings and show their path on click
 

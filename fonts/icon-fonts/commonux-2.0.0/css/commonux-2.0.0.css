@@ -36,15 +36,15 @@
 }
 
 .cux-16 {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 .cux-20 {
-    font-size: 20px;
+    font-size: 20px !important;
 }
 
 .cux-24 {
-    font-size: 24px;
+    font-size: 24px !important;
 }
 
 .abb-cux-add-user:before {

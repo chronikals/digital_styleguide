@@ -3,272 +3,274 @@
 <head>
 	<!--#include file="0_includes/head.html" -->
 </head>
-<body>
-<!--#include file="0_includes/top-menu.html" -->
-<header>
-	<!--#include file="0_includes/header.html" -->
-	<nav class="sub" data-chapter="ch02" id="7"></nav>
-</header>
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-sm-2 sidebar">
-			<ul class="nav nav-sidebar hidden-xs hidden-sm affix">
-				<li><a>Colors</a></li>
-				<ul>
-					<li><a href="0301_color_philosophy.shtml">Color philosophy</a></li>
-					<li><a href="0302_color_overview.shtml">Color overview</a></li>
-					<li><a href="0303_color_themes.shtml">Color themes</a></li>
-					<li><a href="0304_using_colors.shtml">Using colors</a></li>
-				</ul>
-				<li><a>Icons</a></li>
-				<ul>
-					<li><a href="0500_icons.shtml">Sizes and formats</a></li>
-					<li><a href="0501_creating_new_icons.shtml">Creating new icons</a></li>
-				</ul>
-				<li><a>Text</a></li>
-				<ul>
-					<li><a href="0600_fonts.shtml">Fonts</a></li>
-					<li><a href="0104_tone_of_voice.shtml">Tone of voice</a></li>
-				</ul>
-				<li><a>Controls</a></li>
-				<ul>
-					<li><a href="0401_buttons.shtml">Buttons</a></li>
-					<li><a href="0402_selectors.shtml">Selectors</a></li>
-					<li><a href="0403_text_input_fields.shtml">Text input fields</a></li>
-					<li><a href="0404_tabs.shtml">Tabs</a></li>
-					<li><a href="0405_menus.shtml">Menus</a></li>
-					<li><a href="0406_links.shtml">Links</a></li>
-					<li><a href="0407_progress_indicators.shtml">Progress indicators</a></li>
-				</ul>
-				<li><a>Tables</a></li>
-				<ul>
-					<li><a href="0701_table_types.shtml">Table types</a></li>
-					<li><a href="0702_table_headers.shtml">Table headers</a></li>
-					<li><a href="0703_table_feature_examples.shtml">Table feature examples</a></li>
-					<li><a href="0704_table_specifications.shtml">Table specifications</a></li>
-					<li><a href="0705_responsive_tables.shtml">Responsive tables</a></li>
-				</ul>
-				<li><a href="0800_alarms_and_notifications.shtml">Alarms and notifications</a></li>
-				<li><a>Data visualization</a></li>
-				<ul>
-					<li><a href="0900_data_visualization.shtml">Data visualization</a></li>
-					<li><a href="0901_creating_visualizations.shtml">Creating visualizations</a></li>
-					<li><a class="active" href="0902_visualization_variants.shtml">Visualization variants</a></li>
-				</ul>
-				<li><a href="0105_transitions_and_animations.shtml">Transitions and animations</a></li>
-			</ul>
-		</div>
-		<div class="col-sm-10" main>
-				<h1 id="Components">Visualization variants</h1>
-				<section>
-					<h2>Bar graphs, meters and gauges (Measurements)</h2>
-					<div class="rowGroup module support">
-						<div>
-							<img src="../content/DataVisualization_Bargraph_limits/DataVisualization_Bargraph_limits_part1.png" alt="" />
-						</div>
-						<div>
-							<div>
-								<img src="../content/DataVisualization_Gauge_small/DataVisualization_Gauge_small_part1.png" alt="" width="150" />
-							</div>
-							<div>
-								<img src="../content/DataVisualization_Gauge_small/DataVisualization_Gauge_small_part2.png" alt="" width="150" />
-							</div>
-						</div>
-						<div>
-							<img src="../content/DataVisualization_Bargraph_limits/DataVisualization_Bargraph_limits_part2.png" alt="" />
-						</div>
-						<div>
-							<div>
-								<img src="../content/DataVisualization_Meter.png" alt="" width="175" />
-							</div>
-							<div>
-								<img src="../content/DataVisualization_Gauges_large_Gauges_large/DataVisualization_Gauges_large_Gauges_large_part1.png" alt="" width="200" />
-							</div>
-						</div>
-					</div>
-					<article>
-						<h3>Bar graph markers and indicators</h3>
-						<p>To indicate target values, warning and alarm limits or other key values related to the bar graph, these markers and indicators can be used individually or combined:</p>
-						<div class="rowGroup custom1 support">
-							<div>
-								<div>
-									<img src="../content/DataVisualization_BarGraphs-24.png" alt="">
-								</div>
-								<div>
-									<h4>Triangle marker</h4>
-									<p>Here used to show setpoint.</p>
-								</div>
-							</div>
-							<div>
-								<div>
-									<img src="../content/DataVisualization_BarGraphs-25.png" alt="">
-								</div>
-								<div>
-									<h4>Vertical lines</h4>
-									<p>Here used to show warning and alarm limits.</p>
-								</div>
-							</div>
-							<div>
-								<div>
-									<img src="../content/DataVisualization_BarGraphs-26.png" alt="">
-								</div>
-								<div>
-									<h4>Horizontal lines</h4>
-									<p>Here used to show warning and alarm limits.</p>
-								</div>
-							</div>
-							<div>
-								<div>
-									<img src="../content/DataVisualization_BarGraphs-28.png" alt="">
-								</div>
-								<div>
-									<h4>Frame</h4>
-									<p>Here used to show operational range.</p>
-								</div>
-							</div>
-							<div>
-								<div>
-									<img src="../content/DataVisualization_BarGraphs-27.png" alt="">
-								</div>
-								<div>
-									<h4>Background color/pattern</h4>
-									<p>Here used to show operational range.</p>
-								</div>
-							</div>
-						</div>
-						<div class="rowGroup support">
-							<div>					
-								<p>Make sure markers and indicators are used consistently within each product: </p>
-								<div>
-									<img src="../content/DataVisualization_BarGraphs_Dosanddonts-29_part1.png" alt="">
-									</span><span class="do"></span>
-								</div>
-								<div>
-									<img src="../content/DataVisualization_BarGraphs_Dosanddonts-29_part2.png" alt="">
-									</span><span class="dont"></span>
-								</div>
-							</div>
-						</div>
-					</article>
-				</section>
-				<section>
-					<h2>Trends (Time series)</h2>
-					<div class="rowGroup wide support">
-						<div>
-							<img src="../content/DataVisualization_Trends_Trends.png" alt="">
-						</div>
-						<div>
-							<div>
-								<img src="../content/DataVisualization_Binary_trend.png" alt="">
-							</div>
-						</div>
-					</div>
-				</section>
-				<section>
-					<h2>Sparklines and mini-trends (Time series)</h2>
-					<div class="rowGroup spaced2 strong support">
-						<div>
-							<img src="../content/DataVisualization_Sparklines_table.png" alt="">
-							<p>Sparklines in a table.</p>
-						</div>
-						<div>
-							<img src="../content/DataVisualization_Minitrends.png" alt="">
-							<p>Mini-trends without and with alarm limits. Alarm state indicated by frame color.</p>
-						</div>
-						<div>
-							<img src="../content/DataVisualization_SparklinesGrid.png" alt="">
-							<p>Sparklines with range indication in a KPI grid.</p>
-						</div>
-						<div>
-							<div>
-								<img src="../content/DataVisualization_Minitrends2.png" alt="" height="250">
-								<p>Mini-trend visually highlighting time above limit.</p>
-							</div>
-							<div>
-								<img src="../content/DataVisualization_Minitrends3.png" alt="" height="250">
-								<p>Mini-trends with alternative alarm limit &amp; state visualization.</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section>
-					<h2>Pie charts (Part to whole)</h2>
-					<div class="colGroup">
-						<div>
-							<img src="../content/2016-01-15-UI-components/Artboard_70_edit.svg" alt="" />
-						</div>
-						<div>
-							<img src="../content/DataVisualization_Pie_Chart_2.png" alt=""/>
-						</div>
-					</div>
-					<article>
-						<h3>Considerations when using Pie charts:</h3>
+<body class="pg2-body pg2-body--content  pg2-popup__back">
+	<!--#include file="0_includes/top-menu.html" -->
+	<header>
+		<!--#include file="0_includes/header.html" -->
+		<nav class="sub" data-chapter="ch02" id="7"></nav>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2">
+				<aside class="BrandGuidelinePageHeader-list affix">
+					<ul>
+						<li><a>Colors</a></li>
 						<ul>
-							<li>Pie charts are generally over-utilized; bar charts and column charts allow the users to more easily see the relations between the data. It is much more difficult to visually judge the size of circles (or circle segments) vs. rectangles.</li>
-							<li>If using pie charts, the number of data points (segments) should be low (3-5)</li>
-							<li>The underlying data should add up to 100% (which may necessitate the inclusion of a category such as “none”, “other”, etc.)</li>
+							<li><a href="0301_color_philosophy.shtml">Color philosophy</a></li>
+							<li><a href="0302_color_overview.shtml">Color overview</a></li>
+							<li><a href="0303_color_themes.shtml">Color themes</a></li>
+							<li><a href="0304_using_colors.shtml">Using colors</a></li>
 						</ul>
-					</article>
-				</section>
-				<section>
-					<h2>Scatter plots and spider charts (Correlation)</h2>
-					<div class="rowGroup spaced2 support">
-						<div>
-							<img src="../content/Data_visualization_Scatter_plot.png" alt="" width="500">
+						<li><a>Icons</a></li>
+						<ul>
+							<li><a href="0500_icons.shtml">Sizes and formats</a></li>
+							<li><a href="0501_creating_new_icons.shtml">Creating new icons</a></li>
+						</ul>
+						<li><a>Text</a></li>
+						<ul>
+							<li><a href="0600_fonts.shtml">Fonts</a></li>
+							<li><a href="0104_tone_of_voice.shtml">Tone of voice</a></li>
+						</ul>
+						<li><a>Controls</a></li>
+						<ul>
+							<li><a href="0401_buttons.shtml">Buttons</a></li>
+							<li><a href="0402_selectors.shtml">Selectors</a></li>
+							<li><a href="0403_text_input_fields.shtml">Text input fields</a></li>
+							<li><a href="0404_tabs.shtml">Tabs</a></li>
+							<li><a href="0405_menus.shtml">Menus</a></li>
+							<li><a href="0406_links.shtml">Links</a></li>
+							<li><a href="0407_progress_indicators.shtml">Progress indicators</a></li>
+						</ul>
+						<li><a>Tables</a></li>
+						<ul>
+							<li><a href="0701_table_types.shtml">Table types</a></li>
+							<li><a href="0702_table_headers.shtml">Table headers</a></li>
+							<li><a href="0703_table_feature_examples.shtml">Table feature examples</a></li>
+							<li><a href="0704_table_specifications.shtml">Table specifications</a></li>
+							<li><a href="0705_responsive_tables.shtml">Responsive tables</a></li>
+						</ul>
+						<li><a href="0800_alarms_and_notifications.shtml">Alarms and notifications</a></li>
+						<li><a>Data visualization</a></li>
+						<ul>
+							<li><a href="0900_data_visualization.shtml">Data visualization</a></li>
+							<li><a href="0901_creating_visualizations.shtml">Creating visualizations</a></li>
+							<li><a class="active" href="0902_visualization_variants.shtml">Visualization variants</a></li>
+						</ul>
+						<li><a href="0105_transitions_and_animations.shtml">Transitions and animations</a></li>
+					</ul>
+				</aside>
+			</div>
+			<div class="col-sm-10" main>
+					<h1 id="Components">Visualization variants</h1>
+					<section>
+						<h2>Bar graphs, meters and gauges (Measurements)</h2>
+						<div class="rowGroup module support">
+							<div>
+								<img src="../content/DataVisualization_Bargraph_limits/DataVisualization_Bargraph_limits_part1.png" alt="" />
+							</div>
+							<div>
+								<div>
+									<img src="../content/DataVisualization_Gauge_small/DataVisualization_Gauge_small_part1.png" alt="" width="150" />
+								</div>
+								<div>
+									<img src="../content/DataVisualization_Gauge_small/DataVisualization_Gauge_small_part2.png" alt="" width="150" />
+								</div>
+							</div>
+							<div>
+								<img src="../content/DataVisualization_Bargraph_limits/DataVisualization_Bargraph_limits_part2.png" alt="" />
+							</div>
+							<div>
+								<div>
+									<img src="../content/DataVisualization_Meter.png" alt="" width="175" />
+								</div>
+								<div>
+									<img src="../content/DataVisualization_Gauges_large_Gauges_large/DataVisualization_Gauges_large_Gauges_large_part1.png" alt="" width="200" />
+								</div>
+							</div>
 						</div>
-						<div>
+						<article>
+							<h3>Bar graph markers and indicators</h3>
+							<p>To indicate target values, warning and alarm limits or other key values related to the bar graph, these markers and indicators can be used individually or combined:</p>
+							<div class="rowGroup custom1 support">
+								<div>
+									<div>
+										<img src="../content/DataVisualization_BarGraphs-24.png" alt="">
+									</div>
+									<div>
+										<h4>Triangle marker</h4>
+										<p>Here used to show setpoint.</p>
+									</div>
+								</div>
+								<div>
+									<div>
+										<img src="../content/DataVisualization_BarGraphs-25.png" alt="">
+									</div>
+									<div>
+										<h4>Vertical lines</h4>
+										<p>Here used to show warning and alarm limits.</p>
+									</div>
+								</div>
+								<div>
+									<div>
+										<img src="../content/DataVisualization_BarGraphs-26.png" alt="">
+									</div>
+									<div>
+										<h4>Horizontal lines</h4>
+										<p>Here used to show warning and alarm limits.</p>
+									</div>
+								</div>
+								<div>
+									<div>
+										<img src="../content/DataVisualization_BarGraphs-28.png" alt="">
+									</div>
+									<div>
+										<h4>Frame</h4>
+										<p>Here used to show operational range.</p>
+									</div>
+								</div>
+								<div>
+									<div>
+										<img src="../content/DataVisualization_BarGraphs-27.png" alt="">
+									</div>
+									<div>
+										<h4>Background color/pattern</h4>
+										<p>Here used to show operational range.</p>
+									</div>
+								</div>
+							</div>
+							<div class="rowGroup support">
+								<div>
+									<p>Make sure markers and indicators are used consistently within each product: </p>
+									<div>
+										<img src="../content/DataVisualization_BarGraphs_Dosanddonts-29_part1.png" alt="">
+										</span><span class="do"></span>
+									</div>
+									<div>
+										<img src="../content/DataVisualization_BarGraphs_Dosanddonts-29_part2.png" alt="">
+										</span><span class="dont"></span>
+									</div>
+								</div>
+							</div>
+						</article>
+					</section>
+					<section>
+						<h2>Trends (Time series)</h2>
+						<div class="rowGroup wide support">
 							<div>
-								<img src="../content/DataVisualization_Spiderchart_2.png" alt="">
+								<img src="../content/DataVisualization_Trends_Trends.png" alt="">
 							</div>
 							<div>
-								<img src="../content/DataVisualization_Spiderchart_1.png" alt="">
+								<div>
+									<img src="../content/DataVisualization_Binary_trend.png" alt="">
+								</div>
 							</div>
 						</div>
-					</div>
-				</section>
-				<section>
-					<h2>Bar charts (Comparison and deviations)</h2>
-					<div class="rowGroup wide spaced2 support">
-						<div>
+					</section>
+					<section>
+						<h2>Sparklines and mini-trends (Time series)</h2>
+						<div class="rowGroup spaced2 strong support">
 							<div>
-								<img src="../content/DataVisualization_Bar_chart_horisontal.png" alt="">
+								<img src="../content/DataVisualization_Sparklines_table.png" alt="">
+								<p>Sparklines in a table.</p>
 							</div>
 							<div>
-								<img src="../content/DataVisualization_Barchart_stacked.png" alt="">
-							</div>
-						</div>
-						<div>
-							<img src="../content/2016-01-15-UI-components/Artboard_70_edit2.svg" alt="" width="300">
-						</div>						
-						<div>
-							<img src="../content/DataVisualization_Bar_charts.png" alt="">
-						</div>
-					</div>
-				</section>
-				<section>
-					<h2>Histograms and heat maps (Frequency distribution)</h2>
-					<div class="rowGroup wide spaced2 support">
-						<div>
-							<div>
-								<img src="../content/DataVisualization_Histogram1.png" alt="">
+								<img src="../content/DataVisualization_Minitrends.png" alt="">
+								<p>Mini-trends without and with alarm limits. Alarm state indicated by frame color.</p>
 							</div>
 							<div>
-								<img src="../content/DataVisualization_Heatmap.png" alt="">
+								<img src="../content/DataVisualization_SparklinesGrid.png" alt="">
+								<p>Sparklines with range indication in a KPI grid.</p>
+							</div>
+							<div>
+								<div>
+									<img src="../content/DataVisualization_Minitrends2.png" alt="" height="250">
+									<p>Mini-trend visually highlighting time above limit.</p>
+								</div>
+								<div>
+									<img src="../content/DataVisualization_Minitrends3.png" alt="" height="250">
+									<p>Mini-trends with alternative alarm limit &amp; state visualization.</p>
+								</div>
 							</div>
 						</div>
-						<div>
+					</section>
+					<section>
+						<h2>Pie charts (Part to whole)</h2>
+						<div class="colGroup">
 							<div>
-								<img src="../content/DataVisualization_Histogram2.png" alt="">
+								<img src="../content/2016-01-15-UI-components/Artboard_70_edit.svg" alt="" />
 							</div>
-						</div>					
-					</div>
-				</section>
+							<div>
+								<img src="../content/DataVisualization_Pie_Chart_2.png" alt=""/>
+							</div>
+						</div>
+						<article>
+							<h3>Considerations when using Pie charts:</h3>
+							<ul>
+								<li>Pie charts are generally over-utilized; bar charts and column charts allow the users to more easily see the relations between the data. It is much more difficult to visually judge the size of circles (or circle segments) vs. rectangles.</li>
+								<li>If using pie charts, the number of data points (segments) should be low (3-5)</li>
+								<li>The underlying data should add up to 100% (which may necessitate the inclusion of a category such as “none”, “other”, etc.)</li>
+							</ul>
+						</article>
+					</section>
+					<section>
+						<h2>Scatter plots and spider charts (Correlation)</h2>
+						<div class="rowGroup spaced2 support">
+							<div>
+								<img src="../content/Data_visualization_Scatter_plot.png" alt="" width="500">
+							</div>
+							<div>
+								<div>
+									<img src="../content/DataVisualization_Spiderchart_2.png" alt="">
+								</div>
+								<div>
+									<img src="../content/DataVisualization_Spiderchart_1.png" alt="">
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h2>Bar charts (Comparison and deviations)</h2>
+						<div class="rowGroup wide spaced2 support">
+							<div>
+								<div>
+									<img src="../content/DataVisualization_Bar_chart_horisontal.png" alt="">
+								</div>
+								<div>
+									<img src="../content/DataVisualization_Barchart_stacked.png" alt="">
+								</div>
+							</div>
+							<div>
+								<img src="../content/2016-01-15-UI-components/Artboard_70_edit2.svg" alt="" width="300">
+							</div>
+							<div>
+								<img src="../content/DataVisualization_Bar_charts.png" alt="">
+							</div>
+						</div>
+					</section>
+					<section>
+						<h2>Histograms and heat maps (Frequency distribution)</h2>
+						<div class="rowGroup wide spaced2 support">
+							<div>
+								<div>
+									<img src="../content/DataVisualization_Histogram1.png" alt="">
+								</div>
+								<div>
+									<img src="../content/DataVisualization_Heatmap.png" alt="">
+								</div>
+							</div>
+							<div>
+								<div>
+									<img src="../content/DataVisualization_Histogram2.png" alt="">
+								</div>
+							</div>
+						</div>
+					</section>
+			</div>
 		</div>
 	</div>
-</div>
-<footer>
-	<!--#include file="0_includes/footer.html" -->
-</footer>
-<!--#include file="0_includes/bodyendlinks.html" -->
+	<footer>
+		<!--#include file="0_includes/footer.html" -->
+	</footer>
+	<!--#include file="0_includes/bodyendlinks.html" -->
 </body>
 </html>
