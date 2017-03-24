@@ -12,7 +12,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-2">
-				<aside class="BrandGuidelinePageHeader-list">
+				<aside class="BrandGuidelinePageHeader-list affix">
 					<ul>
 						<li><a href="0101_design_principles.shtml">Design principles</a></li>
 						<li><a href="0102_the_visual_concept_at_a_glance.shtml">The visual concept at a glance</a></li>
