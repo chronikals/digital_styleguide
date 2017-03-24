@@ -68,7 +68,7 @@ h1:before {
 h2 {
 	font-size: 25px;
 	line-height: 32px;
-	color: #0076b7;
+	font-weight: 700;
 	margin-bottom: 20px;
 }
 
@@ -77,7 +77,7 @@ h3, h4, strong, .strong, b {
 }
 
 h3 {
-	font-size: 1.125em;
+	font-size: 22px;
 	line-height: 1.6;
 }
 
