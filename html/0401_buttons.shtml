@@ -12,7 +12,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-sm-2">
-				<aside class="BrandGuidelinePageHeader-list">
+				<aside class="BrandGuidelinePageHeader-list affix">
 					<ul>
 						<li><a>Colors</a></li>
 						<ul>
