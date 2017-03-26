@@ -16,47 +16,47 @@
 					<ul>
 						<li><a>Colors</a></li>
 						<ul>
-							<li><a href="0301_color_philosophy.shtml">Color philosophy</a></li>
-							<li><a href="0302_color_overview.shtml">Color overview</a></li>
-							<li><a href="0303_color_themes.shtml">Color themes</a></li>
-							<li><a href="0304_using_colors.shtml">Using colors</a></li>
+							<li><a href="0301_color_philosophy.html">Color philosophy</a></li>
+							<li><a href="0302_color_overview.html">Color overview</a></li>
+							<li><a href="0303_color_themes.html">Color themes</a></li>
+							<li><a href="0304_using_colors.html">Using colors</a></li>
 						</ul>
 						<li><a>Icons</a></li>
 						<ul>
-							<li><a href="0500_icons.shtml">Sizes and formats</a></li>
-							<li><a href="0501_creating_new_icons.shtml">Creating new icons</a></li>
+							<li><a href="0500_icons.html">Sizes and formats</a></li>
+							<li><a href="0501_creating_new_icons.html">Creating new icons</a></li>
 						</ul>
 						<li><a>Text</a></li>
 						<ul>
-							<li><a href="0600_fonts.shtml">Fonts</a></li>
-							<li><a class="active" href="0104_tone_of_voice.shtml">Tone of voice</a></li>
+							<li><a href="0600_fonts.html">Fonts</a></li>
+							<li><a class="active" href="0104_tone_of_voice.html">Tone of voice</a></li>
 						</ul>
 						<li><a>Controls</a></li>
 						<ul>
-							<li><a href="0401_buttons.shtml">Buttons</a></li>
-							<li><a href="0402_selectors.shtml">Selectors</a></li>
-							<li><a href="0403_text_input_fields.shtml">Text input fields</a></li>
-							<li><a href="0404_tabs.shtml">Tabs</a></li>
-							<li><a href="0405_menus.shtml">Menus</a></li>
-							<li><a href="0406_links.shtml">Links</a></li>
-							<li><a href="0407_progress_indicators.shtml">Progress indicators</a></li>
+							<li><a href="0401_buttons.html">Buttons</a></li>
+							<li><a href="0402_selectors.html">Selectors</a></li>
+							<li><a href="0403_text_input_fields.html">Text input fields</a></li>
+							<li><a href="0404_tabs.html">Tabs</a></li>
+							<li><a href="0405_menus.html">Menus</a></li>
+							<li><a href="0406_links.html">Links</a></li>
+							<li><a href="0407_progress_indicators.html">Progress indicators</a></li>
 						</ul>
 						<li><a>Tables</a></li>
 						<ul>
-							<li><a href="0701_table_types.shtml">Table types</a></li>
-							<li><a href="0702_table_headers.shtml">Table headers</a></li>
-							<li><a href="0703_table_feature_examples.shtml">Table feature examples</a></li>
-							<li><a href="0704_table_specifications.shtml">Table specifications</a></li>
-							<li><a href="0705_responsive_tables.shtml">Responsive tables</a></li>
+							<li><a href="0701_table_types.html">Table types</a></li>
+							<li><a href="0702_table_headers.html">Table headers</a></li>
+							<li><a href="0703_table_feature_examples.html">Table feature examples</a></li>
+							<li><a href="0704_table_specifications.html">Table specifications</a></li>
+							<li><a href="0705_responsive_tables.html">Responsive tables</a></li>
 						</ul>
-						<li><a href="0800_alarms_and_notifications.shtml">Alarms and notifications</a></li>
+						<li><a href="0800_alarms_and_notifications.html">Alarms and notifications</a></li>
 						<li><a>Data visualization</a></li>
 						<ul>
-							<li><a href="0900_data_visualization.shtml">Data visualization</a></li>
-							<li><a href="0901_creating_visualizations.shtml">Creating visualizations</a></li>
-							<li><a href="0902_visualization_variants.shtml">Visualization variants</a></li>
+							<li><a href="0900_data_visualization.html">Data visualization</a></li>
+							<li><a href="0901_creating_visualizations.html">Creating visualizations</a></li>
+							<li><a href="0902_visualization_variants.html">Visualization variants</a></li>
 						</ul>
-						<li><a href="0105_transitions_and_animations.shtml">Transitions and animations</a></li>
+						<li><a href="0105_transitions_and_animations.html">Transitions and animations</a></li>
 					</ul>
 				</aside>
 			</div>

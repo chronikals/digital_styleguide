@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!--#include file="0_includes/head.html" -->
+</head>
+<body class="pg2-body pg2-body--content  pg2-popup__back">
+	<!--#include file="0_includes/top-menu.html" -->
+	<header>
+		<!--#include file="0_includes/header.html" -->
+		<nav class="sub" data-chapter="ch02" id="4"></nav>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2">
+				<aside class="BrandGuidelinePageHeader-list affix">
+					<ul>
+						<li><a>Colors</a></li>
+						<ul>
+							<li><a href="0301_color_philosophy.html">Color philosophy</a></li>
+							<li><a href="0302_color_overview.html">Color overview</a></li>
+							<li><a href="0303_color_themes.html">Color themes</a></li>
+							<li><a href="0304_using_colors.html">Using colors</a></li>
+						</ul>
+						<li><a>Icons</a></li>
+						<ul>
+							<li><a href="0500_icons.html">Sizes and formats</a></li>
+							<li><a href="0501_creating_new_icons.html">Creating new icons</a></li>
+						</ul>
+						<li><a>Text</a></li>
+						<ul>
+							<li><a href="0600_fonts.html">Fonts</a></li>
+							<li><a href="0104_tone_of_voice.html">Tone of voice</a></li>
+						</ul>
+						<li><a>Controls</a></li>
+						<ul>
+							<li><a href="0401_buttons.html">Buttons</a></li>
+							<li><a href="0402_selectors.html">Selectors</a></li>
+							<li><a href="0403_text_input_fields.html">Text input fields</a></li>
+							<li><a class="active" href="0404_tabs.html">Tabs</a></li>
+							<li><a href="0405_menus.html">Menus</a></li>
+							<li><a href="0406_links.html">Links</a></li>
+							<li><a href="0407_progress_indicators.html">Progress indicators</a></li>
+						</ul>
+						<li><a>Tables</a></li>
+						<ul>
+							<li><a href="0701_table_types.html">Table types</a></li>
+							<li><a href="0702_table_headers.html">Table headers</a></li>
+							<li><a href="0703_table_feature_examples.html">Table feature examples</a></li>
+							<li><a href="0704_table_specifications.html">Table specifications</a></li>
+							<li><a href="0705_responsive_tables.html">Responsive tables</a></li>
+						</ul>
+						<li><a href="0800_alarms_and_notifications.html">Alarms and notifications</a></li>
+						<li><a>Data visualization</a></li>
+						<ul>
+							<li><a href="0900_data_visualization.html">Data visualization</a></li>
+							<li><a href="0901_creating_visualizations.html">Creating visualizations</a></li>
+							<li><a href="0902_visualization_variants.html">Visualization variants</a></li>
+						</ul>
+						<li><a href="0105_transitions_and_animations.html">Transitions and animations</a></li>
+					</ul>
+				</aside>
+			</div>
+			<div class="col-sm-10">
+				<h1 id="Components">Tabs</h1>
+				<section>
+					<div class="intro">
+						<p>Tabs are useful for allowing users to easily switch between different views and to clearly see what the browsing choices are. They can be used as top-level navigation, or to browse categorized data sets within a panel. Care should be taken to not provide too many nested levels of tabs, or to use tabs when there are too many alternatives.</p>
+					</div>
+					<div class="rowGroup split23 wide strong" style="max-width: 900px;">
+						<div>
+							<div>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_60.svg" alt="" width="565">
+							</div>
+							<div>
+								<p class="spaced1">The ABB bar tabs</p>
+								<p>Primary tabs for main view and dialog content</p>
+							</div>
+						</div>
+						<div>
+							<div>
+								<img src="../content_v2/2/5_Controls_illustrations/Artboard_61.svg" alt="" width="565">
+							</div>
+							<div>
+								<p>Secondary tabs for main view and dialog content</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section>
+				<h2>Interactive examples</h2>
+				<article class="cux-body">
+					<div class="module-note">
+						<h3 style="margin-top:20px;">Black bar</h3>
+						<div class="navbar navbar-inverse">
+							<div class="container">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle" data-toggle="collapse"
+											data-target=".navbar-collapse">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+									<a class="navbar-brand" style="margin-left:10px;" href="#">Product name</a>
+								</div>
+								<div class="navbar-collapse collapse">
+									<ul class="nav navbar-nav">
+										<li data-toggle="tab" class="active"><a href="#"><span class="cux abb-cux-user-circle cux-20"></span></a>
+										</li>
+										<li data-toggle="tab"><a href="#"><span class="cux abb-cux-globe cux-20"></span></a>
+										</li>
+										<li data-toggle="tab"><a href="#"><span class="cux abb-cux-pie-chart cux-20"></span></a>
+										</li>
+										<li data-toggle="tab"><a href="#"><span class="cux abb-cux-reports cux-20"></span></a>
+										</li>
+									</ul>
+									<ul class="nav navbar-nav navbar-right" style="margin-right: -30px;">
+										<li><a href="#hamburger"><span class="cux abb-cux-menu cux-20"></span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="module-note">
+						<h3 style="margin-top:20px;">Primary tab</h3>
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+								<li><a href="#profile" data-toggle="tab">Profile</a></li>
+								<li><a href="#messages" data-toggle="tab">Messages</a></li>
+							</ul>
+					</div>
+					<div class="module-note">
+						<h3 style="margin-top:20px;">Secondary tab</h3>
+						<ul class="nav nav-subtabs">
+							<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+							<li><a href="#profile" data-toggle="tab">Profile</a></li>
+							<li><a href="#messages" data-toggle="tab">Messages</a></li>
+						</ul>
+					</div>
+				</article>
+				</section>
+				<section>
+					<h2>Mobile adaptations</h2>
+					<article>
+						<h3>Secondary tabs for main view content</h3>
+						<p>When main content is grouped into tabs on mobile, consider using icons only, as space is restricted.</p>
+						<img class="bordered" src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_7.svg" alt="" width="400">
+					</article>
+					<article>
+						<h3>IOS &amp; Android tab bar</h3>
+						<p>Although bottom tab bar for main navigation was originally an IOS pattern, it has recently emerged also to Android and can be used  cross platform. Follow platform guidance on font/icon sizing relative to screen size, and consider whether icons + text is required.</p>
+						<img src="../content_v2/2/5_Controls_Mobile_illustrations/Artboard_8.svg" alt="" width="400">
+					</article>
+				</section>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<!--#include file="0_includes/footer.html" -->
+	</footer>
+	<!--#include file="0_includes/bodyendlinks.html" -->
+</body>
+</html>
