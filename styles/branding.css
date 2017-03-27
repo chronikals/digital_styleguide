@@ -3092,6 +3092,10 @@ img {
     padding-top: 44px
 }
 
+.BrandGuidelinePageHeader-list ul a:active {
+    
+}
+
 .BrandGuidelinePageHeader-list ul ul {
     padding-left: 16px;
     margin: 0 0 12px;
