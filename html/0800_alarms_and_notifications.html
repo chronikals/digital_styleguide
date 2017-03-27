@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!--#include file="0_includes/head.html" -->
+</head>
+<body class="pg2-body pg2-body--content  pg2-popup__back">
+	<!--#include file="0_includes/top-menu.html" -->
+	<header>
+		<!--#include file="0_includes/header.html" -->
+		<nav class="sub" data-chapter="ch02" id="6"></nav>
+	</header>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-2 sidebar" id="Alarms and notifications">
+				<aside class="BrandGuidelinePageHeader-list affix">
+					<ul>
+						<li><a>Colors</a></li>
+						<ul>
+							<li><a href="0301_color_philosophy.html">Color philosophy</a></li>
+							<li><a href="0302_color_overview.html">Color overview</a></li>
+							<li><a href="0303_color_themes.html">Color themes</a></li>
+							<li><a href="0304_using_colors.html">Using colors</a></li>
+						</ul>
+						<li><a>Icons</a></li>
+						<ul>
+							<li><a href="0500_icons.html">Sizes and formats</a></li>
+							<li><a href="0501_creating_new_icons.html">Creating new icons</a></li>
+						</ul>
+						<li><a>Text</a></li>
+						<ul>
+							<li><a href="0600_fonts.html">Fonts</a></li>
+							<li><a href="0104_tone_of_voice.html">Tone of voice</a></li>
+						</ul>
+						<li><a>Controls</a></li>
+						<ul>
+							<li><a href="0401_buttons.html">Buttons</a></li>
+							<li><a href="0402_selectors.html">Selectors</a></li>
+							<li><a href="0403_text_input_fields.html">Text input fields</a></li>
+							<li><a href="0404_tabs.html">Tabs</a></li>
+							<li><a href="0405_menus.html">Menus</a></li>
+							<li><a href="0406_links.html">Links</a></li>
+							<li><a href="0407_progress_indicators.html">Progress indicators</a></li>
+						</ul>
+						<li><a>Tables</a></li>
+						<ul>
+							<li><a href="0701_table_types.html">Table types</a></li>
+							<li><a href="0702_table_headers.html">Table headers</a></li>
+							<li><a href="0703_table_feature_examples.html">Table feature examples</a></li>
+							<li><a href="0704_table_specifications.html">Table specifications</a></li>
+							<li><a href="0705_responsive_tables.html">Responsive tables</a></li>
+						</ul>
+						<li><a class="active" href="0800_alarms_and_notifications.html">Alarms and notifications</a></li>
+						<li><a>Data visualization</a></li>
+						<ul>
+							<li><a href="0900_data_visualization.html">Data visualization</a></li>
+							<li><a href="0901_creating_visualizations.html">Creating visualizations</a></li>
+							<li><a href="0902_visualization_variants.html">Visualization variants</a></li>
+						</ul>
+						<li><a href="0105_transitions_and_animations.html">Transitions and animations</a></li>
+					</ul>
+				</aside>
+			</div>
+			<div class="col-sm-10" main>
+					<h1 id="Components">Alarms and notifications</h1>
+					<section>
+						<h2>Terminology</h2>
+						<article class="spaced1">
+							<h3>Alarms and alerts</h3>
+							<p>In industrial domains, alarm and alerts typically refers to discrete events from the automation systems with the purpose of notifying the operators or maintenance personnel about operational disturbances or equipment malfunctions.</p>
+							<p>Alarm management, including indication and handling must generally follow domain specific regulations or conventions, and will not be covered extensively in this style guide. However, the ABB color palette contains a set of 6 high contrast critical colors, specifically intended for use to attract the user’s attention. The Colors chapter gives an overview of these colors. Also, many of the components and data visualizations used contain examples of alarm indications that can be used as inspiration.</p>
+							<div class="rowGroup topSpaced1 spaced1">
+								<div>
+									<img src="../content/Table_VisualIndicators-39_edit.png" alt="" />
+								</div>
+								<div>
+									<img src="../content/DataVisualization_Visual_hierarchy_highlight_edit3.png" alt="" width="300" />
+								</div>
+								<div>
+									<img src="../content/2016-04-28-The-ABB-bar/web_bars_edit1.svg" alt="">
+								</div>
+							</div>
+						</article>
+						<article>
+							<h3>Notifications</h3>
+							<p>Notifications are UI elements used to provide feedback on user interactions and to display information about results of system level transactions or occurences. They are often used to improve usability by making the effects of user actions clear to the user, to clarify user's intent or to notify the user of a change in system state.</p>
+							<img class="topSpaced1" src="../content/0custom/notifications.png" alt="">
+						</article>
+					</section>
+					<section>
+						<h2>Notifications</h2>
+						<div class="intro">
+							<p>Notifications are used to provide feedback about user interactions or inform about system status changes.</p>
+							<p>There are 4 different types of notifications; Success, Information, Warning and Error. For each type, the severity and potential consequences of the event should decide whether an action or confirmation from the user is required.</p>
+							<p>Avoid displaying unnecessary notifications, make sure they are relevant for the user and their workflow.</p>
+						</div>
+						<figure class="wide module">
+							<img src="../content/Notifications_overview-01_edit.png" alt="">
+						</figure>
+						<div class="colGroup wide support">
+							<div>
+								<h3>Success</h3>
+								<p>These notifications make it obvious to users that their interaction was successful. Green is usually used.</p>
+								<h3>Information</h3>
+								<p>Information messages let users know that something happened in the system that wasn’t out of the ordinary or unexpected. Blue is usually used.</p>
+							</div>
+							<div>
+								<h3>Warning</h3>
+								<p>Warnings should appear when users are about to do something that is normally destructive or when the result of an action is unexpected, but isn’t an error. Orange/yellow is usually used.</p>
+								<h3>Error</h3>
+								<p>Error notifications are used to inform users that something went wrong, often with a suggestion of how to correct the situation. Red is usually used.</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h2>Stating a clear message</h2>
+						<div class="intro">
+							<p>A notification should keep users informed and help them fix problems as soon as they are detected.</p>
+							<p>A good notification should:</p>
+							<ul>
+								<li>Provide users with sufficient background information and context to understand what the notification is about.</li>
+								<li>Clearly communicate what is happening.</li>
+								<li>If the notification is an error or about something that requires action; describe how the user can
+								proceed or resolve the problem.</li>
+							</ul>
+						</div>
+						<article>
+							<h3>Use of notification icons</h3>
+							<p>Icons help convey the message faster. A checkmark indicates that something was successfully done. Combining colors and icons can further help users discern what your application is trying to tell them.</p>
+							<img class="topSpaced1" src="../content/Notifications_icons-10_edit.png" alt="" width="400">
+						</article>
+						<article>
+							<h3>Language and tone of voice</h3>
+							<p>Clear, accurate and consise text makes user interfaces more usable and builds trust.</p>
+							<ul>
+								<li>Keep the message short.</li>
+								<li>Use simple, direct and non-technical language.</li>
+								<li>Do not be too tabloid; avoid excess punctuation and tabloid formulations.</li>
+							</ul>
+							<div class="rowGroup">
+								<div>
+									<span class="dont"></span>
+									<img src="../content/Notifications_printingError-11_edit1.png" alt="" width="450">
+								</div>
+								<div>
+									<span class="do"></span>
+									<img src="../content/Notifications_printingError-11_edit2.png" alt="" width="450">
+								</div>
+							</div>
+						</article>
+					</section>
+					<section>
+						<h2>Inline notifications</h2>
+						<div class="intro">
+							<p>Notifications should generally be positioned as close to the point of action as possible. Inline notifications are good examples of this: they provide feedback to the user within the actual component where the user is typing. They are normally used to guide or notify the user of the status of an action during a task flow.</p>
+							<p>Typical examples are inline validation or helper text in tables or text input fields.</p>
+						</div>
+						<div class="rowGroup split23 wide strong">
+							<div>
+								<div>
+									<img src="../content/Notifications_inlineControls-12_edit.png" alt="" width="450">
+									<p>Text input field error</p>
+									<img class="topSpaced1" src="../content/Notifications_inlineControls-13_edit.png" alt="" width="450">
+									<p>Invalid input in table</p>
+								</div>
+								<div>
+									<img src="../content/Notifications_inlineErrorMobil-17.png" alt="">
+									<p>Text input field error - mobile</p>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<h2>Desktop popups</h2>
+						<div class="intro">
+							<p>On desktops devices and larger screens, popup notifications appear on top of the page content, and may be displayed in two different ways:</p>
+							<p>1. As a confirmation box<br>
+							2. As a banner</p>
+						</div>
+						<article>
+							<h3>Confirmation box</h3>
+							<div class="colGroup unspaced">
+								<div>
+									<p>Typically appears in the top right corner of the screen. Used when an action or acknowledgement from the user is required.</p>
+								</div>
+								<div>
+									<img src="../content/Notifications-06.png" alt="" width="200" >
+								</div>
+							</div>
+							<img src="../content/Notifications-08_edit.png" alt="" width="450" >
+						</article>
+						<article>
+							<h3>Banner</h3>
+							<div class="colGroup unspaced">
+								<div>
+									<p>Typically appears in the center of the screen and may be removed by the user, or by timeout. Used to notify the user of events that do not require an immediate action.</p>
+								</div>
+								<div>
+									<img src="../content/Notifications-05.png" alt="" width="200" >
+								</div>
+							</div>
+							<div class="rowGroup">
+								<img src="../content/Notifications-04.png" alt="" width="450" >
+								<p>Notifications can also have a discrete appearance:</p>
+								<img src="../content/Notifications-09.png" alt="" width="450" >
+							</div>
+						</article>
+					</section>
+					<section>
+						<h2>Mobile popups</h2>
+						<div class="intro">
+							<p>Notification popups on mobile and small screens should generally be based on the same characteristics
+							as desktop popups (see previous page).</p>
+							<p>It is worth noting that there are some minor variations in terminology and recommended behavior for notification popups between the different mobile platforms, as shown in these examples.</p>
+						</div>
+						<article>
+							<h3>Confirmation box</h3>
+							<div class="colGroup unspaced">
+								<div>
+									<p>Confirmation boxes are called ‘Dialog boxes’ in Android and ‘Alerts’ in iOS. They appear on top of other content in the center of the screen, and stay there until manually dismissed.</p>
+								</div>
+								<div>
+									<img src="../content/Notifications_mobile-31.png" alt="" width="75" >
+								</div>
+							</div>
+							<img src="../content/Notification_confirmation_box_mobile1.png" alt="" width="300" >
+							<img src="../content/Notifications_-_confirmation_box_mobile2.png" alt="" width="300" >
+						</article>
+						<article>
+							<h3 class="spaced">Banner</h3>
+							<h4>Android</h4>
+							<p>Notification banners in Android are called ‘Snackbars’. They show a brief message at the bottom of the screen on mobile and lower left on larger devices. They appear above all other elements on screen (except the soft keys), and only one can be displayed at a time.</p>
+							<div class="colGroup">
+								<div>
+									<img src="../content/Notification_-_mobile_banners_part2.png" alt="" width="300">
+								</div>
+								<div>
+									<img src="../content/Notifications_mobile-30.png" alt="" width="75" >
+								</div>
+							</div>
+							<h4>iOS</h4>
+							<p>Banners in iOS appear at the top of the screen for a few seconds while the device is in use, then disappear.</p>
+							<div class="colGroup">
+								<div>
+									<img src="../content/Notification_-_mobile_banners_part1.png" alt="" width="300">
+								</div>
+								<div>
+									<img src="../content/Notifications_mobile-29.png" alt="" width="75" >
+								</div>
+							</div>
+						</article>
+					</section>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<!--#include file="0_includes/footer.html" -->
+	</footer>
+	<!--#include file="0_includes/bodyendlinks.html" -->
+</body>
+</html>

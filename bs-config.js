@@ -1,0 +1,1 @@
+module.exports = { server: { middleware: { 3: require('browsersync-ssi')({ baseDir: './', ext: '.html', version: '1.4.0' }) } } };
