@@ -2009,3 +2009,7 @@ body,html {
 #s5_area,#s5_slide,#s5_spacer {
 	z-index: 1
 }
+
+.extra-padding{
+	padding-left:65px;
+}
