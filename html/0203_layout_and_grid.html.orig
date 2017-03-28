@@ -11,10 +11,24 @@
 	</header>
 	<div class="container-fluid">
 		<div class="row">
+<<<<<<< HEAD
 			<div class="hidden-xs hidden-sm hidden-md col-lg-2">
                 <aside class="BrandGuidelinePageHeader-list affix">
 					<!--#include file="0_includes/menus/menu-framework.html" -->
+=======
+			<div class="col-sm-2">
+				<aside class="BrandGuidelinePageHeader-list affix">
+					<ul>
+						<li><a href="0101_design_principles.html">Design principles</a></li>
+						<li><a href="0102_the_visual_concept_at_a_glance.html">The visual concept at a glance</a></li>
+						<li><a href="0103_abb_user_experience.html">ABB's user experience</a></li>
                         <li><a href="0106_design_protection.html">Design protection</a></li>
+						<li><a href="0201_the_abb_bar.html">The ABB bar</a></li>
+						<li><a href="0202_navigation_principles.html">Navigation principles</a></li>
+						<li><a class="active" href="0203_layout_and_grid.html">Layout and grid</a></li>
+						<li><a href="0204_responsive_design.html">Adaptive layouts</a></li>
+					</ul>
+>>>>>>> afc3907ccdd7466ed0a78e2baa1c958e3849311c
 				</aside>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 extra-padding" main>
