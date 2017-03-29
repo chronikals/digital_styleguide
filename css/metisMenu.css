@@ -79,7 +79,6 @@
 }
 .metismenu .collapse {
   display: none;
-  margin-top: 10px;
 }
 .metismenu .collapse.in {
   display: block;
@@ -91,9 +90,9 @@
   -webkit-transition-timing-function: ease;
        -o-transition-timing-function: ease;
           transition-timing-function: ease;
-  -webkit-transition-duration: .35s;
-       -o-transition-duration: .35s;
-          transition-duration: .35s;
+  -webkit-transition-duration: .5s;
+       -o-transition-duration: .5s;
+          transition-duration: .5s;
   -webkit-transition-property: height, visibility;
   -o-transition-property: height, visibility;
   transition-property: height, visibility;
@@ -121,9 +120,9 @@
        -o-transform-origin: top;
           transform-origin: top;
   top: 30%;
-  -webkit-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+  -webkit-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 *[dir="rtl"] .metismenu .has-arrow::after {
