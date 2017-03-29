@@ -3080,7 +3080,7 @@ img {
 
 .BrandGuidelinePageHeader-list {
     box-sizing: border-box;
-    margin-left: -7px;
+    margin-left: 15px;
     padding-right: 12px;
     margin-top: -30px;
 }
@@ -3092,8 +3092,10 @@ img {
     padding-top: 44px
 }
 
-.BrandGuidelinePageHeader-list ul a:active {
-    
+.BrandGuidelinePageHeader-list > ul > li > a {
+    border-bottom: none;
+    color: #262626;
+    font-weight: 500; 
 }
 
 .BrandGuidelinePageHeader-list ul ul {
@@ -3109,20 +3111,20 @@ img {
     line-height: 15px
 }
 
-.BrandGuidelinePageHeader-list ul li a {
+.BrandGuidelinePageHeader-list > ul > li > ul > li > a {
     color: #262626;
     border-bottom: 2px solid #d2d2d2;
     text-decoration: none;
     line-height: 15px
 }
 
-.BrandGuidelinePageHeader-list ul li a:hover {
+.BrandGuidelinePageHeader-list > ul > li > ul > li > a:hover {
     color: #a0a0a0;
     border-bottom: 2px solid #ff000f;
     text-decoration: none
 }
 
-.BrandGuidelinePageHeader-list ul li a.active {
+.BrandGuidelinePageHeader-list > ul > li > ul > li > a.active {
     color: #ff000f;
     text-decoration: none;
     font-weight: 500;

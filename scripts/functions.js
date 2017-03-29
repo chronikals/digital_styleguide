@@ -47,8 +47,8 @@ $(document).ready(function() {
     var subNavList2 = $('.mainMenu .active a').eq(subNavLocation).childNodes;
 
 
-    $("ul.navbar-nav > li").removeClass("active");
-    $("ul.navbar-nav > li").each(function () {
+    $("aside > ul > li").removeClass("active");
+    $("aside > ul > li > li").each(function () {
         if ($(this).find("a").text() == $("h1").text()) {
             $(this).addClass("active");
         }
