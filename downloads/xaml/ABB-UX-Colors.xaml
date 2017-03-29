@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+
+    <!-- ABB CommonUX Colors -->
+    <!-- Comments or questions: David Romero (david.romero@no.abb.com) / Kristoffer Husoy (kristoffer.husoy@no.abb.com) -->
+
+    <!-- ABB Grey scale -->
+    
+    <Color x:Key="AbbGrey-0">#000000</Color>
+    <Color x:Key="AbbGrey-10">#0a0a0a</Color>
+    <Color x:Key="AbbGrey-15">#0f0f0f</Color>
+    <Color x:Key="AbbGrey-20">#141414</Color>
+    <Color x:Key="AbbGrey-25">#191919</Color>
+    <Color x:Key="AbbGrey-30">#1e1e1e</Color>
+    <Color x:Key="AbbGrey-35">#242424</Color>
+    <Color x:Key="AbbGrey-40">#282828</Color>
+    <Color x:Key="AbbGrey-45">#2d2d2d</Color>
+    <Color x:Key="AbbGrey-50">#323232</Color>
+    <Color x:Key="AbbGrey-55">#373737</Color>
+    <Color x:Key="AbbGrey-60">#3c3c3c</Color>
+    <Color x:Key="AbbGrey-65">#414141</Color>
+    <Color x:Key="AbbGrey-70">#464646</Color>
+    <Color x:Key="AbbGrey-80">#505050</Color>
+    <Color x:Key="AbbGrey-90">#5a5a5a</Color>
+    <Color x:Key="AbbGrey-100">#646464</Color>
+    <Color x:Key="AbbGrey-110">#6e6e6e</Color>
+    <Color x:Key="AbbGrey-120">#787878</Color>
+    <Color x:Key="AbbGrey-130">#828282</Color>
+    <Color x:Key="AbbGrey-140">#8c8c8c</Color>
+    <Color x:Key="AbbGrey-150">#969696</Color>
+    <Color x:Key="AbbGrey-160">#a0a0a0</Color>
+    <Color x:Key="AbbGrey-170">#aaaaaa</Color>
+    <Color x:Key="AbbGrey-180">#b4b4b4</Color>
+    <Color x:Key="AbbGrey-190">#bebebe</Color>
+    <Color x:Key="AbbGrey-195">#c3c3c3</Color>
+    <Color x:Key="AbbGrey-200">#c8c8c8</Color>
+    <Color x:Key="AbbGrey-205">#cdcdcd</Color>
+    <Color x:Key="AbbGrey-210">#d2d2d2</Color>
+    <Color x:Key="AbbGrey-215">#d7d7d7</Color>
+    <Color x:Key="AbbGrey-220">#dcdcdc</Color>
+    <Color x:Key="AbbGrey-225">#e1e1e1</Color>
+    <Color x:Key="AbbGrey-230">#e6e6e6</Color>
+    <Color x:Key="AbbGrey-235">#ebebeb</Color>
+    <Color x:Key="AbbGrey-240">#f0f0f0</Color>
+    <Color x:Key="AbbGrey-245">#f5f5f5</Color>
+    <Color x:Key="AbbGrey-250">#fafafa</Color>
+    <Color x:Key="AbbGrey-255">#ffffff</Color>
+
+    <!-- ABB Blue scale - Backgrounds -->
+
+    <Color x:Key="AbbBlue-1">#143f61</Color>
+    <Color x:Key="AbbBlue-2">#17486e</Color>
+    <Color x:Key="AbbBlue-3">#194d76</Color>
+    <Color x:Key="AbbBlue-4">#1b5380</Color>
+    <Color x:Key="AbbBlue-5">#1c5785</Color>
+    <Color x:Key="AbbBlue-6">#1e5b8f</Color>
+    <Color x:Key="AbbBlue-7">#206397</Color>
+    <Color x:Key="AbbBlue-8">#2269a1</Color>
+    <Color x:Key="AbbBlue-9">#236ea8</Color>
+    <Color x:Key="AbbBlue-10">#267bbd</Color>
+    <Color x:Key="AbbBlue-11">#0088cc</Color>
+    <Color x:Key="AbbBlue-12">#0096e0</Color>
+	
+	<!-- ABB Blue scale- Accents -->
+    
+	<Color x:Key="AbbBlue-13">#0aaeff</Color>
+	<Color x:Key="AbbBlue-14">#47c2ff</Color>	
+    <Color x:Key="AbbBlue-15">#70cfff</Color>
+    <Color x:Key="AbbBlue-16">#99ddff</Color>   
+    <Color x:Key="AbbBlue-17">#c2ebff</Color>
+    <Color x:Key="AbbBlue-18">#d6f1ff</Color>
+
+    <!-- ABB Data visualization colors -->
+    
+    <Color x:Key="AbbDataPurple-1">#baacdd</Color>
+    <Color x:Key="AbbDataPurple-2">#a288ce</Color>
+    <Color x:Key="AbbDataPurple-3">#8664bf</Color>
+    <Color x:Key="AbbDataPurple-4">#6c46aa</Color>
+    <Color x:Key="AbbDataPurple-5">#553786</Color>
+    <Color x:Key="AbbDataPurple-6">#462d6e</Color>
+
+    <Color x:Key="AbbDataPink-1">#daa5ce</Color>
+    <Color x:Key="AbbDataPink-2">#c675b3</Color>
+    <Color x:Key="AbbDataPink-3">#b7519f</Color>
+    <Color x:Key="AbbDataPink-4">#973e82</Color>
+    <Color x:Key="AbbDataPink-5">#732f63</Color>
+    <Color x:Key="AbbDataPink-6">#5b254e</Color>
+
+    <Color x:Key="AbbDataPeach-1">#ebcab9</Color>
+    <Color x:Key="AbbDataPeach-2">#dfac92</Color>
+    <Color x:Key="AbbDataPeach-3">#d48e6a</Color>
+    <Color x:Key="AbbDataPeach-4">#be704c</Color>
+    <Color x:Key="AbbDataPeach-5">#9b5237</Color>
+    <Color x:Key="AbbDataPeach-6">#804425</Color>
+
+    <Color x:Key="AbbDataTurquoise-1">#b9eef0</Color>
+    <Color x:Key="AbbDataTurquoise-2">#90e4e6</Color>
+    <Color x:Key="AbbDataTurquoise-3">#58d7da</Color>
+    <Color x:Key="AbbDataTurquoise-4">#28b1b5</Color>
+    <Color x:Key="AbbDataTurquoise-5">#1f888b</Color>
+    <Color x:Key="AbbDataTurquoise-6">#196d6f</Color>
+
+    <Color x:Key="AbbDataAsphalt-1">#dee4e6</Color>
+    <Color x:Key="AbbDataAsphalt-2">#c2cdcf</Color>
+    <Color x:Key="AbbDataAsphalt-3">#a5b6b9</Color>
+    <Color x:Key="AbbDataAsphalt-4">#889fa3</Color>
+    <Color x:Key="AbbDataAsphalt-5">#6d878c</Color>
+    <Color x:Key="AbbDataAsphalt-6">#566b6f</Color>
+
+    <Color x:Key="AbbDataGreen-1">#96e8c6</Color>
+    <Color x:Key="AbbDataGreen-2">#68dfaa</Color>
+    <Color x:Key="AbbDataGreen-3">#21be89</Color>
+    <Color x:Key="AbbDataGreen-4">#049669</Color>
+    <Color x:Key="AbbDataGreen-5">#00704b</Color>
+    <Color x:Key="AbbDataGreen-6">#015637</Color>
+
+    <Color x:Key="AbbDataBlue-1">#99ddff</Color>
+    <Color x:Key="AbbDataBlue-2">#70cfff</Color>
+    <Color x:Key="AbbDataBlue-3">#0aaeff</Color>
+    <Color x:Key="AbbDataBlue-4">#0088cc</Color>
+    <Color x:Key="AbbDataBlue-5">#236ea8</Color>
+    <Color x:Key="AbbDataBlue-6">#1c5785</Color>
+
+    <!-- ABB Critical colors -->
+    
+    <Color x:Key="AbbCriticalYellow">#ffd800</Color>
+    <Color x:Key="AbbCriticalOrange">#ff7300</Color>
+    <Color x:Key="AbbCriticalRed">#f03040</Color>
+    <Color x:Key="AbbCriticalMagenta">#cb2bd5</Color>
+    <Color x:Key="AbbCriticalCyan">#14f0f0</Color>
+    <Color x:Key="AbbCriticalBlue">#0052ff</Color>
+
+</ResourceDictionary>

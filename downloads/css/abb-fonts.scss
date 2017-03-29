@@ -1,0 +1,56 @@
+/* ABB Common UX - Helvetica Neue eText Pro
+
+HOW TO USE:
+
+The references in this file are set to the font files provided by the CommonUX team.
+
+Please verify that the path to the font files (Helvetica Neue webfont package) is correct. 
+Default is set to a typical folder structure (css, js, fonts) where the abb-fonts.scss file 
+is placed inside the /css folder and all font-families are placed under /fonts.
+
+Please notify issues to david.romero@no.abb.com
+
+*/
+
+
+// Helvetica Neue eText Pro Light
+@font-face {
+  font-family: 'Helvetica Neue eText Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/HelveticaNeueETPro-45Lt.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+       url('../fonts/HelveticaNeueETPro-45Lt.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaNeueETPro-45Lt.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/HelveticaNeueETPro-45Lt.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/HelveticaNeueETPro-45Lt.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaNeueETPro-45Lt.svg#HelveticaNeueeTextPro') format('svg'); /* Legacy iOS */
+}
+
+// Helvetica Neue eText Pro Medium
+@font-face {
+  font-family: 'Helvetica Neue eText Pro';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/HelveticaNeueETPro-65Md.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+       url('../fonts/HelveticaNeueETPro-65Md.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaNeueETPro-65Md.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/HelveticaNeueETPro-65Md.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/HelveticaNeueETPro-65Md.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaNeueETPro-65Md.svg#HelveticaNeueeTextPro') format('svg'); /* Legacy iOS */
+}
+
+// Helvetica Neue eText Pro Bold
+@font-face {
+  font-family: 'Helvetica Neue eText Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/HelveticaNeueETPro-75Bd.eot'); /* IE9 Compat Modes */
+  src: local('☺'),
+       url('../fonts/HelveticaNeueETPro-75Bd.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/HelveticaNeueETPro-75Bd.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/HelveticaNeueETPro-75Bd.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/HelveticaNeueETPro-75Bd.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/HelveticaNeueETPro-75Bd.svg#HelveticaNeueeTextPro') format('svg'); /* Legacy iOS */
+}
