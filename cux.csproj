@@ -938,6 +938,10 @@
     <Content Include="html\0_includes\footer.html" />
     <Content Include="html\0_includes\head.html" />
     <Content Include="html\0_includes\header.html" />
+    <Content Include="html\0_includes\menus\menu-components.html" />
+    <Content Include="html\0_includes\menus\menu-examples.html" />
+    <Content Include="html\0_includes\menus\menu-framework.html" />
+    <Content Include="html\0_includes\menus\menu-introduction.html" />
     <Content Include="html\0_includes\z\mainMenu.html" />
     <Content Include="html\0_includes\z\subNav_01.html" />
     <Content Include="html\0_includes\z\subNav_02.html" />
@@ -961,10 +965,9 @@
     <Content Include="html\1007_cpmplus_for_pulp_and_paper.html" />
     <Content Include="html\1008_smart_sensor_mobile.html" />
     <Content Include="html\1100_about_this_style_guide.html" />
-    <Content Include="html\allPages.html" />
-    <Content Include="html\allPages_mobile.html" />
-    <Content Include="html\front-content.html" />
-    <Content Include="html\index.html" />
+    <Content Include="html\1101_using_this_styleguide.html" />
+    <Content Include="html\1102_hierarchy_of_style_guides.html" />
+    <Content Include="html\1103_how_to_get_started.html" />
     <Content Include="ie-emulation-modes-warning.js" />
     <Content Include="ie10-viewport-bug-workaround.css" />
     <Content Include="ie10-viewport-bug-workaround.js" />
@@ -1024,7 +1027,6 @@
     <Content Include="js\typeahead.bundle.js" />
     <Content Include="js\typeahead.js" />
     <Content Include="js\validator.js" />
-    <Content Include="nav-bar.html" />
     <Content Include="scripts\all.min.js" />
     <Content Include="scripts\brand-guideline.js" />
     <Content Include="scripts\final.min.js" />
