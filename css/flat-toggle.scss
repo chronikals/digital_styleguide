@@ -1,0 +1,200 @@
+@import "abb-colors";
+@import "abb-mixins";
+
+
+// Light style
+
+.flat-toggle {
+    width: 30px;
+    border-radius: 0px;
+    height: 12px;
+    background-color: rgba($abb-gray-140, 0.6);
+	border: 1px solid rgba($abb-gray-150, 0.7);
+    position: relative;
+    margin: 20px 0;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.flat-toggle:after {
+    border-radius: 0px;
+    background-color: rgba($abb-gray-220, 1);
+    border: 1px solid rgba($abb-gray-180, 1);
+    position: absolute;
+    left: -1px;
+    top: -3px;
+    width: 18px;
+    height: 17px;
+    content: '';
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translateX(0);
+     transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+
+.flat-toggle > span {
+    margin-left: 45px;
+    position: relative;
+    top: -5px;
+    color: #464646;
+    white-space: nowrap;
+    display: block;
+    cursor: pointer;
+}
+
+.flat-toggle.on {
+    background-color: #389aea;
+}
+
+.flat-toggle.on:after {
+    background-color: $abb-blue-18;
+    border-color: $abb-blue-15;
+    -webkit-transform: translate(12px);
+    -ms-transform: translate(12px);
+    transform: translateX(12px);
+}
+
+.flat-toggle.on > span {
+    color: #00A3D9;
+}
+
+
+.flat-toggle.on:after:hover {
+    cursor: pointer;
+	border-color: #8b8b8b;
+}
+
+.flat-toggle.on:hover {
+    cursor: pointer;
+	background-color: #8b8b8b;
+}
+
+.flat-toggle:hover {
+    cursor: pointer;
+	background-color: #8b8b8b;
+}
+
+.flat-toggle:after:hover {
+    cursor: pointer;
+	border-color: #8b8b8b;
+}
+
+.flat-toggle:hover span {
+    color: black;
+    cursor: pointer;
+}
+
+.flat-toggle.on:hover span {
+    color: black;
+    cursor: pointer;
+}
+
+.flat-toggle.disabled,
+.flat-toggle:hover.disabled,
+.flat-toggle > span.disabled {
+    opacity: 0.5
+}
+
+.flat-toggle:after.disabled,
+.flat-toggle.disabled:hover:after {
+    opacity: 0.5
+}
+
+// Dark style
+
+.flat-toggle-dark {
+    width: 30px;
+    border-radius: 0px;
+    height: 12px;
+    background-color: rgba($abb-gray-15, 0.6);
+    border: 1px solid rgba($abb-gray-15, 0.6);
+    position: relative;
+    margin: 20px 0;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.flat-toggle-dark:after {
+    border-radius: 0px;
+    background-color: $abb-gray-100;
+    border: 1px solid $abb-gray-120;
+    box-shadow: 0 1px 0 0 rgba(0,0,0,0.3);
+    position: absolute;
+    left: -1px;
+    top: -3px;
+    width: 18px;
+    height: 17px;
+    content: '';
+    -webkit-transform: translate(0);
+    -ms-transform: translate(0);
+    transform: translateX(0);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+
+.flat-toggle-dark > span {
+    margin-left: 45px;
+    position: relative;
+    top: -5px;
+    color: #d1d1d1;
+    white-space: nowrap;
+    display: block;
+    cursor: pointer;
+}
+
+.flat-toggle-dark.on {
+    background-color: $abb-blue-6;
+    border-color: $abb-blue-7;
+}
+
+.flat-toggle-dark.on:after {
+    background-color: $abb-blue-12;
+    border: 1px solid rgba($abb-gray-0, 0.2);
+    -webkit-transform: translate(12px);
+    -ms-transform: translate(12px);
+    transform: translateX(12px);
+}
+
+.flat-toggle-dark.on > span {
+    color: $abb-blue-12;
+}
+
+.flat-toggle-dark.on:hover:after {
+    cursor: pointer;
+    background-color: $abb-blue-14;
+}
+
+.flat-toggle-dark:hover:after {
+    cursor: pointer;
+    border-color: rgba($abb-gray-150, 0.55);
+}
+
+.flat-toggle-dark:hover span {
+    color: #d1d1d1;
+    cursor: pointer;
+}
+
+.flat-toggle-dark.on:hover span {
+    color: #d1d1d1;
+    cursor: pointer;
+}
+
+.flat-toggle-dark.disabled,
+.flat-toggle-dark:hover.disabled,
+.flat-toggle-dark > span.disabled {
+    opacity: 0.5
+}
+
+.flat-toggle-dark:after.disabled,
+.flat-toggle-dark.disabled:hover:after {
+    opacity: 0.5
+}

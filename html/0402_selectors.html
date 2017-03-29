@@ -220,6 +220,27 @@
 									<label style="margin-left:-20px; margin-right:30px;" class="radio-inline" for="inlineRadio4">Disabled selected</label>
 								</div>
 							</form>
+							<h3 style="margin-top:20px;">Toggles</h3>
+							<div class="flat-toggle" id="flat-example-1">
+								<span>Interactive</span>
+							</div>
+							<div class="flat-toggle on">
+								<span>Normal</span>
+							</div>
+							<div class="flat-toggle">
+								<span>On</span>
+							</div>
+							<div class="flat-toggle disabled">
+								<span>Disabled</span>
+							</div>
+							<div class="flat-toggle on disabled">
+								<span>On + Disabled</span>
+							</div>
+							<script>
+								$('#flat-example-1').on('click', function () {
+									$('#flat-example-1').toggleClass('on');
+								});
+							</script>
 							<h3 style="margin-top:20px;">Sliders</h3>
 							<input id="ex5" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1"
 								   data-slider-value="25" data-slider-orientation="horizontal"
