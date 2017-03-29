@@ -47,7 +47,8 @@
         materialdesign: $.iconset_materialdesign || Iconpicker.ICONSET_EMPTY,
         octicon: $.iconset_octicon || Iconpicker.ICONSET_EMPTY,
         typicon: $.iconset_typicon || Iconpicker.ICONSET_EMPTY,
-        weathericon: $.iconset_weathericon || Iconpicker.ICONSET_EMPTY
+        weathericon: $.iconset_weathericon || Iconpicker.ICONSET_EMPTY,
+        commonux: $.iconset_commonux || Iconpicker.ICONSET_EMPTY
     };
 
     // ICONPICKER DEFAULTS
@@ -68,7 +69,7 @@
         rows: 4,
         search: true,
         searchText: 'Search icon',
-        selectedClass: 'btn-warning',
+        selectedClass: 'btn-success',
         unselectedClass: 'btn-default'
     };
 

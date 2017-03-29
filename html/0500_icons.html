@@ -69,7 +69,7 @@
 							<p>The Adobe Illustrator creation file is available here: <a href="https://sites.abb.com/sites/GlobalSoftwareStrategyInitiatives/CommonUX/Shared%20Documents/Style%20Guide/ABB%20UI%20StyleGuide_Illustrator%20components.ai">.ai</a> </p>
 						</article>
 					</section>
-					<section class="BrandGuidelineResourceFinder">
+					<section class="">
 						<div class="BrandGuidelineResourceFinder-wrapper">
 							<div class="BrandGuidelineResourceFinder-box">
 								<div class="BrandGuidelineResourceFinder-description">Need an icon? No problem, let’s get the right one for you.</div>
@@ -100,71 +100,16 @@
 							</div>
 						</div>
 					</section>
-					<!--section>
+					<section style="padding-bottom:200px;">
 						<h2>Icon library</h2>
 						<p>Interactive icon library WIP</p>
-						<div class="bs-example" style="padding-bottom: 24px;">
-							<div class="row">
-								<div class="col-md-4">
-									<div id="button" class="well text-center" data-position="left" style="height: 290px; padding-top: 120px;">
-										<a href="#" class="btn btn-default"><i class="fa fa-area-chart"></i> Button text</a>
-									</div>
-								</div>
-								<div class="col-md-8">
-									<form class="form-horizontal" role="form">
-										<div class="form-group">
-											<label for="btn-text" class="col-sm-2 control-label">Text: </label>
-											<div class="col-sm-10">
-												<input type="text" class="form-control" id="btn-text" placeholder="Button Text" value="Button Text">
-											</div>
-										</div>
-										<div class="form-group">
-											<label for="btn-color" class="col-sm-2 control-label">Color: </label>
-											<div class="col-sm-10">
-												<div id="btn-colors" class="btn-group">
-													<button name="color" type="button" class="btn btn-default" value="btn-default">Default</button>
-													<button name="color" type="button" class="btn btn-primary" value="btn-primary">Primary</button>
-													<button name="color" type="button" class="btn btn-link" value="btn-link">Link</button>
-												</div>
-											</div>
-										</div>
-										<div class="form-group">
-											<label for="btn-color" class="col-sm-2 control-label">Size: </label>
-											<div class="col-sm-10">
-												<div id="btn-sizes">
-													<p>
-														<button class="btn btn-xs btn-default" value="btn-xs" type="button">Mini</button>
-														<button class="btn btn-sm btn-default" value="btn-sm" type="button">Small</button>
-														<button class="btn btn-default" value="btn-default" type="button">Default</button>
-														<button class="btn btn-default btn-lg" value="btn-lg" type="button">Large</button>
-													</p>
-													<p>
-														<a href="#" class="btn btn-default btn-block" data-toggle="button">Full width button</a>
-													</p>
-												</div>
-											</div>
-										</div>
-										<div class="form-group">
-											<label for="btn-color" class="col-sm-2 control-label">Icon: </label>
-											<div class="col-sm-10">
-												<div id="btn-icon" data-iconset="fontawesome" data-icon="fa-area-chart"></div>
-											</div>
-										</div>
-										<div class="form-group">
-											<label for="btn-color" class="col-sm-2 control-label">Icon position: </label>
-											<div class="col-sm-10">
-												<div id="btn-icon-positions" class="btn-group">
-													<button class="btn btn-default" value="left" type="button"><span class="glyphicon glyphicon-arrow-left"></span> Left</button>
-													<button class="btn btn-default" value="right" type="button">Right <span class="glyphicon glyphicon-arrow-right"></span></button>
-												</div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-
-					</section-->
+							<div class="form-group">
+                                <label class="col-sm-2 control-label">Icon: </label>
+                                <div class="col-sm-10">
+                                    <div id="btn-icon" data-iconset="commonux" data-icon="cux-abb-search"></div>
+                                </div>
+                            </div>
+					</section>
 			</div>
 		</div>
 	</div>
@@ -174,60 +119,15 @@
 	<!--#include file="0_includes/bodyendlinks.html" -->
 </body>
 </html>
-<!-- Button Builder Example -->
-<!--script type="text/javascript">
+<!-- Script for icon library -->
+<script type="text/javascript">
 
     $(function(){
-        var show_result = function(){
-            $('#result').text($('#button').html().trim());
-        };
-
-        show_result();
-
-        $('#btn-text').on('focusout', function(e) {
-            $('#btn-icon-positions button[value="' + $('#button').data('position') + '"]').trigger('click')
-            show_result();
-        });
-
-        $('#btn-colors button').on('click', function(e) {
-            $('#button a').removeClass('btn-default btn-primary btn-info btn-success btn-warning btn-danger').addClass($(this).val());
-            show_result();
-        });
-
-        $('#btn-sizes button').on('click', function(e) {
-            $('#button a').removeClass('btn-xs btn-sm btn-lg').addClass($(this).val());
-            show_result();
-        });
-
-        $('#btn-sizes a').on('click', function(e) {
-            $('#button a').toggleClass('btn-block');
-            show_result();
-        });
-
         $('#btn-icon').iconpicker({
-            rows: 5,
+            rows: 6,
             cols: 10,
             align: 'left'
         });
-
-        $('#btn-icon').on('change', function(e) {
-            $('#button a > i').attr('class', '').addClass('fa ' + e.icon);
-            show_result();
-        });
-
-        $('#btn-icon-positions button').on('click', function(e) {
-            var icon = $('#button a > i');
-            var text = $('#btn-text').val();
-            $('#button a').empty();
-            if($(this).val() == 'left'){
-                $('#button a').append(icon).append(' ' + text);
-            }
-            else{
-                $('#button a').append(text + ' ').append(icon);
-            }
-            $('#button').data('position', $(this).val());
-            show_result();
-        });
     });
 
-</script-->
+</script>
