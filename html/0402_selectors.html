@@ -242,19 +242,80 @@
 								});
 							</script>
 							<h3 style="margin-top:20px;">Sliders</h3>
-							<input id="ex5" type="text" data-slider-min="0" data-slider-max="100" data-slider-step="1"
-								   data-slider-value="25" data-slider-orientation="horizontal"
-							/>
-							<div class="row"><p style="font-size: 12px; margin-left:10px;"> &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-								&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;100</p></div>
-							<input id="ex2" type="text" class="span2" value="" data-slider-min="10" data-slider-max="1000" data-slider-step="5" data-slider-value="[250,450]"/>
-							<div class="row"><p style="font-size: 12px; margin-left:10px;"> &nbsp; 0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-								&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;1000</p></div>
-							<script>
-								$("#ex5").slider({
-									reversed: false
+								<div class="row">
+									Disabled
+									<div class="row">
+										<input id="ex-light-2" type="text" data-slider-min="0" data-slider-max="100"
+											data-slider-step="1"
+											data-slider-value="20" data-slider-orientation="horizontal"
+											data-slider-enabled="false"/>
+										<input id="ex-light-2-enabled" type="checkbox" style="margin-left: 50px;"/> Slider is
+										enabled
+									</div>
+									<div id="ex-light-2-labels" class="row" style="margin-bottom:20px;">
+										<p style="font-size: 11px;">0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+											&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+											&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+											&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100</p>
+									</div>
+									Normal
+									<div class="row">
+										<input id="ex-light-3" type="text" data-slider-min="0" data-slider-max="100"
+											data-slider-step="1"
+											data-slider-value="60" data-slider-orientation="horizontal"/>
+									</div>
+									<div class="row" style="">
+										<p style="font-size: 11px;">0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+											&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+											&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+											&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 100</p>
+									</div>
+									<div class="row" style="margin-top:20px;">
+										Double slider: <b style="padding-left: 20px;">€ 10</b> <input id="ex-light-4"
+																									type="text" class="span2"
+																									value=""
+																									data-slider-min="10"
+																									data-slider-handle="custom"
+																									data-slider-max="1000"
+																									data-slider-step="5"
+																									data-slider-value="[500,900]"/>
+										<b>€ 1000</b>
+									</div>
+									<div class="row" style="margin-top:60px;">
+										Tooltip always on: <b style="padding-left: 20px;">€ 10</b> <input id="ex-light-5"
+																										type="text"
+																										class="span2" value=""
+																										data-slider-min="10"
+																										data-slider-handle="custom"
+																										data-slider-max="1000"
+																										data-slider-step="5"
+																										data-slider-value="[250,450]"/>
+										<b>€ 1000</b>
+									</div>
+								</div>
+							</div>                
+                    		<script>
+								//Script for the sliders
+								$("#ex-light-1").slider({});
+								$("#ex-light-2").slider({});
+								$("#ex-light-3").slider({});
+								$("#ex-light-4").slider({});
+								$("#ex-light-5").slider({
+									tooltip: 'always'
 								});
-								$("#ex2").slider({});
+
+								$("#ex-light-2-labels").css("opacity", "0.5");
+
+								$("#ex-light-2-enabled").click(function() {
+									if(this.checked) {
+										$("#ex-light-2").slider("enable");
+										$("#ex-light-2-labels").css("opacity", "1");
+									}
+									else {
+										$("#ex-light-2").slider("disable");
+										$("#ex-light-2-labels").css("opacity", "0.5");
+									}
+								});
 							</script>
 						</div>
 					</article>
