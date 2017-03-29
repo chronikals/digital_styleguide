@@ -54,9 +54,10 @@ $(document).ready(function() {
         }
     });
 
-    $("ul.navbar-nav > li").each(function () {
-        if ($(this).find("a").text() == $("h1").attr('id')) {
-            $(this).addClass("active");
+    $("aside > ul > li").each(function () {
+        $(this).find("ul").removeClass("collapse-in");
+        if ($(this).id() == $("nav").attr("data-chapter").text()) {
+            $(this).find("ul").addClass("collapse");
         }
     });
 

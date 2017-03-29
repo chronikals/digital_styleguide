@@ -1933,15 +1933,16 @@ img {
     content: '\00bb'
 }
 
-.pg2-text a {
+.pg2-text-a {
     position: relative;
     text-decoration: none;
     border-bottom: 4px solid #a0a0a0;
-    color: inherit
+    color: inherit;
 }
 
-.pg2-text a:hover {
-    border-bottom-color: red
+.pg2-text-a:hover {
+    border-bottom-color: red;
+    color: inherit;
 }
 
 .pg2-text__image {

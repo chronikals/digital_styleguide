@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 }
 
-p {
+p, ol {
 	font-size: 20px;
 }
 
@@ -625,7 +625,7 @@ section {
 
 section > *,
 section p {
-	max-width: 700px;
+	max-width: 768px;
 }
 
 @media (min-width: 901px) {
