@@ -3125,9 +3125,8 @@ img {
 }
 
 .BrandGuidelinePageHeader-list > ul > li > ul > li > a.active {
-    color: #ff000f;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     font-family: ABBvoice;
     border-bottom: none;
     line-height: 15px;

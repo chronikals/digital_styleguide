@@ -47,10 +47,10 @@ $(document).ready(function() {
     var subNavList2 = $('.mainMenu .active a').eq(subNavLocation).childNodes;
 
 
-    $("aside > ul > li").removeClass("active");
-    $("aside > ul > li > li").each(function () {
+    $("aside > ul > li > ul > li").removeClass("active");
+    $("aside > ul > li > ul > li").each(function () {
         if ($(this).find("a").text() == $("h1").text()) {
-            $(this).addClass("active");
+            $(this).find("a").addClass("active");
         }
     });
 
