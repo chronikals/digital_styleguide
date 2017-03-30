@@ -1294,6 +1294,11 @@ img {
     background-color: #eee
 }
 
+.pg2-navigation__bar>li>a:active {
+    text-decoration: none;
+    background-color: rgba(255,0,15,0.05)
+}
+
 .pg2-navigation__bar>li.disabled>a {
     color: #777
 }

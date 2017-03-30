@@ -69,7 +69,7 @@
         rows: 4,
         search: true,
         searchText: 'Search icon',
-        selectedClass: 'btn-success',
+        selectedClass: 'btn-primary',
         unselectedClass: 'btn-default'
     };
 

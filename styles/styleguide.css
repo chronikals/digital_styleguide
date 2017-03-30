@@ -384,7 +384,7 @@ footer {
 	padding: 2px 2%;
 	border-top: 1px solid #ddd;
 	font-size: .750em;
-	position: relative;
+	position: inherit;
 	bottom: 0px;
 	padding-bottom: 15px;
 	width: 100%;
