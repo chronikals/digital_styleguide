@@ -5367,11 +5367,11 @@ label {
 }
 
 label:first-child {
-    font-weight:600;
+    font-weight:500;
 }
 
 label:nth-child(n+2) {
-    margin-left:1em;
+    margin-left:0;
 }
 
 .dropdown-submenu {

@@ -73,21 +73,18 @@
 						<div class="BrandGuidelineResourceFinder-wrapper">
 							<div class="BrandGuidelineResourceFinder-box">
 								<div class="BrandGuidelineResourceFinder-description">Need an icon? No problem, let’s get the right one for you.</div>
-								<div id="" class="BrandGuidelineResourceFinder-dropdowns">
-									<label for="Category:" class="BrandGuidelineResourceFinder-label">Category:</label>
+								<div id="resource-finder-resources6d61eb44" class="BrandGuidelineResourceFinder-dropdowns">
+									<label for="Category:" class="BrandGuidelineResourceFinder-label">Size:</label>
 									<div class="BrandGuidelineResourceFinder-options">
 										<ul name="Category:" id="Category:" class="BrandGuidelineResourceFinder-select close" data-open="close">
-											<li class="selected">Category 1</li>
-											<li>Category 2</li>
-											<li>Category 3</li>
-											<li>Category 4</li>
-											<li>Category 5</li>
+											<li class="selected">16x16 px</li>
+											<li>20x20 px</li>
+											<li>24x24 px</li>
 										</ul>
 									</div>
-								</div>
-								<div id="" class="BrandGuidelineResourceFinder-dropdowns">
-									<label for="Format:" class="BrandGuidelineResourceFinder-label">Format:</label>
-									<div class="BrandGuidelineResourceFinder-options">
+							
+									<label style="margin-top:20px;" for="Format:" class="BrandGuidelineResourceFinder-label">Format:</label>
+									<div class="BrandGuidelineResourceFinder-options" >
 										<ul name="Format:" id="Format:" class="BrandGuidelineResourceFinder-select close" data-open="close">
 											<li class="selected">SVG</li>
 											<li>PNG</li>
@@ -100,6 +97,7 @@
 							</div>
 						</div>
 					</section>
+
 					<!--section style="padding-bottom:200px;">
 						<h2>Icon library</h2>
 						<p>Example prototype from ABB Bootstrap</p>
@@ -127,4 +125,52 @@
         });
     });
 
+</script>
+<script>
+    var model = [{"Url":"/docs/default-source/branding_principles/pictogram_finder/png/architecture_landscape_48x48_png.zip?sfvrsn=2",
+	"Values":[{"Dictionary":"Category:","SelectedValue":"16x16 px"},
+	{"Dictionary":"Format:","SelectedValue":"SVG"}]},
+	{"Url":"/docs/default-source/branding_principles/pictogram_finder/png/arrows_48x48_png.zip?sfvrsn=2",
+	"Values":[{"Dictionary":"Category:","SelectedValue":"16x16 px"},
+	{"Dictionary":"Format:","SelectedValue":"PNG"}]},
+	{"Url":"/docs/default-source/branding_principles/pictogram_finder/png/business_48x48_png.zip",
+	"Values":[{"Dictionary":"Category:","SelectedValue":"16x16 px"},
+	{"Dictionary":"Format:","SelectedValue":"PDF"}]},
+	{"Url":"/docs/default-source/branding_principles/pictogram_finder/png/energy_nature_environment_48x48_png.zip?sfvrsn=2",
+	"Values":[{"Dictionary":"Category:","SelectedValue":"20x20 px"},
+	{"Dictionary":"Format:","SelectedValue":"SVG"}]},
+	{"Url":"/docs/default-source/branding_principles/pictogram_finder/png/food_48x48_png.zip?sfvrsn=2",
+	"Values":[{"Dictionary":"Category:","SelectedValue":"20x20 px"},
+	{"Dictionary":"Format:","SelectedValue":"PNG"}]},
+	{"Url":"/docs/default-source/branding_principles/pictogram_finder/png/information_signage_48x48_png.zip?sfvrsn=2",
+	"Values":[{"Dictionary":"Category:","SelectedValue":"20x20 px"},
+	{"Dictionary":"Format:","SelectedValue":"PDF"}]},
+	{"Url":"/docs/default-source/branding_principles/pictogram_finder/png/objects_48x48_png.zip?sfvrsn=2",
+	"Values":[{"Dictionary":"Category:","SelectedValue":"24x24 px"},
+	{"Dictionary":"Format:","SelectedValue":"SVG"}]},
+	{"Url":"/docs/default-source/branding_principles/pictogram_finder/png/people_48x48_png.zip?sfvrsn=2",
+	"Values":[{"Dictionary":"Category:","SelectedValue":"24x24 px"},
+	{"Dictionary":"Format:","SelectedValue":"PNG"}]},
+	{"Url":"/docs/default-source/branding_principles/pictogram_finder/png/products_48x48_png.zip?sfvrsn=2",
+	"Values":[{"Dictionary":"Category:","SelectedValue":"24x24 px"},
+	{"Dictionary":"Format:","SelectedValue":"PDF"}]}];
+    var resources6d61eb44 = MapModelToClientJs(model);
+
+    function MapModelToClientJs(model)
+    {
+        if (model == null) {
+            return null;
+        }
+        var downloadElementObj = {};
+        for (var i = 0; i < model.length; i++) {
+            var fileUrl = model[i].Url;
+            downloadElementObj[fileUrl] = {};
+            downloadElementObj[fileUrl].selectedValues = {};
+            for (var y = 0; y < model[i].Values.length; y++) {
+                downloadElementObj[fileUrl].selectedValues[model[i].Values[y].Dictionary] = model[i].Values[y].SelectedValue;
+            }
+        }
+        return downloadElementObj;
+    }
+    resources.init(resources6d61eb44, "resource-finder-resources6d61eb44");
 </script>
