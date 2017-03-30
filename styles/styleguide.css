@@ -111,10 +111,16 @@ ul, ol, p {
 	margin: 0 0 20px 0;
 }
 
-h1 sup {
+h1 sub {
 	font-size: 14px;
 }
 
+@media (min-width: 767px)
+{
+	h1 sub {
+		margin: 25px 0 -20px 0;
+	}
+}
 
 
 
@@ -378,7 +384,7 @@ footer {
 	padding: 2px 2%;
 	border-top: 1px solid #ddd;
 	font-size: .750em;
-	position: fixed;
+	position: relative;
 	bottom: 0px;
 	padding-bottom: 15px;
 	width: 100%;
@@ -1092,7 +1098,7 @@ previews
 }
 
 .container-fluid{
-	margin-top: 10px;
+	margin-top: 0px;
 }
 
 body {
@@ -2011,5 +2017,40 @@ body,html {
 }
 
 .extra-padding{
-	padding-left:65px;
+	padding-left:90px;
+}
+
+/*CSS for expanding on hover Metis menu
+
+@media (min-width:768px) {
+   #menu-components li {
+      position: relative;
+   }
+   #menu-components > li ul {
+      position: absolute;
+      left: 100%;
+      top: 0;
+      min-width: 200px;
+      display: none;
+   }
+   #menu-components li:hover > ul,
+   #menu-components li:hover > ul.collapse {
+      display: block !important;
+      height: auto !important;
+      z-index: 1000;
+      background: #444;
+   }
+}
+*/
+
+.BrandGuidelinePageHeader-list {
+    position: fixed;
+    overflow-y: scroll;
+    top: 115px;
+    bottom: 0;
+	width: auto;
+}
+
+.affix::-webkit-scrollbar { 
+    display: none; 
 }

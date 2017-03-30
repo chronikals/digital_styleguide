@@ -36,6 +36,11 @@ $(document).ready(function() {
         }
     });
 
+// create nextPage link (if no introMenu)
+
+	if (!$('.introMenu').length) {
+		$('.mainMenu .active a').eq(subNavLocation + 1).clone().appendTo('footer').addClass('nextPage');
+	}
 
 
 // set menu location based on sub nav id
@@ -54,13 +59,16 @@ $(document).ready(function() {
         }
     });
 
+    
     $("aside > ul > li").each(function () {
-        $(this).find("ul").removeClass("collapse-in");
-        if ($(this).id() == $("nav").attr("data-chapter").text()) {
-            $(this).find("ul").addClass("collapse");
+        $(this).find("ul").addClass("in");
+        if ($(this).attr("id") == $("#location").attr("data-chapter")) {
+            $(this).find("ul").addClass("in");
+            $(this).find("a").data("aria-expanded","true");
+            $(this).find("ul").data("aria-expanded","true");
         }
     });
-
+    
 
 
      /******************************************************
@@ -132,4 +140,24 @@ $(document).mouseup(function (e)
     });
 
 });
+
+
+
+//JS for exapanding on hover Metis menu
+/*
+(function($) {
+  $(document).ready(function() {  
+    var $this = $('#menu-components'), resizeTimer, self = this;    
+    var initCollapse = function(el) {
+      if ($(window).width() >= 768) {
+        this.find('li').has('ul').children('a').off('click');
+      }
+    }
+    $(window).resize(function() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(self.initCollapse($this), 250);
+    });    
+  });
+})(jQuery);
+*/
 
