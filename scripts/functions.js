@@ -59,18 +59,16 @@ $(document).ready(function() {
         }
     });
 
-    /*
+    
     $("aside > ul > li").each(function () {
-        $(this).find("ul").removeClass("in");
-        $(this).find("a").data("aria-expanded","false");
-        $(this).find("ul").data("aria-expanded","false");
+        $(this).find("ul").addClass("in");
         if ($(this).attr("id") == $("#location").attr("data-chapter")) {
             $(this).find("ul").addClass("in");
             $(this).find("a").data("aria-expanded","true");
             $(this).find("ul").data("aria-expanded","true");
         }
     });
-    */
+    
 
 
      /******************************************************

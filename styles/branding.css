@@ -3081,13 +3081,14 @@ img {
 
 .BrandGuidelinePageHeader-list {
     box-sizing: border-box;
-    margin-left: 15px;
+    margin-left: -10px;
     padding-right: 12px;
     margin-top: -30px;
 }
 
 .BrandGuidelinePageHeader-list ul {
     padding: 0;
+    padding-left: 20px;
     margin: 0 0 24px;
     list-style: none;
     padding-top: 44px

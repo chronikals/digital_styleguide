@@ -2011,7 +2011,7 @@ body,html {
 }
 
 .extra-padding{
-	padding-left:65px;
+	padding-left:90px;
 }
 
 /*CSS for expanding on hover Metis menu
@@ -2036,3 +2036,15 @@ body,html {
    }
 }
 */
+
+.BrandGuidelinePageHeader-list {
+    position: fixed;
+    overflow-y: scroll;
+    top: 90px;
+    bottom: 0;
+	width: auto;
+}
+
+.affix::-webkit-scrollbar { 
+    display: none; 
+}
