@@ -1,1 +1,2 @@
 C:\Data\Git\CommonUX\testUxStyle\obj\x86\Debug\cux.csprojResolveAssemblyReference.cache
+C:\ABBProjects\Git\Digital Styleguide\obj\x86\Debug\cux.csprojResolveAssemblyReference.cache
