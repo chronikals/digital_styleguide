@@ -2040,7 +2040,7 @@ body,html {
 .BrandGuidelinePageHeader-list {
     position: fixed;
     overflow-y: scroll;
-    top: 90px;
+    top: 125px;
     bottom: 0;
 	width: auto;
 }
