@@ -3487,7 +3487,7 @@ img {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fff;
+    color: #fff !important;
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 24px;
