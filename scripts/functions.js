@@ -163,7 +163,7 @@ $(document).mouseup(function (e)
 
 
 /* copy loaded thumbnails into carousel */
-$('.BrandGuidelineCarousel-item').on('load', function() {
+$('.BrandGuidelineCarousel').on('load', function() {
   
 }).each(function(i) {
   if(this.complete) {
