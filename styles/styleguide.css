@@ -191,10 +191,11 @@ button.simple {
 mainMenu
 ********************************************/
 
-@media (min-width: 901px) {
+@media (min-width: 300px) {
 
 	.mainMenu {
 		display: flex;
+		flex-direction: column;
 		justify-content: space-between;
 	}
 	
@@ -242,7 +243,7 @@ mainMenu
 /* level 2 */
 
 .mainMenu ul ul  {
-	font-size: .813em;
+	font-size: .8em;
 }
 
 .mainMenu li li a {
@@ -273,7 +274,7 @@ header {
 }
 
 header .inner {
-	padding: 0 5%;
+	padding: 0 10%;
 }
 
 header .upper {
@@ -370,7 +371,7 @@ header.open .mainMenu {
 	padding-bottom: 40px;
 }
 
-@media (min-width: 901px) {
+@media (min-width: 300px) {
 	header.open .mainMenu {
 		max-height: 1000px;
 	}
@@ -393,8 +394,15 @@ footer {
 }
 
 footer p {
+		margin: 0;
+		font-size: 8pt;
+		}
+
+@media (min-height: 768) {
+	footer p {
 	margin: 0;
 	font-size: 12pt;
+	}
 }
 
 

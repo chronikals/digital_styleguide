@@ -1346,12 +1346,18 @@ img {
     cursor: not-allowed
 }
 
-@media (max-width: 767px) {
-    .pg2-navigation--main {
+@media (max-width: 955px) {
+    .pg2-navigation {
         background:#fff;
         margin-top: 80px;
         width: 100%;
         display: none
+    }
+}
+
+@media (min-width: 955px) {
+    .pg2-navigation--main .pg2-navigation--hamburger {
+        display: none;
     }
 }
 
@@ -1391,7 +1397,7 @@ img {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 300px) {
     .pg2-navigation--main .pg2-navigation__bar {
         float:left;
         margin: 0 15px
@@ -1407,7 +1413,7 @@ img {
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 300px) {
     .pg2-navigation--main .pg2-navigation__bar--icons {
         font-size:1.1em;
         position: absolute;

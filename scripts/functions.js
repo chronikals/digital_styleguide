@@ -123,11 +123,11 @@ $(document).mouseup(function (e)
     var container = $('header .mainMenu');
     var hamburger = $('header');
 
-    if (!hamburger.is(e.target) // if the target of the click isn't the container...
+    /*if (!hamburger.is(e.target) // if the target of the click isn't the container...
         && hamburger.hasClass('open'))
     {
         hamburger.toggleClass('open');
-    }
+    }*/
 
     $('#menupress').click(function(event){
         var hamburger = $('header');
