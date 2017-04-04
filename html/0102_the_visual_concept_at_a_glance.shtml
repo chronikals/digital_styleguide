@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    {% include 0_includes/head.html" %}
+    <!--#include file="0_includes/head.html" -->
 </head>
 <body class="pg2-body pg2-body--content  pg2-popup__back">
     <!--#include file="0_includes/top-menu.html" -->

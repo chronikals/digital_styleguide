@@ -16,7 +16,7 @@
     <span class="abb-text__curtain" id="s1_curtain"></span> <span class="abb-text__header" id="s1_header" style="visibility: visible; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">Think of a common user experience,</span>
     <span class="abb-text__follow abb-text__follow--main" id="s1_follow" style="visibility: visible; opacity: 1; transform: translate(0%, 35%) matrix(1, 0, 0, 1, 0, 0);">across platforms, across divisions, across products</span>
     <span class="abb-text__summary abb-text__summary--main" id="s1_summary" style="visibility: visible; opacity: 1; transform: translate(0%, 35%) matrix(1, 0, 0, 1, 0, 0);">We present you the new ABB UI Styleguide</span>
-    <a href="html/0101_design_principles.html" class="abb-button">Start reading</a>
+    <a href="html/0101_design_principles.shtml" class="abb-button">Start reading</a>
 </div>
 </body>
 </html>
