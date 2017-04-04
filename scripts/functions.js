@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 
 // scroll down detection
-    /*
+    
     $(window).on('scroll', function () {
         if($(window).scrollTop() > 300) {
             $('body').addClass('scrolledPastMenu');
@@ -16,7 +16,7 @@ $(document).ready(function() {
         else {
             $('body').removeClass('scrolledPastMenu');
         }
-    }); */
+    }); 
 
 
     /******************************************************
@@ -92,13 +92,13 @@ $(document).ready(function() {
     });
 
     // wrap headings text in links
-    /*
+    
     $('h2').wrapInner('<a class="headingLink heading2" href="#"></a>');
     $('h3').wrapInner('<a class="headingLink heading3" href="#"></a>');
-     */
+    
     // show path to heading on click
 
-    /*
+    
     $('.headingLink').on('click', function (j) {
         j.preventDefault();
         var headingID = $(this).parent().attr('id');
@@ -110,7 +110,7 @@ $(document).ready(function() {
             $(this).after('<span class="urlBox">' + this.href + headingID + '</span>');
         }
     });
-    */
+   
 
 });// end jquery
 

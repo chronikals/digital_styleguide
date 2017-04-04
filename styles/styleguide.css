@@ -294,6 +294,27 @@ header .logo img {
 	margin-right: 18px;
 }
 
+@media (min-width: 901px) {
+
+	.scrolledPastMenu:not(.frontPage) header {
+		position: fixed;
+		top: 0;
+		min-height: 63px;
+		border-bottom: 1px solid #0076b7;
+		box-shadow: 0 0 5px rgba(0,0,0, .2);
+		z-index: 2;
+	}
+	
+	.scrolledPastMenu header .upper {
+		border: none;
+	}
+	
+	.scrolledPastMenu header .logo {
+		display: none;
+	}
+
+}
+
 /* span (title) */
 
 header span {
@@ -328,6 +349,10 @@ header button:after {
 	margin-left: 8px;
 	position: relative;
 	top: 2px;
+}
+
+.scrolledPastMenu header button {
+	top: 7px;
 }
 
 @media (max-width: 350px) {
@@ -423,6 +448,10 @@ main {
 	main .inner {
 		margin-left: 150px;
 	}
+
+	.scrolledPastMenu:not(.frontPage) main {
+	margin-top: 130px; /* compensate header height */
+	}
 }
 
 main img {
@@ -435,6 +464,45 @@ main img {
 /*******************************************
 nav sub
 ********************************************/
+
+nav.sub {
+	padding: 10px 5% 5px;	
+}
+
+@media (max-width: 900px) {
+
+	nav.sub {
+		display: none;
+	}
+}
+
+header.open nav.sub {
+	display: none;
+}
+
+.scrolledPastMenu nav.sub {
+	margin-top: -48px;
+	padding-top: 5px;
+}
+
+nav.sub ul {
+	font-size: .875em;
+	margin-top: 5px;
+}
+
+.scrolledPastMenu nav.sub ul {
+	margin-top: 0;
+}
+
+nav.sub li {
+	display: inline-block;
+	margin: 0 25px 10px 0;
+}
+
+.scrolledPastMenu nav.sub li {
+	margin-bottom: 3px;
+}
+
 
 nav.sub {
 
@@ -469,6 +537,13 @@ nav.sub > a {
 nav.sub > a:hover,
 nav.sub > a.selected {
 	border-color: #000;
+}
+
+/* move down if no list items */
+.scrolledPastMenu nav.sub > a:only-child,
+.scrolledPastMenu nav.sub[data-chapter="ch10"] a {
+	position: relative;
+	top: 12px;
 }
 
 
