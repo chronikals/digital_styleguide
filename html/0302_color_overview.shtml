@@ -17,42 +17,94 @@
 				</aside>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10" main>
-					<h1 id="Components">Color overview</h1>
-					<section>
-						<article>
-							<h3>Primary colors for light interfaces</h3>
-							<p>The highlighted colors should be your primary choice for the main components when creating a light interface.</p>
-							<p>Full color palette downloads:</p>
+				<h1 id="Components">Color overview</h1>
+				<section>
+					<article>
+						<h3>Primary colors for light interfaces</h3>
+						<p>The highlighted colors should be your primary choice for the main components when creating a light interface.</p>
+						<p>Full color palette downloads:</p>
 
-							<li><a href="\downloads\ABB Colors.ase" class="BrandGuidelineListOfLinks-item">
-							<span class="BrandIcons BrandIcons-download"></span>
-							Illustrator (ASE)
-							</a></li>
-							<li><a href="\downloads\xaml\ABB-UX-Colors.xaml" class="BrandGuidelineListOfLinks-item">
-							<span class="BrandIcons BrandIcons-download"></span>
-							Windows (XAML)
-							</a></li>
-							<li><a href="\downloads\css\abb-colors.scss" class="BrandGuidelineListOfLinks-item">
-							<span class="BrandIcons BrandIcons-download"></span>
-							Web (SASS)
-							</a></li>
-							<li><a href="\downloads\css\abb-colors.less" class="BrandGuidelineListOfLinks-item">
-							<span class="BrandIcons BrandIcons-download"></span>
-							Web (LESS)
-							</a></li>
-						</article>
-						<figure id="Artboard_4_copy_4_part1_txt" class="full bordered spaced5"></figure>
-						<article>
-							<h3>Primary colors for dark interfaces</h3>
-							<p>The highlighted colors should be your primary choice for the main components when creating a dark interface.</p>
-						</article>
-						<figure id="Artboard_4_copy_4_part2_txt" class="full spaced5"></figure>
-						<article>
-							<h3>Full range</h3>
-							<p>The full range of blue and grey shades shown here are the foundation of all components found in this style guide. They are used for backgrounds, details and controls in both light and dark interfaces. The lighter part of the blue scale is used as accent colors, for highlighting information, selected items and in data visualizations.</p>
-						</article>
-						<figure id="Artboard_4_txt" class="full bordered spaced5"></figure>
-					</section>
+						<li><a href="\downloads\ABB Colors.ase" class="BrandGuidelineListOfLinks-item">
+						<span class="BrandIcons BrandIcons-download"></span>
+						Illustrator (ASE)
+						</a></li>
+						<li><a href="\downloads\xaml\ABB-UX-Colors.xaml" class="BrandGuidelineListOfLinks-item">
+						<span class="BrandIcons BrandIcons-download"></span>
+						Windows (XAML)
+						</a></li>
+						<li><a href="\downloads\css\abb-colors.scss" class="BrandGuidelineListOfLinks-item">
+						<span class="BrandIcons BrandIcons-download"></span>
+						Web (SASS)
+						</a></li>
+						<li><a href="\downloads\css\abb-colors.less" class="BrandGuidelineListOfLinks-item">
+						<span class="BrandIcons BrandIcons-download"></span>
+						Web (LESS)
+						</a></li>
+					</article>
+					<figure id="Artboard_4_copy_4_part1_txt" class="full bordered spaced5"></figure>
+					<article>
+						<h3>Primary colors for dark interfaces</h3>
+						<p>The highlighted colors should be your primary choice for the main components when creating a dark interface.</p>
+					</article>
+					<figure id="Artboard_4_copy_4_part2_txt" class="full spaced5"></figure>
+					<article>
+						<h3>Full range</h3>
+						<p>The full range of blue and grey shades shown here are the foundation of all components found in this style guide. They are used for backgrounds, details and controls in both light and dark interfaces. The lighter part of the blue scale is used as accent colors, for highlighting information, selected items and in data visualizations.</p>
+					</article>
+					<figure id="Artboard_4_txt" class="full bordered spaced5"></figure>
+				</section>
+
+				<section>
+					<div class="ui-block-color" data-id="color-blue-1" data-color="rgb(220, 237, 252)">
+						<span class="color-preview" data-clipboard-text="#DCEDFC" style="background-color: rgb(220, 237, 252);"></span>
+						<span class="color-name" title="Blue 1" data-field="name" data-editable="true">Blue 1</span>
+						<ul class="list-colorspaces">
+							<li style="display:block">
+								<span class="color-value color-value-hex">
+									<span class="color-mode">HEX</span>
+									<span data-field="hex" data-prefix="#" data-editable="true">#DCEDFC</span>
+								</span>
+								<span class="color-value color-value-rgb">
+									<span class="color-mode">RGB</span>
+									<span data-field="hex" data-prefix="#" data-editable="true">220, 237, 252</span>
+								</span>
+								<span class="color-value color-value-rgb">
+									<span class="color-mode">SASS</span>
+									<span data-field="hex" data-prefix="#" data-editable="true">$abb-blue-1</span>
+								</span>
+								<span class="color-value color-value-rgb">
+									<span class="color-mode">XAML</span>
+									<span data-field="hex" data-prefix="#" data-editable="true">AbbBlue1</span>
+								</span>
+							</li>
+						</ul>
+					</div>
+					<div class="ui-block-color" data-id="color-blue-1" data-color="rgb(220, 237, 252)">
+						<span class="color-preview" data-clipboard-text="#DCEDFC" style="background-color: rgb(170, 211, 252);"></span>
+						<span class="color-name" title="Blue 1" data-field="name" data-editable="true">Blue 2</span>
+						<ul class="list-colorspaces">
+							<li style="display:block">
+								<span class="color-value color-value-hex">
+									<span class="color-mode">HEX</span>
+									<span data-field="hex" data-prefix="#" data-editable="true">#AAD3FC</span>
+								</span>
+								<span class="color-value color-value-rgb">
+									<span class="color-mode">RGB</span>
+									<span data-field="hex" data-prefix="#" data-editable="true">170, 211, 252</span>
+								</span>
+								<span class="color-value color-value-rgb">
+									<span class="color-mode">SASS</span>
+									<span data-field="hex" data-prefix="#" data-editable="true">$abb-blue-2</span>
+								</span>
+								<span class="color-value color-value-rgb">
+									<span class="color-mode">XAML</span>
+									<span data-field="hex" data-prefix="#" data-editable="true">AbbBlue2</span>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</section>
+
 			</div>
 		</div>
 	</div>
