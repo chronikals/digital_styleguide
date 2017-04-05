@@ -1486,9 +1486,9 @@ body,html {
 	top: 82px
 }
 
-@media (min-width: 321px) {
+@media (min-width: 300px) {
 	.abb-text--main {
-		top:82px
+		top:110px
 	}
 }
 
@@ -1698,7 +1698,7 @@ body,html {
 }
 
 .abb-text__summary--main {
-	margin-top: 30vh
+	margin-top: 15vh
 }
 
 @media (min-width: 700px) {
