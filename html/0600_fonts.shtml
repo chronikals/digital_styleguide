@@ -39,7 +39,7 @@
 					<span class="BrandIcons BrandIcons-download"></span>
 					Download font package for web (SASS)
 					</a></li>
-					<li><a href="https://brand.abb/branding-principles/basic-brand-elemets/typography" class="BrandGuidelineListOfLinks-item">
+					<li><a target="_blank" href="https://brand.abb/branding-principles/basic-brand-elemets/typography" class="BrandGuidelineListOfLinks-item">
 					<span class="BrandIcons BrandIcons-right"></span>
 					Related: Branding principles - Typography
 					</a></li>
