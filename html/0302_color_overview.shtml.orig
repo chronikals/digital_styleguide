@@ -24,7 +24,7 @@
 						<p>The highlighted colors should be your primary choice for the main components when creating a light interface.</p>
 						<p>Full color palette downloads:</p>
 
-							<li><a href="\downloads\ABB-Colors.ase" class="BrandGuidelineListOfLinks-item">
+						<li><a href="\downloads\ABB Colors.ase" class="BrandGuidelineListOfLinks-item">
 						<span class="BrandIcons BrandIcons-download"></span>
 						Illustrator (ASE)
 						</a></li>
@@ -105,6 +105,38 @@
 					</div>
 				</section>
 
+<<<<<<< HEAD
+							<li><a href="\downloads\ABB-Colors.ase" class="BrandGuidelineListOfLinks-item">
+							<span class="BrandIcons BrandIcons-download"></span>
+							Illustrator (ASE)
+							</a></li>
+							<li><a href="\downloads\xaml\ABB-UX-Colors.xaml" class="BrandGuidelineListOfLinks-item">
+							<span class="BrandIcons BrandIcons-download"></span>
+							Windows (XAML)
+							</a></li>
+							<li><a href="\downloads\css\abb-colors.scss" class="BrandGuidelineListOfLinks-item">
+							<span class="BrandIcons BrandIcons-download"></span>
+							Web (SASS)
+							</a></li>
+							<li><a href="\downloads\css\abb-colors.less" class="BrandGuidelineListOfLinks-item">
+							<span class="BrandIcons BrandIcons-download"></span>
+							Web (LESS)
+							</a></li>
+						</article>
+						<figure id="Artboard_4_copy_4_part1_txt" class="full bordered spaced5"></figure>
+						<article>
+							<h3>Primary colors for dark interfaces</h3>
+							<p>The highlighted colors should be your primary choice for the main components when creating a dark interface.</p>
+						</article>
+						<figure id="Artboard_4_copy_4_part2_txt" class="full spaced5"></figure>
+						<article>
+							<h3>Full range</h3>
+							<p>The full range of blue and grey shades shown here are the foundation of all components found in this style guide. They are used for backgrounds, details and controls in both light and dark interfaces. The lighter part of the blue scale is used as accent colors, for highlighting information, selected items and in data visualizations.</p>
+						</article>
+						<figure id="Artboard_4_txt" class="full bordered spaced5"></figure>
+					</section>
+=======
+>>>>>>> 7aef801f684680b0651fdb66fa94afa2c80f4b2b
 			</div>
 		</div>
 	</div>

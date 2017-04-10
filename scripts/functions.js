@@ -198,3 +198,13 @@ $('.BrandGuidelineCarousel-item').click(function(){
     $('#modalCarousel').carousel(id); // slide carousel to selected
   	
 });
+
+/* Color palette generator */
+
+$.getJSON("colors.json", function (json) {
+            $.each(json, function (i, v) {
+               
+    });
+});
+
+document.getElementById("modalTag").append(selectedTag);
